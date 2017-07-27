@@ -1,0 +1,25 @@
+    @font-face{
+        font-family:"AkagiProW00SC-ExtraLt";
+        src:url("Fonts/a68c838f-5a6f-49a4-80e2-cf896bc20e86.eot?#iefix");
+        src:url("Fonts/a68c838f-5a6f-49a4-80e2-cf896bc20e86.eot?#iefix") format("eot"),url("Fonts/8833114c-b085-49b2-af67-fface7c706bb.woff2") format("woff2"),url("Fonts/ccc0af35-1c9a-4056-b7ee-a3267a74a534.woff") format("woff"),url("Fonts/f27212a2-cba2-4004-915e-e2b79ad7804e.ttf") format("truetype"),url("Fonts/5f59ebd7-db69-43d9-9c82-5f334e57fd19.svg#5f59ebd7-db69-43d9-9c82-5f334e57fd19") format("svg");
+    }
+    @font-face{
+        font-family:"Akagi Pro W00SC Lt";
+        src:url("Fonts/8ceacfb2-1201-4099-9ce2-34b4c4213b6e.eot?#iefix");
+        src:url("Fonts/8ceacfb2-1201-4099-9ce2-34b4c4213b6e.eot?#iefix") format("eot"),url("Fonts/cc2e62ff-ceff-4c15-90e3-65a23158e5be.woff2") format("woff2"),url("Fonts/9c19286a-aa14-4655-9a34-61ae6cad3ab7.woff") format("woff"),url("Fonts/fef6bfa8-ac39-405c-82a4-4e218fa21799.ttf") format("truetype"),url("Fonts/7bdcfbf6-efd7-4e9a-868d-a46835a24378.svg#7bdcfbf6-efd7-4e9a-868d-a46835a24378") format("svg");
+    }
+    @font-face{
+        font-family:"AkagiProW00SC-SemiBold";
+        src:url("Fonts/15deef1c-3524-4598-a68a-383ab72ac664.eot?#iefix");
+        src:url("Fonts/15deef1c-3524-4598-a68a-383ab72ac664.eot?#iefix") format("eot"),url("Fonts/e2ea3157-7f06-495c-b3fc-f124a2b09a1d.woff2") format("woff2"),url("Fonts/4909f5a6-7d64-48b6-9ebf-8c44cb9df2ee.woff") format("woff"),url("Fonts/4873b7c1-2c75-4381-bcee-00e00c706f98.ttf") format("truetype"),url("Fonts/9074205c-cfb9-4d2c-ab5d-851e6cb7ebdd.svg#9074205c-cfb9-4d2c-ab5d-851e6cb7ebdd") format("svg");
+    }
+    @font-face{
+        font-family:"Akagi Pro W00SC Bold";
+        src:url("Fonts/47661248-03ba-481b-9c33-238667118595.eot?#iefix");
+        src:url("Fonts/47661248-03ba-481b-9c33-238667118595.eot?#iefix") format("eot"),url("Fonts/ffbd44e9-039d-4d15-bc8e-30a5dbd89fe4.woff2") format("woff2"),url("Fonts/e82f1fc5-9490-41c2-9113-2058754ab4dc.woff") format("woff"),url("Fonts/ee4a6bb0-fada-48d5-9227-395f8106581b.ttf") format("truetype"),url("Fonts/107b0518-d720-4baa-99d3-424589099005.svg#107b0518-d720-4baa-99d3-424589099005") format("svg");
+    }
+    @font-face{
+        font-family:"Akagi Pro W00SC Black";
+        src:url("Fonts/32da45c1-93ff-47d7-9108-176a39347b78.eot?#iefix");
+        src:url("Fonts/32da45c1-93ff-47d7-9108-176a39347b78.eot?#iefix") format("eot"),url("Fonts/6d434d76-b4e1-499a-b6b1-ed96c34c979c.woff2") format("woff2"),url("Fonts/6a0276dd-63c7-47df-bf73-9705e24bf4aa.woff") format("woff"),url("Fonts/fd618c8c-82a5-4e95-9d9f-2cad75cf4047.ttf") format("truetype"),url("Fonts/a5cb624f-bf8f-4875-ab16-e6783eb244e2.svg#a5cb624f-bf8f-4875-ab16-e6783eb244e2") format("svg");
+    }
