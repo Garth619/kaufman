@@ -31,5 +31,31 @@
 <body <?php body_class(); ?>>
 				
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+<header>
+	
+	<div class="logo_wrapper">
+		
+		<a href="">
 			
+			<img src="<?php bloginfo('template_directory');?>/images/kaufmanlogo.svg"/>
+			
+		</a>
+		
+	</div><!-- logo_wrapper -->
+	
+	<div class="header_right">
+		
+		<div class="call_wrapper">
+			
+			<span class="call">Call For a <strong>Free</strong> Consultation</span>
+			<a href="tel:6787261425">(678) 726-1425</a>
+			
+		</div><!-- call_wrapper -->
+		
+		<nav><?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?></nav>
+		
+	</div><!-- header_right -->
+	
+
+</header>
+	

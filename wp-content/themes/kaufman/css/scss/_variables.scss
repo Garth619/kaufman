@@ -1,4 +1,7 @@
 
+// theme path for critical css set up
+
+$themepath: '/wp-content/themes/kaufman/';
 
 
 // colors
@@ -7,7 +10,29 @@
 $black: #000;
 $lightblack: #1b1e23;
 $darkblue: #30373f;
-$brown: #bc7e2b;
 $lightbrown: #f0d494;
+$brown: #bc7e2b;
 $greybrown: #dcbf93;
 $darkgreybrown: #c3b59a;
+$red: #ff3600;
+
+
+// fonts
+
+
+$akagiextralight: 'AkagiProW00SC-ExtraLt';
+$akagilight: 'Akagi Pro W00SC Lt';
+$akagilsemibold: 'AkagiProW00SC-SemiBold';
+$akagilbold: 'Akagi Pro W00SC Bold';
+$akagilblack: 'Akagi Pro W00SC Black';
+
+
+$trironglight: 'Trirong-Light';
+$trirongregular: 'Trirong-Regular';
+$trirongmedium: 'Trirong-Medium';
+$trirongmediumitalic: 'Trirong-MediumItalic';
+$trirongsemibold: 'Trirong-SemiBold';
+$trironbold: 'Trirong-Bold';
+
+
+$oswald: 'Oswald-Regular';

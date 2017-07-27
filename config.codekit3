@@ -4507,6 +4507,45 @@
 		"oAP": "\/wp-content\/themes\/kaufman\/category.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/kaufman\/css\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/wp-content\/themes\/kaufman\/css\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/wp-content\/themes\/kaufman\/css\/scss\/_intro_banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_intro_banner.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/kaufman\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5900,6 +5939,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/kaufman\/images\/videobg.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/videobg.mp4",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/kaufman\/images\/white-arrow-l.png": {
 		"ft": 32768,
 		"iS": 399,
@@ -5973,6 +6018,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/kaufman\/loop.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/kaufman\/page-home.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/page-home.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/kaufman\/page.php": {
@@ -12047,7 +12098,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -13401,7 +13452,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/kaufman-demo.com",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
