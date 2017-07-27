@@ -81,8 +81,8 @@ nav {
 
 nav {
 	ul#menu-menu-1 {
- 		
-		li {
+ 		li {
+			position: relative;
 			a {
 				padding:28px 0 22px;
 				transition: all .2s ease-in-out;
@@ -94,7 +94,7 @@ nav {
 			}
 		}
 		li.menu-item-has-children {
-			a {
+			> a {
 				
 				&:after {
 					content:"";
@@ -113,7 +113,7 @@ nav {
 			}
 		}
 		li.menu-item-has-children:hover {
-			a {
+			> a {
 				&:after {
 					border-top: 7px solid $lightblack;
 				}
@@ -125,9 +125,15 @@ nav {
 
 nav {
 	ul.sub-menu {
-		// display: block;
-		display:none;
+		display: block;
+		position: absolute;
+		top:71px;
+		left:0px;
+		width:100%;
+// 		padding:0 40px;
+		// display:none;
 		li {
+		
 			a {
 				
 			}
