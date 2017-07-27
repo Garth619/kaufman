@@ -84,11 +84,38 @@ nav {
  		
 		li {
 			a {
-				padding:28px 0;
+				padding:28px 0 22px;
 				transition: all .2s ease-in-out;
+				height:71px;
 				&:hover {
 					background:#dcbf93;
 					color:$lightblack;
+				}
+			}
+		}
+		li.menu-item-has-children {
+			a {
+				
+				&:after {
+					content:"";
+					width: 0; 
+					height: 0; 
+					border-left: 4px solid transparent;
+					border-right: 4px solid transparent;
+					border-top: 7px solid #fff;
+					display: block;
+					margin-left:auto;
+					margin-right:auto;
+					position: relative;
+					top:5px;
+					transition: all .2s ease-in-out;
+				}
+			}
+		}
+		li.menu-item-has-children:hover {
+			a {
+				&:after {
+					border-top: 7px solid $lightblack;
 				}
 			}
 		}
