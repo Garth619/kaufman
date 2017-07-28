@@ -8,7 +8,7 @@
 
 <section class="intro_banner">
 	
-	
+	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video>
 	
 </section><!-- intro_banner -->
 
