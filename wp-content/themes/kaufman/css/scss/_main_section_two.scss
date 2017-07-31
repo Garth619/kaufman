@@ -12,7 +12,48 @@
 	float:left;
 	height:1200px;
 	margin-top:-100px;
+	padding:83px;
+	text-align: center;
+	span.form_parts {
+		color:#fff;
+		font-family: $oswald;
+		 font-family: $oswaldmedium;
+		font-size:17px;
+		letter-spacing: 1px;
+		display: block;
+	}
 }
+
+svg#red_line_form {
+	width:53px;
+	display: block;
+	margin:11px auto;
+	polyline {
+		fill:none;
+		stroke:$red;
+		stroke-miterlimit:10;
+		stroke-width:1.5px;
+	}
+}
+
+
+
+
+.form_container {
+	color:#fff;
+	font-size:55px;
+	span.injury_title {
+		font-family: $trironglight;
+		line-height: 59px;
+		margin-top:25px;
+		display: block;
+	}
+}
+
+
+
+
+
 
 .case_results {
 	width:49%;
@@ -21,3 +62,5 @@
 	height:1200px;
 	margin-top:-195px;
 }
+
+
