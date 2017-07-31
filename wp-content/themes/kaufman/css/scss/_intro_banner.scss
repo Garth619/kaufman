@@ -3,7 +3,6 @@
 	position: relative;
 	height:1185px;
 	overflow: hidden;
-	
 	&:after {
 		content:"";
 		background:rgba(0, 0, 0, 0.2);
@@ -75,6 +74,34 @@ svg#red_line_intro {
 }
 
 
+svg#play_button_svg {
+	width:205px;
+	height:205px;
+	rect.gold_stroke {
+		stroke:$lightbrown;
+		stroke-width:6px;
+		fill:none;
+		stroke-miterlimit:10;
+		
+	}
+	rect.black_bg {
+		fill:#101215;
+		opacity:0.6;
+/*
+		transition: all .2s ease-in-out;
+		&:hover {
+			fill:$lightbrown;
+			opacity:1;
+		}
+*/
+
+	}
+	polygon.play_svg {
+		fill:#fff;
+	}
+}
+
+
 
 video {
 	min-width: 100%;
@@ -83,4 +110,94 @@ video {
 	top:0;
 	left:0;
 	z-index:0;
+}
+
+
+.lower_intro_wrapper {
+	width:100%;
+	overflow: hidden;
+	max-width: 1250px;
+	margin:0px;float:right;
+}
+
+
+
+
+.lower_intro_left {
+	width:50%;
+	float:left;
+}
+
+
+.intro_button {
+	background:$red;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 1;
+	font-size:26px;
+	font-family: $oswald;
+	font-family: $oswaldmedium;
+	letter-spacing: 6px;
+	border:6px solid #fff;
+	padding:29px 73px;
+	display: inline-block;
+	transition: all .2s ease-in-out;
+	position: relative;
+
+	&:hover {
+		background:$greybrown;
+	}
+}
+
+
+.start_arrow_wrapper {
+	position: absolute;
+	top:23px;
+	right:47px;
+	
+	svg#start_arrow {
+		width:8px;
+		line.arrow_line {
+			fill:none;
+			stroke:#fff;
+			stroke-miterlimit:10;
+		}
+		polygon.arrow_tri {
+			fill:#fff;
+		}
+	}
+}
+
+
+svg#intro_red_twolines {
+	width:117px;
+	height:200px;
+	transform: rotate(90deg);
+	float:left;
+	polyline {
+		fill:none;
+		stroke:$red;
+		stroke-miterlimit:10;
+		stroke-width:2px;
+	}
+	polyline.red_line_one {
+		
+	}
+	polyline.red_line_two {
+		
+	}
+}
+
+.lower_intro_right {
+	width:50%;
+	float:left;
+	span {
+		color:#fff;
+		font-size:30px;
+		text-align: left;
+		display: block;
+		font-family: $trirongmedium;
+		line-height: 40px;
+	}
 }

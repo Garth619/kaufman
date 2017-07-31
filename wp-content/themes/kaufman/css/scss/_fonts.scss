@@ -102,3 +102,27 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+
+@font-face {
+	font-family: 'Oswald-Medium';
+	src: url('#{$themepath}fonts/trirong_and_oswald/Oswald-Medium.eot');
+	src: url('#{$themepath}fonts/trirong_and_oswald/Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+		url('#{$themepath}fonts/trirong_and_oswald/Oswald-Medium.woff') format('woff'),
+		url('#{$themepath}fonts/trirong_and_oswald/Oswald-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+@font-face {
+	font-family: 'Oswald-SemiBold';
+	src: url('#{$themepath}fonts/trirong_and_oswald/Oswald-SemiBold.eot');
+	src: url('#{$themepath}fonts/trirong_and_oswald/Oswald-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('#{$themepath}fonts/trirong_and_oswald/Oswald-SemiBold.woff') format('woff'),
+		url('#{$themepath}fonts/trirong_and_oswald/Oswald-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
