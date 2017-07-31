@@ -3,6 +3,7 @@
 	position: relative;
 	height:1185px;
 	overflow: hidden;
+	z-index:0;
 	&:after {
 		content:"";
 		background:rgba(0, 0, 0, 0.2);
