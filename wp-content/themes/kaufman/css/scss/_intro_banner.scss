@@ -116,16 +116,21 @@ video {
 .lower_intro_wrapper {
 	width:100%;
 	overflow: hidden;
-	max-width: 1250px;
-	margin:0px;float:right;
+	max-width: 1550px;
+	margin:0px;
+	margin:16px auto 0;
 }
 
 
 
 
 .lower_intro_left {
-	width:50%;
+	width: 39.5%;
 	float:left;
+	
+	padding-top:18px;
+	position: relative;
+	z-index:20;
 }
 
 
@@ -144,7 +149,7 @@ video {
 	display: inline-block;
 	transition: all .2s ease-in-out;
 	position: relative;
-
+	float:right;
 	&:hover {
 		background:$greybrown;
 	}
@@ -175,11 +180,15 @@ svg#intro_red_twolines {
 	height:200px;
 	transform: rotate(90deg);
 	float:left;
+	left: 9px;
+	top: -37px;
+	position: relative;
 	polyline {
 		fill:none;
 		stroke:$red;
 		stroke-miterlimit:10;
 		stroke-width:2px;
+		
 	}
 	polyline.red_line_one {
 		
@@ -190,8 +199,10 @@ svg#intro_red_twolines {
 }
 
 .lower_intro_right {
-	width:50%;
+	width:60.5%;
 	float:left;
+	
+	padding-top:5px;
 	span {
 		color:#fff;
 		font-size:30px;
