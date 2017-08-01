@@ -1,3 +1,5 @@
+<section class="start_here_track"><!-- goes into footer -->
+
 <section class="section_three">
 	
 	
@@ -10,6 +12,45 @@
 	</svg><!-- intro_red_twolines -->
 	
 	<h2>Passionately Achieving Justice for the Injured Since 1977</h2>
+	
+	<div class="section_three_container">
+		
+		<div class="section_three_content">
+			
+			<div class="content">
+				
+				
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo rspiciatis.</p>
+				
+				
+			</div><!-- global content -->
+			
+		</div><!-- section_three_content -->
+		
+		<div class="section_three_sidebar">
+			
+			<div class="section_three_innersidebar">
+				
+				<svg id="section_three_gold_twolines" viewBox="0 0 135.2 19.41">
+				
+				<polyline transform="translate(0, -10)" class="cls-1" points="135.2 19.41 123 10.41 111.9 18.61 100.8 10.41 89.7 18.61 78.7 10.41 67.6 18.61 56.5 10.41 45.4 18.61 34.3 10.41 23.3 18.61 12.2 10.41 0 19.41"/>
+				
+				<polyline class="cls-1" points="135.2 19.41 123 10.41 111.9 18.61 100.8 10.41 89.7 18.61 78.7 10.41 67.6 18.61 56.5 10.41 45.4 18.61 34.3 10.41 23.3 18.61 12.2 10.41 0 19.41"/>
+				
+				
+				</svg>
+				
+								
+				
+				<span class="section_three_sidebar_content">It is through this extensive experience that we have the ability to provide the <strong>superior service our clients need and deserve.</strong> Regardless of the size of a case or what the potential outcome may be, <i>we approach each situation with the same drive</i> and provide every client with compassionate support.</span>
+				
+			</div><!-- section_three_innersidebar -->
+			
+		</div><!-- section_three_sidebar -->
+		
+	</div><!-- section_three_container -->
 	
 	
 </section><!-- section_three -->

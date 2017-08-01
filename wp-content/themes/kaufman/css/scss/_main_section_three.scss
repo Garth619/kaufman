@@ -1,10 +1,10 @@
 .section_three {
 	width:100%;
-	height:1000px;
+	
 	background:$greylight;
-	margin:-90px 0 0 0;
+	margin:-85px 0 0 0;
 	text-align: center;
-	padding:330px 0 0 0;
+	padding:330px 60px 0;
 	h1 {
 		font-size:135px;
 		line-height: 115px;
@@ -44,3 +44,65 @@ svg#section_three_red_twolines {
 		stroke-width:2px;
 	}
 }
+
+.section_three_container {
+	max-width:1515px;
+	margin:75px auto;
+	overflow: hidden;
+}
+
+
+.section_three_content {
+	text-align: left;
+	width:calc(100% - 615px);
+	float:left;
+}
+
+
+
+.section_three_sidebar {
+	width:615px;
+	float:right;
+	padding-left:130px;
+	.section_three_innersidebar {
+		background: #fff;
+		width:100%;
+		float:right;
+		padding:55px 100px 131px 60px;
+		span.section_three_sidebar_content {
+			display: block;
+			clear:both;
+			text-align: left;
+			font-size:18px;
+			font-family: $akagilblack;
+			text-transform: uppercase;
+			line-height: 33px;
+			letter-spacing: 1.6px;
+			strong {
+				font-weight: 300;
+				color:$greybrown;
+			}
+			i {
+				font-style: normal;
+				color:$red;
+			}
+		}
+	}
+}
+
+
+
+svg#section_three_gold_twolines {
+	width:158px;
+	float:left;
+	margin-left:-103px;
+	margin-bottom:29px;
+	height:29px;
+	polyline {
+		fill:none;
+		stroke:$greybrown;
+		stroke-miterlimit:10;
+		stroke-width:2px;
+	}
+}
+
