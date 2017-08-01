@@ -114,6 +114,7 @@ svg#red_line_form {
 	.single_case_content {
 		position: relative;
 		z-index: 1;
+		padding-bottom:75px;
 		span.case_amount {
 			font-size:120px;
 			color:$red;
@@ -146,7 +147,7 @@ svg#red_line_form {
 .buttons {
 	text-align: center;
 	position: relative;
-	bottom:-120px;
+	bottom:-40px;
 	z-index: 20;
 	.single_button {
 		background:$greybrown;
