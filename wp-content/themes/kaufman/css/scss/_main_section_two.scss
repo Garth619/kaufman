@@ -10,7 +10,6 @@
 .intro_form_wrapper {
 	width:51%;
 	background:$lightblack;
-	
 	height:515px;
 	margin-top:-100px;
 	padding:83px;
@@ -54,12 +53,15 @@ svg#red_line_form {
 }
 
 
-.case_results {
+.case_results_wrapper {
 	width:49%;
-	background:#fff;
-	
-	height:700px;
+	height:695px;
 	margin-top:-195px;
+	background:#fff;
+}
+
+
+.case_results {
 	text-align: center;
 	padding:130px 0 0 0;
 	overflow: hidden;
@@ -88,6 +90,8 @@ svg#red_line_form {
 		width:100%;
 		svg {
 			display:block;
+			width:105px;
+			margin:-120px auto 0;
 			
 		}
 		svg#svg_cr1 {
@@ -135,6 +139,32 @@ svg#red_line_form {
 			display: block;
 			margin:0 auto;
 		}
+	}
+}
+
+
+.buttons {
+	text-align: center;
+	position: relative;
+	bottom:-120px;
+	z-index: 20;
+	.single_button {
+		background:$greybrown;
+		width:100%;
+		max-width:120px;
+		padding:16px 30px;
+		display: inline-block;
+		margin-right: -3px;
+		img {
+			width:15px;
+		}
+	}
+	.back {
+		
+		
+	}
+	.next {
+		
 	}
 }
 

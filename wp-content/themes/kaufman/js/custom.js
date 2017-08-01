@@ -29,7 +29,9 @@ $('.case_results').slick({
   infinite: true,
   slide: '.single_case',
   slidesToShow: 1,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  prevArrow:'.back',
+  nextArrow:'.next'
 });
 
 

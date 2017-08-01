@@ -19,9 +19,14 @@
 	</div><!-- intro_form_wrapper -->
 	
 	
+	<div class="case_results_wrapper">
+	
+	
 	<div class="case_results">
 		
+		
 		<span class="current_cases">Current Case Results</span><!-- current_cases -->
+		
 		
 		<div class="single_case">
 			
@@ -103,6 +108,26 @@
 			
 		</div><!-- single_case -->
 		
+		
+		
 	</div><!-- case_results -->
+	
+	<div class="buttons">
+			
+			<div class="back single_button">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/white-arrow-l.png"/>
+				
+			</div><!-- back -->
+			
+			<div class="next single_button">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
+				
+			</div><!-- next -->
+			
+		</div><!-- buttons -->
+	
+	</div><!-- case_results_wrapper -->
 	
 </section><!-- section_two -->
