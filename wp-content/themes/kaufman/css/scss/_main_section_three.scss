@@ -3,4 +3,44 @@
 	height:1000px;
 	background:$greylight;
 	margin:-90px 0 0 0;
+	text-align: center;
+	padding:330px 0 0 0;
+	h1 {
+		font-size:135px;
+		line-height: 115px;
+		font-family: $trirongregular;
+		font-style: normal;
+		font-weight: 300;
+		max-width:1060px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	h2 {
+		font-size:22px;
+		line-height:30px;
+		text-transform: uppercase;
+		font-family: $akagilblack;
+		color:$red;
+		letter-spacing: 6.6px;
+		font-style: normal;
+		font-weight: 300;
+		border-left:2px solid $red;
+		border-right:2px solid $red;
+		display: inline-block;
+		padding:2px 115px;
+	}
+}
+
+
+svg#section_three_red_twolines {
+	width:137px;
+	margin:58px auto 75px;
+	display: block;
+	
+	polyline {
+		fill:none;
+		stroke:$greybrown;
+		stroke-miterlimit:10;
+		stroke-width:2px;
+	}
 }
