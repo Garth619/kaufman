@@ -4,12 +4,13 @@
 	position: relative;
 	z-index:30;
 	padding-left:45px;
+	display: flex;
 }
 
 .intro_form_wrapper {
 	width:51%;
 	background:$lightblack;
-	float:left;
+	
 	height:515px;
 	margin-top:-100px;
 	padding:83px;
@@ -56,19 +57,20 @@ svg#red_line_form {
 .case_results {
 	width:49%;
 	background:#fff;
-	float:right;
-	height:1200px;
+	
+	height:700px;
 	margin-top:-195px;
 	text-align: center;
 	padding:130px 0 0 0;
+	overflow: hidden;
 	span.current_cases {
-		font-size:15px;
+		font-size:16px;
 		letter-spacing: 3.5px;
 		font-family: $akagilblack;
 		text-transform: uppercase;
 		border-left:1px solid #000;
 		border-right:1px solid #000;
-		padding:5px 45px;
+		padding:5px 49px;
 		display: inline-block;
 		margin-bottom:27px;
 		position: relative;
@@ -84,10 +86,25 @@ svg#red_line_form {
 		top:0;
 		left:0;
 		width:100%;
-		img {
-			display:block; 
-			margin:-100px auto 0;
+		svg {
+			display:block;
 			
+		}
+		svg#svg_cr1 {
+			width:105px;
+			margin:-120px auto 0;
+		}
+		svg#svg_cr2 {
+			width:343px;
+			margin:-25px auto 0;
+		}
+		svg#svg_cr3 {
+			width:418px;
+			margin:-50px auto 0;
+		}
+		svg#svg_cr4 {
+			width:435px;
+			margin:-70px auto 0;
 		}
 	}
 	.single_case_content {
