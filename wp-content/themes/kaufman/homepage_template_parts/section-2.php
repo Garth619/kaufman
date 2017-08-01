@@ -21,7 +21,26 @@
 	
 	<div class="case_results">
 		
+		<span class="current_cases">Current Case Results</span><!-- current_cases -->
 		
+		<div class="single_case">
+			
+			<div class="single_case_content">
+			
+				<span class="case_amount">$1,970,000</span><!--case_amount-->
+				<span class="case_title">Severe Spine Injuries</span><!-- case_title -->
+				<span class="case_results_content">One month following the collision, A.F. received her lumbar MRI results--she was diagnosed with a broad-based disc protrusion, an annular tear at L4-5, and nerve root impingement at L5. The orthopedist recommended steroid injections and ordered more physical therapy.</span><!-- case_results_content -->
+			
+			</div><!-- single_case_content -->
+			
+			<div class="case_icon">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/results-icon-1.png"/>
+			
+				
+			</div><!-- case_icon -->
+			
+		</div><!-- single_case -->
 		
 	</div><!-- case_results -->
 	
