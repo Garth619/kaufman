@@ -2,9 +2,9 @@
 	width:100%;
 	
 	background:$greylight;
-	margin:-85px 0 0 0;
+	margin:-85px 0 330px 0;
 	text-align: center;
-	padding:330px 60px 0;
+	padding:330px 60px 330px;
 	h1 {
 		font-size:135px;
 		line-height: 115px;
@@ -46,10 +46,10 @@ svg#section_three_red_twolines {
 }
 
 .section_three_container {
-	max-width: 1630px;
-	margin:75px auto 0;
+	max-width: 1650px;
+	margin:110px auto 0;
 	overflow: hidden;
-	padding:0 70px;
+	padding: 0 77px 40px;
 }
 
 
@@ -57,6 +57,7 @@ svg#section_three_red_twolines {
 	text-align: left;
 	width:calc(100% - 615px);
 	float:left;
+	margin-top:20px;
 }
 
 
@@ -65,6 +66,7 @@ svg#section_three_red_twolines {
 	width:615px;
 	float:right;
 	padding-left:130px;
+	
 	.section_three_innersidebar {
 		background: #fff;
 		width:100%;
@@ -97,7 +99,7 @@ svg#section_three_gold_twolines {
 	width:158px;
 	float:left;
 	margin-left:-103px;
-	margin-bottom:29px;
+	margin-bottom:27px;
 	height:29px;
 	polyline {
 		fill:none;
@@ -112,7 +114,7 @@ svg#section_three_gold_twolines {
 	width:275px;
 	position: relative;
 	float:right;
-	margin:-80px -70px 0 0;
+	margin:-90px -70px 0 0;
 	img {
 		position: absolute;
 		top: 45px;
@@ -124,7 +126,7 @@ svg#section_three_gold_twolines {
 
 svg#black_square {
 	transform: rotate(45deg);
-	width:190px;
+	width:203px;
 	
 	rect {
 		
