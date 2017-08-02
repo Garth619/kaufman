@@ -35,10 +35,9 @@
 				
 				<svg id="section_three_gold_twolines" viewBox="0 0 135.2 19.41">
 				
-				<polyline transform="translate(0, -10)" class="cls-1" points="135.2 19.41 123 10.41 111.9 18.61 100.8 10.41 89.7 18.61 78.7 10.41 67.6 18.61 56.5 10.41 45.4 18.61 34.3 10.41 23.3 18.61 12.2 10.41 0 19.41"/>
+					<polyline transform="translate(0, -10)" class="cls-1" points="135.2 19.41 123 10.41 111.9 18.61 100.8 10.41 89.7 18.61 78.7 10.41 67.6 18.61 56.5 10.41 45.4 18.61 34.3 10.41 23.3 18.61 12.2 10.41 0 19.41"/>
 				
-				<polyline class="cls-1" points="135.2 19.41 123 10.41 111.9 18.61 100.8 10.41 89.7 18.61 78.7 10.41 67.6 18.61 56.5 10.41 45.4 18.61 34.3 10.41 23.3 18.61 12.2 10.41 0 19.41"/>
-				
+					<polyline class="cls-1" points="135.2 19.41 123 10.41 111.9 18.61 100.8 10.41 89.7 18.61 78.7 10.41 67.6 18.61 56.5 10.41 45.4 18.61 34.3 10.41 23.3 18.61 12.2 10.41 0 19.41"/>
 				
 				</svg>
 				
@@ -46,7 +45,22 @@
 				
 				<span class="section_three_sidebar_content">It is through this extensive experience that we have the ability to provide the <strong>superior service our clients need and deserve.</strong> Regardless of the size of a case or what the potential outcome may be, <i>we approach each situation with the same drive</i> and provide every client with compassionate support.</span>
 				
+				
+				
 			</div><!-- section_three_innersidebar -->
+			
+			<div class="diamond">
+					
+					<svg id="black_square" viewBox="0 0 145 145">
+					
+						<rect width="145" height="145"/>
+					
+					</svg>
+					
+					<img src="<?php bloginfo('template_directory');?>/images/k-icon.png"/>				
+				
+				
+				</div><!-- diamond -->
 			
 		</div><!-- section_three_sidebar -->
 		

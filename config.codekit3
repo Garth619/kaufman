@@ -4330,12 +4330,6 @@
 		"oAP": "\/wp-comments-post.php",
 		"oF": 0
 		},
-	"\/wp-config-sample.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-config-sample.php",
-		"oF": 0
-		},
 	"\/wp-config.php": {
 		"ft": 8192,
 		"oA": 2,
