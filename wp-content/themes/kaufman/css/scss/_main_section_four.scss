@@ -1,15 +1,13 @@
 .section_four {
 	width:100%;
-	height:1000px;
 	background: $lightblack;
 	padding-left:50px;
+	padding-bottom:400px;
 }
 
 
 .why_choose_wrapper {
 	width:100%;
-	height:900px;
-	
 	padding-left:20px;
 	position: relative;
 }
@@ -134,3 +132,95 @@ svg#why_choose_gold_twolines {
 		
 	}
 }
+
+
+
+.section_four_lower {
+	width:100%;
+	padding:455px 0 0 0;
+	text-align: center;
+	overflow: hidden;
+	span.large_header {
+		font-family: $trironglight;
+		color:#fff;
+		font-size:115px;
+		text-transform: lowercase;
+		display: inline-block;
+		max-width: 1160px;
+		line-height: 124px;
+	}
+	span.sub_header {
+		color:$red;
+		font-size:24px;
+		text-transform: uppercase;
+		font-family:$akagilbold;
+		display: inline-block;
+		border-left:2px solid $red;
+		border-right:2px solid $red;
+		padding:5px 130px;
+		letter-spacing: 6px;
+	}
+}
+
+
+svg#section_four_gold_threelines {
+	width:140px;
+	display: block;
+	margin:35px auto 24px;
+	polyline {
+		fill:none;
+		stroke:$lightbrown;
+		stroke-width:2px;
+	}
+}
+
+
+
+.testi_wrapper {
+// 	background:red;
+	overflow: hidden;
+	margin:135px auto;
+	max-width:1675px;
+	.testi_col {
+		float:left;
+		margin:0 2%;
+// 		background:green;
+		max-width:468px;
+		span.testi_excerpt {
+			font-size:26px;
+			font-family: $trirongregular;
+			color:$lightbrown;
+			display: block;
+			text-align: left;
+			line-height: 30px;
+			letter-spacing: 0.5px;
+			padding-left:23px;
+		}
+		.testi_content {
+			display: block;
+			color:#fff;
+			font-family: $trirongregular;
+			clear:both;
+			font-size:18px;
+			line-height: 30px;
+			text-align: left;
+			letter-spacing: 0.7px;
+			padding-left:23px;
+		}
+	}
+}
+
+
+
+svg.testi_red_line {
+	width:50px;
+	float:left;
+	margin:27px 0 32px;
+	polyline {
+		fill:none;
+		stroke:$red;
+		stroke-width:2px;
+	}
+}
+
+
