@@ -18,26 +18,95 @@
 			
 			<div class="why_choose_slideshow">
 				
-				<div class="slide_count_wrapper">
-					
-					<span>#1</span>
-					
-				</div><!-- slide_count_wrapper -->
+				<div class="single_slide">
 				
-				<span class="slide_title">Millions of Dollars Recovered</span><!-- slide_title -->
+					<div class="slide_count_wrapper">
+					
+						<span>#1</span>
+					
+					</div><!-- slide_count_wrapper -->
 				
-				<span class="slide_content">for over 40 years, Our determined team has collected millions of dollars in settlements, arbitration awards and jury verdicts for our clients.</span>
+					<span class="slide_title">Millions of Dollars Recovered</span><!-- slide_title -->
+				
+					<span class="slide_content">for over 40 years, Our determined team has collected millions of dollars in settlements, arbitration awards and jury verdicts for our clients.</span>
+				
+				</div><!-- single_slide -->
+				
+				<div class="single_slide">
+				
+					<div class="slide_count_wrapper">
+					
+						<span>#2</span>
+					
+					</div><!-- slide_count_wrapper -->
+				
+					<span class="slide_title">Speak directly to our attorneys</span><!-- slide_title -->
+				
+					<span class="slide_content">Our attorneys speak with our clients and do not hide behind staff memebers. We return calls, emails, and texts in a timely fashion. We are also availble around the clock to our clients.</span>
+				
+				</div><!-- single_slide -->
+				
+				<div class="single_slide">
+				
+					<div class="slide_count_wrapper">
+					
+						<span>#3</span>
+					
+					</div><!-- slide_count_wrapper -->
+				
+					<span class="slide_title">Thousands of Clients Helped</span><!-- slide_title -->
+				
+					<span class="slide_content">Over the past 40 years, we have had the opportunity to assist accident victims throughout nearly the entire state of Georgia in almost every type of personal injury case.</span>
+				
+				</div><!-- single_slide -->
 				
 			</div><!-- why_choose_slideshow -->
 			
+			<div class="why_choose_buttons">
+				
+				<div class="why_choose_back single_button">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/white-arrow-l.png"/>
+					
+				</div><!-- why_choose_back -->
+				
+				<div class="why_choose_next single_button">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
+					
+				</div><!-- why_choose_next -->
+				
+			</div><!-- why_choose_buttons -->
+			
 		</div><!-- why_choose_content_wrapper -->
 		
-		<div class="why_choose_bg_slideshow">
-			
-			<img src="<?php bloginfo('template_directory');?>/images/sp-image-1.jpg"/>
+		<div class="why_choose_bg_wrapper">
 			
 			
-		</div><!-- why_choose_bg_slideshow -->
+			<div class="why_choose_bg_slideshow">
+			
+				<div class="bg_slide">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/sp-image-1.jpg"/>
+				
+				</div><!-- bg_slide -->
+				
+				<div class="bg_slide">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/sp-image-2.jpg"/>
+				
+				</div><!-- bg_slide -->
+				
+				<div class="bg_slide">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/sp-image-3.jpg"/>
+				
+				</div><!-- bg_slide -->
+			
+			
+			</div><!-- why_choose_bg_slideshow -->
+			
+		</div><!-- why_choose_bg_wrapper -->
 		
 	</div><!-- why_choose_wrapper -->
 	

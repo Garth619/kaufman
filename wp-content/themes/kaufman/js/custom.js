@@ -36,5 +36,30 @@ $('.case_results').slick({
 
 
 
+$('.why_choose_slideshow').slick({
+  infinite: true,
+  slide: '.single_slide',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: true,
+  speed: 1000,
+  prevArrow:'.why_choose_back',
+  nextArrow:'.why_choose_next',
+  asNavFor: '.why_choose_bg_slideshow'
+});
+
+
+
+$('.why_choose_bg_slideshow').slick({
+  infinite: true,
+  slidesToShow: 1,
+  speed: 1000,
+  slidesToScroll: 1,
+  fade: true,
+  asNavFor: '.why_choose_slideshow'
+});
+
+
+
 }); // Document Ready
 
