@@ -148,6 +148,8 @@
 						
 					</div><!-- testi_content -->
 					
+					<span class="name">Jose C.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					
 				</div><!-- test_col -->
 				
 				<div class="testi_col">
@@ -165,6 +167,8 @@
 						<p>After calling several law firms and even hiring one, I still dint feel comfortable until I made the call to Kaufman Law. I fired the attorney I was working with and hired Mr. Marvin and his wonderful assistant Amy. Thank you both so much. This is a very professional practice and everyone there is caring and willing to help you in anyway they can.</p>
 						
 					</div><!-- testi_content -->
+					
+					<span class="name">M.D.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
 					
 				</div><!-- test_col -->
 				
@@ -184,7 +188,71 @@
 						
 					</div><!-- testi_content -->
 					
+					<span class="name">S.T.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					
 				</div><!-- test_col -->
+				
+				<div class="testi_col">
+					
+					<span class="testi_excerpt">"They took care of every little thing and dealt with it really positively."</span><!-- testi_excerpt -->
+					
+					<svg id="testi_red_line_three" class="testi_red_line" viewBox="0 0 52.79 8.27">
+		
+						<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+			
+					</svg><!-- red_line_form -->
+					
+					<div class="testi_content">
+						
+						<p>Kaufman Law is a law firm which you would want to be representing you and handling your case. It was a pleasure working with both Amy Hurst and Kenneth P. Raley. They made sure I was aware of everything that was happening with the case and very humble people. They took care of every little thing and dealt with it really positively. I was stressed free knowing that my case was in the best hands possible.</p>
+						
+					</div><!-- testi_content -->
+					
+					<span class="name">S.T.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					
+				</div><!-- test_col -->
+				
+				<div class="testi_col">
+					
+					<span class="testi_excerpt">"They took care of every little thing and dealt with it really positively."</span><!-- testi_excerpt -->
+					
+					<svg id="testi_red_line_three" class="testi_red_line" viewBox="0 0 52.79 8.27">
+		
+						<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+			
+					</svg><!-- red_line_form -->
+					
+					<div class="testi_content">
+						
+						<p>Kaufman Law is a law firm which you would want to be representing you and handling your case. It was a pleasure working with both Amy Hurst and Kenneth P. Raley. They made sure I was aware of everything that was happening with the case and very humble people. They took care of every little thing and dealt with it really positively. I was stressed free knowing that my case was in the best hands possible.</p>
+						
+					</div><!-- testi_content -->
+					
+					<span class="name">S.T.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					
+				</div><!-- test_col -->
+				
+				<div class="testi_buttons">
+					
+					<div class="testi_back single_button">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-l.png"/>
+						
+						<span>Previous</span>
+						
+					</div><!-- testi_back -->
+					
+					<div class="testi_next single_button">
+						
+						
+						
+						<span>Next</span>
+						
+						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
+						
+					</div><!-- testi_next -->
+					
+				</div><!-- testi_buttons -->
 				
 			</div><!-- testi_wrapper -->
 			

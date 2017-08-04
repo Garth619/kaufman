@@ -25,6 +25,7 @@ jQuery(document).ready(function(){
 
 
 
+
 $('.case_results').slick({
   infinite: true,
   slide: '.single_case',
@@ -58,6 +59,21 @@ $('.why_choose_bg_slideshow').slick({
   fade: true,
   asNavFor: '.why_choose_slideshow'
 });
+
+
+
+
+$('.testi_wrapper').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+	slide:'.testi_col',
+	speed: 1000,
+	prevArrow:'.testi_back',
+  nextArrow:'.testi_next',
+	dots:false
+ });
+
 
 
 

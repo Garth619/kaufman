@@ -177,15 +177,12 @@ svg#section_four_gold_threelines {
 
 
 .testi_wrapper {
-// 	background:red;
-	overflow: hidden;
 	margin:135px auto;
 	max-width:1675px;
+	position: relative;
+	padding-bottom: 250px;
 	.testi_col {
-		float:left;
-		margin:0 2%;
-// 		background:green;
-		max-width:468px;
+		margin:0 0.7%;
 		span.testi_excerpt {
 			font-size:26px;
 			font-family: $trirongregular;
@@ -207,6 +204,17 @@ svg#section_four_gold_threelines {
 			letter-spacing: 0.7px;
 			padding-left:23px;
 		}
+		span.name {
+			text-align: left;
+			display: block;
+			padding-left:23px;
+			font-family: $akagilbold;
+			color:#5a6372;
+			text-transform: uppercase;
+			font-size:15px;
+			letter-spacing: 4px;
+			margin-top:41px;
+		}
 	}
 }
 
@@ -220,6 +228,60 @@ svg.testi_red_line {
 		fill:none;
 		stroke:$red;
 		stroke-width:2px;
+	}
+}
+
+
+.testi_buttons {
+	width:100%;
+	max-width:365px;
+	position: absolute;
+	right:0;
+	bottom:-0px;
+	text-align: center;
+	overflow: hidden;
+	.single_button {
+		cursor: pointer;
+		width:49.8%;
+		padding:28px 5px;
+		background: $greybrown;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: #2a2f36;
+		}
+		img {
+			display: inline-block;
+			width:15px;
+			
+		}
+		span {
+			font-family: $akagilbold;
+			color:#fff;
+			text-transform: uppercase;
+			font-size: 13px;
+			letter-spacing: 5px;
+			display: inline-block;
+			position: relative;
+			top:-4px;
+		}
+	}
+	.testi_back {
+		float:left;
+		img {
+			margin-right:20px;
+		}
+		span {
+			
+		}
+	}
+	.testi_next {
+		float:right;
+		img {
+			margin-left:20px;
+		}
+		span {
+			
+		}
 	}
 }
 
