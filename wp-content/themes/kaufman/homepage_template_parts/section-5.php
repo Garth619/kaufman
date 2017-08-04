@@ -39,10 +39,17 @@
 			
 		</div><!-- featured_attorney -->
 		
+		<div class="our_attorneys_wrapper">
+			
+			
+			<span class="our_att_title">Our Attorneys</span><!-- our_att_title -->
+		
+			<span class="our_att_line"></span><!-- our_att_line -->
+			
+		
+		</div><!-- our_attorneys_title -->
 		
 		<div class="att_slideshow"></div><!-- att_slideshow -->
-		
-		
 		
 	</div><!-- section_five_inner_wrapper -->
 	

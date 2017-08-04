@@ -9,14 +9,15 @@
 	background: $greylight;
 	width:100%;
 	float:left;
-	margin-top: 470px;
+	margin-top: 485px;
+	position:relative;
 }
 
 
 .featured_attorney {
 	max-width:1170px;
 	width:100%;
-	margin:-570px auto 0;
+	margin:-585px auto 0;
 	overflow: hidden;
 	padding:0 30px;
 	.featured_att_image {
@@ -33,7 +34,7 @@
 		height:300px;
 		border:1px solid $greybrown;
 		float:right;
-		margin-top:-492px;
+		margin-top:-507px;
 		min-height: 737px;
 		padding:0 35px 0 172px;
 		margin-right:16px;
@@ -114,5 +115,38 @@ a.view_button {
 	margin-top:100px;
 }
 
+
+
+.our_attorneys_wrapper {
+	position: absolute;
+	bottom:227px;
+	left: -420px;
+	width:1115px;
+	transform: rotate(-90deg);
+	span.our_att_title {
+		color:$red;
+		font-size:35px;
+		text-transform: uppercase;
+		font-family: $trironbold;
+		text-align: right;
+		display: block;
+		letter-spacing: 6.6px;
+	}
+	span.our_att_line {
+		display: block;
+		width:96%;
+		height:1px;
+		background: $lightblack;
+		margin-top:35px;
+		&:after {
+			content:"";
+			width:10px;
+			height:10px;
+			background:$lightblack;
+			float:right;
+			margin-top:-4px;
+		}
+	}
+}
 
 
