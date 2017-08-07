@@ -64,6 +64,28 @@
 			
 			<div class="att_slideshow">
 				
+				<div class="att_buttons">
+				
+					<div class="spacers att_back att_single_button">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-l.png"/>
+					
+					</div><!-- att_single_button -->
+					
+					<div class="spacers"></div>
+					
+					<div class="spacers"></div>
+					
+					<div class="spacers"></div>
+				
+					<div class="spacers att_next att_single_button">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
+					
+					</div><!-- att_single_button -->
+				
+				</div><!-- att_buttons -->
+				
 				<a class="att_single_slide_link" href="">
 				
 					<div class="att_single_slide">
@@ -357,7 +379,7 @@
 				
 			</div><!-- att_slideshow -->
 			
-			<div class="att_buttons"></div><!-- att_buttons -->
+			
 			
 			
 		</div><!-- att_slideshow -->

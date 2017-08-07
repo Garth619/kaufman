@@ -80,10 +80,10 @@ $('.testi_wrapper').slick({
 $('.att_slideshow').slick({
   infinite: true,
   slide: 'a.att_single_slide_link',
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 1,
-  prevArrow:'.back',
-  nextArrow:'.next'
+  prevArrow:'.att_back',
+  nextArrow:'.att_next'
 });
 
 

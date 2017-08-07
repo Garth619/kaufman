@@ -11,6 +11,7 @@
 	float:left;
 	margin-top: 485px;
 	position:relative;
+	padding-bottom:279px;
 }
 
 
@@ -131,7 +132,7 @@ a.view_button {
 
 .our_attorneys_wrapper {
 	position: absolute;
-	bottom:227px;
+	bottom: 840px;
 	left: -460px;
 	width:1115px;
 	transform: rotate(-90deg);
@@ -163,18 +164,27 @@ a.view_button {
 
 
 .att_slideshow_wrapper {
+	overflow: hidden;
+	padding-left:175px;
+	width:100%;
+	margin-top:106px;
 	
 }
 
 
 
 .att_slideshow {
+	float:left;
+	width:119.5%;
 	
 }
 
 a.att_single_slide_link {
 	text-decoration: none;
-	margin-right:10px;
+	// 	margin-right:7px;
+	padding-right:7px;
+	position: relative;
+	z-index:5;
 }
 
 .att_single_slide {
@@ -187,6 +197,7 @@ a.att_single_slide_link {
 		}
 		.att_overlay {
 			position: absolute;
+			z-index:0;
 			top:0;
 			left:0;
 			width:100%;
@@ -194,12 +205,12 @@ a.att_single_slide_link {
 			background-color: rgba(27, 30, 35, 0.9);
 			.view_att_wrapper {
 				position: absolute;
-				bottom:25px;
+				bottom:35px;
 				right:0;
 				padding-right:45px;
 				span.view_att_link {
 					color:#fff;
-					max-width:100px;
+					max-width:102px;
 					font-family: $akagilbold;
 					font-size:13px;
 					text-transform: uppercase;
@@ -226,7 +237,7 @@ a.att_single_slide_link {
 		}
 	}
 	.att_title_wrapper {
-		margin-top:13px;
+		padding-top:20px;
 		span {
 			display: inline-block;
 			font-size:27px;
@@ -239,7 +250,7 @@ a.att_single_slide_link {
 			display: inline-block;
 			position: relative;
 			top:-5px;
-			margin-right:10px;
+			margin-right:8px;
 			polyline {
 				fill:none;
 				stroke:$red;
@@ -250,6 +261,49 @@ a.att_single_slide_link {
 	}
 }
 
+
+.att_buttons {
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	div {
+		width:20%;
+		float:left;
+		height:10px;
+		padding-right:7px;
+		&:last-of-type {
+			padding-right:0;
+		}
+	}
+	.att_single_button {
+		cursor: pointer;
+	}
+	.att_next {
+		background:$greybrown;
+		height:calc(100% - 47px);
+		position: relative;
+		top:0;
+		left:0;
+		z-index: 5;
+		img {
+			width:17px;
+			display: block;
+			margin:0 0 0 7.5%;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			
+		}
+	}
+	.att_back {
+		img {
+			display: none;
+		}
+		
+	}
+}
 
 
 
