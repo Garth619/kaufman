@@ -87,32 +87,49 @@
 
 
 a.view_button {
-	background: $lightblack;
-	color:#fff;
-	text-transform: uppercase;
 	text-decoration: none;
-	font-family: $akagilbold;
-	padding:18px 20px 24px 35px;
-	display: inline-block;
-	letter-spacing: 5px;
 	margin-top:51px;
+	display: block;
 	position: relative;
 	right:-122px;
-	img {
-		width:15px;
-		margin-left:40px;
-		position: relative;
-		top:5px;
+	overflow: hidden;
+	&:hover {
+		span.view_text {
+			background: $lightblack;
+			color:#fff;
+		}
 	}
+	span.view_text {
+		background: $greybrown;
+		color:$lightblack;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: $akagilbold;
+		letter-spacing: 5px;
+		padding:25px 41px 0px;
+		float:left;
+		height:63px;
+		font-size:14px;
+		transition: all .2s ease-in-out;
+		
+	}
+	span.view_arrow {
+		background: $lightblack;
+		float:left;
+		height:63px;
+		padding:22px 25px 0;
+		img {
+			width:13px;
+			
+		}
+	}
+	
 }
 
 
 
 .att_slideshow {
-	width:95%;
-	height:200px;
-	background:$red;
-	margin-top:100px;
+	
 }
 
 
@@ -120,7 +137,7 @@ a.view_button {
 .our_attorneys_wrapper {
 	position: absolute;
 	bottom:227px;
-	left: -420px;
+	left: -460px;
 	width:1115px;
 	transform: rotate(-90deg);
 	span.our_att_title {
@@ -137,7 +154,7 @@ a.view_button {
 		width:96%;
 		height:1px;
 		background: $lightblack;
-		margin-top:35px;
+		margin-top:45px;
 		&:after {
 			content:"";
 			width:10px;

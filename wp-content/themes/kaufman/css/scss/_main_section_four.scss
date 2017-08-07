@@ -242,12 +242,18 @@ svg.testi_red_line {
 	overflow: hidden;
 	.single_button {
 		cursor: pointer;
-		width:49.8%;
+		width:50%;
 		padding:28px 5px;
-		background: $greybrown;
+		background: #2a2f36;
 		transition: all .2s ease-in-out;
+		&:first-of-type {
+			border-right:2px solid $greybrown;
+		}
+		&:last-of-type {
+			border-left:2px solid $greybrown;
+		}
 		&:hover {
-			background: #2a2f36;
+			background: $greybrown;
 		}
 		img {
 			display: inline-block;

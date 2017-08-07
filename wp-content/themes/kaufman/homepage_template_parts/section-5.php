@@ -31,7 +31,17 @@
 				
 				<span class="att_content">Practicing injury law since 1977, Jeffrey has recovered millions of dollars for clients. He has secured one of the largest verdicts in Georgia’s history— a $25 million dollar verdict for a medical malpractice case.</span><!-- att_content -->
 				
-				<a class="view_button" href="">View Attorney Profile <img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/></a><!-- view_button -->
+				<a class="view_button" href="">
+					
+					<span class="view_text">View Attorney Profile</span> 
+					
+					<span class="view_arrow">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
+						
+					</span>
+					
+				</a><!-- view_button -->
 				
 			</div><!-- featured_attorney_content -->
 			
