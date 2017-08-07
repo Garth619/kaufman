@@ -1,7 +1,10 @@
 .section_five {
 	width:100%;
-	height:2000px;
-	
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
 }
 
 
@@ -185,6 +188,14 @@ a.att_single_slide_link {
 	padding-right:7px;
 	position: relative;
 	z-index:5;
+	&:hover {
+		.att_single_slide {
+			.att_overlay {
+				opacity: 1;
+			}
+		}
+	}
+	
 }
 
 .att_single_slide {
@@ -203,6 +214,8 @@ a.att_single_slide_link {
 			width:100%;
 			height:100%;
 			background-color: rgba(27, 30, 35, 0.9);
+			opacity: 0;
+			transition: all .4s ease-in-out;
 			.view_att_wrapper {
 				position: absolute;
 				bottom:35px;
@@ -287,10 +300,15 @@ a.att_single_slide_link {
 		top:0;
 		left:0;
 		z-index: 5;
+		transition: all .3s ease-in-out;
+		&:hover {
+			background: $lightblack;
+			
+		}
 		img {
 			width:17px;
 			display: block;
-			margin:0 0 0 7.5%;
+			margin:0 0 0 8%;
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);

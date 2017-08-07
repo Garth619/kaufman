@@ -108,7 +108,7 @@
 			
 		</div><!-- why_choose_bg_wrapper -->
 		
-		<div style="clear:both"></div>
+<!-- 		<div style="clear:both"></div> -->
 		
 	</div><!-- why_choose_wrapper -->
 	

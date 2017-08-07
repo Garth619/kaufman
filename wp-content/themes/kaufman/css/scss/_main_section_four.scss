@@ -10,6 +10,11 @@
 	width:100%;
 	padding-left:20px;
 	position: relative;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
 }
 
 .why_choose_content_wrapper {
@@ -96,6 +101,7 @@ svg#why_choose_gold_twolines {
 	position: absolute;
 	top:0;
 	left:0;
+	
 	img {
 		float:right;
 		max-width: 100%;
