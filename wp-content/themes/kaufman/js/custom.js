@@ -73,7 +73,18 @@ $('.testi_wrapper').slick({
   nextArrow:'.testi_next',
 	dots:false
  });
-
+ 
+ 
+ 
+ 
+$('.att_slideshow').slick({
+  infinite: true,
+  slide: 'a.att_single_slide_link',
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  prevArrow:'.back',
+  nextArrow:'.next'
+});
 
 
 
