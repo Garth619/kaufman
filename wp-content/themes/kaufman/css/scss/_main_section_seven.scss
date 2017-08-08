@@ -66,7 +66,7 @@ a.news_single_link {
 		padding:123px 7% 40px;
 		height:635px;
 		border:1px solid $brown;
-		transition: all .3s ease-in-out;
+		transition: all .3s linear;
 		span.news_date {
 			float:left;
 			font-family: $akagilblack;
@@ -107,7 +107,8 @@ a.news_single_link {
 		text-align: right;
 		padding:16px 28px 14px;
  		opacity: 0;
- 		transition: all .3s ease-in-out;
+ 		transition: all .3s linear;
+ 		
 		span.read_more {
 			color:#fff;
 			font-size:13px;
