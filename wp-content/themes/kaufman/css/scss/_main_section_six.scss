@@ -24,13 +24,7 @@
 	margin-top:-82px;
 	float:left;
 	padding:104px 0 117px 0;
-	svg {
-		float:left;
-		margin-left:-48px;
-		margin-right:36px;
-		position: relative;
-		top:27px;
-	}
+	
 	span.large_header {
 		color:#fff;
 		float:left;
@@ -57,18 +51,29 @@
 			text-transform: uppercase;
 			font-family: $akagilbold;
 			font-size:17px;
-			line-height: 30px;
+			line-height: 22px;
 			border-bottom: 1px solid #373d48;
 			letter-spacing: 3.5px;
+			position: relative;
 			a {
 				color:#fff;
 				text-decoration: none;
 				display: block;
-				padding:15px 15px;
+				padding:17px 15px;
 				transition: all .3s ease-in-out;
+				span {
+// 					float:left;
+				}
+				svg {
+					opacity: 0;
+					transition: all .3s ease-in-out;
+				}
 				&:hover {
 					background:$greybrown;
 					color:$lightblack;
+					svg {
+						opacity: 1;
+					}
 				}
 			}
 		}
@@ -79,6 +84,11 @@
 svg#red_lines_pa{
 	width:100px;
 	height:60px;
+	float:left;
+	margin-left:-48px;
+	margin-right:36px;
+	position: relative;
+	top:27px;
 	polyline {
 		fill:none;
 		stroke:$red;
@@ -87,11 +97,26 @@ svg#red_lines_pa{
 	}
 }
 
+svg#list_item_white_line {
+	width:53px;
+	position: absolute;
+	top:24px;
+	right:-25px;
+	polyline {
+		fill:none;
+		stroke:#fff;
+		stroke-miterlimit:10;
+		stroke-width:1.5px;
+	}
+}
+
+
 
 .pa_content {
 	width:calc(100% - 590px);
 	height:500px;
-	background: green;
 	float:left;
-	max-width:1000px;
+	padding-left:5%;
+	padding-top:207px;
+	max-width: 977px;
 }

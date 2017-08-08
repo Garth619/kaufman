@@ -17,7 +17,6 @@ body {
 -moz-osx-font-smoothing: grayscale;
 text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 line-height: 1;
-color:$lightblack;
 }
 
 
@@ -28,37 +27,6 @@ body img.gform_ajax_spinner {
 
 header, section, nav, footer {
 	display: block;
-}
-
-
-// Global
-
-
-// Start Here Button
-
-
-.start_here_track {
-	padding-left:85px;
-}
-
-
-.start_here_button {
-	a {
-		
-	}
-}
-
-
-// Content
-
-.content {
-	font-size:17px;
-	line-height: 33px;
-	font-family: $trironglight;
-	color:$lightblack;
-	p {
-		margin-bottom:35px;
-	}
 }
 
 
