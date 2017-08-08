@@ -48,18 +48,18 @@ body {
 
 .first_letter {
 	float:left;
-	width:100px;
-	height:167px;
+	min-width:100px;
+	height:auto;
 	background: url(#{$themepath}images/bodytext-icon.png) top left no-repeat;
 	background-size: 77px 155px;
-	margin:-75px 13px 0 0;
-	overflow: hidden;
+	margin:-57px 13px 0 0;
+	text-align: center;
 	span {
 		font-family: $trirongmedium;
 		font-size:125px;
 		line-height: 120px;
 		display: block;
-		margin: 63px 0 0 9px;
+		margin: 63px auto 0px;
 	}
 }
 
