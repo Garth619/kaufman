@@ -4579,6 +4579,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/kaufman\/css\/scss\/_main_section_seven.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_main_section_seven.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/kaufman\/css\/scss\/_main_section_six.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5387,6 +5400,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/kaufman\/homepage_template_parts\/section-6.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/kaufman\/homepage_template_parts\/section-7.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/homepage_template_parts\/section-7.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/kaufman\/images\/attorneys\/amerson.jpg": {
