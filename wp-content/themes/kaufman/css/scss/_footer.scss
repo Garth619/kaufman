@@ -2,4 +2,80 @@ footer {
 	width:100%;
 	height:30000px;
 	background:$lightblack;
+	padding:500px 70px 0;
+}
+
+
+
+svg#footer_gold_twolines {
+	width:137px;
+	
+	
+	polyline {
+		fill:none;
+		stroke:$greybrown;
+		stroke-miterlimit:10;
+		stroke-width:2px;
+	}
+}
+
+
+
+
+.inner_footer {
+	width:100%;
+}
+
+.footer_left {
+	span.firm_title {
+		color:#fff;
+		font-family: $akagilblack;
+		font-size:16px;
+		text-transform: uppercase;
+		letter-spacing: 5.5px;
+		display: block;
+		line-height: 30px;
+		strong {
+			color:$greybrown;
+			font-weight: 300;
+			font-style:normal;
+		}
+	}
+	a.address {
+		color:#fff;
+		text-decoration: none;
+		font-size:28px;
+		line-height: 30px;
+		letter-spacing: 1.7px;
+	}
+	a.get_directions {
+		color:red;
+		text-decoration: none;
+		display: block;
+		text-transform: uppercase;
+		font-family:$akagilblack;
+		letter-spacing: 6.5px;
+	}
+	span.office_hours_title {
+		color:$greybrown;
+		font-family: $akagilblack;
+		font-size:16px;
+		text-transform: uppercase;
+		letter-spacing: 5.5px;
+		display: block;
+		line-height: 30px;
+	}
+	span.hours {
+		color:#fff;
+		font-family: $akagilblack;
+		font-size:16px;
+		text-transform: uppercase;
+		letter-spacing: 5.5px;
+		display: block;
+		line-height: 30px;
+	}
+	span.dot {
+		color:$greybrown;
+		font-size:20px;
+	}
 }
