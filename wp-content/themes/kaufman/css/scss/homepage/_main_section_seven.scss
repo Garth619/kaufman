@@ -1,7 +1,8 @@
 .section_seven {
 	width:100%;
-	height:1000px;
+	padding-bottom:175px;
 	background: $greylight;
+	
 }
 
 
@@ -36,20 +37,27 @@
 
 
 .news_slidehow_wrapper {
-	width:100%;
 	padding-left:6%;
-	padding-top:155px;
-	
+	padding-top:110px;
+	overflow: hidden;
+	width:100%;
+}
+
+.news_slidehow {
+
+width:128%;
 }
 
 a.news_single_link {
 	color:$lightblack;
 	text-decoration: none;
+	margin-right:0.7%;
 }
 
 .single_slide_wrapper {
-	width:490px;
+// 	width:490px;
 	position: relative;
+	
 	&:hover {
 		.inner_slide_content {
 			background: #fff;
@@ -64,9 +72,19 @@ a.news_single_link {
 	}
 	.inner_slide_content {
 		padding:123px 7% 40px;
-		height:635px;
-		border:1px solid $brown;
+		height:632px;
+		border:1px solid $greybrown;
 		transition: all .3s linear;
+		svg {
+			width:50px;
+			height: 25px;
+			float:left;
+			polyline {
+			fill:none;
+			stroke:$red;
+			stroke-width:1.75px;
+		}
+		}
 		span.news_date {
 			float:left;
 			font-family: $akagilblack;
@@ -123,7 +141,8 @@ a.news_single_link {
 		img {
 			display: inline-block;
 			width:11px;
-			
+			position: relative;
+			top:2px;
 		}
 	}
 }
@@ -132,13 +151,14 @@ a.news_single_link {
 
 
 svg#news_white_twolines {
-	width:76px;
-	height: 25px;
+	width:75px;
+	height:50px;
 	float:left;
+	margin-top:-10px;
 	polyline {
 		fill:none;
 		stroke:$red;
-		stroke-width:1.75px;
+		stroke-width:2px;
 	}
 }
 
@@ -153,5 +173,56 @@ svg#news_post_twolines {
 		stroke-width:1.75px;
 	}
 }
+
+
+
+
+.news_buttons {
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	div {
+		width:25%;
+		float:left;
+		height:10px;
+		padding-right:7px;
+		&:last-of-type {
+			padding-right:0;
+		}
+	}
+	.news_single_button {
+		cursor: pointer;
+	}
+	.news_next {
+		background:$greybrown;
+		height:100%;
+		position: relative;
+		top:0;
+		left:0;
+		z-index: 5;
+		transition: all .3s ease-in-out;
+		&:hover {
+			background: $lightblack;
+			
+		}
+		img {
+			width:17px;
+			display: block;
+			margin:0 0 0 5.5%;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			
+		}
+	}
+	.news_back {
+		img {
+			display: none;
+		}
+	}
+}
+	
 
 

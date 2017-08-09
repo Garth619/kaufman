@@ -88,5 +88,17 @@ $('.att_slideshow').slick({
 
 
 
+
+$('.news_slidehow').slick({
+  infinite: true,
+  slide: 'a.news_single_link',
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  prevArrow:'.news_back',
+  nextArrow:'.news_next'
+});
+
+
+
 }); // Document Ready
 

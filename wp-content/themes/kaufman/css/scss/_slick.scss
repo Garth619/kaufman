@@ -18,6 +18,8 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+
+
 .slick-list
 {
     position: relative;
@@ -28,6 +30,13 @@
     margin: 0;
     padding: 0;
 }
+
+
+.section_two .slick-list {
+	overflow: visible;
+}
+
+
 .slick-list:focus
 {
     outline: none;
