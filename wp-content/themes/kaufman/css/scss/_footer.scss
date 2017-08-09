@@ -1,6 +1,5 @@
 footer {
 	width:100%;
-	height:30000px;
 	background:$lightblack;
 	padding:500px 70px 0;
 }
@@ -27,6 +26,7 @@ svg#footer_gold_twolines {
 }
 
 .footer_left {
+	position: relative;
 	span.firm_title {
 		color:#fff;
 		font-family: $akagilblack;
@@ -51,7 +51,7 @@ svg#footer_gold_twolines {
 		display: block;
 	}
 	a.get_directions {
-		color:red;
+		color:$red;
 		text-decoration: none;
 		display: inline-block;
 		text-transform: uppercase;
@@ -59,19 +59,23 @@ svg#footer_gold_twolines {
 		letter-spacing: 6.5px;
 		margin-top:40px;
 		position: relative;
-		&:hover {
-			&:after {
+		
+		height:30px;
+		&:after {
 			content:"";
-			width:100%;
+			width:0;
 			height:2px;
 			background:$red;
-			display: block;
-			position: absolute;
-			top:25px;
-			left:0;
+			display: inline-block;
+			opacity: 0;
+			width:100%;
+			transition: all .2s ease-in-out;
 		}
+		&:hover {
+			&:after {
+			opacity: 1;
+			}
 		}
-		
 	}
 	span.office_hours_title {
 		color:$greybrown;
