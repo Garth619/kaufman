@@ -35,6 +35,7 @@ svg#footer_gold_twolines {
 		letter-spacing: 5.5px;
 		display: block;
 		line-height: 30px;
+		margin-bottom:57px;
 		strong {
 			color:$greybrown;
 			font-weight: 300;
@@ -47,14 +48,30 @@ svg#footer_gold_twolines {
 		font-size:28px;
 		line-height: 30px;
 		letter-spacing: 1.7px;
+		display: block;
 	}
 	a.get_directions {
 		color:red;
 		text-decoration: none;
-		display: block;
+		display: inline-block;
 		text-transform: uppercase;
 		font-family:$akagilblack;
 		letter-spacing: 6.5px;
+		margin-top:40px;
+		position: relative;
+		&:hover {
+			&:after {
+			content:"";
+			width:100%;
+			height:2px;
+			background:$red;
+			display: block;
+			position: absolute;
+			top:25px;
+			left:0;
+		}
+		}
+		
 	}
 	span.office_hours_title {
 		color:$greybrown;
@@ -64,6 +81,7 @@ svg#footer_gold_twolines {
 		letter-spacing: 5.5px;
 		display: block;
 		line-height: 30px;
+		margin-top:67px;
 	}
 	span.hours {
 		color:#fff;
@@ -72,7 +90,7 @@ svg#footer_gold_twolines {
 		text-transform: uppercase;
 		letter-spacing: 5.5px;
 		display: block;
-		line-height: 30px;
+		line-height: 27px;
 	}
 	span.dot {
 		color:$greybrown;
