@@ -26,7 +26,8 @@
 
 svg#red_line_form {
 	width:53px;
-	float:right;
+	margin-top:12px;
+// 	float:right;
 	polyline {
 		fill:none;
 		stroke:$red;

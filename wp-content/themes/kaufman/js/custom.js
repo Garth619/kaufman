@@ -76,7 +76,6 @@ $('.testi_wrapper').slick({
  
  
  
- 
 $('.att_slideshow').slick({
   infinite: true,
   slide: 'a.att_single_slide_link',
@@ -97,6 +96,27 @@ $('.news_slidehow').slick({
   prevArrow:'.news_back',
   nextArrow:'.news_next'
 });
+
+
+
+
+$(function() {
+    $('input,textarea').change(function() {
+        if ($(this).val() === '') {
+	        
+	        $(this).removeClass('non_empty');
+	        
+        } 
+        else {
+        
+        	$(this).addClass('non_empty');
+        
+        }
+    });
+});
+
+
+
 
 
 
