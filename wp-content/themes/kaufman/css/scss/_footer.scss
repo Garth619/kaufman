@@ -1,7 +1,7 @@
 footer {
 	width:100%;
 	background:$lightblack;
-	padding:500px 70px 0;
+	padding:500px 70px 125px;
 }
 
 
@@ -23,10 +23,27 @@ svg#footer_gold_twolines {
 
 .inner_footer {
 	width:100%;
+	margin-top:170px;
+	max-width:1675px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
 }
 
 .footer_left {
 	position: relative;
+	padding-left: 50px;
+	
+	width:528px;
+	float:left;
+	svg {
+		transform: rotate(90deg);
+		position: absolute;
+		top: 57px;
+		left:-58px;
+	}
 	span.firm_title {
 		color:#fff;
 		font-family: $akagilblack;
@@ -36,6 +53,7 @@ svg#footer_gold_twolines {
 		display: block;
 		line-height: 30px;
 		margin-bottom:57px;
+		padding-top: 80px;
 		strong {
 			color:$greybrown;
 			font-weight: 300;
@@ -85,7 +103,7 @@ svg#footer_gold_twolines {
 		letter-spacing: 5.5px;
 		display: block;
 		line-height: 30px;
-		margin-top:67px;
+		margin-top:50px;
 	}
 	span.hours {
 		color:#fff;
@@ -99,5 +117,73 @@ svg#footer_gold_twolines {
 	span.dot {
 		color:$greybrown;
 		font-size:20px;
+	}
+}
+
+
+.footer_right {
+	width:calc(100% - 528px);
+	float:left;
+	padding-left:9%;
+	margin-top:30px;
+}
+
+
+.footer_phone_wrapper {
+	border:1px solid #f0d494;
+	padding:65px 0 85px 6.5%;
+	width:100%;
+	max-width:865px;
+	a.phone {
+		color:$red;
+		text-decoration: none;
+		font-family: $trirongregular;
+		font-size:80px;
+		display: block;
+	}
+	span.small_header {
+		display: block;
+		margin-top:30px;
+		color:#fff;
+		font-family: $akagilblack;
+		font-size:16px;
+		text-transform: uppercase;
+		letter-spacing: 6px;
+	}
+	.white_diamond_wrapper {
+		position: relative;
+		text-align: center;
+		width: 162px;
+		float:right;
+		margin:-40px -48px 0 0;
+		span.available {
+			color:$lightblack;
+			position: relative;
+			z-index:5;
+			display: block;
+			font-family: $akagilbold;
+			text-transform: uppercase;
+			font-size: 13px;
+			margin-top:51px;
+			letter-spacing: 5.7px;
+		}
+		span.large_header {
+			position: relative;
+			z-index:5;
+			color:$red;
+			display: block;
+			font-family: $trirongsemibold;
+			font-size: 55px;
+			margin-top:0px;
+		}
+		.white_diamond {
+			width:159px;
+			height:159px;
+			background: #fff;
+			transform: rotate(-45deg);
+			position: absolute;
+			top:0;
+			left:0;
+		}
 	}
 }

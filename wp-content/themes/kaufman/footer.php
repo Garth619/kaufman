@@ -23,7 +23,27 @@
 			
 		</div><!-- footer_left -->
 		
-		<div class="footer_right"></div><!-- footer_right -->
+		<div class="footer_right">
+			
+			<div class="footer_phone_wrapper">
+				
+				<a class="phone" href="">(678) 726-1425</a><!-- phone -->
+				
+				<span class="small_header">Get Your Free Case Evaluation Today</span><!-- small_header -->
+				
+				<div class="white_diamond_wrapper">
+					
+					<span class="available">Available</span><!-- small_header -->
+					
+					<span class="large_header">24/7</span><!-- large_header -->
+					
+					<div class="white_diamond"></div><!-- white_diamond -->
+					
+				</div><!-- white_diamond -->
+				
+			</div><!-- footer_phone_wrapper -->
+			
+		</div><!-- footer_right -->
 		
 	</div><!-- inner_footer -->
 	
