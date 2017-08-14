@@ -26,6 +26,25 @@ jQuery(document).ready(function(){
 
 
 
+
+
+// Gravity Form Intro
+
+
+
+// $( ".my_wrap" ).wrapAll( "<div class='new' />");
+
+
+$('.gform_footer').addClass('my_wrap');
+
+// $('li#field_2_8').addClass('my_wrap');
+
+
+
+
+
+
+
 $('.case_results').slick({
   infinite: true,
   slide: '.single_case',

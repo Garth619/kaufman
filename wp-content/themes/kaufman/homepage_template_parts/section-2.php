@@ -14,6 +14,12 @@
 			
 			<span class="injury_title">What type of injury have you suffered?</span><!-- injury_title -->
 			
+			<div class="intro_form">
+				
+				<?php gravity_form(2, false, false, false, '', true, 12); ?>
+				
+			</div><!-- intro_form_wrapper -->
+			
 		</div><!-- form_container -->
 		
 	</div><!-- intro_form_wrapper -->

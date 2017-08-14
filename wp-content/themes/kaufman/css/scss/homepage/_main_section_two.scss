@@ -38,9 +38,10 @@ svg#red_line_form {
 
 .form_container {
 	color:#fff;
-	font-size:55px;
+	
 	span.injury_title {
 		font-family: $trironglight;
+		font-size:55px;
 		line-height: 59px;
 		margin-top:25px;
 		display: block;
@@ -50,6 +51,95 @@ svg#red_line_form {
 		line-height: 59px;
 	}
 }
+
+
+
+.intro_form_wrapper {
+	ul {
+		list-style: none;
+		li.my_injury_intro {
+			margin:50px auto;
+			cursor: pointer;
+			max-width: 512px;
+		
+			.ginput_container_select {
+				position: relative;
+				border:$greybrown 1px solid;
+				border-radius: 8px;
+				
+				&:after {
+						content:"";
+						width:70px;
+						height:100%;
+						background: url(#{$themepath}images/form-arrow.png) $greybrown center center no-repeat;
+						background-size: 20px 14px;
+						position: absolute;
+						top:0;
+						right:0;
+						border-top-right-radius: 5px;
+						border-bottom-right-radius: 5px;
+						pointer-events: none;
+					}
+					select:-moz-focusring {
+						color: transparent;
+						text-shadow: 0 0 0 #fff;
+					}
+				select {
+					-webkit-appearance: none;
+					appearance: none;
+					-moz-appearance: none;
+					border:none;
+					background: transparent;
+					font-family: $akagilight;
+					color:#fff;
+					font-size: 28px;
+					padding:16px 130px 16px 20px;
+					width:100%;
+					letter-spacing: 1px;
+					box-shadow: none;
+					background-image: none;
+					&:focus {
+						outline: none;
+					}
+					option {
+						
+					}
+				}
+			}
+		}
+		li {
+			width: 100%;
+			label {
+				display: none;
+			}
+			
+			input {
+				
+			}
+			textarea {
+				
+			}
+			select, input, textarea {
+				width: 100%;
+			}
+		}
+		li#field_2_8 {
+			display: none;
+		}
+	}
+}
+
+
+
+.my_wrap {
+	opacity: 0;
+}
+
+
+
+
+
+
 
 
 .case_results_wrapper {
