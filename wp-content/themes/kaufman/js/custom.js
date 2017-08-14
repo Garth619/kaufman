@@ -44,9 +44,9 @@ $('.gform_footer').addClass('my_wrap');
 jQuery(function() {
     $('li.my_injury_intro select').change(function() {
         
-        if ($(this).val() === "") {
+        if ($(this).val() === "selectaninjury") {
 	        
-	        
+	        $(this).removeClass('garrett');
 	        
         } else {
 	        
