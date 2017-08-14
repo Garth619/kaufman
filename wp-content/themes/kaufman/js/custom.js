@@ -41,6 +41,22 @@ $('.gform_footer').addClass('my_wrap');
 
 
 
+jQuery(function() {
+    $('li.my_injury_intro select').change(function() {
+        
+        if ($(this).val() === "") {
+	        
+	        
+	        
+        } else {
+	        
+	        $(this).addClass('garrett');
+	        
+        }
+    });
+});
+
+
 
 
 
