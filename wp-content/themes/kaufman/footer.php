@@ -1,5 +1,13 @@
 <footer>
 	
+	<div class="footer_red_line_wrapper">
+		
+		<div class="footer_square"></div><!-- square -->
+		
+		<div class="footer_line"></div><!-- line -->
+		
+	</div><!-- footer_red_line -->
+	
 	<div class="inner_footer">
 		
 		<div class="footer_left">
@@ -42,6 +50,69 @@
 				</div><!-- white_diamond -->
 				
 			</div><!-- footer_phone_wrapper -->
+			
+			<ul class="social_media_links">
+				
+				<li>
+					
+					<a href="">Facebook</a>
+					
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				<li>
+				
+					<a href="">Twitter</a>
+					
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				
+				<li>
+					
+					<a href="">LinkedIn</a>
+					
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				
+				<li>
+				
+					<a href="">Youtube</a>
+					
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				
+				<li>
+					
+					<a href="">Google+</a>
+				
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				
+			</ul>
 			
 		</div><!-- footer_right -->
 		
