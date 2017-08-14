@@ -26,7 +26,8 @@ svg#footer_gold_twolines {
 	width:100%;
 	margin:170px auto 0;
 	max-width:1675px;
-	
+	position: relative;
+
 	&:after {
 		content:"";
 		clear:both;
@@ -255,5 +256,97 @@ svg#social_media_line {
 		background: $red;
 		float:left;
 		
+	}
+}
+
+.vertical_selling_points {
+	bottom: 610px;
+  position: absolute;
+  right: -302px;
+	transform: rotate(90deg);
+	ul {
+		list-style: none;
+		li {
+			color:#fff;
+			text-transform: uppercase;
+			font-family: $akagilbold;
+			font-size:15px;
+			letter-spacing: 5.5px;
+			display: inline-block;
+			&:after {
+				content:"|";
+				display: inline-block;
+				margin:0 30px;
+			}
+			&:last-of-type {
+				&:after {
+					content:"";
+				}
+			}
+		}
+	}
+}
+
+
+.copyright {
+	width:100%;
+	background: #fff;
+	
+	.inner_copyright {
+		height:100px;
+		position: relative;
+		overflow: hidden;
+		max-width:1892px;
+		width:100%;
+		margin:0 auto;
+		ul {
+			list-style: none;
+			padding-top:40px;
+			padding-left: 4px;
+			float:left;
+			li {
+				display: inline-block;
+				color:$lightblack;
+				text-transform: uppercase;
+				font-family: $akagilsemibold;
+				font-size:13px;
+				letter-spacing: 2.5px;
+				a {
+					color:$lightblack;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+				&:after {
+					content:"|";
+					display: inline-block;
+					margin:0 15px;
+				}
+				&:last-of-type {
+					&:after {
+						content:"";
+					}
+				}
+			}
+		}
+		svg {
+			 margin-right: 50px;
+			position: absolute;
+			top:27px;
+			right:0;
+		}
+	}
+}
+
+
+svg#footer_threelines {
+	width:160px;
+	display: block;
+	height:100px;
+	polyline {
+		fill:none;
+		stroke:$lightblack;
+		stroke-width:2px;
 	}
 }
