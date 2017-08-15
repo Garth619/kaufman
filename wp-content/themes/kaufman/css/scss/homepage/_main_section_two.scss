@@ -14,13 +14,7 @@
 	margin-top:-100px;
 	padding:83px;
 	text-align: center;
-	
-	
 }
-
-
-
-
 
 
 svg#red_line_form {
@@ -59,25 +53,7 @@ svg#red_line_form {
 		line-height: 59px;
 	}
 	
-	span.intro_request {
-		display: block;
-		color:$greybrown;
-		font-family: $trironglight;
-		font-size:45px;
-		letter-spacing: 1.2px;
-	}
-	span.required_intro {
-		display: block;
-		color:$red;
-		text-transform: uppercase;
-		font-family: $akagilbold;
-		font-size:17px;
-		letter-spacing: 5px;
-		margin:15px 0 35px;
-	}
-	span.step_one_back {
-		color:$greybrown;
-	}
+	
 }
 
 
@@ -140,7 +116,32 @@ svg#red_line_form {
 
 
 
-.intro_form_wrapper {
+.intro_form {
+	span.intro_request {
+		display: block;
+		color:$greybrown;
+		font-family: $trironglight;
+		font-size:45px;
+		letter-spacing: 1.2px;
+	}
+	span.required_intro {
+		display: block;
+		color:$red;
+		text-transform: uppercase;
+		font-family: $akagilbold;
+		font-size:17px;
+		letter-spacing: 5px;
+		margin:15px 0 35px;
+	}
+	span.step_one_back {
+		color:$greybrown;
+		font-family:$akagilbold;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		float:left;
+		margin-top:5px;
+		cursor: pointer;
+	}
 	ul {
 		list-style: none;
 		li.my_injury_intro {
@@ -300,7 +301,23 @@ svg#red_line_form {
 }
 
 
-
+svg#back_arrow {
+		width:8px;
+		float:left;
+		transform: rotate(90deg);
+		position: relative;
+		top:-7px;
+		margin-right:28px;
+		margin-left:20px;
+		line.arrow_line {
+			fill:none;
+			stroke:$greybrown;
+			stroke-miterlimit:10;
+		}
+		polygon.arrow_tri {
+			fill:$greybrown;
+		}
+	}
 
 
 

@@ -45,7 +45,20 @@
 				
 				<?php gravity_form(2, false, false, false, '', true, 1223); ?>
 				
-				<span class="step_one_back">Back</span><!-- step_one_back -->
+				
+				<div class="step_one_back_wrapper">
+				
+					<svg id="back_arrow" viewBox="0 0 7.6 40.7">
+						
+						<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
+					
+						<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+				
+					</svg><!-- start_arrow -->
+				
+					<span class="step_one_back">Back</span><!-- step_one_back -->
+				
+				</div><!-- step_one_back_wrapper -->
 				
 			</div><!-- intro_form_wrapper -->
 			

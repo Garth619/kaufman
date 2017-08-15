@@ -92,7 +92,7 @@ $(function() {
 
 
 
-$('span.step_one_back').click(function(){
+$('.step_one_back_wrapper').click(function(){
 	
 	$('.my_gf_step_one').removeClass('my_gf_hide');
 	$('.my_gf_step_two').addClass('my_gf_hide');
