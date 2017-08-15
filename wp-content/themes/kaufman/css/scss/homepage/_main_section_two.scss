@@ -22,7 +22,39 @@
 		letter-spacing: 1px;
 		display: block;
 	}
+	span.intro_request {
+		display: block;
+		color:$greybrown;
+		font-family: $trironglight;
+		font-size:45px;
+		letter-spacing: 1.2px;
+	}
+	span.required_intro {
+		display: block;
+		color:$red;
+		text-transform: uppercase;
+		font-family: $akagilbold;
+		font-size:17px;
+		letter-spacing: 5px;
+		margin-top:15px;
+	}
+	span.step_one_back {
+		color:$greybrown;
+	}
+	
 }
+
+
+
+
+.my_gf_step_one, .my_gf_step_two {
+	opacity: 1;
+}
+
+.my_gf_hide {
+	opacity: 0;
+}
+
 
 svg#red_line_form {
 	width:53px;
@@ -130,10 +162,6 @@ svg#red_line_form {
 }
 
 
-
-.my_wrap {
-	opacity: 0;
-}
 
 
 

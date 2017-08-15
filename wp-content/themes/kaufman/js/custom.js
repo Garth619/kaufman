@@ -35,26 +35,49 @@ jQuery(document).ready(function(){
 // $( ".my_wrap" ).wrapAll( "<div class='new' />");
 
 
-$('.gform_footer').addClass('my_wrap');
+
 
 // $('li#field_2_8').addClass('my_wrap');
 
 
+// Classifies the intro form into two seprate steps
 
-jQuery(function() {
+$('.steps_wrapper, span.injury_title').addClass('my_gf_step_one');
+
+$('span.intro_request, span.required_intro, span.step_one_back, .gform_footer').addClass('my_gf_hide my_gf_step_two');
+
+
+// Toggles Between the two form steps when the dropdown is selected
+
+$(function() {
     $('li.my_injury_intro select').change(function() {
         
         if ($(this).val() === "selectaninjury") {
 	        
-	        $(this).removeClass('garrett');
+	        $('.my_gf_step_one').removeClass('my_gf_hide');
+	        $('.my_gf_step_two').addClass('my_gf_hide');
+	       
 	        
         } else {
 	        
-	        $(this).addClass('garrett');
+	        
+	        $('.my_gf_step_one').addClass('my_gf_hide');
+	        $('.my_gf_step_two').removeClass('my_gf_hide');
+	        
 	        
         }
     });
 });
+
+// Goes back to step one when the back button is clicked
+
+$('span.step_one_back').click(function(){
+	
+	$('.my_gf_step_one').removeClass('my_gf_hide');
+	$('.my_gf_step_two').addClass('my_gf_hide');
+	
+});
+
 
 
 
