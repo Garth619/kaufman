@@ -3,7 +3,12 @@
 	<div class="intro_form_wrapper">
 		
 		
-		<div class="steps_wrapper">
+		
+		
+		
+		<div class="form_container">
+			
+			<div class="steps_wrapper">
 		
 			<span class="form_parts">1 of 2</span><!-- form_parts -->
 		
@@ -14,9 +19,6 @@
 			</svg><!-- red_line_form -->
 		
 		</div><!-- steps_wrapper -->
-		
-		
-		<div class="form_container">
 			
 			<span class="injury_title">What type of injury have you suffered?</span><!-- injury_title -->
 			
