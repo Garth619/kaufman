@@ -8,7 +8,7 @@
 		
 		<div class="form_container">
 			
-			<div class="steps_wrapper">
+			<div class="first_step_wrapper">
 		
 			<span class="form_parts">1 of 2</span><!-- form_parts -->
 		
@@ -18,17 +18,32 @@
 			
 			</svg><!-- red_line_form -->
 		
-		</div><!-- steps_wrapper -->
-			
 			<span class="injury_title">What type of injury have you suffered?</span><!-- injury_title -->
 			
-			<span class="intro_request">Request your free consultation</span><!-- intro_request -->
-		
-			<span class="required_intro">*All Fields Required</span><!-- required_intro -->
+			<div class="select_wrapper">
+			
+				<select name='step_one' id='stepone' tabindex='12'>
+
+					<option value='selectaninjury' >Select an injury</option>
+					<option value='pa1' >PA 1</option>
+					<option value='pa2' >PA 2</option>
+					<option value='pa3' >PA 3</option>
+					<option value='pa4' >PA 4</option>
+
+				</select>
+			
+			</div><!-- select_wrapper -->
+
+			
+			</div><!-- first_step_wrapper -->
 			
 			<div class="intro_form">
 				
-				<?php gravity_form(2, false, false, false, '', true, 12); ?>
+				<span class="intro_request">Request your free consultation</span><!-- intro_request -->
+		
+				<span class="required_intro">*All Fields Required</span><!-- required_intro -->
+				
+				<?php gravity_form(2, false, false, false, '', true, 1223); ?>
 				
 				<span class="step_one_back">Back</span><!-- step_one_back -->
 				

@@ -32,6 +32,85 @@ jQuery(document).ready(function(){
 
 
 
+
+
+$(function() {
+    $('select#stepone').change(function() {
+        // if changed to, for example, the last option, then
+        // $(this).find('option:selected').text() == D
+        // $(this).val() == 4
+        // get whatever value you want into a variable
+        var x = $(this).val();
+        // and update the hidden input's value
+        $('#input_2_8').val(x);
+    });
+});
+
+
+
+
+
+
+
+// Classifies the intro form into two seprate steps
+
+
+
+$('.first_step_wrapper').addClass('my_gf_step_one');
+
+$('.intro_form').addClass('my_gf_step_two my_gf_hide');
+
+
+// Toggles Between the two form steps when the dropdown is selected
+
+
+$(function() {
+    $('select#stepone').change(function() {
+        
+        if ($(this).val() === "selectaninjury") {
+	        
+	       
+	        $('.my_gf_step_two').addClass('my_gf_hide');
+					$('.my_gf_step_one').removeClass('my_gf_hide');
+					   
+	         
+	     } else {
+	        
+     
+			 		$('.my_gf_step_one').addClass('my_gf_hide');
+					$('.my_gf_step_two').removeClass('my_gf_hide');
+
+  
+        }
+    });
+});
+
+
+// Goes back to step one when the back button is clicked
+
+
+
+
+
+$('span.step_one_back').click(function(){
+	
+	$('.my_gf_step_one').removeClass('my_gf_hide');
+	$('.my_gf_step_two').addClass('my_gf_hide');
+	
+});
+
+
+
+
+
+
+
+
+
+// Gravity Form Intro
+
+
+
 // $( ".my_wrap" ).wrapAll( "<div class='new' />");
 
 
@@ -42,13 +121,16 @@ jQuery(document).ready(function(){
 
 // Classifies the intro form into two seprate steps
 
+/*
 $('.steps_wrapper, span.injury_title').addClass('my_gf_step_one');
 
 $('span.intro_request, span.required_intro, span.step_one_back, .gform_footer').addClass('my_gf_hide my_gf_step_two');
+*/
 
 
 // Toggles Between the two form steps when the dropdown is selected
 
+/*
 $(function() {
     $('li.my_injury_intro select').change(function() {
         
@@ -68,16 +150,18 @@ $(function() {
         }
     });
 });
+*/
 
 // Goes back to step one when the back button is clicked
 
+/*
 $('span.step_one_back').click(function(){
 	
 	$('.my_gf_step_one').removeClass('my_gf_hide');
 	$('.my_gf_step_two').addClass('my_gf_hide');
 	
 });
-
+*/
 
 
 
