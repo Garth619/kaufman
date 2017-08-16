@@ -1,5 +1,44 @@
 <section class="start_here_track"><!-- goes into footer -->
 
+
+<div class="start_here_button">
+	
+	<div class="inner_start_here">
+		
+		<div class="rotated_content">
+		
+			<span>Start Here</span>
+		
+			<svg id="start_arrow_fixed" viewBox="0 0 7.6 40.7">
+						
+				<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
+					
+				<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+				
+				</svg><!-- start_arrow -->
+		
+		</div><!-- rotated_content -->
+		
+	</div><!-- inner_start_here -->
+	
+	<div class="start_here_form_wrapper">
+		
+		<div class="start_here_form">
+			
+			
+			
+		</div><!-- start_here_form -->
+		
+		<div class="start_here_close_form">
+			
+			
+			
+		</div><!-- start_here_close_form -->
+		
+	</div><!-- start_here_form -->
+	
+</div><!-- start_here_button -->
+
 <section class="section_three">
 	
 	

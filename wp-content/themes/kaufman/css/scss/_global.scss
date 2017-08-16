@@ -15,10 +15,86 @@ body {
 
 
 .start_here_button {
-	a {
-		
+	left: 0px;
+  position: fixed;
+  top: 43%;
+	z-index:50;
+	max-width:1285px;
+	width:100%;
+	&:hover {
+		.inner_start_here {
+			background:$greybrown;
+		}
 	}
 }
+
+
+.rotated_content {
+	transform: rotate(-90deg); /* Fixes a Chrome Bug instead of rotating entire red button */
+	width:260px;
+	height:85px;
+	margin: 88px 0 0 -91px;
+}
+
+
+.inner_start_here {
+
+	float:left;
+	background:$red;
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-family: $oswald;
+	font-size:20px;
+	letter-spacing: 6px;
+	height:260px;
+	width:85px;
+	text-align: center;
+	transition: all .2s ease-in-out;
+	cursor: pointer;
+	span {
+		display: inline-block;
+		padding-top:30px;
+		margin-right:-3px;
+		position: relative;
+		top:-12px;
+	}
+	svg#start_arrow_fixed {
+		width:8px;
+		display: inline-block;
+		margin-top:24px;
+		line.arrow_line {
+			fill:none;
+			stroke:#fff;
+			stroke-miterlimit:10;
+		}
+		polygon.arrow_tri {
+			fill:#fff;
+		}
+	}
+}
+
+
+
+
+.start_here_form_wrapper {
+	width:calc(100% - 85px);
+	float:left;
+	.start_here_form {
+		background: $lightblack;
+		width:calc(100% - 97px);
+		float:left;
+		height:260px;
+	}
+	.start_here_close_form {
+		width:97px;
+		height:260px;
+		float:left;
+		background:#000;
+	}
+}
+
+
 
 
 // Content
