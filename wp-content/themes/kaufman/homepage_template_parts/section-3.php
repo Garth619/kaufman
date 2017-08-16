@@ -40,7 +40,15 @@
 		
 		<div class="start_here_close_form">
 			
+			<div class="close_x">
+				
+				<div class="close_x_bar"></div><!-- close_x_bar -->
+				
+				<div class="close_x_bar"></div><!-- close_x_bar -->
 			
+			</div><!-- close -->
+			
+			<span class="close">Close</span><!-- close -->
 			
 		</div><!-- start_here_close_form -->
 		

@@ -123,7 +123,64 @@ body {
 		height:260px;
 		float:left;
 		background:#000;
+ 		text-align: center;
+ 		padding-top:106px;
+		span {
+			display: block;
+		}
+		&:hover {
+			.close_x {
+				.close_x_bar {
+					&:first-of-type {
+						transform:rotate(-90deg) skewX(0deg) skewY(0deg);
+						background:$red;
+						transform-origin:8px 10px 0;
+					}
+					&:last-of-type {
+						transform:rotate(90deg) skewX(0deg) skewY(0deg);
+						background:$red;
+						transform-origin: -1px 9px 0;
+					}
+				}
+			}
+			span.close {
+				color:$red;
+			}
+		}
+		
+		.close_x {
+			
+			.close_x_bar {
+				width:8px;
+				height:25px;
+				
+				display: inline-block;
+				&:first-of-type {
+					transform: skewX(38deg) skewY(0deg);
+					transition: all .2s ease-in-out;
+					transform-origin: 0 6px 0;
+					background:#fff;
+				}
+				&:last-of-type {
+					transform: skewX(-38deg) skewY(0deg) ;
+					transition: all .2s ease-in-out;
+					transform-origin: 0 3px 0;
+					background:#fff;
+				}
+			}
+		}
+		span.close {
+			font-family: $akagilbold;
+			text-transform: uppercase;
+			font-size:10px;
+			letter-spacing: 2px;
+			display: block;
+			margin-top:6px;
+			color:#fff;
+			transition: all .2s ease-in-out;
+		}
 	}
+	
 }
 
 
