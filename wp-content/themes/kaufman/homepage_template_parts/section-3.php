@@ -2,9 +2,9 @@
 
 <section class="start_here_bg"></section><!-- start_here_bg -->
 
-<div class="start_here_button">
+
 	
-	<div class="inner_start_here">
+	<div class="start_here_button">
 		
 		<div class="rotated_content">
 		
@@ -54,7 +54,7 @@
 		
 	</div><!-- start_here_form -->
 	
-</div><!-- start_here_button -->
+
 
 <section class="section_three">
 	
