@@ -11,15 +11,29 @@ body {
 
 .start_here_track {
 	padding-left:85px;
+	position: relative;
 }
+
+
+.start_here_bg {
+	width:100%;
+	height:100%;
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	top:0;
+	left:85px;
+	z-index:99;
+}
+
+
 
 
 .start_here_button {
 	left: 0px;
   position: fixed;
   top: 43%;
-	z-index:50;
-	max-width:1285px;
+	z-index:100;
+	max-width:1373px;
 	width:100%;
 	&:hover {
 		.inner_start_here {
@@ -85,6 +99,24 @@ body {
 		width:calc(100% - 97px);
 		float:left;
 		height:260px;
+		padding:32px 50px 32px 45px;
+		span.form_title {
+			display: inline-block;
+			font-family:$akagilbold;
+			text-transform: uppercase;
+			color:$greybrown;
+			font-size:17px;
+			letter-spacing: 5.1px;
+			&:first-of-type {
+				
+				&:after {
+					content:"|";
+					color:$red;
+					display: inline-block;
+					margin:0 35px 0 25px;
+				}
+			}
+		}
 	}
 	.start_here_close_form {
 		width:97px;
@@ -93,6 +125,116 @@ body {
 		background:#000;
 	}
 }
+
+
+.inner_form {
+	padding-top:20px;
+	ul {
+		list-style: none;
+		overflow: hidden;
+		width:100%;
+		
+		
+		li {
+			width:33.333333%;
+			float:left;
+			margin-bottom:13px;
+			position: relative;
+			padding-right:17px;
+			&:after {
+				content:"*";
+				position: absolute;
+				top:28px;
+				right:35px;
+			}
+			
+			label {
+				display: none;
+			}
+			input {
+				
+			}
+			textarea {
+					
+			}
+			input, textarea {
+				width:100%;
+				border:none;
+				font-family: $trirongmedium;
+				color:$lightblack;
+				font-size:15px;
+				padding:19px 35px 19px 15px;
+				border-radius: 4px;
+				letter-spacing: 1.5px;
+				height:65px;
+			}
+		}
+		li#field_3_3 {
+			padding-right:0;
+		}
+		li#field_3_5 {
+			width:84%;
+		}
+		li#field_3_6 {
+			display: none;
+		}
+		li ::-webkit-input-placeholder {
+      color: $lightblack;
+     }
+    li ::-moz-placeholder {
+      color: $lightblack;
+     }
+    li :-moz-placeholder {
+      color: $lightblack;
+    }
+    li :-ms-input-placeholder {
+      color: $lightblack;
+     }
+    li ::-moz-placeholder {
+      opacity: 1;
+    }
+	}
+	.gform_footer {
+		width:16%;
+		float:right;
+		
+		margin-top:-78px;
+		input[type="submit"] {
+			color:#fff;
+			text-transform: uppercase;
+			font-size:16px;
+			width:100%;
+			border:none;
+			background:$red;
+			height:65px;
+			border-radius: 4px;
+			font-family: $akagilblack;
+			letter-spacing: 7.5px;
+			transition: all .2s ease-in-out;
+			cursor: pointer;
+			&:hover {
+				background: $greybrown;
+			}
+		}
+	}
+	.gfield_description {
+		color:$red;
+		text-transform: uppercase;
+		font-family: $akagilbold;
+		position: absolute;
+		
+		font-size: 12px;
+		letter-spacing: 1.5px;
+		top:45px;
+		left:15px;
+	}
+	.instruction  {
+		display: none;
+	}
+}
+
+
+
 
 
 
