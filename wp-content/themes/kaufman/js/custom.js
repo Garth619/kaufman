@@ -175,8 +175,18 @@ $('.att_slideshow').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
   prevArrow:'.att_back',
-  nextArrow:'.att_next'
-});
+  nextArrow:'.att_next',
+  responsive: [
+    {
+      breakpoint: 1525,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        
+      }
+    }
+  ]
+ });
 
 
 

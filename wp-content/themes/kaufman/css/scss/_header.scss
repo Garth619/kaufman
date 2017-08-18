@@ -173,8 +173,9 @@ nav {
 		}
 		li {
 			border-top:1px solid #272c33;
+			
 			a {
-				padding:20px 0;
+				padding:20px 15px;
 				transition: all .2s ease-in-out;
 				&:hover {
 					color:$greybrown;
@@ -192,4 +193,60 @@ body.page-template-page-home {
 		background: $lightblack;
 		color:#fff;
 	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 1565px) {
+	
+	
+	
+	
+	nav {
+    left: 0;
+		position: absolute;
+    top: 109px;
+    width: 100%;
+	}
+
+.call_wrapper {
+	display: flex;
+	flex-direction: column;
+	width:100%;
+	max-width:400px;
+	float:right;
+	margin-top: 40px;
+	margin-right:44px;
+	a {
+		order:1;
+		margin-right:0;
+		
+	}
+	span.call {
+		order:2;
+		margin-top: 2px;
+		padding-right: 0px;
+	}
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1260px) {
+	
+	
+	.logo_wrapper {
+		padding-left: 23px;
+		padding-right:23px;
+		max-width:472px;
+	}
+	
+	
 }

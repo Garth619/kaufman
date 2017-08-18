@@ -399,3 +399,45 @@ svg#back_arrow {
 }
 
 
+
+@media screen and (max-width: 1740px) {
+	
+	.intro_form {
+		span.intro_request {
+			max-width:400px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+	
+	.intro_form {
+		margin-top:-25px;
+	}
+	
+	.form_container {
+
+	}
+	
+	
+	
+	
+	.single_case {
+		.single_case_content {
+			span.case_amount {
+				font-size:98px;
+			}
+		}
+	}  
+	
+	
+	.buttons {
+		bottom:-60px;
+	}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+

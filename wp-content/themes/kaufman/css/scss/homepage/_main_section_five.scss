@@ -325,9 +325,70 @@ a.att_single_slide_link {
 
 
 
+@media screen and (max-width: 1670px) {
+	
+	
+	.featured_attorney {
+		position: relative;
+		right:-5%;
+		padding-right:2px;
+	}
+	
+	
+} /* Media Query */
 
 
 
+
+
+@media screen and (max-width: 1525px) {
+	
+	
+	.att_buttons {
+		div {
+			width:25%;
+			&:nth-of-type(2n + 2) {
+				display: none;
+			}
+		}
+		.att_next {
+			margin-left:25%;
+			img {
+				margin: 0 0 0 17%;
+			}
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 1455px) {
+	
+	
+	.featured_attorney {
+		width:100%;
+		margin-left:90px;
+		margin-right:0;
+		max-width: 1120px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1370px) {
+	
+	
+	
+	
+	
+	
+} /* Media Query */
 
 
 

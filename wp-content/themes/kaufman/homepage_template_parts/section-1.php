@@ -54,7 +54,7 @@
 			</div><!-- play_wrapper -->
 		
 		
-		Representing<br/> the Injured for more than <strong>40</strong> Years
+		<span class="intro_title">Representing<br/> the Injured for more than <strong>40</strong> Years</span><!-- intro_title -->
 		
 		</span><!-- intro_header -->
 		

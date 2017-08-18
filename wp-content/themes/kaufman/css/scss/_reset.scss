@@ -20,6 +20,11 @@ line-height: 1;
 }
 
 
+body .gform_wrapper .gform_validation_container {
+	display: none;
+}
+
+
 body img.gform_ajax_spinner {
     display: none!important;
 }
