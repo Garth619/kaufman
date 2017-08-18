@@ -126,6 +126,7 @@ svg#footer_gold_twolines {
 	width:calc(100% - 528px);
 	float:left;
 	margin-top:30px;
+	padding-left:8%;
 }
 
 
@@ -134,7 +135,7 @@ svg#footer_gold_twolines {
 	padding:65px 0 85px 6.5%;
 	width:100%;
 	max-width:865px;
-	margin-left:13%;
+	
 	a.phone {
 		color:$red;
 		text-decoration: none;
@@ -195,8 +196,9 @@ ul.social_media_links {
 	margin-top:123px;
 	list-style: none;
 	justify-content: space-around;
-	padding-left:6%;
+	padding-left:0%;
 	padding-right:12%;
+	margin-left:-37px;
 	li {
 		font-family: $akagilbold;
 		letter-spacing: 4px;
@@ -240,7 +242,7 @@ svg#social_media_line {
 	position: absolute;
 	bottom:122px;
 	right:0px;
-	width:11.5%;
+	width:10.5%;
 	height:20px;
 	.footer_square {
 		width:10px;
@@ -350,3 +352,36 @@ svg#footer_threelines {
 		stroke-width:2px;
 	}
 }
+
+
+@media screen and (max-width: 1800px) {
+	
+	
+
+	
+	
+	.footer_red_line_wrapper {
+		width: 13%;
+	}
+	
+	.footer_right {
+		width: calc(100% - 591px);
+	}
+	
+
+	.vertical_selling_points {
+		display: none;
+	}
+	
+	
+	
+	
+	ul.social_media_links {
+		
+	}
+	
+	
+	
+	
+} /* Media Query */
+
