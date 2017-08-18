@@ -326,3 +326,41 @@ svg.testi_red_line {
 	
 } /* Media Query */
 
+
+@media screen and (max-width: 1465px) {
+	
+	.section_four {
+		padding-left:0;
+		padding-right:0px;
+	}
+	
+	
+	.why_choose_wrapper {
+		padding-top:460px;
+	}
+	
+	
+	
+	
+	
+	
+	.why_choose_content_wrapper {
+		float:none;
+		margin:0 auto;
+	}
+	
+	.why_choose_bg_wrapper {
+		margin-top:0;
+		float:none;
+		img {
+			float:none;
+			width:100%;
+			margin-right:0px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+

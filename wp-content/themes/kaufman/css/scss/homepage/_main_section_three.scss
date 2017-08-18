@@ -177,7 +177,38 @@ svg#black_square {
 
 
 
+@media screen and (max-width: 1465px) {
+	
+	
+	.section_three {
+		padding-bottom:150px;
+	}
+	
+	
+	
+} /* Media Query */
 
+
+
+
+@media screen and (max-width: 1365px) {
+	
+	
+	
+	.section_three_content {
+		width:100%;
+		float:none;
+	}
+	
+	.section_three_sidebar {
+		width:100%;
+		float:none;
+		margin-top:100px;
+		padding-left:0;
+	}
+	
+	
+} /* Media Query */
 
 
 

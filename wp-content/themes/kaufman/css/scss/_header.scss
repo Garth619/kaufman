@@ -249,4 +249,40 @@ body.page-template-page-home {
 	}
 	
 	
-}
+} /* Media Query */
+
+
+@media screen and (max-width: 950px) {
+	
+	header {
+		height:112px;
+	}
+	
+	.logo_wrapper {
+		margin-top: 24px;
+		max-width:422px;
+	}
+	
+	.call_wrapper {
+		margin-top:23px;
+	}
+	
+	
+	nav {
+		top: 77px;
+		ul#menu-menu-1 {
+			> li {
+				> a {
+					
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
