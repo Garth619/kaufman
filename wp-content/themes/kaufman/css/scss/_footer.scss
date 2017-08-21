@@ -404,3 +404,37 @@ svg#footer_threelines {
 	
 } /* Media Query */
 
+
+
+
+@media screen and (max-width: 1406px) {
+	
+	
+	
+	.footer_phone_wrapper {
+		padding:65px 0 85px 4.5%;
+		 a.phone {
+			 font-size: 62px;
+		 }
+	}
+	
+	.footer_right {
+		padding-left: 8%;
+		margin-top: 66px;
+		
+	}
+	
+	ul.social_media_links {
+		margin-left: -7px;
+	}
+	
+	.footer_red_line_wrapper {
+		top: 1116px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+

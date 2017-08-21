@@ -215,7 +215,16 @@ $('.news_slidehow').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
   prevArrow:'.news_back',
-  nextArrow:'.news_next'
+  nextArrow:'.news_next',
+  responsive: [
+    {
+      breakpoint: 1345,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+       }
+    }  ]
+
 });
 
 

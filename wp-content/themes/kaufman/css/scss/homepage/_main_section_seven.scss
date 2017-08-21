@@ -224,5 +224,23 @@ svg#news_post_twolines {
 	}
 }
 	
+	
+	
+	@media screen and (max-width: 1345px) {
+		
+		.news_slidehow {
+    	float: right;
+			max-width: 1110px;
+			right:-200px;
+		}
+		
+		
+		.news_buttons {
+			display: none;
+		}
+		
+		
+		
+	} /* Media Query */
 
 

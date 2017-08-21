@@ -552,10 +552,12 @@ a.att_single_slide_link {
 		float:right;
 		overflow: visible;
 		margin-top: -181px;
-		max-width: 870px;
+		max-width: 970px;
 		padding-left:0;
+		overflow: hidden;
 		.att_slideshow {
 			width:100%;
+			right: -200px;
 		}
 	}
 	
