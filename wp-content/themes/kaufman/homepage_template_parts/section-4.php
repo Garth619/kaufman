@@ -85,19 +85,19 @@
 			
 			<div class="why_choose_bg_slideshow">
 			
-				<div class="bg_slide">
+				<div class="bg_slide bg_slide_one">
 				
 					<img src="<?php bloginfo('template_directory');?>/images/sp-image-1.jpg"/>
 				
 				</div><!-- bg_slide -->
 				
-				<div class="bg_slide">
+				<div class="bg_slide bg_slide_two">
 				
 					<img src="<?php bloginfo('template_directory');?>/images/sp-image-2.jpg"/>
 				
 				</div><!-- bg_slide -->
 				
-				<div class="bg_slide">
+				<div class="bg_slide bg_slide_three">
 				
 					<img src="<?php bloginfo('template_directory');?>/images/sp-image-3.jpg"/>
 				

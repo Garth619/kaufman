@@ -335,14 +335,17 @@ svg.testi_red_line {
 	}
 	
 	
-	.why_choose_wrapper {
-		padding-top:460px;
+	.section_four_lower {
+		padding: 185px 0 0;
 	}
 	
 	
+	.why_choose_wrapper {
+		padding-top:590px;
+	}
 	
 	
-	
+
 	
 	.why_choose_content_wrapper {
 		float:none;
@@ -352,10 +355,25 @@ svg.testi_red_line {
 	.why_choose_bg_wrapper {
 		margin-top:0;
 		float:none;
+		.bg_slide {
+			
+			width:100%;
+			height:998px;
+		}
+		.bg_slide_one {
+			background: url(#{$themepath}images/sp-image-1.jpg) top center no-repeat;
+		}
+		.bg_slide_two {
+			background: url(#{$themepath}images/sp-image-2.jpg) top center no-repeat;
+		}
+		.bg_slide_three {
+			background: url(#{$themepath}images/sp-image-3.jpg) top center no-repeat;
+		}
 		img {
 			float:none;
 			width:100%;
 			margin-right:0px;
+			display: none;
 		}
 	}
 	

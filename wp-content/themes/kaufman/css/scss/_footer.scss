@@ -240,7 +240,7 @@ svg#social_media_line {
 
 .footer_red_line_wrapper {
 	position: absolute;
-	bottom:122px;
+	top: 1097px;
 	right:0px;
 	width:10.5%;
 	height:20px;
@@ -380,6 +380,25 @@ svg#footer_threelines {
 		
 	}
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1630px) {
+	
+	
+	
+	.footer_left {
+		width:calc(100% - 780px);
+	}
+	
+	.footer_right {
+		width:780px;
+		padding-left: 4%;
+		padding-right: 3%;
+	}
 	
 	
 	

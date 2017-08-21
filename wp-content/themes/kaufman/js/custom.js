@@ -164,7 +164,17 @@ $('.testi_wrapper').slick({
 	speed: 1000,
 	prevArrow:'.testi_back',
   nextArrow:'.testi_next',
-	dots:false
+	dots:false,
+	responsive: [
+    {
+      breakpoint: 1455,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        
+      }
+    }
+  ]
  });
  
  

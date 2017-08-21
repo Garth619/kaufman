@@ -384,6 +384,44 @@ a.att_single_slide_link {
 @media screen and (max-width: 1370px) {
 	
 	
+	.featured_attorney {
+		max-width: 1040px;
+		.featured_attorney_content {
+			margin-top: -377px;
+		}
+	}
+	
+	
+	.featured_att_image {
+		width:440px;
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1315px) {
+	
+	
+	
+	.featured_attorney {
+		max-width: 970px;
+		.featured_attorney_content {
+			margin-top: -315px;
+		}
+	}
+	
+	
+	
+	.featured_att_image {
+		width:400px;
+		img {
+			
+		}
+	}	
 	
 	
 	
