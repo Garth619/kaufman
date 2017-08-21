@@ -327,7 +327,7 @@ svg.testi_red_line {
 } /* Media Query */
 
 
-@media screen and (max-width: 1465px) {
+@media screen and (max-width: 1455px) {
 	
 	.section_four {
 		padding-left:0;
@@ -336,7 +336,7 @@ svg.testi_red_line {
 	
 	
 	.section_four_lower {
-		padding: 185px 0 0;
+		padding: 185px 20px 0;
 	}
 	
 	
@@ -346,10 +346,17 @@ svg.testi_red_line {
 	
 	
 
+	.testi_wrapper {
+		padding:0 20px;
+		margin-bottom:300px;
+	}
+
 	
 	.why_choose_content_wrapper {
 		float:none;
 		margin:0 auto;
+		max-width: 792px;
+		height: 710px;
 	}
 	
 	.why_choose_bg_wrapper {
@@ -375,6 +382,16 @@ svg.testi_red_line {
 			margin-right:0px;
 			display: none;
 		}
+	}
+	
+	
+	.testi_buttons {
+		bottom:-150px;
+	}
+	
+	
+	.why_choose_slideshow {
+		padding-right:50px;
 	}
 	
 	

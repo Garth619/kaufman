@@ -1,5 +1,21 @@
 <section class="section_five">
 	
+	
+	<div class="mobile_header_wrapper">
+			
+		<span class="mobile_header">Our Attorneys</span><!-- mobile_header -->
+			
+		<div class="mobile_line_wrapper">
+			
+			<span class="mobile_line"></span><!-- mobile_line -->
+		
+			<span class="mobile_square"></span><!-- mobile_line -->
+			
+			
+		</div><!-- mobile_line_wrapper -->
+		
+	</div><!-- mobile_header -->
+	
 	<div class="section_five_inner_wrapper">
 		
 		<div class="featured_attorney">
@@ -66,11 +82,7 @@
 				
 				<div class="att_buttons">
 				
-					<div class="spacers att_back att_single_button">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-l.png"/>
-					
-					</div><!-- att_single_button -->
+					<div class="spacers "></div>
 					
 					<div class="spacers"></div>
 					
@@ -378,11 +390,31 @@
 				
 				
 			</div><!-- att_slideshow -->
+
 			
-			
-			
-			
-		</div><!-- att_slideshow -->
+		</div><!-- att_slideshow_wrapper -->
+		
+		
+		<div class="att_buttons_mobile_wrapper">
+				
+				
+				<div class="att_mobile_back att_mobile_buttons">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/white-arrow-l.png"/>
+					
+					<span class="prev">Previous</span><!-- prev -->
+					
+				</div><!-- att_mobile_back -->
+				
+				<div class="att_mobile_next att_mobile_buttons">
+					
+					<span class="next">Next</span><!-- prev -->
+					
+					<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
+					
+				</div><!-- att_mobile_back -->
+				
+			</div><!-- att_buttons_mobile -->
 		
 	</div><!-- section_five_inner_wrapper -->
 	

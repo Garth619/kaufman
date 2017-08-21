@@ -192,9 +192,17 @@ $('.att_slideshow').slick({
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
-        
-      }
-    }
+       }
+    },
+    {
+      breakpoint: 1345,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        prevArrow:'.att_mobile_back',
+				nextArrow:'.att_mobile_next'
+       }
+    },
   ]
  });
 

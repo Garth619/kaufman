@@ -324,6 +324,19 @@ a.att_single_slide_link {
 }
 
 
+.mobile_header_wrapper {
+	display: none;
+}
+
+.att_buttons_mobile_wrapper {
+	display: none;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 1670px) {
 	
@@ -403,9 +416,120 @@ a.att_single_slide_link {
 } /* Media Query */
 
 
-@media screen and (max-width: 1315px) {
+
+@media screen and (max-width: 1345px) {
+	
+
+
+
+
+.our_attorneys_wrapper {
+	display: none;
+}
+
+	
+.featured_attorney {
+	display: none;
+}
+
+
+.att_slideshow_wrapper {
+	
+
+
+}
+
+
+.att_buttons {
+	display: none;
+}
+
+
+.att_buttons_mobile_wrapper {
+	display:block;
+	width:100%;
+	max-width:500px;
+	margin:0 auto;
+	clear:both;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	bottom:-85px;
+	.att_mobile_back {
+		border-right:2px $greybrown solid;
+		text-align: left;
+		img {
+			margin-right:28px;
+		}
+	}
+	.att_mobile_next {
+		border-left:2px $greybrown solid;
+		text-align: right;
+		img {
+			margin-left:28px;
+		}
+	}
+	.att_mobile_buttons {
+		background: $lightblack;
+		width:50%; 
+		float:left;
+		color:#fff;
+		padding:26px 31px;
+		transition: all .2s ease-in-out;
+		
+		&:hover {
+			background: $greybrown;
+		}
+		img {
+			width:15px;
+		}
+		span {
+			font-family: $akagilbold;
+			text-transform: uppercase;
+			font-size: 13px;
+			letter-spacing: 4px;
+			position: relative;
+			top:-5px;
+		}
+	} 
+}
+
+
 	
 	
+	.mobile_header_wrapper {
+		display: block;
+		margin:105px 0;
+		width:100%;
+		span.mobile_header {
+			color: #ff3600;
+			display: block;
+			font-family: $trironbold;
+			font-size: 35px;
+			letter-spacing: 7px;
+			text-transform: uppercase;
+			margin-bottom: 53px;
+			margin-left:55px;
+		}
+		.mobile_line_wrapper {
+			width:35%;
+			span.mobile_line {
+			width:calc(100% - 20px);
+			height:1px;
+			background:$lightblack;
+			float:left;
+		}
+		span.mobile_square {
+			width:10px;
+			height:10px;
+			background: $lightblack;
+			float:left;
+			margin-top:-5px;
+		}
+	}
+}
+	
+
 	
 	.featured_attorney {
 		max-width: 970px;
@@ -417,11 +541,33 @@ a.att_single_slide_link {
 	
 	
 	.featured_att_image {
-		width:400px;
+		
 		img {
 			
 		}
 	}	
+	
+	
+	.att_slideshow_wrapper {
+		float:right;
+		overflow: visible;
+		margin-top: -181px;
+		max-width: 870px;
+		padding-left:0;
+		.att_slideshow {
+			width:100%;
+		}
+	}
+	
+	
+	
+	
+	
+	.section_five_inner_wrapper {
+		margin-top: 202px;
+		padding-bottom: 49px;
+	}
+	
 	
 	
 	

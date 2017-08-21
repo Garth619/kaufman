@@ -132,3 +132,38 @@ svg#list_item_white_line {
 	
 	
 } /* Media Query */
+
+
+
+
+@media screen and (max-width: 1365px) {
+	
+	.inner_section_six {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.pa_sidebar {
+		width:100%;
+		float:none;
+		order:2;
+		margin:0;
+		max-width: 700px;
+		margin-left:auto;
+		margin-right:auto;
+		position: relative;
+		left:-35px;
+		margin-top:65px;
+	}
+	
+	.pa_content {
+		width:100%;
+		float:none;
+		order:1;
+	}	
+	
+	
+	
+	
+} /* Media Query */
+
