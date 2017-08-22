@@ -337,18 +337,19 @@ nav {
 	z-index:100;
 	margin-top:0;
 	background:#fff;
-	padding:0 15px;
-	
+	padding:60px 15px 0;
+	overflow-y: scroll;
 	ul {
 		background:transparent;
 		display: block;
+		
 		li {
 			font-size: 15px;
 			a {
 				background: transparent;
 				color:$lightblack;
 				display: block;
-				padding:10px;
+				
 				border-bottom:1px solid #dadada;
 			}
 		}
@@ -359,9 +360,10 @@ nav {
 
 nav {
 	ul#menu-menu-1 {
+		padding-bottom:200px;
  		> li {
 			> a {
-				padding:10px;
+				padding:22px;
 				height:auto;
 				&:hover {
 					background: #fff;
@@ -396,13 +398,22 @@ nav {
 					display: inline-block;
 					position: relative;
 					top:-1px;
-					margin-left:4px;
+					margin-left:5px;
 				}
 			}
 		}
 		li.menu-item-has-children:hover {
 			ul.sub-menu {
 				top:0;
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+		li.menu-item-has-children.open {
+			ul.sub-menu {
+				opacity: 1;
+				visibility: visible;
+				max-height: 3000px;
 			}
 		}
 		li.menu-item-has-children:hover {
@@ -421,14 +432,16 @@ nav {
 
 
 nav {
+	
 	ul.sub-menu {
 		position: relative;
-		opacity: 1; /* Temp */
-		visibility: visible; /* Temp */
+		opacity: 0; 
+		visibility: hidden; 
 		top:0;
 		left:0;
 		background:#f5f5f5;
-// 		border-top:1px solid #dadada;
+		max-height: 0px;
+		transition: all .4s ease-in-out;
 		li.current-menu-item {
 			a {
 				
@@ -438,7 +451,7 @@ nav {
 			border-top: none;
 			
 			a {
-				padding:10px;
+				padding:22px;
 				// border-bottom:1px solid #dadada;
 				&:hover {
 					color:$lightblack;

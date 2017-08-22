@@ -24,6 +24,31 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 jQuery(document).ready(function(){
 
 
+// Mobile Menu
+
+
+
+
+
+function checkWidth() {
+    
+    if (jQuery(window).width() < 1165) {
+        
+       jQuery("nav li.menu-item-has-children").click(function(){
+	        
+	        jQuery(this).toggleClass('open');
+     
+    		});
+    		
+    	   		
+    		
+    } else {
+
+    }
+};
+
+
+checkWidth();
 
 
 
