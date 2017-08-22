@@ -16,7 +16,7 @@
 					
 				<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
 				
-				</svg><!-- start_arrow -->
+			</svg><!-- start_arrow -->
 		
 		</div><!-- rotated_content -->
 		

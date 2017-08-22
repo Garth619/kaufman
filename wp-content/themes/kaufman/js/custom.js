@@ -28,15 +28,32 @@ jQuery(document).ready(function(){
 
 
 
+$('.menu_bars_wrapper').click(function(){
+	
+	$('nav').slideToggle();
+	
+	
+});
+
+
+
+$('.mobile_nav_close_wrapper').click(function(){
+	
+	$('nav').slideToggle();
+	
+	
+});
+
+
 
 
 function checkWidth() {
     
-    if (jQuery(window).width() < 1165) {
+    if ($(window).width() < 1165) {
         
-       jQuery("nav li.menu-item-has-children").click(function(){
+       $("nav li.menu-item-has-children").click(function(){
 	        
-	        jQuery(this).toggleClass('open');
+	        $(this).toggleClass('open');
      
     		});
     		
@@ -49,8 +66,6 @@ function checkWidth() {
 
 
 checkWidth();
-
-
 
 
 // Gravity Form Intro
