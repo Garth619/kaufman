@@ -55,7 +55,18 @@
 			
 		</div><!-- call_wrapper -->
 		
-		<nav><?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?></nav>
+		<nav>
+			
+			<div class="mobile_nav_close_wrapper">
+				
+				<div class="close_bar"></div><!-- close_bar -->
+				<div class="close_bar"></div><!-- close_bar -->
+				
+			</div><!-- mobile_nav_close_wrapper -->
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+			
+		</nav>
 		
 	</div><!-- header_right -->
 	
