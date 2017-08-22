@@ -466,3 +466,36 @@ svg#back_arrow {
 } /* Media Query */
 
 
+@media screen and (max-width: 1165px) {
+	
+	.section_two.open {
+		z-index:100;
+	}
+	
+	.section_two.open .intro_form_wrapper {
+		display: block;
+		position: fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		margin-top:0px;
+		padding-top:20%;
+		overflow-y:scroll;
+	}
+	
+	
+	.section_two.open .case_results_wrapper {
+		display: none;
+	}
+	
+	
+	.mobile_fixed_start_here {
+		
+	}
+	
+	
+	
+} /* Media Query */
+
+

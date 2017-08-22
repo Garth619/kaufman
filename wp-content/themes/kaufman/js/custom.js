@@ -68,6 +68,23 @@ function checkWidth() {
 checkWidth();
 
 
+// Start Here Mobile Menu
+
+
+
+
+jQuery('.mobile_fixed_start_here').click(function(){
+	
+	
+	$('.section_two').toggleClass('open');
+	
+	
+});
+
+
+
+
+
 // Gravity Form Intro
 
 
