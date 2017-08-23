@@ -399,3 +399,55 @@ svg.testi_red_line {
 	
 } /* Media Query */
 
+
+@media screen and (max-width: 1165px) {
+	
+	
+	.section_four {
+		
+	}
+	
+	
+	.why_choose_wrapper {
+		padding: 458px 40px 0;
+	}
+	
+	
+	.why_choose_content_wrapper {
+		max-width: 638px;
+		height: 838px;
+	}
+	
+	
+	
+	
+	.why_choose_bg_wrapper {
+		.bg_slide {
+			height: 860px;
+		}
+		.bg_slide_one {
+			background-position: center -99px;
+		}
+		.bg_slide_two {
+			background-position: top center;
+		}
+		.bg_slide_three {
+			background-position: top center;
+		}
+	}
+	
+	.why_choose_slideshow {
+		span.slide_content {
+			 max-width: 448px;
+			 margin-top: 37px;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+

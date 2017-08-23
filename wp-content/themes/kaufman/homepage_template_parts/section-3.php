@@ -67,7 +67,7 @@
 				
 	</svg><!-- intro_red_twolines -->
 	
-	<h2>Passionately Achieving Justice for the Injured Since 1977</h2>
+	<h2>Passionately Achieving<br/> Justice for the Injured Since&nbsp;1977</h2>
 	
 	<div class="section_three_container">
 		

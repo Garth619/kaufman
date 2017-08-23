@@ -217,12 +217,56 @@ svg#black_square {
 	
 	.section_three {
 		margin: 0;
-		padding:115px 60px 0px;
+		padding: 115px 10px 92px;
 		h1 {
 			font-size:100px;
 			line-height: 90px;
 		}
+		h2 {
+			margin-left:30px;
+			margin-right:30px;
+			padding: 0px 35px;
+			line-height: 26px;
+		}
 	}
+	
+	svg#section_three_red_twolines {
+		margin-bottom:50px;
+	}
+	
+	
+	.section_three_container {
+		margin: 18px auto 0;
+		padding:60px 39px 40px;
+	}
+	
+	
+	.section_three_sidebar {
+		margin-top: 81px;
+		padding: 0 40px;
+		&:after {
+			content:"";
+			clear:both;
+			display: block;
+		}
+		.section_three_innersidebar {
+			padding: 55px 100px 151px 60px;
+		}
+	}
+	
+	
+	
+	
+	.diamond {
+		margin: -105px -10px 0 0;
+	}
+	
+	
+	svg#section_three_gold_twolines {
+		margin-left: -114px;
+		margin-bottom: 46px;
+	}
+
 	
 	
 	
