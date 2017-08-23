@@ -661,7 +661,7 @@ body.page-template-page-home {
 	display: block;
 	top:0;
 	left:0;
-	z-index:150;
+	z-index:200;
 	overflow: hidden;
 	box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.4);
 	opacity: 0;
@@ -677,7 +677,7 @@ body.page-template-page-home {
 }
 
 
-header.visible {
+.section_two.visible {
 	.mobile_fixed_menu_wrapper {
 		opacity: 1;
 		visibility: visible;

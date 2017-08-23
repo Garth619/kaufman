@@ -107,31 +107,7 @@
 	</div><!-- mobile_header_right -->
 	
 	
-<div class="mobile_fixed_menu_wrapper">
-	
-	<div class="fixed_request">
-		
-		<a class="large_header" href="tel:(678) 712-1115">(678) 712-1115</a><!-- large_header -->
-		
-		<span class="small_header">Call For a <strong>Free</strong> Consultation</span><!-- small_header -->
-		
-	</div><!-- fixed_request -->
-	
-	<div class="mobile_fixed_start_here">
-		
-		<span>Start Here</span>
-		
-		<svg id="mobile_fixed_start_now" viewBox="0 0 7.6 40.7">
-						
-				<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
-					
-				<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
-				
-			</svg><!-- start_arrow -->
-		
-	</div><!-- mobile_fixed_start_here -->
-	
-</div><!-- mobile_fixed_menu_wrapper -->
+
 	
 
 </header>

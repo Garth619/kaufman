@@ -80,9 +80,9 @@ jQuery(document).ready(function(){
 
     waypoint(startbutton, '0%')
     
-    var fixedmobleheader = $('header')
+    var fixedmobleheader = $('.section_two')
 
-    waypoint(fixedmobleheader, '-230px')
+    waypoint(fixedmobleheader, '0px')
     
 
 
