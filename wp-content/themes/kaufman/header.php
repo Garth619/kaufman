@@ -106,10 +106,7 @@
 		
 	</div><!-- mobile_header_right -->
 	
-
-</header>
-
-
+	
 <div class="mobile_fixed_menu_wrapper">
 	
 	<div class="fixed_request">
@@ -135,4 +132,10 @@
 	</div><!-- mobile_fixed_start_here -->
 	
 </div><!-- mobile_fixed_menu_wrapper -->
+	
+
+</header>
+
+
+
 	

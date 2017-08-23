@@ -28,10 +28,12 @@ body {
 	transition: all .3s ease-in-out;
 }
 
+/*
 .start_here_bg.open {
 	opacity: 1;
 	visibility: visible;
 }
+*/
 
 
 .rotated_content {
@@ -40,6 +42,54 @@ body {
 	height:85px;
 	margin: 88px 0 0 -91px;
 }
+
+
+.start_here_track.visible .start_here_button {
+	animation-name:start_button_move;
+  animation-duration:900ms;
+  animation-fill-mode: both;
+  animation-timing-function:cubic-bezier(.17,.66,.34,.98);
+  opacity: 1;
+  visibility: visible;
+ }
+
+
+
+@keyframes start_button_move {
+  from {
+    transform: translateX(-90px);
+ 	}
+
+  to {
+    transform: translateX(0px);
+   }
+}
+
+
+
+
+.start_here_track.visible .start_here_bg.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+.start_here_track .start_here_bg.open {
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+
+.start_here_track.visible .start_here_form_wrapper.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+.start_here_track .start_here_form_wrapper.open {
+	opacity: 0;
+	visibility: hidden;
+}
+
 
 
 .start_here_button {
@@ -59,6 +109,8 @@ body {
 	text-align: center;
 	transition: all .3s ease-in-out;
 	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
 	&:hover {
 		background:$greybrown;
 	}
@@ -84,11 +136,6 @@ body {
 	}
 }
 
-
-.start_here_form_wrapper.open {
-	opacity: 1;
-	visibility: visible;
-}
 
 .start_here_form_wrapper {
 	width:100%;

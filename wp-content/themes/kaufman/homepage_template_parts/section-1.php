@@ -64,7 +64,7 @@
 			
 			<div class="lower_intro_left">
 			
-				<a class="intro_button" href="">Start Here
+				<a class="intro_button" href="#request">Start Here
 				
 					<div class="start_arrow_wrapper">
 				

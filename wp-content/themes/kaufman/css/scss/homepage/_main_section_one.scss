@@ -103,14 +103,16 @@ svg#play_button_svg {
 }
 
 
+.intro_banner {
 
-video {
-	min-width: 100%;
-	min-height: 100%;
-	position: absolute;
-	top:0;
-	left:0;
-	z-index:0;
+	video {
+		min-width: 100%;
+		min-height: 100%;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index:0;
+	}
 }
 
 
@@ -281,6 +283,98 @@ svg#intro_red_twolines {
 
 
 	 
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1165px) {
+	
+	
+	.intro_banner {
+		background: url(#{$themepath}images/hero-image-tablet.jpg) top center no-repeat;
+		background-size: cover;
+		height: auto;
+		video {
+			display: none;
+		}
+	}
+
+	
+	
+	.play_wrapper {
+		right: 84px;
+		width: 365px;
+		span.learn {
+			float:left;
+			position: relative;
+			right:0px;
+			margin-left:12px;
+			margin-top: 57px;
+		}
+		.play_button {
+			float: right;
+			
+		}
+	}
+	
+	
+	svg#play_button_svg {
+    height: 180px;
+    width: 180px;
+	}
+	
+	
+	svg#red_line_intro {
+		left:58px;
+		top:104px;
+		
+	}
+	
+	
+		
+	
+.intro_banner_content {
+	padding: 166px 30px 126px;
+	line-height: 90;
+	
+	.intro_header {
+		font-size: 90px;
+		strong {
+			
+		}
+	}
+}
+
+
+.lower_intro_wrapper {
+	margin-top:31px;
+}
+
+
+
+
+.lower_intro_left {
+	float:none;
+	width:100%;
+	max-width:335px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0;
+	.intro_button {
+		float:none;
+		display: block;
+		padding: 29px 30px;
+	}
+}
+
+
+
+.lower_intro_right {
+	display: none;
+}
+	
 	
 	
 	

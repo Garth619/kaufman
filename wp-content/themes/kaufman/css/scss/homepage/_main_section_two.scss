@@ -5,6 +5,7 @@
 	z-index:30;
 	padding-left:45px;
 	display: flex;
+	
 }
 
 .intro_form_wrapper {
@@ -468,11 +469,24 @@ svg#back_arrow {
 
 @media screen and (max-width: 1165px) {
 	
-	.section_two.open {
-		z-index:100;
+	
+	
+	.section_two {
+	
+		padding-left:0;
 	}
 	
-	.section_two.open .intro_form_wrapper {
+	
+	.section_two.open {
+		z-index:100;
+		padding-left:0;
+	}
+	
+	
+	.section_two .intro_form_wrapper {
+		opacity: 0;
+		visibility: hidden;
+		transition: all .2s ease-in-out;
 		display: block;
 		position: fixed;
 		top:0;
@@ -482,13 +496,26 @@ svg#back_arrow {
 		margin-top:0px;
 		padding:0 30px 50px;
 		overflow-y:scroll;
-		
+		max-height:0;
+	}
+	
+	
+	.section_two.open .intro_form_wrapper {
+		display: block;
+		opacity: 1;
+		visibility: visible;
+		max-height: 5000px;
 	}
 	
 	
 	.section_two.open .case_results_wrapper {
 		display: none;
 	}
+	
+	.case_results_wrapper {
+		margin-top:0;
+	}
+	
 	
 	
 	.first_step_wrapper {
