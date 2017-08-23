@@ -357,6 +357,14 @@ $('.testi_wrapper').slick({
         slidesToScroll: 1,
         
       }
+    },
+    {
+      breakpoint: 1165,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        
+      }
     }
   ]
  });

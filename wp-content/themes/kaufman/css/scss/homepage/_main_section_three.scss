@@ -4,6 +4,9 @@
 	margin:-85px 0 0px 0;
 	text-align: center;
 	padding:330px 60px 269px;
+	br {
+		display: none;
+	}
 	h1 {
 		font-size:135px;
 		line-height: 115px;
@@ -218,6 +221,9 @@ svg#black_square {
 	.section_three {
 		margin: 0;
 		padding: 115px 10px 92px;
+		br {
+			display: inline-block;
+		}
 		h1 {
 			font-size:100px;
 			line-height: 90px;

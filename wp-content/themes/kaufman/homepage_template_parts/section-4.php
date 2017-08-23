@@ -128,7 +128,7 @@
 		
 			</svg>
 			
-			<span class="sub_header">read our most recent client testimonials</span><!-- sub_header -->
+			<span class="sub_header">read our most recent<br /> client testimonials</span><!-- sub_header -->
 			
 			<div class="testi_wrapper">
 				

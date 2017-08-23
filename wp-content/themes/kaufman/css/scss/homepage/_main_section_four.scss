@@ -166,6 +166,9 @@ svg#why_choose_gold_twolines {
 		border-right:2px solid $red;
 		padding:5px 130px;
 		letter-spacing: 6px;
+		br {
+			display: none;
+		}
 	}
 }
 
@@ -446,6 +449,75 @@ svg.testi_red_line {
 	
 	
 	
+.section_four_lower {
+	padding: 140px 0px 0;
+	span.large_header {
+		font-size:78px;
+		line-height: 74px;
+		padding: 0 50px;
+	}
+	span.sub_header {
+		padding: 1px 130px;
+		line-height: 25px;
+		br {
+			display: inline-block;
+		}
+	}
+}
+
+	
+	
+	svg#section_four_gold_threelines {
+		margin: 50px auto 11px;
+	}
+	
+	
+	.testi_wrapper {
+		margin-top:79px;
+		margin-bottom: 232px;
+		.testi_col {
+			span.testi_excerpt {
+				text-align: center;
+			}
+			.testi_content {
+				text-align: center;
+				max-width:605px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			span.name {
+				text-align: center;
+			}
+		}
+	}  
+	
+	
+	svg.testi_red_line {
+		float:none;
+		margin-bottom:24px;
+	}
+	
+	
+	.testi_buttons {
+		width:100%;
+		max-width:100%;
+		left:0;
+		bottom: -233px;
+		.single_button {
+			 padding: 29px 5px;
+			 span {
+				 top: -6px;
+			 }
+		}
+		.testi_back {
+			text-align: left;
+			padding-left:33px
+		}
+		.testi_next {
+			text-align: right;
+			padding-right:33px
+		}
+	}
 	
 	
 	
