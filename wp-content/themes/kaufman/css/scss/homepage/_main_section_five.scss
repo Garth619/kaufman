@@ -551,7 +551,7 @@ a.att_single_slide_link {
 	.att_slideshow_wrapper {
 		float:right;
 		overflow: visible;
-		margin-top: -181px;
+		margin-top: -188px;
 		max-width: 970px;
 		padding-left:0;
 		overflow: hidden;
@@ -576,5 +576,22 @@ a.att_single_slide_link {
 	
 } /* Media Query */
 
+
+@media screen and (max-width: 1165px) {
+	
+	a.att_single_slide_link {
+		padding-right: 10px;
+	}
+	
+	.att_slideshow_wrapper {
+		.att_slideshow {
+			right:-66px;
+			width: 105%;
+		}
+	} 
+	
+	
+	
+} /* Media Query */
 
 

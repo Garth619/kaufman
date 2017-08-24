@@ -476,9 +476,7 @@ svg.testi_red_line {
 		margin-top:79px;
 		margin-bottom: 232px;
 		.testi_col {
-			span.testi_excerpt {
-				text-align: center;
-			}
+			
 			.testi_content {
 				text-align: center;
 				max-width:605px;
@@ -486,6 +484,13 @@ svg.testi_red_line {
 				margin-right:auto;
 			}
 			span.name {
+				text-align: center;
+			}
+			span.testi_excerpt {
+				padding-left: 0px;
+				margin-left:auto;
+				margin-right:auto;
+				max-width: 440px;
 				text-align: center;
 			}
 		}
@@ -517,6 +522,7 @@ svg.testi_red_line {
 			text-align: right;
 			padding-right:33px
 		}
+		
 	}
 	
 	
