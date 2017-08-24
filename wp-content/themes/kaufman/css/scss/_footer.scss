@@ -438,3 +438,58 @@ svg#footer_threelines {
 	
 } /* Media Query */
 
+
+
+@media screen and (max-width: 1305px) {
+	
+	
+
+	footer {
+		padding: 480px 70px 100px;
+	}
+
+	
+	
+	
+	.inner_footer {
+		margin-top:0px;
+	}
+	
+	.footer_red_line_wrapper {
+		display: none;
+	}
+	
+	.footer_left {
+		width:100%;
+		float:none;
+		text-align: center;
+		padding-left:0;
+		max-width: 620px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.footer_right {
+		width:100%;
+		float:none;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1165px) {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
