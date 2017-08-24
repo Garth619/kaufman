@@ -445,7 +445,7 @@ svg#footer_threelines {
 	
 
 	footer {
-		padding: 441px 59px 40px;
+		padding: 441px 0px 40px;
 	}
 
 	
@@ -453,7 +453,7 @@ svg#footer_threelines {
 	
 	.inner_footer {
 		margin-top:0px;
-		max-width: 705px;
+		max-width: 100%;
 	}
 	
 	.footer_red_line_wrapper {
@@ -480,12 +480,15 @@ svg#footer_threelines {
 		float:none;
 		padding-left:0;
 		padding-right: 6px;
+		max-width:800px;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	
 	
 	.footer_phone_wrapper {
 		padding: 41px 0 79px 45px;
-		max-width: 100%;
+		max-width: 645px;;
 		a.phone {
 			font-size:70px;
 			letter-spacing: -0.5px;
@@ -524,7 +527,7 @@ svg#footer_threelines {
 	
 	
 	footer {
-		padding: 191px 59px 40px;
+		padding-top: 191px;
 	}
 	
 	
