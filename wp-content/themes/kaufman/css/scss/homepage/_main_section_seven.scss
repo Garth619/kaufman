@@ -249,6 +249,7 @@ svg#news_post_twolines {
 		
 		.section_seven {
 			padding-bottom: 102px;
+			padding-left:20px;
 		}
 		
 		
@@ -267,6 +268,7 @@ svg#news_post_twolines {
 			span.large_header {
 				span.lower_header {
 					font-size:100px;
+					padding-bottom: 5px;
 				}
 			}
 		}
@@ -274,8 +276,14 @@ svg#news_post_twolines {
 		
 		.news_slidehow_wrapper {
 			 padding-top: 41px;
-			 padding-left: 5%;
-			 width: 107%;
+			 padding-left: 5px;
+			 width: 100%;
+		}
+		
+		
+		.news_slidehow {
+			float:left;
+			right:0;
 		}
 		
 		
