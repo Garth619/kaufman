@@ -416,5 +416,35 @@ body {
 
 
 
+@media screen and (max-width: 760px) {
+	
+	
+	.content {
+		font-size:16px;
+		line-height: 24px;
+		letter-spacing: 0px;
+		p {
+			margin-bottom: 23px;
+		}
+	}
+	
+	.first_letter {
+		margin: -57px 4px 0 0;
+		span {
+			line-height: 112px;
+			position: relative;
+			top:10px;
+		}
+		
+	}
+	
+	
+
+	
+	
+} /* Media Query */
+
+
+
 
 

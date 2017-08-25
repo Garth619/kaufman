@@ -310,6 +310,7 @@ $('.case_results').slick({
   slidesToScroll: 1,
   prevArrow:'.back',
   nextArrow:'.next'
+  
 });
 
 
