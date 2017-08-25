@@ -87,19 +87,30 @@
 			
 			<a class="mobile_phone" href="">(678) 726-1425</a>
 			
-			<svg id="mobile_request_line" viewBox="0 0 136.39 11.05">
+			
+			<div class="phone_wrapper">
+			
+				<svg id="mobile_request_line" viewBox="0 0 136.39 11.05">
 				
-					<defs>
+						<defs>
 					
 						
 					
-					</defs>
+						</defs>
 					
-					<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
 					
-				</svg><!-- red_line_intro -->
+				</svg><!-- mobile_request_line -->
+				
+				<svg id="mobile_request_line_two" viewBox="0 0 52.79 8.27">
 			
-			<span class="mobile_cta">Call For a <strong>Free</strong> Consultation</span><!-- mobile_cta -->
+					<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+				</svg><!-- red_line_form -->
+			
+				<span class="mobile_cta">Call For a<br/> <strong>Free</strong> Consultation</span><!-- mobile_cta -->
+			
+			</div><!-- phone_wrapper -->
 			
 		</div><!-- mobile_request_wrapper -->
 		

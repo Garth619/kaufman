@@ -2,8 +2,10 @@ header {
 	width:100%;
 	display:flex;
 	height:139px;
-	position: relative;
+	position:relative;
+	// position: fixed;
 	z-index:150;
+// 	background:#fff;
 }
 
 .logo_wrapper {
@@ -613,6 +615,10 @@ body.page-template-page-home {
 		}
 	}
 	
+	svg#mobile_request_line_two {
+		display: none;
+	}
+	
 	
 	.mobile_request_wrapper {
 		clear:both;
@@ -620,6 +626,7 @@ body.page-template-page-home {
 		position: relative;
 		top:-38px;
 		padding:17px 0px 23px 40px;
+		text-align: center;
 		a.mobile_phone {
 			color:$red;
 			display: block;
@@ -627,6 +634,9 @@ body.page-template-page-home {
 			text-decoration: none;
 			font-size:40px;
 			margin-bottom:10px;
+		}
+		.phone_wrapper {
+			
 		}
 		svg {
 			margin-left:-95px;
@@ -641,6 +651,9 @@ body.page-template-page-home {
 			letter-spacing: 4px;
 			position: relative;
 			top:2px;
+			br {
+				display: none;
+			}
 			strong {
 				color:$greybrown;
 				font-weight: 300;
@@ -648,7 +661,6 @@ body.page-template-page-home {
 				font-family: $akagilblack;
 			}
 		}
-		
 	}
 
 
@@ -724,4 +736,92 @@ body.page-template-page-home {
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 760px) {
+	
+	
+	header {
+   height: 91px;
+	 }
+	
+	.logo_wrapper {
+		width:100%;
+		max-width:100%;
+		padding:4px 7px;
+		img {
+			max-width:400px;
+			margin-left:auto;
+			margin-right:auto;
+			display: block;
+		}
+	}
+	
+	
+	.mobile_header_right {
+		top: 70px;
+		width:100%;
+	}
+	
+	.mobile_request_wrapper {
+		top: -88px;
+		padding-left:12px;
+		position: relative;
+		height:68px;
+		padding-top:17px;
+		a.mobile_phone {
+			font-size:24px;
+		}
+		.phone_wrapper {
+			width:100%;
+			position: absolute;
+			top: 80px;
+			left:0;
+		}
+		span.mobile_cta {
+			/*
+position: absolute;
+			top: 88px;
+			left:80px;
+*/
+			br {
+				// display: inline-block;
+			}
+		}
+		svg {
+			/*
+position: absolute;
+			top: 97px;
+			left:32px;
+*/
+		}
+	}
+	
+	
+	
+	svg#mobile_request_line {
+		display: none;
+	}
+	
+	
+	
+	svg#mobile_request_line_two {
+		fill:none;
+		stroke:$greybrown;
+		stroke-miterlimit:10;
+		stroke-width:2px;
+		width:70px;
+		display: inline-block;
+		.red_line_intro_path {
+		
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
 

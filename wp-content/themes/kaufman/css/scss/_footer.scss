@@ -488,7 +488,9 @@ svg#footer_threelines {
 	
 	.footer_phone_wrapper {
 		padding: 41px 0 79px 45px;
-		max-width: 645px;;
+		max-width: 645px;
+		margin-left:auto;
+		margin-right: auto;
 		a.phone {
 			font-size:70px;
 			letter-spacing: -0.5px;
@@ -513,6 +515,7 @@ svg#footer_threelines {
 // 		margin-left: -60px;
 		margin-top: 143px;
 		padding-top: 30px;
+		margin-left:0;
 	}
 	
 	

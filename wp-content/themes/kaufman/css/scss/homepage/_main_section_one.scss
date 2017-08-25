@@ -289,6 +289,26 @@ svg#intro_red_twolines {
 } /* Media Query */
 
 
+@media screen and (max-width: 1565px) {
+	
+	
+	
+	.intro_banner {
+		margin-top:69px;
+	}
+	
+	
+	.intro_banner_content {
+		padding: 69px 35px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1165px) {
 	
 	
@@ -296,6 +316,7 @@ svg#intro_red_twolines {
 		background: url(#{$themepath}images/hero-image-tablet.jpg) top center no-repeat;
 		background-size: cover;
 		height: auto;
+		margin-top:0;
 		video {
 			display: none;
 		}
