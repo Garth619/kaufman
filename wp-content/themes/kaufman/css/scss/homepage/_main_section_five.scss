@@ -597,3 +597,39 @@ a.att_single_slide_link {
 } /* Media Query */
 
 
+
+@media screen and (max-width: 760px) {
+	
+	
+	.section_four_lower {
+		padding: 83px 0 0;
+		span.large_header {
+			font-size:60px;
+			line-height: 60px;
+		}
+		span.sub_header {
+			padding: 5px;
+			margin-left: 18px;
+			margin-right: 18px;
+			font-size: 22px;
+			line-height: 25px;
+			letter-spacing: 3px;
+			letter-spacing: 6px;
+			br {
+				display: none;
+			}
+		}
+	} 
+	
+	
+	
+	svg#section_four_gold_threelines {
+    margin: 50px auto 0;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+

@@ -324,7 +324,16 @@ $('.why_choose_slideshow').slick({
   speed: 1000,
   prevArrow:'.why_choose_back',
   nextArrow:'.why_choose_next',
-  asNavFor: '.why_choose_bg_slideshow'
+  asNavFor: '.why_choose_bg_slideshow',
+  responsive: [
+    {
+      breakpoint: 760,
+      settings: {
+        adaptiveHeight: true,
+        speed: 600,
+      }
+    }
+  ]
 });
 
 
