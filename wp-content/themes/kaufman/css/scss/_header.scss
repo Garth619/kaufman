@@ -626,7 +626,7 @@ body.page-template-page-home {
 		position: relative;
 		top:-38px;
 		padding:17px 0px 23px 40px;
-		text-align: center;
+	
 		a.mobile_phone {
 			color:$red;
 			display: block;
@@ -751,7 +751,7 @@ body.page-template-page-home {
 		max-width:100%;
 		padding:4px 7px;
 		img {
-			max-width:400px;
+			max-width: 344px;
 			margin-left:auto;
 			margin-right:auto;
 			display: block;
@@ -769,32 +769,25 @@ body.page-template-page-home {
 		padding-left:12px;
 		position: relative;
 		height:68px;
-		padding-top:17px;
+		padding-top: 20px;
+		text-align: center;
 		a.mobile_phone {
 			font-size:24px;
 		}
 		.phone_wrapper {
 			width:100%;
 			position: absolute;
-			top: 80px;
+			top: 83px;
 			left:0;
 		}
 		span.mobile_cta {
-			/*
-position: absolute;
-			top: 88px;
-			left:80px;
-*/
+			
 			br {
-				// display: inline-block;
+				
 			}
 		}
 		svg {
-			/*
-position: absolute;
-			top: 97px;
-			left:32px;
-*/
+			
 		}
 	}
 	
@@ -811,12 +804,120 @@ position: absolute;
 		stroke:$greybrown;
 		stroke-miterlimit:10;
 		stroke-width:2px;
-		width:70px;
+		width:67px;
 		display: inline-block;
 		.red_line_intro_path {
 		
 		}
 	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 595px) {
+	
+	
+	
+	.mobile_request_wrapper {
+		
+		a.mobile_phone {
+			
+		}
+		.phone_wrapper {
+			
+			.phone_wrapper_center {
+				max-width: 310px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+		}
+		span.mobile_cta {
+			text-align: left;
+			float:left;
+			
+			br {
+				display: inline-block;
+			}
+		}
+		svg {
+			float:left;
+			margin-left:0;
+			margin-top:10px;
+			margin0right:4px;
+		}
+	}
+	
+	
+	
+	svg#mobile_request_line {
+		
+	}
+	
+	
+	
+	svg#mobile_request_line_two {
+		
+		.red_line_intro_path {
+		
+		}
+	}
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 445px) {
+	
+	
+	
+	.mobile_request_wrapper {
+		
+		a.mobile_phone {
+			text-align: right;
+			padding-right: 135px;
+		}
+		.phone_wrapper {
+			
+			.phone_wrapper_center {
+				margin:0 30px 0 -5px;
+				float:left;
+				
+			}
+		}
+		span.mobile_cta {
+			
+			
+			br {
+				
+			}
+		}
+		svg {
+			
+		}
+	}
+	
+	
+	
+	svg#mobile_request_line {
+		
+	}
+	
+	
+	
+	svg#mobile_request_line_two {
+		
+		.red_line_intro_path {
+		
+		}
+	}
+
 	
 	
 	

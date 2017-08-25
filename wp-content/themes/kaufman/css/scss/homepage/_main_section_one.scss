@@ -403,3 +403,52 @@ svg#intro_red_twolines {
 
 
 
+@media screen and (max-width: 760px) {
+	
+	
+	
+	
+	.play_wrapper {
+		width: 183px;
+		right:0;
+		span.learn {
+			display: none;
+		}
+	}
+	
+	svg#red_line_intro {
+		display: none;
+	}
+	
+	.intro_banner_content {
+		padding:176px 10px 126px;
+	}
+	
+	
+	.intro_banner {
+		background-position: -190px 63px;
+	}
+	
+	.intro_banner_content {
+		.intro_header {
+			font-size: 43px;
+			span.intro_title {
+				margin-top: -5px;
+				line-height: 48px;
+				letter-spacing: 1px;
+			}
+    }
+	} 
+	
+	.lower_intro_wrapper {
+    margin-top: 62px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
