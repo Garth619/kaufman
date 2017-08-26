@@ -9,9 +9,9 @@
 			
 		</svg><!-- red_line_form -->
 		
-		<span class="small_header">Request Your Free Consultation</span><!-- small_header -->
+		<span class="small_header">Request Your<br/> Free Consultation</span><!-- small_header -->
 		
-		<span class="large_header">Ready to<br/> get in touch?</span><!-- large_header -->
+		<span class="large_header">Ready<br class="mobile"> to<br class="desktop"> get in touch?</span><!-- large_header -->
 		
 		<span class="required">* All Fields Required</span><!-- required -->
 		
