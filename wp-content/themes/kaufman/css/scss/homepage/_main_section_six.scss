@@ -198,5 +198,65 @@ svg#list_item_white_line {
 	
 	
 	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 760px) {
+	
+	
+	
+	.inner_section_six {
+		padding:0;
+	}
+	
+	
+	.pa_content {
+		padding-left:35px;
+		padding-right:35px;
+	}
+	
+	
+	.pa_sidebar {
+		width:100%;
+		margin: 75px auto 0;
+		padding: 80px 0 117px;
+		span.large_header {
+			font-size:50px;
+			line-height: 45px;
+			max-width: 230px;
+			line-height: 45px;
+			br {
+				display: none;
+			}
+		}
+		ul {
+			padding: 55px 75px 0;
+			li {
+				height:67px;
+				a {
+					position: relative;
+					top: 50%;
+					transform: translateY(-50%);
+					padding: 13px 15px;
+				}
+			}
+		}
+	}
+	
+	
+	
+	svg#red_lines_pa {
+		margin-right:15px;
+		top: -12px;
+	}
+	
+	
+	
 } /* Media Query */
 

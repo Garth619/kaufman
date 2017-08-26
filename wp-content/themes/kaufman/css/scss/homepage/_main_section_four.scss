@@ -482,6 +482,7 @@ svg.testi_red_line {
 				max-width:605px;
 				margin-left:auto;
 				margin-right:auto;
+				padding-left:0;
 			}
 			span.name {
 				text-align: center;
@@ -609,6 +610,23 @@ svg.testi_red_line {
 			 padding-left: 10px;
 		}
 	}
+	
+	
+.testi_buttons {
+	.testi_back {
+		padding-left: 19px;
+		img {
+			margin-right:5px;
+		}
+	}
+	.testi_next {
+		padding-right: 19px;
+		img {
+			margin-left:5px;
+		}
+	}
+}  
+	
 	
 	
 	

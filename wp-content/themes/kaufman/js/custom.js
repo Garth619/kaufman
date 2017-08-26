@@ -405,6 +405,15 @@ $('.att_slideshow').slick({
 				nextArrow:'.att_mobile_next'
        }
     },
+    {
+      breakpoint: 760,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow:'.att_mobile_back',
+				nextArrow:'.att_mobile_next'
+       }
+    }
   ]
  });
 
