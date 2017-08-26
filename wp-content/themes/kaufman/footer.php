@@ -138,7 +138,7 @@
 			
 			<ul>
 				
-				<li>&copy; <?php echo date("Y"); ?> All Rights Reserved Kaufman Law, P.C.</li>
+				<li>&copy; <?php echo date("Y"); ?> All Rights<br class="mobile" /> Reserved Kaufman Law, P.C.</li>
 				<li><a href="">Disclaimer</a></li>
 				<li><a href="">Blog</a></li>
 				
