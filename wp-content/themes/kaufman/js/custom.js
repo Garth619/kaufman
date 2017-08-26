@@ -434,7 +434,15 @@ $('.news_slidehow').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
        }
-    }  ]
+    },
+    {
+      breakpoint: 760,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+       }
+    }
+   ]
 
 });
 
