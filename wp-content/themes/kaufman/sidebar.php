@@ -13,6 +13,8 @@
 			<span class="large_header">Request your free consultation</span><!-- large_header -->
 			
 			<span class="internal_required">* All Fields Required</span><!-- internal_required -->
+			
+			<?php gravity_form(1, false, false, false, '', true, 12); ?>
 		
 		</div><!-- sidebar_form_wrapper -->
 		
