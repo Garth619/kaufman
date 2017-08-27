@@ -8925,6 +8925,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/themes\/kaufman\/images\/dot.png": {
+		"ft": 32768,
+		"iS": 1021,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/dot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/wp-content\/themes\/kaufman\/images\/form-arrow.png": {
 		"ft": 32768,
 		"iS": 703,
@@ -10120,6 +10131,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/kaufman\/single.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/kaufman\/starthere-button.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/starthere-button.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/kaufman\/style.css": {

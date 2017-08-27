@@ -84,6 +84,8 @@ jQuery(document).ready(function(){
 
     waypoint(fixedmobleheader, '0px')
     
+    
+    
 
 
 
