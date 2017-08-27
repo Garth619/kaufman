@@ -339,6 +339,28 @@ body:not(.page-template-page-home) {
 @media screen and (max-width: 1165px) {
 	
 	
+	
+	
+body:not(.page-template-page-home) {
+	header {
+		height:102px;
+	}
+	.logo_wrapper {
+		 margin-top: 25px;
+		 max-width: 459px;
+	}
+	nav {
+		
+	}
+	.mobile_header_right {
+		
+	}
+}
+	
+	
+	
+	
+	
 	header {
  		height:110px;
  		display: block;

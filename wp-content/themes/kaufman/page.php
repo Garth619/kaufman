@@ -33,7 +33,24 @@
 
 			<h3>The Atlanta personal injury attorneys at our firm have been recognized by:</h3>
     
-						
+			<ul>
+			
+			 <li>State Bar of Georgia</li>
+			 <li>Georgia Trial Lawyers Association</li>
+			 <li>Atlanta Trial Lawyers Association</li>
+			 <li>National Crime Victim Bar Association</li>
+			 <li>Southern Trial Lawyers Association</li>
+			 <li>American Bar Association</li>
+			 <li>American Association for Justice</li>
+			 <li>Cobb County Bar Association</li>
+    
+			</ul>
+
+			<h2>Need Help? Speak with Our Atlanta Personal Injury Lawyers</h2>
+			
+			<p>If you need help resolving a personal injury matter, we are the kind of law firm you want on your side. We will personally 
+take care of all the details so that you don't have to worry about paperwork, and will guide you through the entire claims-filing process until your case is finalized in the most favorable manner possible. Regardless of the seriousness or complexity of your personal injury case, we are confident in our abilities to assist you.</p>
+			
 			
 		</div><!-- internal_content -->
 		

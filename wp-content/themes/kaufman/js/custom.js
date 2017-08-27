@@ -450,6 +450,22 @@ $('.news_slidehow').slick({
 
 
 
+$('.awards_slideshow').slick({
+  infinite: true,
+  slide: '.awards_slide',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow:'.awards_back',
+  nextArrow:'.awards_next'
+  
+});
+
+
+
+
+
+
+
 
 $(function() {
     $('input,textarea').change(function() {
