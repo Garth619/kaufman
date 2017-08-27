@@ -9279,6 +9279,12 @@
 		"oAP": "\/wp-content\/themes\/kaufman\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/kaufman\/internal-banner.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/internal-banner.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/kaufman\/js\/custom-min.js": {
 		"ft": 64,
 		"ma": 0,

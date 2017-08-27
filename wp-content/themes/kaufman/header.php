@@ -39,7 +39,7 @@
 	
 	<div class="logo_wrapper">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>">
 			
 			<img src="<?php bloginfo('template_directory');?>/images/kaufmanlogo.svg"/>
 			

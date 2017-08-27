@@ -1,3 +1,20 @@
+
+body:not(.page-template-page-home) {
+	header {
+		height:120px;
+	}
+	.logo_wrapper {
+		margin-top:29px;
+		width:518px;
+	}
+	nav {
+		margin-top: 25px;
+	}
+}
+
+
+
+
 header {
 	width:100%;
 	display:flex;
@@ -217,12 +234,12 @@ body.page-template-page-home {
 	
 	
 	
-	nav {
-    left: 0;
-		position: absolute;
-    top: 109px;
-    width: 100%;
-	}
+nav {
+  left: 0;
+	position: absolute;
+  top: 109px;
+  width: 100%;
+}
 
 .call_wrapper {
 	display: flex;
@@ -241,6 +258,14 @@ body.page-template-page-home {
 		order:2;
 		margin-top: 2px;
 		padding-right: 0px;
+	}
+}
+
+
+body:not(.page-template-page-home) {
+	
+	nav {
+		top:95px;
 	}
 }
 	

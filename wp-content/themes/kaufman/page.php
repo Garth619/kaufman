@@ -2,12 +2,15 @@
 
 
 
-<?php get_template_part( 'loop', 'index' );?>
+<?php get_template_part( 'internal', 'banner' );?>
 
-<?php //use get_template_part( 'loop', 'page' ) if needed ?>
+<?php //get_template_part( 'loop', 'index' );?>
 
-	
+
 
 <?php // get_sidebar(); ?>
+
+
+
 
 <?php get_footer(); ?>
