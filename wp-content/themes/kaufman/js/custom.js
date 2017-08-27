@@ -85,6 +85,11 @@ jQuery(document).ready(function(){
     waypoint(fixedmobleheader, '0px')
     
     
+    var internalmobileheader = $('.internal_banner_wrapper')
+
+    waypoint(internalmobileheader, '-100px')
+    
+    
     
 
 
@@ -175,7 +180,7 @@ checkWidth();
 jQuery('.mobile_fixed_start_here').click(function(){
 	
 	
-	$('.section_two').toggleClass('open');
+	$('.section_two, .internal_banner_wrapper').toggleClass('open');
 	
 	$('.mobile_fixed_menu_wrapper').toggleClass('open');
 	

@@ -788,6 +788,13 @@ svg#footer_threelines {
 		left: -5px;
 	}
 	
+	body:not(.page-template-page-home) {
+		footer {
+			margin-top: -133px;
+			padding-top:165px;
+		}
+	}
+	
 	
 	
 } /* Media Query */

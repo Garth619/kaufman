@@ -734,6 +734,12 @@ svg#back_arrow {
 @media screen and (max-width: 760px) {
 	
 	
+	.intro_form_wrapper, .intro_form_wrapper.open {
+		display: none !important; /* Clears All Overlays all across the site */
+	}
+	
+	
+	
 	.mobile_fixed_menu_wrapper {
 		
 	}

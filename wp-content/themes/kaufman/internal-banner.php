@@ -1,5 +1,6 @@
 <div class="internal_banner_wrapper">
 	
+	<?php get_template_part('mobile','fixedheader');?>
 	
 	<div class="inner_banner_wrapper">
 		
