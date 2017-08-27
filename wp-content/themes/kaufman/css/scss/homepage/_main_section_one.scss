@@ -148,24 +148,31 @@ svg#play_button_svg {
 	font-family: $oswaldmedium;
 	letter-spacing: 6px;
 	border:6px solid #fff;
-	padding:29px 73px;
+	padding: 12px 30px 30px; 
 	display: inline-block;
 	transition: all .2s ease-in-out;
 	position: relative;
 	float:right;
+	text-align: center;
+	width:330px;
+	span {
+		display: inline-block;
+	}
 	&:hover {
 		background:$greybrown;
 	}
 }
 
 
-.start_arrow_wrapper {
-	position: absolute;
-	top:23px;
-	right:47px;
+
+
 	
 	svg#start_arrow {
 		width:8px;
+		display: inline-block;
+		position: relative;
+		top:8px;
+		margin-left:15px;
 		line.arrow_line {
 			fill:none;
 			stroke:#fff;
@@ -175,7 +182,7 @@ svg#play_button_svg {
 			fill:#fff;
 		}
 	}
-}
+
 
 
 svg#intro_red_twolines {
@@ -379,14 +386,16 @@ svg#intro_red_twolines {
 .lower_intro_left {
 	float:none;
 	width:100%;
-	max-width:335px;
+	max-width:100%;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:0;
 	.intro_button {
 		float:none;
 		display: block;
-		padding: 29px 30px;
+		margin-left:auto;
+		margin-right:auto;
+// 		padding: 29px 30px;
 	}
 }
 
@@ -430,6 +439,8 @@ svg#intro_red_twolines {
 	}
 	
 	.intro_banner_content {
+		padding-left: 0px;
+		padding-right: 0px;
 		.intro_header {
 			font-size: 43px;
 			span.intro_title {
@@ -442,9 +453,16 @@ svg#intro_red_twolines {
 	
 	.lower_intro_wrapper {
     margin-top: 62px;
+    padding-left:10px;
+    padding-right:10px;
 	}
 	
+	.lower_intro_left {
 	
+		.intro_button {
+			width:290px;
+		}
+	}
 	
 	
 	

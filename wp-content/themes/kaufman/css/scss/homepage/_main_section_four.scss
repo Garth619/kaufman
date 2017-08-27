@@ -486,6 +486,7 @@ svg.testi_red_line {
 			}
 			span.name {
 				text-align: center;
+				padding-left:0;
 			}
 			span.testi_excerpt {
 				padding-left: 0px;
@@ -590,11 +591,11 @@ svg.testi_red_line {
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
 	
 	
 	.why_choose_slideshow {
-		padding: 0 12px;
+// 		padding: 0 12px;
 		.slide_count_wrapper {
 			text-align: left;
 			span {
@@ -608,6 +609,7 @@ svg.testi_red_line {
 		}
 		span.slide_content {
 			 padding-left: 10px;
+			 padding-right:10px;
 		}
 	}
 	
