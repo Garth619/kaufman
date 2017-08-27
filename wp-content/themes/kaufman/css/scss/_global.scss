@@ -352,9 +352,14 @@ body {
 	line-height: 33px;
 	font-family: $trironglight;
 	color:$lightblack;
+	h1.intro {
+		&:after {
+			display: none;
+		}
+	}
 	h1 {
 		&:after {
-			content:"Please Do Not Use H1 because this page already has one in the top banner";
+			content:"Please Do Not Use H1 because this page already has one";
 			color:red;
 			display: block;
 		}
@@ -466,6 +471,7 @@ body {
 
 
 .internal_header {
+	
 	svg {
 		
 	}
@@ -755,7 +761,7 @@ svg#red_line_sidebar {
 	
 	
 	.internal_banner_wrapper {
-		margin-top:71px;
+		margin-top:61px;
 	}
 	
 	
@@ -878,7 +884,7 @@ svg#red_line_sidebar {
 		padding-top:140px;
 		position: relative;
 		padding-bottom:67px;
-		
+		min-height:259px;
 		h1 {
 			color:$lightblack;
 			width:100%;
@@ -1111,7 +1117,7 @@ svg#red_line_sidebar {
 	
 	.internal_header {
 		 padding-bottom: 43px;
-		 padding-top:128px;
+		 padding-top:88px;
 		h1 {
 			font-size:42px;
 			line-height: 42px;
@@ -1128,7 +1134,7 @@ svg#red_line_sidebar {
 	
 	
 	svg#internal_red_twolines {
-		top: 182px;
+		top: 152px;
 	}
 
 

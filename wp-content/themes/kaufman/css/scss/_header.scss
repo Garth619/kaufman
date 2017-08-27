@@ -1,7 +1,7 @@
 
 body:not(.page-template-page-home) {
 	header {
-		height:120px;
+		height:130px;
 	}
 	.logo_wrapper {
 		margin-top:29px;
@@ -343,17 +343,18 @@ body:not(.page-template-page-home) {
 	
 body:not(.page-template-page-home) {
 	header {
-		height:102px;
+		height:108px;
 	}
 	.logo_wrapper {
 		 margin-top: 25px;
 		 max-width: 459px;
 	}
 	nav {
-		
+		top:0;
+		margin-top:0;
 	}
 	.mobile_header_right {
-		
+		top: 18px;
 	}
 }
 	
@@ -806,6 +807,12 @@ body.page-template-page-home {
 				margin-right:auto;
 			}
 		}
+		
+		.mobile_header_right {
+			top: 69px;
+		}
+		 
+		
 		
 		.mobile_request_wrapper {
 			.phone_wrapper {

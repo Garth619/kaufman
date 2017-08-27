@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php 
+	
+	/* Template Name: About */
+	
+	get_header(); ?>
+
+<?php get_template_part( 'internal', 'banner' );?>
 
 <section class="start_here_track"> <!-- finishes in footer template -->
 
@@ -10,10 +16,6 @@
 		
 		<div class="internal_content content">
 			
-			<h1 class="intro">Atlanta Catastrophic Injury Lawyer</h1>
-			
-			
-			<h1>Atlanta Catastrophic Injury Lawyer</h1>
 			
 			<h2>h2 Trusted Legal Guidance in Atlanta Since 1977</h2>
 			
@@ -57,7 +59,7 @@ take care of all the details so that you don't have to worry about paperwork, an
 		</div><!-- internal_content -->
 		
 		
-		<?php get_template_part('sidebar','practiceareas'); ?>
+		<?php get_sidebar(); ?>
 		
 		
 	</div><!-- inner_container -->

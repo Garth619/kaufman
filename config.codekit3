@@ -33,6 +33,12 @@
 		"oAP": "\/kaufman(5).sql.gz",
 		"oF": 0
 		},
+	"\/untitled file": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/untitled file",
+		"oF": 0
+		},
 	"\/wp-activate.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7656,6 +7662,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/kaufman\/css\/scss\/_page-default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_page-default.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/kaufman\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -10098,6 +10117,12 @@
 		"oAP": "\/wp-content\/themes\/kaufman\/mobile-fixedheader.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/kaufman\/page-about.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/page-about.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/kaufman\/page-home.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -10125,6 +10150,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/kaufman\/search.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/kaufman\/sidebar-practiceareas.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/sidebar-practiceareas.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/kaufman\/sidebar.php": {

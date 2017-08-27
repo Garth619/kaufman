@@ -21,7 +21,7 @@
 				
 			</svg><!-- internal_red_twolines -->
 			
-			<h1>Lorem ipsum dolor sit amet, consec tetur adipisicing</h1>
+			<h1><?php the_title();?></h1>
 			
 		</div><!-- internal_header -->
 		
