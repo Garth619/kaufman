@@ -5,7 +5,7 @@
 	background-size:cover;
 	padding-top:390px;
 	position: relative;
-	z-index:1;
+	
 }
 
 
@@ -26,6 +26,8 @@ svg#section_eight_red_line_form{
 	max-width:995px;
 	margin:0px 0 0 100px;
 	padding:57px 0 0 0;
+	position: relative;
+	z-index:20;
 	svg {
 		margin-left:-22px;
 		float:left;
@@ -192,12 +194,13 @@ svg#section_eight_red_line_form{
 	.section_eight {
 		background-position: top center;
 		padding-top: 112px;
-		height:1052px;
+		height:auto;
 	}
 	
 	
 	.section_eight_form_wrapper {
 		padding: 67px 0 0;
+		
 		span.large_header {
 			font-size: 100px;
 			line-height: 99px;
@@ -301,7 +304,7 @@ svg#section_eight_red_line_form{
 	.section_eight {
 		padding:57px 15px;
 		height:auto;
-		max-height: 850px;
+// 		max-height: 850px;
 	}
 	
 	.section_eight_form_wrapper {
