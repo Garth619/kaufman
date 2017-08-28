@@ -27,10 +27,10 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/kaufman(5).sql.gz": {
+	"\/kaufman.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/kaufman(5).sql.gz",
+		"oAP": "\/kaufman.sql.gz",
 		"oF": 0
 		},
 	"\/wp-activate.php": {

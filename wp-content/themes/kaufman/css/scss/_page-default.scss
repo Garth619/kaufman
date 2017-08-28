@@ -85,7 +85,22 @@ svg#default_red_lines_sidebar {
 		position: absolute;
 		top:0;
 		left:125px;
-		
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: $greybrown;
+			span {
+				color:$lightblack;
+			}
+			svg#sidebar_start_arrow {
+				line.arrow_line {
+					stroke:$lightblack;
+				}
+				polygon.arrow_tri {
+					fill:$lightblack;
+				}
+			}
+		}
 		span {
 			color:#fff;
 			text-transform: uppercase;
@@ -396,6 +411,7 @@ svg#pa_request_redline {
 	right: 13px;
 	width:40px;
 	height:40px;
+	cursor: pointer;
 	.sidebar_close_bar {
 		width:100%;
 		height:5px;
@@ -517,10 +533,35 @@ svg#pa_request_redline {
 	}
 	
 	
+	.default_form_button {
+		display: none;
+	}
+	
+	  
+	  
+	  .sidebar_wrapper {
+		  width: 100%;
+		  padding-left:0;
+	  }
+	  
+	  
+	  
+	.sidebar_close {
+		display: none;
+	}
+	
+	
 	.sidebar {
 		display: none;
 	}
 	
+	
+	.sidebar_form_overlay, .sidebar_form_overlay.open {
+		opacity: 1;
+		visibility: visible;
+		position: relative;
+		z-index:5;
+	}
 	
 	
 	

@@ -90,6 +90,11 @@ jQuery(document).ready(function(){
     waypoint(internalmobileheader, '-100px')
     
     
+    var internalmobileheader = $('body.page-template-default .internal_container')
+
+    waypoint(internalmobileheader, '-130px')
+    
+    
     
 
 

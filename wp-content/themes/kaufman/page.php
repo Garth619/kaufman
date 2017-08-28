@@ -6,6 +6,8 @@
 
 <div class="internal_container">
 	
+	<?php get_template_part('mobile','fixedheader');?>
+	
 	<div class="inner_container">
 		
 		<div class="internal_content content">
