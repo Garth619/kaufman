@@ -1,7 +1,5 @@
 <section class="start_here_bg"></section><!-- start_here_bg -->
 
-
-	
 	<div class="start_here_button">
 		
 		<div class="rotated_content">
