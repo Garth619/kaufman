@@ -1,3 +1,20 @@
+
+body:not(.page-template-page-home) {
+	header {
+		height:130px;
+	}
+	.logo_wrapper {
+		margin-top:29px;
+		width:518px;
+	}
+	nav {
+		margin-top: 25px;
+	}
+}
+
+
+
+
 header {
 	width:100%;
 	display:flex;
@@ -217,12 +234,12 @@ body.page-template-page-home {
 	
 	
 	
-	nav {
-    left: 0;
-		position: absolute;
-    top: 109px;
-    width: 100%;
-	}
+nav {
+  left: 0;
+	position: absolute;
+  top: 109px;
+  width: 100%;
+}
 
 .call_wrapper {
 	display: flex;
@@ -241,6 +258,14 @@ body.page-template-page-home {
 		order:2;
 		margin-top: 2px;
 		padding-right: 0px;
+	}
+}
+
+
+body:not(.page-template-page-home) {
+	
+	nav {
+		top:95px;
 	}
 }
 	
@@ -314,6 +339,29 @@ body.page-template-page-home {
 @media screen and (max-width: 1165px) {
 	
 	
+	
+	
+body:not(.page-template-page-home) {
+	header {
+		height:108px;
+	}
+	.logo_wrapper {
+		 margin-top: 25px;
+		 max-width: 459px;
+	}
+	nav {
+		top:0;
+		margin-top:0;
+	}
+	.mobile_header_right {
+		top: 16px;
+	}
+}
+	
+	
+	
+	
+	
 	header {
  		height:110px;
  		display: block;
@@ -324,6 +372,8 @@ body.page-template-page-home {
 		margin-top: 24px;
 		max-width: 469px;
 		padding-left: 27px;
+		position: relative;
+		z-index:5;
 	}
 
 
@@ -408,7 +458,7 @@ nav {
 	z-index:100;
 	margin-top:0;
 	background:#fff;
-	padding:60px 35px 0;
+	padding:71px 35px 0;
 	overflow-y: scroll;
 	display: none;
 
@@ -742,6 +792,46 @@ body.page-template-page-home {
 @media screen and (max-width: 760px) {
 	
 	
+	
+	
+	body:not(.page-template-page-home) {
+		
+		
+		.logo_wrapper {
+			width:100%;
+			max-width: 100%;
+			img {
+				max-width: 344px;
+				display:block;
+				margin-left:auto;
+				margin-right:auto;
+			}
+		}
+		
+		.mobile_header_right {
+			top: 69px;
+		}
+		 
+		
+		
+		.mobile_request_wrapper {
+			.phone_wrapper {
+				
+			}
+			span.mobile_cta {
+				color:$lightblack;
+				strong {
+					color:$red;
+				}
+			}
+		} 
+		
+	}
+
+	
+	
+	
+	
 	header {
    height: 91px;
 	 }
@@ -792,6 +882,16 @@ body.page-template-page-home {
 	}
 	
 	
+	
+	nav {
+		padding-left:0;
+		padding-right:0px;
+	}
+	
+	
+	.mobile_nav_close_wrapper {
+		 right: 25px;
+	}
 	
 	svg#mobile_request_line {
 		display: none;
@@ -881,12 +981,12 @@ body.page-template-page-home {
 		
 		a.mobile_phone {
 			text-align: right;
-			padding-right: 135px;
+			padding-right: 122px;
 		}
 		.phone_wrapper {
 			
 			.phone_wrapper_center {
-				margin:0 30px 0 -5px;
+				margin:0 0px 0 -5px;
 				float:left;
 				
 			}

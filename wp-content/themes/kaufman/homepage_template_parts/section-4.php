@@ -148,7 +148,7 @@
 						
 					</div><!-- testi_content -->
 					
-					<span class="name">Jose C.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					<span class="name">Jose C.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
 					
 				</div><!-- test_col -->
 				
@@ -168,7 +168,7 @@
 						
 					</div><!-- testi_content -->
 					
-					<span class="name">M.D.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					<span class="name">M.D.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
 					
 				</div><!-- test_col -->
 				
@@ -188,7 +188,7 @@
 						
 					</div><!-- testi_content -->
 					
-					<span class="name">S.T.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					<span class="name">S.T.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
 					
 				</div><!-- test_col -->
 				
@@ -208,7 +208,7 @@
 						
 					</div><!-- testi_content -->
 					
-					<span class="name">S.T.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					<span class="name">S.T.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
 					
 				</div><!-- test_col -->
 				
@@ -228,7 +228,7 @@
 						
 					</div><!-- testi_content -->
 					
-					<span class="name">S.T.&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;May 2017</span>
+					<span class="name">S.T.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
 					
 				</div><!-- test_col -->
 				

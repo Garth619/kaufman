@@ -1,9 +1,5 @@
-/*
-Theme Name: Starter
-Author: Garrett Cullen
-*/
-
-
+/*! Css Main Stylesheet isn't meant to update, please use the scss partials in /css/scss */
+/*! Theme Name: Kaufman Author: Garrett Cullen */
 
 @import "variables",
 				"reset",
@@ -20,6 +16,7 @@ Author: Garrett Cullen
 				"homepage/main_section_seven",
 				"homepage/main_section_seven",
 				"homepage/main_section_eight",
+				"page-default",
 				"footer";
 				
 

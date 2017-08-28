@@ -734,12 +734,19 @@ svg#back_arrow {
 @media screen and (max-width: 760px) {
 	
 	
+	.intro_form_wrapper, .intro_form_wrapper.open {
+		display: none !important; /* Clears All Overlays all across the site */
+	}
+	
+	
+	
 	.mobile_fixed_menu_wrapper {
 		
 	}
 	
 	.fixed_request {
 		width:100%;
+		padding: 13px 5px;
 		a.large_header {
 			color:$red;
 		}
@@ -767,7 +774,7 @@ svg#back_arrow {
 	
 	
 .single_case {
-	
+	height:512px;
 	.case_icon {
 		
 		svg {

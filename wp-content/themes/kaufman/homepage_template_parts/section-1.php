@@ -64,9 +64,12 @@
 			
 			<div class="lower_intro_left">
 			
-				<a class="intro_button" href="#request">Start Here
+				<a class="intro_button" href="#request">
+					
+					
+					<span>Start Here</span>
 				
-					<div class="start_arrow_wrapper">
+				
 				
 						
 						<svg id="start_arrow" viewBox="0 0 7.6 40.7">
@@ -77,7 +80,7 @@
 				
 						</svg><!-- start_arrow -->
 				
-					</div><!-- start_arrow_wrapper -->
+					
 				
 				</a><!-- intro_button -->
 			
