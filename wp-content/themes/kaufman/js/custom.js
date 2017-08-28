@@ -488,7 +488,22 @@ $(function() {
 });
 
 
+// Internal Desktop Sidebar Overlay
 
+
+
+$('.default_form_button').click(function(){
+	
+	$('.sidebar_form_overlay').addClass('open');
+	
+});
+
+
+$('.sidebar_close').click(function(){
+	
+	$('.sidebar_form_overlay').removeClass('open');
+	
+});
 
 
 

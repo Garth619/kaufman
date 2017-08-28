@@ -7813,12 +7813,12 @@
 		"uL": 1
 		},
 	"\/wp-content\/themes\/kaufman\/css\/scss\/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/kaufman\/style.css",
 		"oF": 2,
