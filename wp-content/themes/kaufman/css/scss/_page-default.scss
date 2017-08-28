@@ -72,6 +72,11 @@ body.page-template-default {
 	}
 	
 	
+	svg#default_red_twolines {
+		display: none;
+	}
+	
+	
 	h1.intro {
 		font-size:70px;
 		line-height: 66px;
@@ -568,10 +573,54 @@ svg#pa_request_redline {
 @media screen and (max-width: 1165px) {
 	
 	
-	h1.intro {
-		br {
-			display: none;
+	
+	
+	svg#default_red_twolines {
+		width:113px;
+		margin:0;
+		display: block;
+		transform: rotate(90deg);
+		position: absolute;
+		top:198px;
+		left:-42px;
+		polyline {
+			fill:none;
+			stroke:$red;
+			stroke-miterlimit:10;
+			stroke-width:2px;
 		}
+	}
+	
+	
+	svg#default_page_gold_twolines {
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	.default_header_wrapper {
+		min-height: 277px;
+    padding-bottom: 67px;
+    padding-top: 140px;
+    position: relative;
+		h1.intro {
+			font-size: 65px;
+			line-height: 60px;
+			padding-left: 52px;
+			padding-top: 53px;
+			margin-bottom: 0;
+			br {
+				display: none;
+			}
+		}
+	}
+	
+	
+	.internal_container {
+		padding-top:0;
 	}
 	
 	
@@ -579,6 +628,7 @@ svg#pa_request_redline {
 	.inner_container {
 		padding-left: 72px;
     padding-right: 72px;
+    
 	}
 	
 	.internal_content {
@@ -706,7 +756,8 @@ svg#pa_request_redline {
 		input#gform_submit_button_5 {
 			margin-top:90px;
 			&:hover {
-				
+				background:$greybrown;
+				color:$lightblack;
 			}
 		}
 		.gfield_description,.validation_message {
@@ -732,6 +783,27 @@ svg#pa_request_redline {
 @media screen and (max-width: 760px) {
 	
 	
+	
+	.default_header_wrapper {
+		padding-bottom: 43px;
+    padding-top: 120px;
+		h1.intro {
+			font-size: 42px;
+			line-height: 42px;
+			padding-left: 35px;
+			padding-top: 34px;
+			br {
+				
+			}
+		}
+	}
+	
+	
+	svg#default_red_twolines {
+     top: 172px;
+}
+	
+	
 	.sidebar_form_overlay {
 		span.pa_request_title {
 			font-size: 50px;
@@ -740,7 +812,7 @@ svg#pa_request_redline {
 			margin-left:0;
 		}
 		span.pa_required {
-			margin-left: 48px;
+			margin-left: 0px;
 		}
 	} 
 	
@@ -759,7 +831,7 @@ svg#pa_request_redline {
 			padding-left: 43px;
 			padding-right: 43px;
 			li {
-				
+				margin-bottom: 13px;
 				&:after {
 					
 				}
@@ -770,6 +842,117 @@ svg#pa_request_redline {
 					font-size:13px;
 					padding: 23px 35px 23px 11px;
 					letter-spacing: 2.5px;
+					&:hover, &:focus {
+						
+					}
+				}
+				textarea {
+					height: 137px;
+				}
+				input.non_empty, textarea.non_empty {
+					
+				}
+			}
+			li ::-webkit-input-placeholder {
+       
+       }
+			 ::-moz-placeholder {
+        
+       }
+       :-moz-placeholder {
+       
+       }
+       :-ms-input-placeholder {
+      
+       }
+       ::-moz-placeholder {
+       
+       }
+	
+
+		}
+		.gform_footer {
+			
+		}
+		input#gform_submit_button_5 {
+			margin-top: 32px;
+			font-size: 23px;
+			padding: 15px;
+			&:hover {
+				
+			}
+		}
+		.gfield_description,.validation_message {
+			font-size:12px;
+			left:11px;
+			letter-spacing: 2.5px;
+			margin-top: 6px;
+		}
+	}
+
+
+.inner_container {
+	padding-left: 21px;
+  padding-right: 21px;
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 537px) {
+	
+	.sidebar_inner_overlay {
+		&:before {
+			display: none;
+		}
+	}
+	
+	
+	.sidebar_form_overlay {
+		span.pa_request_title {
+			font-size: 14px;
+			letter-spacing: 5px;
+			line-height: 16px;
+			text-transform: uppercase;
+			width: 224px;
+			font-family: $akagilblack;
+		}
+		span.pa_required {
+			display: block;
+			font-size: 11.56px;
+			letter-spacing: 4px;
+			margin-bottom: 40px;
+			margin-top: 13px;
+			padding-left: 0;
+			text-align: center;
+		}
+	}
+	
+	
+	svg#pa_request_redline {
+		margin-top: 10px;
+	}
+	
+	
+	 .pa_form_wrapper {
+
+		ul {
+			padding-left: 20px;
+			padding-right: 20px;
+			li {
+				
+				&:after {
+					
+				}
+				label {
+					
+				}
+				input,textarea {
+					
 					&:hover, &:focus {
 						
 					}
@@ -803,28 +986,21 @@ svg#pa_request_redline {
 			
 		}
 		input#gform_submit_button_5 {
-			margin-top: 35px;
-			font-size: 23px;
-			padding: 15px;
+			
 			&:hover {
 				
 			}
 		}
 		.gfield_description,.validation_message {
-			font-size:12px;
-			left:11px;
-			letter-spacing: 2.5px;
-			margin-top: 6px;
+			
 		}
 	}
 
 	
 	
-	
+		
 	
 } /* Media Query */
-
-
 
 
 } /* body.page-template-default */
