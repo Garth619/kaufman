@@ -185,7 +185,7 @@ checkWidth();
 jQuery('.mobile_fixed_start_here').click(function(){
 	
 	
-	$('.section_two, .internal_banner_wrapper').toggleClass('open');
+	$('.section_two, .internal_banner_wrapper, body.page-template-default .internal_container').toggleClass('open');
 	
 	$('.mobile_fixed_menu_wrapper').toggleClass('open');
 	
