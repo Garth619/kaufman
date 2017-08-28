@@ -1,0 +1,321 @@
+/* Internal pages on this site have three vairations of the same template (generally).... 
+	
+	
+What started as one global internal template quickly turned into semi-similiar sections that got complicated quick. The design mock ups are just about similiar but different. Therefore, I had to use alot of redundant css. Below are the files I have slightly modified on each template. These are powered by no class, ".non_banner_layout" or ".non_banner_layout.centered_layout" combo in each page-template.php file.
+	
+Edits to SCSS Partials are in:
+	
+	1. _internal_banner_layout.scss is first. Then:
+	2. _internal_non_banner_layout.scss, and last 
+	3. _internal_centered_layout.scss
+	
+*/
+.non_banner_layout.centered_layout {
+	
+
+	.inner_container {
+		max-width: 1716px;
+		padding-left: 45px;
+		padding-right:45px;
+	}
+	
+	
+	.internal_content {
+		
+		width: calc(100% - 500px);
+		padding-right: 76px;
+	}
+	
+	
+	.sidebar_wrapper {
+		width: 500px;
+		margin-top: 49px;
+		padding-left:0;
+	}
+	
+	
+	.sidebar {
+		max-width: 461px;
+		padding-top: 31px;
+		padding-bottom: 0;
+		margin-top:0;
+	}
+	
+	
+	.sidebar_form_wrapper {
+		span.internal_required {
+			font-size:14px;
+			letter-spacing: 3px;
+		}
+	}
+	
+	
+	
+	
+	span.sidebar_large_header {
+		text-transform: none;
+		font-size:63px;
+		line-height: 60px;
+		max-width: 393px;
+		letter-spacing: 0;
+	}
+	
+	
+	
+	.sidebar_form_wrapper {
+		ul {
+			margin: 57px 0 0;
+			li {
+				
+				&:after {
+					
+				}
+				label {
+					
+				}
+
+				input,textarea {
+					
+					&:hover, &:focus {
+						
+					}
+				}
+				textarea {
+					
+				}
+
+				input.non_empty, textarea.non_empty {
+					
+				}
+			}
+			li ::-webkit-input-placeholder {
+       
+       }
+			 ::-moz-placeholder {
+       
+       }
+       :-moz-placeholder {
+        
+       }
+       :-ms-input-placeholder {
+        
+       }
+       ::-moz-placeholder {
+        
+       }
+	
+
+		}
+		input#gform_submit_button_1 {
+
+			&:hover {
+				
+			}
+		}
+		.gfield_description,.validation_message {
+
+		}
+	}
+	
+	
+	@media screen and (max-width: 1565px) {
+		
+		
+		.inner_container {
+			padding-left: 73px;
+		}
+		
+		
+		.internal_container {
+			margin-top: 61px;
+		}
+		
+
+		
+	} /* Media Query */
+	
+	
+	
+	@media screen and (max-width: 1165px) {
+		
+		
+		.internal_container {
+			margin-top: 0px;
+		}
+		
+		.inner_container {
+			padding-left: 72px;
+			padding-right: 72px;
+		}
+		
+		
+		
+		
+		
+		.internal_content {
+			width:100%;
+			float:none;
+			padding-right:0;
+		}
+		
+		.sidebar_wrapper {
+			width:100%;
+		}
+		
+		.sidebar {
+			display: block;
+			max-width:100%;
+			 padding: 45px 0 0;
+		}
+		
+		
+		.sidebar_form_wrapper {
+			span.internal_required {
+				letter-spacing: 2.3px;
+				font-size:16px;
+			}
+		} 
+		
+		
+		
+		.awards_sidebar {
+			display: none;
+		}
+		
+		span.sidebar_large_header {
+			max-width: 100%;
+			width: 523px;
+		}
+		
+		
+		
+		
+		
+		.sidebar_form_wrapper {
+		ul {
+			margin: 48px 0 0;
+			li {
+				
+				&:after {
+					
+				}
+				label {
+					
+				}
+
+				input,textarea {
+					
+					&:hover, &:focus {
+						
+					}
+				}
+				textarea {
+					
+				}
+
+				input.non_empty, textarea.non_empty {
+					
+				}
+			}
+			li ::-webkit-input-placeholder {
+       
+       }
+			 ::-moz-placeholder {
+       
+       }
+       :-moz-placeholder {
+        
+       }
+       :-ms-input-placeholder {
+        
+       }
+       ::-moz-placeholder {
+        
+       }
+	
+
+		}
+		input#gform_submit_button_1 {
+
+			&:hover {
+				
+			}
+		}
+		.gfield_description,.validation_message {
+
+		}
+	}
+		
+		
+		
+		
+		
+		
+		
+	} /* Media Query */
+	
+	
+	
+	
+	@media screen and (max-width: 760px) {
+		
+		.sidebar_wrapper {
+			margin-top: 150px;
+		}
+		
+		.inner_container {
+    	padding-left: 21px;
+			padding-right: 21px;
+		}
+		
+		
+		span.sidebar_large_header {
+    	font-size: 50px;
+			line-height: 50px;
+			max-width: 413px;
+			width: 100%;
+		}
+
+		
+		
+	} /* Media Query */
+	
+	
+	
+	@media screen and (max-width: 537px) {
+		
+		.sidebar_wrapper {
+    	margin-top: 65px;
+		}
+		
+		span.sidebar_large_header {
+			font-family: $akagilblack;
+			font-size: 14px;
+			letter-spacing: 5px;
+			line-height: 16px;
+			text-transform: uppercase;
+			width: 224px;
+		}
+		
+		
+		
+		.sidebar_form_wrapper {
+			span.internal_required {
+				font-size: 11.56px;
+				letter-spacing: 4px;
+				margin-bottom: 44px;
+				margin-top: 13px;
+   		}
+		} 
+		
+		
+		
+		
+		
+	} /* Media Query */
+	
+	
+	
+
+
+} /* non_banner_layout.centered_layout */

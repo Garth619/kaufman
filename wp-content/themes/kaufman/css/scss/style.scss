@@ -1,5 +1,20 @@
-/*! Css Main Stylesheet isn't meant to update, please use the scss partials in /css/scss */
+/*! This CSS Main Stylesheet isn't meant to update and might get confusing real quick, please use the scss partials in /css/scss */
 /*! Theme Name: Kaufman Author: Garrett Cullen */
+
+
+/* Internal pages on this site have three vairations of the same template (generally).... 
+	
+	
+What started as one global internal template quickly turned into semi-similiar sections that got complicated quick. The design mock ups are just about similiar but different. Therefore, I had to use alot of redundant css. Below are the files I have slightly modified on each template. These are powered by no class, ".non_banner_layout" or ".non_banner_layout.centered_layout" combo in each page-template.php file.
+	
+Edits to SCSS Partials are in:
+	
+	1. _internal_banner_layout.scss is first. Then:
+	2. _internal_non_banner_layout.scss, and last 
+	3. _internal_centered_layout.scss
+	
+*/
+
 
 @import "variables",
 				"reset",
@@ -16,7 +31,10 @@
 				"homepage/main_section_seven",
 				"homepage/main_section_seven",
 				"homepage/main_section_eight",
-				"page-default",
+				"internal_banner_layout",
+				"internal_non_banner_layout",
+				"internal_centered_layout",
+				"page-pa-grid",
 				"footer";
 				
 

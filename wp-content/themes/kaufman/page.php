@@ -1,12 +1,17 @@
 <?php get_header(); ?>
 
+
 <section class="start_here_track"> <!-- finishes in footer template -->
 
 <?php get_template_part('starthere','button');?>
 
+<div class="non_banner_layout">
+
 <div class="internal_container">
 	
 	<?php get_template_part('mobile','fixedheader');?>
+	
+	
 	
 	<div class="inner_container">
 		
@@ -77,6 +82,8 @@
 	
 </div><!-- internal_container -->
 
+
+</div><!-- edgeless_layout -->
 
 
 <?php //get_template_part( 'loop', 'index' );?>

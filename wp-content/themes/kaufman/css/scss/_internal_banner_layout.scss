@@ -1,448 +1,16 @@
-// Global
-
-
-body {
-	color: $lightblack;
-}
-
-
-// Start Here Button
-
-
-.start_here_track {
-	padding-left:85px;
-	position: relative;
-}
-
-
-.start_here_bg {
-	width:100%;
-	height:100%;
-	background: rgba(0, 0, 0, 0.6);
-	position: fixed;
-	top:0;
-	left:85px;
-	z-index:99;
-	opacity: 0;
-	visibility: hidden;
-	transition: all .3s ease-in-out;
-}
-
-/*
-.start_here_bg.open {
-	opacity: 1;
-	visibility: visible;
-}
+/* Internal pages on this site have three vairations of the same template (generally).... 
+	
+	
+What started as one global internal template quickly turned into semi-similiar sections that got complicated quick. The design mock ups are just about similiar but different. Therefore, I had to use alot of redundant css. Below are the files I have slightly modified on each template. These are powered by no class, ".non_banner_layout" or ".non_banner_layout.centered_layout" combo in each page-template.php file.
+	
+Edits to SCSS Partials are in:
+	
+	1. _internal_banner_layout.scss is first. Then:
+	2. _internal_non_banner_layout.scss, and last 
+	3. _internal_centered_layout.scss
+	
 */
 
-
-.rotated_content {
-	transform: rotate(-90deg); /* Fixes a Chrome Bug instead of rotating entire red button */
-	width:260px;
-	height:85px;
-	margin: 88px 0 0 -91px;
-}
-
-
-.start_here_track.visible .start_here_button {
-	animation-name:start_button_move;
-  animation-duration:900ms;
-  animation-fill-mode: both;
-  animation-timing-function:cubic-bezier(.17,.66,.34,.98);
-  opacity: 1;
-  visibility: visible;
- }
-
-
-
-@keyframes start_button_move {
-  from {
-    transform: translateX(-90px);
- 	}
-
-  to {
-    transform: translateX(0px);
-   }
-}
-
-
-
-
-.start_here_track.visible .start_here_bg.open {
-	opacity: 1;
-	visibility: visible;
-}
-
-.start_here_track .start_here_bg.open {
-	opacity: 0;
-	visibility: hidden;
-}
-
-
-
-.start_here_track.visible .start_here_form_wrapper.open {
-	opacity: 1;
-	visibility: visible;
-}
-
-.start_here_track .start_here_form_wrapper.open {
-	opacity: 0;
-	visibility: hidden;
-}
-
-
-
-.start_here_button {
-	left: 0px;
-  position: fixed;
-  top: 43%;
-	z-index:100;
-	background:$red;
-	text-decoration: none;
-	color:#fff;
-	text-transform: uppercase;
-	font-family: $oswald;
-	font-size:20px;
-	letter-spacing: 6px;
-	height:260px;
-	width:85px;
-	text-align: center;
-	transition: all .3s ease-in-out;
-	cursor: pointer;
-	opacity: 0;
-	visibility: hidden;
-	&:hover {
-		background:$greybrown;
-	}
-	span {
-		display: inline-block;
-		padding-top:30px;
-		margin-right:-3px;
-		position: relative;
-		top:-12px;
-	}
-	svg#start_arrow_fixed {
-		width:8px;
-		display: inline-block;
-		margin-top:24px;
-		line.arrow_line {
-			fill:none;
-			stroke:#fff;
-			stroke-miterlimit:10;
-		}
-		polygon.arrow_tri {
-			fill:#fff;
-		}
-	}
-}
-
-
-.start_here_form_wrapper {
-	width:100%;
-	max-width:1285px;
-	position: fixed;
-	top: 43%;
-	left: 85px;
-	z-index:100;
-	opacity: 0;
-	visibility: hidden;
-	transition: all .2s ease-in-out;
-	.start_here_form {
-		background: $lightblack;
-		width:calc(100% - 97px);
-		float:left;
-		height:260px;
-		padding:32px 50px 32px 45px;
-		span.form_title {
-			display: inline-block;
-			font-family:$akagilbold;
-			text-transform: uppercase;
-			color:$greybrown;
-			font-size:17px;
-			letter-spacing: 5.1px;
-			&:first-of-type {
-				
-				&:after {
-					content:"|";
-					color:$red;
-					display: inline-block;
-					margin:0 35px 0 25px;
-				}
-			}
-		}
-	}
-	.start_here_close_form {
-		width:97px;
-		height:260px;
-		float:left;
-		background:#000;
- 		text-align: center;
- 		padding-top:106px;
- 		cursor: pointer;
-		span {
-			display: block;
-		}
-		&:hover {
-			.close_x {
-				.close_x_bar {
-					&:first-of-type {
-						transform:rotate(-90deg) skewX(0deg) skewY(0deg);
-						background:$red;
-						transform-origin:8px 10px 0;
-					}
-					&:last-of-type {
-						transform:rotate(90deg) skewX(0deg) skewY(0deg);
-						background:$red;
-						transform-origin: -1px 9px 0;
-					}
-				}
-			}
-			span.close {
-				color:$red;
-			}
-		}
-		
-		.close_x {
-			
-			.close_x_bar {
-				width:8px;
-				height:25px;
-				
-				display: inline-block;
-				&:first-of-type {
-					transform: skewX(38deg) skewY(0deg);
-					transition: all .2s ease-in-out;
-					transform-origin: 0 6px 0;
-					background:#fff;
-				}
-				&:last-of-type {
-					transform: skewX(-38deg) skewY(0deg) ;
-					transition: all .2s ease-in-out;
-					transform-origin: 0 3px 0;
-					background:#fff;
-				}
-			}
-		}
-		span.close {
-			font-family: $akagilbold;
-			text-transform: uppercase;
-			font-size:10px;
-			letter-spacing: 2px;
-			display: block;
-			margin-top:6px;
-			color:#fff;
-			transition: all .2s ease-in-out;
-		}
-	}
-	
-}
-
-
-.inner_form {
-	padding-top:20px;
-	ul {
-		list-style: none;
-		overflow: hidden;
-		width:100%;
-		
-		
-		li {
-			width:33.333333%;
-			float:left;
-			margin-bottom:13px;
-			position: relative;
-			padding-right:17px;
-			&:after {
-				content:"*";
-				position: absolute;
-				top:28px;
-				right:35px;
-			}
-			
-			label {
-				display: none;
-			}
-			input {
-				
-			}
-			textarea {
-					
-			}
-			input, textarea {
-				width:100%;
-				border:none;
-				font-family: $trirongmedium;
-				color:$lightblack;
-				font-size:15px;
-				padding:19px 35px 19px 15px;
-				border-radius: 4px;
-				letter-spacing: 1.5px;
-				height:65px;
-			}
-		}
-		li#field_3_3 {
-			padding-right:0;
-		}
-		li#field_3_5 {
-			width:84%;
-		}
-		li#field_3_6 {
-			display: none;
-		}
-		li ::-webkit-input-placeholder {
-      color: $lightblack;
-     }
-    li ::-moz-placeholder {
-      color: $lightblack;
-     }
-    li :-moz-placeholder {
-      color: $lightblack;
-    }
-    li :-ms-input-placeholder {
-      color: $lightblack;
-     }
-    li ::-moz-placeholder {
-      opacity: 1;
-    }
-	}
-	.gform_footer {
-		width:16%;
-		float:right;
-		
-		margin-top:-78px;
-		input[type="submit"] {
-			color:#fff;
-			text-transform: uppercase;
-			font-size:16px;
-			width:100%;
-			border:none;
-			background:$red;
-			height:65px;
-			border-radius: 4px;
-			font-family: $akagilblack;
-			letter-spacing: 7.5px;
-			transition: all .2s ease-in-out;
-			cursor: pointer;
-			&:hover {
-				background: $greybrown;
-			}
-		}
-	}
-	.gfield_description {
-		color:$red;
-		text-transform: uppercase;
-		font-family: $akagilbold;
-		position: absolute;
-		
-		font-size: 12px;
-		letter-spacing: 1.5px;
-		top:45px;
-		left:15px;
-	}
-	.instruction  {
-		display: none;
-	}
-}
-
-
-// Content
-
-.content {
-	font-size:17px;
-	line-height: 33px;
-	font-family: $trironglight;
-	color:$lightblack;
-	h1.intro {
-		&:after {
-			display: none;
-		}
-	}
-	h1 {
-		&:after {
-			content:"Please Do Not Use H1 because this page already has one";
-			color:red;
-			display: block;
-		}
-	}
-	h2 {
-		text-transform: uppercase;
-		color:$red;
-		font-family: $akagilblack;
-		font-size:18px;
-		letter-spacing: 3.15px;
-		margin-bottom:3px;
-		font-weight: 300;
-		font-style: normal;
-		line-height: 22px;
-		margin-bottom: 5px;
-	}
-	h3 {
-		font-family: $akagilbold;
-		text-transform: uppercase;
-		font-size: 17px;
-		line-height: 21px;
-		font-weight: 300;
-		font-style: normal;
-		letter-spacing: 1.2px;
-		margin-bottom: 5px;
-	}
-	p {
-		margin-bottom:35px;
-	}
-	ul {
-		list-style: none;
-		margin-bottom:35px;
-		margin-left: 6px;
-		li {
-			background: url(#{$themepath}images/dot.png) no-repeat scroll 0 14px;
-			list-style: none;
-			padding: 0 0 0 19px;
-			margin-bottom: 10px;
-		}
-	}
-	a {
-		text-decoration: none;
-		color:$brown;
-		transition: all .2s ease-in-out;
-		&:hover {
-			color:$red;
-		}
-	}
-	blockquote {
-		color:$red;
-		font-size:22px;
-		font-family: $akagilblack;
-		line-height: 26px;
-		border-left:2px solid red;
-		border-right: 2px solid red;
-		display: inline-block;
-		padding: 4px 65px 0;
-		letter-spacing: 7px;
-		margin:9px 0 58px;
-		text-transform: uppercase;
-	}
-}
-
-
-.first_letter {
-	float:left;
-	min-width:100px;
-	height:auto;
-	background: url(#{$themepath}images/bodytext-icon.png) top left no-repeat;
-	background-size: 77px 155px;
-	margin:-57px 13px 0 0;
-	text-align: center;
-	span {
-		font-family: $trirongmedium;
-		font-size:125px;
-		line-height: 120px;
-		display: block;
-		margin: 63px auto 0px;
-	}
-}
-
-
-/*
 .internal_banner_wrapper .intro_form_wrapper {
 		display: none;
 	}
@@ -450,8 +18,6 @@ body {
 
 
 // Internal Banners
-
-
 
 
 .internal_banner_wrapper {
@@ -754,11 +320,8 @@ svg#red_line_sidebar {
 		}
 	}
 }
-*/
 
 
-
-/*
 
 @media screen and (max-width: 1565px) {
 	
@@ -793,11 +356,9 @@ svg#red_line_sidebar {
 	
 	
 	
-} 
-*//* Media Query */
+} /* Media Query */
 
 
-/*
 @media screen and (max-width: 1520px) {
 	
 	
@@ -807,23 +368,12 @@ svg#red_line_sidebar {
 	
 	
 	
-}
-*/ /* Media Query */
+} /* Media Query */
 
 
 @media screen and (max-width: 1165px) {
 	
-	.start_here_track {
-		padding-left:0;
-	}
 	
-	
-	.start_here_button {
-		display: none;
-	}
-	
-	
-/*
 	// Internal Form Overlay
 	
 	
@@ -990,23 +540,8 @@ svg#red_line_sidebar {
 		font-size: 63px;
 		line-height: 60px;
 	}
-*/
-
-
-	.content {
-		blockquote {
-			text-align: center;
-			margin:9px 5% 34px;
-			padding: 4px 8% 0;
-			line-height: 25px;
-		}
-	}
 	
 	
-	
-	
-	
-/*
 	.sidebar_form_wrapper {
 		ul {
 			padding-left:35px;
@@ -1076,7 +611,8 @@ svg#red_line_sidebar {
 		display: none;
 	}
 	
-*/
+
+	
 	
 	
 } /* Media Query */
@@ -1086,34 +622,8 @@ svg#red_line_sidebar {
 @media screen and (max-width: 760px) {
 	
 	
-	.content {
-		font-size:16px;
-		line-height: 24px;
-		letter-spacing: 0px;
-		p {
-			margin-bottom: 23px;
-		}
-		blockquote {
-			margin: 0 0 23px;
-			padding: 18px 46px;
-			font-size:20px;
-			line-height: 23px;
-			letter-spacing: 3px;
-		}
-	}
-	
-	.first_letter {
-		margin: -57px 4px 0 0;
-		span {
-			line-height: 112px;
-			position: relative;
-			top:10px;
-		}
-		
-	}
 	
 	
-/*
 	
 	// Internal Banners
 	
@@ -1237,19 +747,23 @@ svg#red_line_sidebar {
 			 margin-top: 6px;
 		}
 	}
-*/
 
 
 
 
 
 
+	
+
+	
+	
 	
 	
 } /* Media Query */
 
 
-/*
+
+
 
 @media screen and (max-width: 537px) {
 	
@@ -1367,10 +881,6 @@ svg#red_line_sidebar {
 	
 	
 	
-}
-*/ /* Media Query */
-
-
-
+} /* Media Query */
 
 
