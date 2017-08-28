@@ -117,7 +117,7 @@
 	</div><!-- sidebar -->
 	
 	
-</div><!-- sidebar -->
+</div><!-- sidebar_wrapper -->
 
 
 	<?php // dynamic_sidebar( 'sidebar' ); ?>

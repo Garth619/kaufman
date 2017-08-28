@@ -10,48 +10,47 @@
 		
 		<div class="internal_content content">
 			
-			<h1 class="intro">Atlanta Catastrophic Injury Lawyer</h1>
+			<h1 class="intro">Atlanta Catastrophic<br/> Injury Lawyer</h1>
 			
+			<svg id="default_page_gold_twolines" viewBox="0 0 158.39 21.46">
+				
+				<polyline transform="translate(24 0)" class="red_line_one" points="135.79 20.66 123.59 11.66 112.49 19.86 101.39 11.66 90.29 19.86 79.29 11.66 68.19 19.86 57.09 11.66 45.99 19.86 34.89 11.66 23.89 19.86 12.79 11.66 0.59 20.66"/>
+				
+				<polyline transform="translate(-20 -2)" class="red_line_two" points="157.79 10.24 145.59 1.25 134.49 9.45 123.39 1.25 112.29 9.45 101.29 1.25 90.19 9.45 79.09 1.25 67.99 9.45 56.89 1.25 45.89 9.45 34.79 1.25 22.59 10.24"/>
+				
+			</svg><!-- inetrnal_gold_twolines -->
 			
-			<h1>Atlanta Catastrophic Injury Lawyer</h1>
+			<h2>h2 How to Seek Compensation for Your Catastrophic Injury</h2>
 			
-			<h2>h2 Trusted Legal Guidance in Atlanta Since 1977</h2>
-			
-			<p>Body Text Style At Kaufman Law, P.C., we are passionate about protecting the rights of injured individuals. If you were recently injured in a negligence-related accident, turn to our reputable for the support you need during this difficult time. Our Atlanta personal injury attorneys work diligently to secure maximum compensation <a href="">in line link</a> so that in line hover our clients can move on with their lives without experiencing financial strain as a result of their injuries. Should you decide to be represented by our firm, you can feel peace of mind in knowing you have enlisted the services of a reputable and caring law firm.</p>
+			<p>After a catastrophic burn injury, you may feel hopeless and overwhelmed by the physical and emotional damages you sustained. At Kaufman Law, P.C., we’re committed to helping accident victims get the compensation they deserve. With more than 100 years of legal experience behind us, we understand the importance of securing a full recovery.</p>
 
-			<h3>h3 We proudly offer our clients the following:</h3>
+			<p>With an Atlanta catastrophic injury lawyer from Kaufman Law, P.C. on your side, you can have confidence your case is in good hands and focus on making a swift recovery from your accident. To learn more about your legal options with us, get in touch with a burn injury attorney from Kaufman Law, P.C. in Atlanta.</p>
+
+			<h2>How Our Lawyers Approach Burn Injury Cases</h2>
+			
+			<p>The first step is determining if you have a legitimate case. In short, if someone else is liable for your damages (caused your accident through negligent or careless actions), you can seek compensation through a personal injury claim or lawsuit.</p>
+
+			<h3>The legal process for burn injury cases often looks like this:</h3>
 			
 			<ul>
-				<li>List Style Bilingual legal services</li>
-				<li> Around-the-clock availability</li>
-				<li>Hospital and home visits</li>
-				<li>Free consultations</li>
-				<li> No legal fees unless we win your case</li>
+				<li>First, your lawyer will gather information and evidence relevant to the case, such as police reports, fire department reports,                     and pictures from the accident scene.</li>
+				<li>Establish the cause of the accident. This could mean consultations with safety experts, electricians, and other professionals     to determine how the accident happened and how it could have been prevented.</li>
+				<li>Investigate medical information, records, and treatment.</li>
+				<li>Consult medical professionals to estimate cost of future and ongoing medical care for your injuries, such as missed wages     and rehabilitation.</li>
 			</ul>
 
-			<h2>Our Awards & Accolades</h2>
-			
-			<p>During our more than 40 years as a firm, we have recovered millions of dollars in compensation for our clients. Whether we are handling a car accident or medical malpractice case, we take the time to listen carefully to the needs of our clients and let nothing stand in our way when pursuing justice. We are not afraid to take a case to trial if we believe that it will benefit the outcome of a case.</p>
+			<h2>Common Types of Burn Injuries and Accidents</h2>
 
-			<h3>The Atlanta personal injury attorneys at our firm have been recognized by:</h3>
-    
+			<p>Many types of accidents can lead to burn injuries. Some of the most frequent are traffic collisions, such as car accidents, truck accidents, and motorcycle accidents. Industrial workplace accidents can also lead to serious burns, including chemical and electrical injuries. Although many burns are the result of fires, other forms include:</p>
+			
 			<ul>
-			
-			 <li>State Bar of Georgia</li>
-			 <li>Georgia Trial Lawyers Association</li>
-			 <li>Atlanta Trial Lawyers Association</li>
-			 <li>National Crime Victim Bar Association</li>
-			 <li>Southern Trial Lawyers Association</li>
-			 <li>American Bar Association</li>
-			 <li>American Association for Justice</li>
-			 <li>Cobb County Bar Association</li>
-    
+				<li>Thermal burns, often caused by hot liquids / steam or contact with hot objects</li>
+				<li>Radiation burns from defective medical devices or fluoroscopy overuse</li>
+				<li>Vapor burns caused by dangerous chemicals, which can damage the eyes</li>
+				<li>Burns from chemical contact, such as contact with solvents or acids</li>
+				<li>Electrical burns, which can damage internal organs and deep tissue</li>
 			</ul>
 
-			<h2>Need Help? Speak with Our Atlanta Personal Injury Lawyers</h2>
-			
-			<p>If you need help resolving a personal injury matter, we are the kind of law firm you want on your side. We will personally 
-take care of all the details so that you don't have to worry about paperwork, and will guide you through the entire claims-filing process until your case is finalized in the most favorable manner possible. Regardless of the seriousness or complexity of your personal injury case, we are confident in our abilities to assist you.</p>
 			
 			
 		</div><!-- internal_content -->
