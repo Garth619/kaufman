@@ -12587,6 +12587,786 @@
 		"oAP": "\/wp-content\/themes\/kaufman\/style.css.map",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2017\/08\/amerson-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5074,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/amerson-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/amerson-236x300.jpg": {
+		"ft": 16384,
+		"iS": 11288,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/amerson-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/amerson.jpg": {
+		"ft": 16384,
+		"iS": 55010,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/amerson.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/anderson-150x150.jpg": {
+		"ft": 16384,
+		"iS": 6157,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/anderson-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/anderson-236x300.jpg": {
+		"ft": 16384,
+		"iS": 15365,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/anderson-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/anderson.jpg": {
+		"ft": 16384,
+		"iS": 75779,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/anderson.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/baez-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5313,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/baez-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/baez-236x300.jpg": {
+		"ft": 16384,
+		"iS": 11859,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/baez-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/baez.jpg": {
+		"ft": 16384,
+		"iS": 53483,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/baez.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/barfield-150x150.jpg": {
+		"ft": 16384,
+		"iS": 6397,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/barfield-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/barfield-236x300.jpg": {
+		"ft": 16384,
+		"iS": 16030,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/barfield-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/barfield.jpg": {
+		"ft": 16384,
+		"iS": 79424,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/barfield.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/barrett-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5584,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/barrett-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/barrett-236x300.jpg": {
+		"ft": 16384,
+		"iS": 12386,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/barrett-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/barrett.jpg": {
+		"ft": 16384,
+		"iS": 49461,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/barrett.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/bloch-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4323,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/bloch-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/bloch-236x300.jpg": {
+		"ft": 16384,
+		"iS": 9789,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/bloch-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/bloch.jpg": {
+		"ft": 16384,
+		"iS": 43072,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/bloch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/devito-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5979,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/devito-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/devito-236x300.jpg": {
+		"ft": 16384,
+		"iS": 13704,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/devito-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/devito.jpg": {
+		"ft": 16384,
+		"iS": 55036,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/devito.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/dlouhy-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5937,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/dlouhy-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/dlouhy-236x300.jpg": {
+		"ft": 16384,
+		"iS": 13399,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/dlouhy-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/dlouhy.jpg": {
+		"ft": 16384,
+		"iS": 52391,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/dlouhy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/ervin-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5679,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/ervin-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/ervin-236x300.jpg": {
+		"ft": 16384,
+		"iS": 12594,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/ervin-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/ervin.jpg": {
+		"ft": 16384,
+		"iS": 50397,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/ervin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/fuller-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4333,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/fuller-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/fuller-236x300.jpg": {
+		"ft": 16384,
+		"iS": 9548,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/fuller-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/fuller.jpg": {
+		"ft": 16384,
+		"iS": 44232,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/fuller.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/furr-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5880,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/furr-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/furr-236x300.jpg": {
+		"ft": 16384,
+		"iS": 14828,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/furr-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/furr.jpg": {
+		"ft": 16384,
+		"iS": 74963,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/furr.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/givens-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4796,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/givens-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/givens-236x300.jpg": {
+		"ft": 16384,
+		"iS": 10045,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/givens-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/givens.jpg": {
+		"ft": 16384,
+		"iS": 39803,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/givens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/green-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5541,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/green-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/green-236x300.jpg": {
+		"ft": 16384,
+		"iS": 12268,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/green-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/green.jpg": {
+		"ft": 16384,
+		"iS": 48160,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/green.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/gunnels-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5531,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/gunnels-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/gunnels-236x300.jpg": {
+		"ft": 16384,
+		"iS": 13013,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/gunnels-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/gunnels.jpg": {
+		"ft": 16384,
+		"iS": 55536,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/gunnels.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/hull-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5100,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/hull-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/hull-236x300.jpg": {
+		"ft": 16384,
+		"iS": 11348,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/hull-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/hull.jpg": {
+		"ft": 16384,
+		"iS": 46706,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/hull.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/hurst-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5602,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/hurst-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/hurst-236x300.jpg": {
+		"ft": 16384,
+		"iS": 12875,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/hurst-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/hurst.jpg": {
+		"ft": 16384,
+		"iS": 55920,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/hurst.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/kaufman-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5054,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/kaufman-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/kaufman-236x300.jpg": {
+		"ft": 16384,
+		"iS": 12056,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/kaufman-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/kaufman.jpg": {
+		"ft": 16384,
+		"iS": 62503,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/kaufman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/knowles-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5425,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/knowles-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/knowles-236x300.jpg": {
+		"ft": 16384,
+		"iS": 12047,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/knowles-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/knowles.jpg": {
+		"ft": 16384,
+		"iS": 47657,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/knowles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/lever-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5358,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/lever-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/lever-236x300.jpg": {
+		"ft": 16384,
+		"iS": 13749,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/lever-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/lever.jpg": {
+		"ft": 16384,
+		"iS": 74023,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/lever.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/m-kaufman-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5026,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/m-kaufman-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/m-kaufman-236x300.jpg": {
+		"ft": 16384,
+		"iS": 10793,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/m-kaufman-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/m-kaufman.jpg": {
+		"ft": 16384,
+		"iS": 45233,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/m-kaufman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/mccullars-150x150.jpg": {
+		"ft": 16384,
+		"iS": 6173,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/mccullars-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/mccullars-236x300.jpg": {
+		"ft": 16384,
+		"iS": 14156,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/mccullars-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/mccullars.jpg": {
+		"ft": 16384,
+		"iS": 64958,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/mccullars.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/parrish-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5050,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/parrish-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/parrish-236x300.jpg": {
+		"ft": 16384,
+		"iS": 10742,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/parrish-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/parrish.jpg": {
+		"ft": 16384,
+		"iS": 40412,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/parrish.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/price-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4849,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/price-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/price-236x300.jpg": {
+		"ft": 16384,
+		"iS": 10375,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/price-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/price.jpg": {
+		"ft": 16384,
+		"iS": 40683,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/price.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/raley-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4935,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/raley-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/raley-236x300.jpg": {
+		"ft": 16384,
+		"iS": 10477,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/raley-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/raley.jpg": {
+		"ft": 16384,
+		"iS": 40123,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/raley.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/remy-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5382,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/remy-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/remy-236x300.jpg": {
+		"ft": 16384,
+		"iS": 12121,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/remy-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/remy.jpg": {
+		"ft": 16384,
+		"iS": 54504,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/remy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/stuckey-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4980,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/stuckey-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/stuckey-236x300.jpg": {
+		"ft": 16384,
+		"iS": 10827,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/stuckey-236x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/stuckey.jpg": {
+		"ft": 16384,
+		"iS": 46027,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/stuckey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-cron.php": {
 		"ft": 8192,
 		"oA": 2,
