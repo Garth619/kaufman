@@ -38,37 +38,8 @@
 				
 				</div><!-- default_header_wrapper -->
 			
-			<h2>h2 How to Seek Compensation for Your Catastrophic Injury</h2>
 			
-			<p>After a catastrophic burn injury, you may feel hopeless and overwhelmed by the physical and emotional damages you sustained. At Kaufman Law, P.C., we’re committed to helping accident victims get the compensation they deserve. With more than 100 years of legal experience behind us, we understand the importance of securing a full recovery.</p>
-
-			<p>With an Atlanta catastrophic injury lawyer from Kaufman Law, P.C. on your side, you can have confidence your case is in good hands and focus on making a swift recovery from your accident. To learn more about your legal options with us, get in touch with a burn injury attorney from Kaufman Law, P.C. in Atlanta.</p>
-
-			<h2>How Our Lawyers Approach Burn Injury Cases</h2>
-			
-			<p>The first step is determining if you have a legitimate case. In short, if someone else is liable for your damages (caused your accident through negligent or careless actions), you can seek compensation through a personal injury claim or lawsuit.</p>
-
-			<h3>The legal process for burn injury cases often looks like this:</h3>
-			
-			<ul>
-				<li>First, your lawyer will gather information and evidence relevant to the case, such as police reports, fire department reports,                     and pictures from the accident scene.</li>
-				<li>Establish the cause of the accident. This could mean consultations with safety experts, electricians, and other professionals     to determine how the accident happened and how it could have been prevented.</li>
-				<li>Investigate medical information, records, and treatment.</li>
-				<li>Consult medical professionals to estimate cost of future and ongoing medical care for your injuries, such as missed wages     and rehabilitation.</li>
-			</ul>
-
-			<h2>Common Types of Burn Injuries and Accidents</h2>
-
-			<p>Many types of accidents can lead to burn injuries. Some of the most frequent are traffic collisions, such as car accidents, truck accidents, and motorcycle accidents. Industrial workplace accidents can also lead to serious burns, including chemical and electrical injuries. Although many burns are the result of fires, other forms include:</p>
-			
-			<ul>
-				<li>Thermal burns, often caused by hot liquids / steam or contact with hot objects</li>
-				<li>Radiation burns from defective medical devices or fluoroscopy overuse</li>
-				<li>Vapor burns caused by dangerous chemicals, which can damage the eyes</li>
-				<li>Burns from chemical contact, such as contact with solvents or acids</li>
-				<li>Electrical burns, which can damage internal organs and deep tissue</li>
-			</ul>
-
+				<?php get_template_part( 'loop', 'index' );?>
 			
 			
 		</div><!-- internal_content -->
@@ -84,13 +55,6 @@
 
 
 </div><!-- edgeless_layout -->
-
-
-<?php //get_template_part( 'loop', 'index' );?>
-
-
-
-
 
 
 

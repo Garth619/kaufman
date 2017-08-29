@@ -65,6 +65,8 @@
 			<span class="sidebar_large_header"><strong>Areas</strong><br/> of Practice</span><!-- sidebar_large_header -->
 			
 			<div class="pa_list">
+				
+				<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
 			
 				<ul>
 					

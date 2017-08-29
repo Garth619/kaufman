@@ -352,6 +352,9 @@ body {
 	line-height: 33px;
 	font-family: $trironglight;
 	color:$lightblack;
+	span.first_letter {
+		margin-left:-25px
+	}
 	h1.intro {
 		&:after {
 			display: none;

@@ -1,0 +1,57 @@
+.attorney_bio_header_wrapper {
+	overflow: hidden;
+	margin-top:15px;
+	
+	img {
+		max-width:335px;
+		height:auto;
+		float:left;
+	}
+}
+
+
+.attorney_bio_header {
+		float:left;
+		padding-left:6.5%;
+		h1.att_name {
+			font-family: $trirongregular;
+			line-height: 86px;
+			font-size: 85px;
+			font-weight: 300;
+			font-style: normal;
+			margin-left:5%;
+			&:after {
+				display: none;
+			}
+			span.second_line {
+				display: block;
+				margin-left:23%;
+			}
+		}
+		svg#default_page_gold_twolines {
+			margin-top:35px;
+			float:left;
+			margin-left:0;
+		}
+		span.bio_title {
+			color:$red;
+			text-transform: uppercase;
+			font-family: $akagilblack;
+			font-size:18px;
+			letter-spacing: 4px;
+			margin-top:35px;
+			float: left;
+			margin-left:15px;
+		}
+	}
+	
+	
+	
+	
+	
+	.internal_bio_content {
+			padding-left:30px;
+			margin-top:133px;
+		}
+	
+	
