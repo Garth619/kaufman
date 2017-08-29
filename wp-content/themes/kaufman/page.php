@@ -19,7 +19,7 @@
 			
 			<div class="default_header_wrapper">
 			
-				<h1 class="intro">Atlanta Catastrophic<br/> Injury Lawyer</h1>
+				<h1 class="intro"><?php the_title();?></h1>
 				
 				<svg id="default_page_gold_twolines" viewBox="0 0 158.39 21.46">
 					
