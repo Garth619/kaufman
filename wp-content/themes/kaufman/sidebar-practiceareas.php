@@ -66,8 +66,9 @@
 			
 			<div class="pa_list">
 				
-				<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
 			
+<!--
 				<ul>
 					
 					<li>
@@ -78,193 +79,13 @@
 			
 							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
 				
-						</svg><!-- red_line_form -->
+						</svg>
 						
 					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg><!-- red_line_form -->
-						
-					</li>
-					
-					
+
 					
 				</ul>
+-->
 			
 			</div><!-- pa_list -->
 			

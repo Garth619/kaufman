@@ -47,7 +47,7 @@
 				
 				<span class="att_content">Practicing injury law since 1977, Jeffrey has recovered millions of dollars for clients. He has secured one of the largest verdicts in Georgia’s history— a $25 million dollar verdict for a medical malpractice case.</span><!-- att_content -->
 				
-				<a class="view_button" href="">
+				<a class="view_button" href="<?php bloginfo('url');?>/jefferey-kaufman/">
 					
 					<span class="view_text">View Attorney Profile</span> 
 					
@@ -98,13 +98,28 @@
 				
 				</div><!-- att_buttons -->
 				
-				<a class="att_single_slide_link" href="">
+				
+				
+				
+				
+			<?php $attorneys_slideshow = get_field( 'attorneys_slideshow' ); ?>
+				
+				<?php if ( $attorneys_slideshow ): ?>
+				
+					<?php foreach ( $attorneys_slideshow as $post ):  ?>
+					
+					<?php setup_postdata ( $post ); ?>
+					
+					
+					<a class="att_single_slide_link" href="<?php the_permalink();?>">
 				
 					<div class="att_single_slide">
 					
 						<div class="att_image_wrapper">
 						
-							<img src="<?php bloginfo('template_directory');?>/images/attorneys/price.jpg"/>
+							<?php $profile_image = get_field( 'profile_image' ); ?>
+														
+							<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
 						
 							<div class="att_overlay">
 							
@@ -134,7 +149,7 @@
 			
 						</svg><!-- red_line_form -->
 						
-						<span>Marvin L. Price</span>
+						<span><?php the_title();?></span>
 					
 					</div><!-- att_title_wrapper -->
 					
@@ -142,252 +157,19 @@
 				</div><!-- att_single_slide -->
 				
 				</a><!-- att_single_slide_link -->
-				
-				
-				
-				<a class="att_single_slide_link" href="">
-				
-					<div class="att_single_slide">
 					
-						<div class="att_image_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/attorneys/price.jpg"/>
-						
-							<div class="att_overlay">
-							
-								<div class="view_att_wrapper">
-							
-									<span class="view_att_link">View Attorney Profile</span><!-- view_att_link -->
-							
-									<svg id="att_arrow" viewBox="0 0 7.6 40.7">
-						
-										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
 					
-										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+					
+					
+					
+					
+					<?php endforeach; ?>
+					
+					<?php wp_reset_postdata(); ?>
+					
+				<?php endif; ?>
 				
-									</svg><!-- start_arrow -->
-						
-								</div><!-- view_att_wrapper -->
-							
-						</div><!-- att_overlay -->
-						
-					</div><!-- att_image_wrapper -->
-					
-					<div class="att_title_wrapper">
-						
-						<svg id="att_red_line" viewBox="0 0 52.79 8.27">
-		
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
 			
-						</svg><!-- red_line_form -->
-						
-						<span>Marvin L. Price</span>
-					
-					</div><!-- att_title_wrapper -->
-					
-					
-				</div><!-- att_single_slide -->
-				
-				</a><!-- att_single_slide_link -->
-				
-				
-				
-				
-				
-				<a class="att_single_slide_link" href="">
-				
-					<div class="att_single_slide">
-					
-						<div class="att_image_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/attorneys/price.jpg"/>
-						
-							<div class="att_overlay">
-							
-								<div class="view_att_wrapper">
-							
-									<span class="view_att_link">View Attorney Profile</span><!-- view_att_link -->
-							
-									<svg id="att_arrow" viewBox="0 0 7.6 40.7">
-						
-										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
-					
-										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
-				
-									</svg><!-- start_arrow -->
-						
-								</div><!-- view_att_wrapper -->
-							
-						</div><!-- att_overlay -->
-						
-					</div><!-- att_image_wrapper -->
-					
-					<div class="att_title_wrapper">
-						
-						<svg id="att_red_line" viewBox="0 0 52.79 8.27">
-		
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-			
-						</svg><!-- red_line_form -->
-						
-						<span>Marvin L. Price</span>
-					
-					</div><!-- att_title_wrapper -->
-					
-					
-				</div><!-- att_single_slide -->
-				
-				</a><!-- att_single_slide_link -->
-				
-				
-				
-				
-				
-				<a class="att_single_slide_link" href="">
-				
-					<div class="att_single_slide">
-					
-						<div class="att_image_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/attorneys/price.jpg"/>
-						
-							<div class="att_overlay">
-							
-								<div class="view_att_wrapper">
-							
-									<span class="view_att_link">View Attorney Profile</span><!-- view_att_link -->
-							
-									<svg id="att_arrow" viewBox="0 0 7.6 40.7">
-						
-										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
-					
-										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
-				
-									</svg><!-- start_arrow -->
-						
-								</div><!-- view_att_wrapper -->
-							
-						</div><!-- att_overlay -->
-						
-					</div><!-- att_image_wrapper -->
-					
-					<div class="att_title_wrapper">
-						
-						<svg id="att_red_line" viewBox="0 0 52.79 8.27">
-		
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-			
-						</svg><!-- red_line_form -->
-						
-						<span>Marvin L. Price</span>
-					
-					</div><!-- att_title_wrapper -->
-					
-					
-				</div><!-- att_single_slide -->
-				
-				</a><!-- att_single_slide_link -->
-				
-				
-				
-				
-				
-				<a class="att_single_slide_link" href="">
-				
-					<div class="att_single_slide">
-					
-						<div class="att_image_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/attorneys/price.jpg"/>
-						
-							<div class="att_overlay">
-							
-								<div class="view_att_wrapper">
-							
-									<span class="view_att_link">View Attorney Profile</span><!-- view_att_link -->
-							
-									<svg id="att_arrow" viewBox="0 0 7.6 40.7">
-						
-										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
-					
-										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
-				
-									</svg><!-- start_arrow -->
-						
-								</div><!-- view_att_wrapper -->
-							
-						</div><!-- att_overlay -->
-						
-					</div><!-- att_image_wrapper -->
-					
-					<div class="att_title_wrapper">
-						
-						<svg id="att_red_line" viewBox="0 0 52.79 8.27">
-		
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-			
-						</svg><!-- red_line_form -->
-						
-						<span>Marvin L. Price</span>
-					
-					</div><!-- att_title_wrapper -->
-					
-					
-				</div><!-- att_single_slide -->
-				
-				</a><!-- att_single_slide_link -->
-				
-				
-				
-				
-				
-				
-				<a class="att_single_slide_link" href="">
-				
-					<div class="att_single_slide">
-					
-						<div class="att_image_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/attorneys/price.jpg"/>
-						
-							<div class="att_overlay">
-							
-								<div class="view_att_wrapper">
-							
-									<span class="view_att_link">View Attorney Profile</span><!-- view_att_link -->
-							
-									<svg id="att_arrow" viewBox="0 0 7.6 40.7">
-						
-										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
-					
-										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
-				
-									</svg><!-- start_arrow -->
-						
-								</div><!-- view_att_wrapper -->
-							
-						</div><!-- att_overlay -->
-						
-					</div><!-- att_image_wrapper -->
-					
-					<div class="att_title_wrapper">
-						
-						<svg id="att_red_line" viewBox="0 0 52.79 8.27">
-		
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-			
-						</svg><!-- red_line_form -->
-						
-						<span>Marvin L. Price</span>
-					
-					</div><!-- att_title_wrapper -->
-					
-					
-				</div><!-- att_single_slide -->
-				
-				</a><!-- att_single_slide_link -->
-				
-				
 				
 			</div><!-- att_slideshow -->
 

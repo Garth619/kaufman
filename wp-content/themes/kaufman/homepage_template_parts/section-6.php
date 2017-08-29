@@ -21,7 +21,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -37,7 +37,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -53,7 +53,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -69,7 +69,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -85,7 +85,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -101,7 +101,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -117,7 +117,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -133,7 +133,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -149,7 +149,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
@@ -165,7 +165,7 @@
 				
 					<a href="">
 					
-						<span>Auto Accidents</span>
+						<span>Practice Area Example</span>
 					
 						<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		

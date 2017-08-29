@@ -28,6 +28,15 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 
+<style type="text/css">
+
+.internal_banner_wrapper {
+	background: rgba(0, 0, 0, 0) url(<?php the_field( 'internal_banners' ); ?>) no-repeat scroll center top / cover ;
+}
+
+</style>
+
+
 
 <?php wp_head(); ?>
 </head>

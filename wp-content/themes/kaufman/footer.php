@@ -20,9 +20,9 @@
 			
 			<span class="firm_title"><strong>Kaufman Law, P.C.</strong><br/> Atlanta Personal Injury Attorney</span><!-- firm_title -->
 			
-			<a class="address" href="" target="_blank">100 Galleria Pkwy SE, Suite 1100,<br/> Atlanta, GA 30339</a>
+			<a class="address" href="https://www.google.com/maps?q=100+Galleria+Pkwy+SE,+Suite+1100,+Atlanta,+GA+30339&oe=utf-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjRtqWWo_3VAhUmjlQKHV6IDmkQ_AUICigB" target="_blank">100 Galleria Pkwy SE, Suite 1100,<br/> Atlanta, GA 30339</a>
 			
-			<a class="get_directions" href="">Get Directions</a>
+			<a class="get_directions" href="https://www.google.com/maps?q=100+Galleria+Pkwy+SE,+Suite+1100,+Atlanta,+GA+30339&oe=utf-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjRtqWWo_3VAhUmjlQKHV6IDmkQ_AUICigB" target="_blank">Get Directions</a>
 			
 			<span class="office_hours_title">Office Hours</span><!-- office_hours_title -->
 			
@@ -35,7 +35,7 @@
 			
 			<div class="footer_phone_wrapper">
 				
-				<a class="phone" href="">(678) 726-1425</a><!-- phone -->
+				<a class="phone" href="tel:(678) 726-1425">(678) 726-1425</a><!-- phone -->
 				
 				<span class="small_header">Get Your Free Case Evaluation Today</span><!-- small_header -->
 				
@@ -55,7 +55,7 @@
 				
 				<li>
 					
-					<a href="">Facebook</a>
+					<a href="https://www.facebook.com/kaufmanlaw" target="_blank">Facebook</a>
 					
 					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
 				
@@ -66,31 +66,7 @@
 				</li>
 				<li>
 				
-					<a href="">Twitter</a>
-					
-					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
-				
-						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
-					
-					</svg><!-- red_line_intro -->
-				
-				</li>
-				
-				<li>
-					
-					<a href="">LinkedIn</a>
-					
-					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
-				
-						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
-					
-					</svg><!-- red_line_intro -->
-				
-				</li>
-				
-				<li>
-				
-					<a href="">Youtube</a>
+					<a href="https://twitter.com/kaufmanlaw" target="_blank">Twitter</a>
 					
 					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
 				
@@ -102,7 +78,31 @@
 				
 				<li>
 					
-					<a href="">Google+</a>
+					<a href="https://www.linkedin.com/company-beta/9285527/" target="_blank">LinkedIn</a>
+					
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				
+				<li>
+				
+					<a href="https://www.youtube.com/channel/UCdagZOq3BverJ47twkIc6Iw" target="_blank">Youtube</a>
+					
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				
+				<li>
+					
+					<a href="https://plus.google.com/+KaufmanLawAtlanta/posts" target="_blank">Google+</a>
 				
 					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
 				
