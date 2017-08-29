@@ -46,6 +46,7 @@
 				
 					<div class="team_group">
 						
+						<span class="team_group_title">Attorneys</span><!-- team_group_title -->
 						
 						<a href="">
 						
@@ -187,7 +188,242 @@
 						</a>						
 						
 												
-					</div><!-- team_group -->			
+					</div><!-- team_group -->	
+					
+					
+					
+					
+		
+					<div class="team_group">
+						
+						<span class="team_group_title">Firm Management</span><!-- team_group_title -->
+						
+						<a href="">
+						
+							<div class="single_profile">
+							
+								<div class="img_wrapper">
+									
+									<div class="img_overlay"></div><!-- img_overlay -->
+									
+									<img src="<?php bloginfo('template_directory');?>/images/attorneys/parrish.jpg"/>
+								
+								</div><!-- img_wrapper -->
+								
+								<div class="profile_title_wrapper">
+									
+									<span class="profile_name">Meredith M. Parrish</span><!-- profile_name -->
+									
+									<span class="profile_title">Attorney</span><!-- profile_title -->
+									
+									<svg id="single_attr_arrow" viewBox="0 0 7.6 40.7">
+						
+										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
+					
+										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+				
+									</svg><!-- start_arrow -->
+									
+									
+								</div><!-- profile_title_wrapper -->
+							
+							
+							</div><!-- single_profile -->
+						
+						</a>
+						
+						
+																	
+												
+					</div><!-- team_group -->	
+					
+					
+					
+					
+					<div class="team_group">
+						
+						<span class="team_group_title">Paralegals</span><!-- team_group_title -->
+						
+						<a href="">
+						
+							<div class="single_profile">
+							
+								<div class="img_wrapper">
+									
+									<div class="img_overlay"></div><!-- img_overlay -->
+									
+									<img src="<?php bloginfo('template_directory');?>/images/attorneys/parrish.jpg"/>
+								
+								</div><!-- img_wrapper -->
+								
+								<div class="profile_title_wrapper">
+									
+									<span class="profile_name">Meredith M. Parrish</span><!-- profile_name -->
+									
+									<span class="profile_title">Attorney</span><!-- profile_title -->
+									
+									<svg id="single_attr_arrow" viewBox="0 0 7.6 40.7">
+						
+										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
+					
+										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+				
+									</svg><!-- start_arrow -->
+									
+									
+								</div><!-- profile_title_wrapper -->
+							
+							
+							</div><!-- single_profile -->
+						
+						</a>
+						
+						<a href="">
+						
+							<div class="single_profile">
+							
+								<div class="img_wrapper">
+									
+									<div class="img_overlay"></div><!-- img_overlay -->
+									
+									<img src="<?php bloginfo('template_directory');?>/images/attorneys/parrish.jpg"/>
+								
+								</div><!-- img_wrapper -->
+								
+								<div class="profile_title_wrapper">
+									
+									<span class="profile_name">Meredith M. Parrish</span><!-- profile_name -->
+									
+									<span class="profile_title">Attorney</span><!-- profile_title -->
+									
+									<svg id="single_attr_arrow" viewBox="0 0 7.6 40.7">
+						
+										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
+					
+										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+				
+									</svg><!-- start_arrow -->
+									
+									
+								</div><!-- profile_title_wrapper -->
+							
+							
+							</div><!-- single_profile -->
+						
+						</a>
+						
+						<a href="">
+						
+							<div class="single_profile">
+							
+								<div class="img_wrapper">
+									
+									<div class="img_overlay"></div><!-- img_overlay -->
+									
+									<img src="<?php bloginfo('template_directory');?>/images/attorneys/parrish.jpg"/>
+								
+								</div><!-- img_wrapper -->
+								
+								<div class="profile_title_wrapper">
+									
+									<span class="profile_name">Meredith M. Parrish</span><!-- profile_name -->
+									
+									<span class="profile_title">Attorney</span><!-- profile_title -->
+									
+									<svg id="single_attr_arrow" viewBox="0 0 7.6 40.7">
+						
+										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
+					
+										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+				
+									</svg><!-- start_arrow -->
+									
+									
+								</div><!-- profile_title_wrapper -->
+							
+							
+							</div><!-- single_profile -->
+						
+						</a>
+						
+						<a href="">
+						
+							<div class="single_profile">
+							
+								<div class="img_wrapper">
+									
+									<div class="img_overlay"></div><!-- img_overlay -->
+									
+									<img src="<?php bloginfo('template_directory');?>/images/attorneys/parrish.jpg"/>
+								
+								</div><!-- img_wrapper -->
+								
+								<div class="profile_title_wrapper">
+									
+									<span class="profile_name">Meredith M. Parrish</span><!-- profile_name -->
+									
+									<span class="profile_title">Attorney</span><!-- profile_title -->
+									
+									<svg id="single_attr_arrow" viewBox="0 0 7.6 40.7">
+						
+										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
+					
+										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+				
+									</svg><!-- start_arrow -->
+									
+									
+								</div><!-- profile_title_wrapper -->
+							
+							
+							</div><!-- single_profile -->
+						
+						</a>
+						
+						<a href="">
+						
+							<div class="single_profile">
+							
+								<div class="img_wrapper">
+									
+									<div class="img_overlay"></div><!-- img_overlay -->
+									
+									<img src="<?php bloginfo('template_directory');?>/images/attorneys/parrish.jpg"/>
+								
+								</div><!-- img_wrapper -->
+								
+								<div class="profile_title_wrapper">
+									
+									<span class="profile_name">Meredith M. Parrish</span><!-- profile_name -->
+									
+									<span class="profile_title">Attorney</span><!-- profile_title -->
+									
+									<svg id="single_attr_arrow" viewBox="0 0 7.6 40.7">
+						
+										<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
+					
+										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
+				
+									</svg><!-- start_arrow -->
+									
+									
+								</div><!-- profile_title_wrapper -->
+							
+							
+							</div><!-- single_profile -->
+						
+						</a>
+						
+						
+																	
+												
+					</div><!-- team_group -->	
+					
+					
+					
+					
+					
+							
 					
 					
 				</div><!-- team_wrapper -->

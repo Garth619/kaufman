@@ -1,6 +1,27 @@
+.team_wrapper {
+	margin-top:37px;
+	
+}
+
+
 .team_group {
+	display: inline-block;
+	margin-bottom:55px;
+	width:100%;
+	&:last-of-type {
+		margin-bottom:0px;
+	}
 	a {
 		text-decoration: none;
+	}
+	span.team_group_title {
+		display: block;
+		color:$red;
+		text-transform: uppercase;
+		font-family: $akagilblack;
+		letter-spacing: 5px;
+		font-size: 18px;
+		margin-bottom: 35px;
 	}
 }
 
@@ -9,6 +30,10 @@
 
 .single_profile {
 	width:33.3333%;
+	display: inline-block;
+	margin-right:-4px;
+	padding-right:15px;
+	margin-bottom:40px;
 	&:hover {
 		.img_wrapper {
 			.img_overlay	{
@@ -89,3 +114,210 @@ svg#single_attr_arrow {
 			fill:#fff;
 		}
 	}
+	
+	
+	@media screen and (max-width: 1664px) {
+		
+		
+		
+	.single_profile {
+	width:50%;
+	&:hover {
+		.img_wrapper {
+			.img_overlay	{
+				
+			}
+		}
+		.profile_title_wrapper {
+			svg {
+				
+			}
+		}
+	}
+	.img_wrapper {
+		
+		.img_overlay {
+			
+		}
+		img {
+			
+		}
+	}
+	.profile_title_wrapper {
+		
+		span.profile_name {
+			
+		}
+		span.profile_title {
+			
+		}
+		svg {
+			
+		}
+	}
+}
+		
+		
+		
+		
+	} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 1385px) {
+		
+		
+		
+.single_profile {
+	width:100%;
+	padding-right:0px;
+	&:hover {
+		.img_wrapper {
+			.img_overlay	{
+				
+			}
+		}
+		.profile_title_wrapper {
+			svg {
+				
+			}
+		}
+	}
+	.img_wrapper {
+		
+		.img_overlay {
+			
+		}
+		img {
+			width:100%;
+		}
+	}
+	.profile_title_wrapper {
+		
+		span.profile_name {
+			
+		}
+		span.profile_title {
+			
+		}
+		svg {
+			
+		}
+	}
+}
+		
+		
+		
+		
+	} /* Media Query */
+	
+	
+	
+	@media screen and (max-width: 1165px) {
+		
+		
+
+		
+		
+		
+.single_profile {
+	width:50%;
+	padding-right:15px;
+	
+	&:hover {
+		.img_wrapper {
+			.img_overlay	{
+				
+			}
+		}
+		.profile_title_wrapper {
+			svg {
+				
+			}
+		}
+	}
+	.img_wrapper {
+		
+		.img_overlay {
+			
+		}
+		img {
+			width:100%;
+		}
+	}
+	.profile_title_wrapper {
+		
+		span.profile_name {
+			
+		}
+		span.profile_title {
+			
+		}
+		svg {
+			
+		}
+	}
+}
+
+		
+		
+		
+		
+	} /* Media Query */
+	
+	
+	
+	@media screen and (max-width: 760px) {
+		
+		.team_group {
+			text-align: center;
+		}
+				
+.single_profile {
+	width:100%;
+	max-width:500px;
+	padding-right:0;
+	&:hover {
+		.img_wrapper {
+			.img_overlay	{
+				
+			}
+		}
+		.profile_title_wrapper {
+			
+			svg {
+				opacity: 0;
+			}
+		}
+	}
+	.img_wrapper {
+		
+		.img_overlay {
+			
+		}
+		img {
+			
+		}
+	}
+	.profile_title_wrapper {
+		
+		span.profile_name {
+			
+		}
+		span.profile_title {
+			
+		}
+		svg {
+			
+		}
+	}
+}
+
+		
+		
+		
+		
+		
+	} /* Media Query */
