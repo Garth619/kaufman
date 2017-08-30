@@ -1,0 +1,21 @@
+.internal_testi_wrapper {
+	
+}
+
+
+.internal_single_testi {
+	border-bottom:1px solid #c8c8c8;
+	padding-bottom:25px;
+	margin-bottom:42px;
+	&:last-of-type {
+		border:none;
+		margin-bottom:0px;
+		padding-bottom: 0;
+	}
+	span.internal_testi_name {
+		font-family: $akagilbold;
+		text-transform: uppercase;
+		font-size:17px;
+		letter-spacing: 1.5px;
+		}
+	}
