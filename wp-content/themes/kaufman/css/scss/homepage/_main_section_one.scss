@@ -20,7 +20,7 @@
 	position: relative;
 	z-index:10;
 	text-align: center;
-	padding-top:120px;
+	padding-top: 121px;
 	.intro_header {
 		color:#fff;
 		font-family: $akagilbold;
@@ -38,13 +38,29 @@
 }
 
 
+.my_wistia_container {
+	position: absolute;
+	top:0;
+	left:0;
+	a {
+		display: block;
+		
+		width:218px;
+		height:218px;
+	}
+}
+
+
+
+
 .play_wrapper {
 	display: inline-block;
 	position: relative;
-	top:25px;
+	top: 28px;
 	margin-left:-377px;
 	right:-135px;
 	width:325px;
+	position: relative;
 	span.learn {
 		font-size:16px;
 		text-transform: none;
@@ -69,6 +85,7 @@ svg#red_line_intro {
 	position: absolute;
 	top:50px;
 	right:-5px;
+	height: 20px;
 	.red_line_intro_path {
 		
 	}
@@ -155,8 +172,13 @@ svg#play_button_svg {
 	float:right;
 	text-align: center;
 	width:330px;
+	height:100px;
+	overflow: hidden;
 	span {
-		display: inline-block;
+		float:left;
+		margin-left: 29px;
+    margin-top: 15px;
+		
 	}
 	&:hover {
 		background:$greybrown;
@@ -169,7 +191,7 @@ svg#play_button_svg {
 	
 	svg#start_arrow {
 		width:8px;
-		display: inline-block;
+		float:left;
 		position: relative;
 		top:8px;
 		margin-left:15px;
@@ -246,6 +268,11 @@ svg#intro_red_twolines {
 	}
 	
 	
+	svg#play_button_svg {
+		height: 195px;
+	}
+	
+	
 	
 	.intro_banner_content {
 		max-width: 1205px;
@@ -259,7 +286,7 @@ svg#intro_red_twolines {
 			display: block;
 			clear:both;
 			line-height: 89px;
-			margin-top:-15px
+			margin-top: -5px;
 		}
 	}
 }
@@ -303,6 +330,7 @@ svg#intro_red_twolines {
 	
 	.intro_banner {
 		margin-top:69px;
+		height: 1116px;
 	}
 	
 	
@@ -320,6 +348,19 @@ svg#intro_red_twolines {
 @media screen and (max-width: 1165px) {
 	
 	
+	
+.my_wistia_container {
+	position: absolute;
+	top:0;
+	left:0px;
+	a {
+		
+	}
+}
+	
+	
+	
+	
 	.intro_banner {
 		background: url(#{$themepath}images/hero-image-tablet.jpg) top center no-repeat;
 		background-size: cover;
@@ -329,6 +370,21 @@ svg#intro_red_twolines {
 			display: none;
 		}
 	}
+
+
+
+.intro_banner_content {
+		
+	.intro_header {
+		
+		span.intro_title {
+			
+			margin-top: -10px;
+		}
+	}
+}
+
+
 
 	
 	
@@ -362,7 +418,7 @@ svg#intro_red_twolines {
 	}
 	
 	
-		
+	
 	
 .intro_banner_content {
 	padding: 166px 30px 126px;
@@ -373,6 +429,9 @@ svg#intro_red_twolines {
 		strong {
 			
 		}
+	}
+	span.intro_title {
+		
 	}
 }
 
@@ -421,6 +480,7 @@ svg#intro_red_twolines {
 	.play_wrapper {
 		width: 183px;
 		right:0;
+		top: 7px;
 		span.learn {
 			display: none;
 		}
@@ -445,7 +505,7 @@ svg#intro_red_twolines {
 		.intro_header {
 			font-size: 43px;
 			span.intro_title {
-				margin-top: -5px;
+				margin-top: 0px;
 				line-height: 48px;
 				letter-spacing: 1px;
 			}
@@ -464,6 +524,11 @@ svg#intro_red_twolines {
 			width:290px;
 		}
 	}
+	
+	.intro_button span {
+		margin-left:8px;
+	}
+	
 	
 	
 	

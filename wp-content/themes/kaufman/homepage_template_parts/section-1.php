@@ -8,6 +8,15 @@
 		
 			<div class="play_wrapper">
 				
+				
+				<div class="my_wistia_container">
+							
+							
+							<script src="https://fast.wistia.com/embed/medias/b8myswfi3j.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_b8myswfi3j popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline"><a href="#"></a></span></div></div>
+							
+							
+				</div><!-- my_wistia_container -->
+				
 				<span class="learn">Learn about our law<br/> firm in 90 seconds</span><!-- learn -->
 				
 				<svg id="red_line_intro" viewBox="0 0 136.39 11.05">
@@ -23,34 +32,40 @@
 				</svg><!-- red_line_intro -->
 				
 		
-				<a class="play_button" href="">
+				
+				
+				
+						
+						<div class="play_button">
 					
-					<svg id="play_button_svg" viewBox="0 0 204.21 204.21">
+							<svg id="play_button_svg" viewBox="0 0 204.21 204.21">
 					
-						<defs>
+								<defs>
 						
 							
-							<linearGradient id="linear-gradient" x1="130.92" y1="494.28" x2="130.92" y2="698.43" gradientTransform="matrix(0, 1, 1, 0, -494.25, -28.81)" gradientUnits="userSpaceOnUse">
+								<linearGradient id="linear-gradient" x1="130.92" y1="494.28" x2="130.92" y2="698.43" gradientTransform="matrix(0, 1, 1, 0, -494.25, -28.81)" gradientUnits="userSpaceOnUse">
 							
-								<stop offset="0" stop-color="#f1d69d"/>
-								<stop offset="1" stop-color="#fce7ba"/>
+									<stop offset="0" stop-color="#f1d69d"/>
+									<stop offset="1" stop-color="#fce7ba"/>
 							
-							</linearGradient>
+								</linearGradient>
 							
-						</defs>
+								</defs>
 							
 							
-						<rect class="black_bg" x="32.59" y="33.24" width="138.4" height="138.4" transform="translate(-42.59 101.98) rotate(-45)"/>
+								<rect class="black_bg" x="32.59" y="33.24" width="138.4" height="138.4" transform="translate(-42.59 101.98) rotate(-45)"/>
 						
-						<rect class="gold_stroke" x="32.87" y="32.91" width="138.4" height="138.4" transform="translate(-42.27 102.08) rotate(-45)"/>
+								<rect class="gold_stroke" x="32.87" y="32.91" width="138.4" height="138.4" transform="translate(-42.27 102.08) rotate(-45)"/>
 						
-						<polygon class="play_svg" points="131.93 102.1 92.43 79.3 92.43 124.9 131.93 102.1"/>
+								<polygon class="play_svg" points="131.93 102.1 92.43 79.3 92.43 124.9 131.93 102.1"/>
 					
 					
-					</svg><!-- play_button_svg -->
+							</svg><!-- play_button_svg -->
 					
-				</a><!-- play_button -->
-		
+						</div><!-- play_button -->
+						
+									
+				
 			</div><!-- play_wrapper -->
 		
 		
