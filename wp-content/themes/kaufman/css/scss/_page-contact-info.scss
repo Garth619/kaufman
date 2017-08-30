@@ -1,0 +1,139 @@
+body.page-template-page-contact {
+	.inner_container {
+// 		padding-left:20px;
+	}	
+}
+
+
+
+
+.contact_wrapper {
+	
+}
+
+
+.contact_excerpt {
+	font-size:30px;
+	font-family:$trirongregular;
+	line-height: 40px;
+	display: block;
+	margin-bottom: 50px;
+	margin-top:33px;
+	letter-spacing: 0.6px;
+}
+
+
+
+svg#contact_gold_line {
+	fill:none;
+	stroke:$greybrown;
+	stroke-miterlimit:10;
+	stroke-width:2px;
+	width:150px;
+	height: 20px;
+	margin-left:-40px;
+	.red_line_intro_path {
+		
+	}
+}
+
+
+.contact_info {
+	margin-top:10px;
+	overflow: hidden;
+}
+
+
+.contact_info_left {
+	font-family: $trirongregular;
+	width:37%;
+	float:left;
+	margin-top:63px;
+	span.call_title {
+		color:$red;
+		display: block;
+		font-size: 36px;
+	}
+	a {
+		font-family: $akagilblack;
+		color:$lightblack;
+		letter-spacing: 2px;
+		margin-top:15px;
+		display:block;
+	}
+	span.gold_line {
+		width:100%;
+		height:2px;
+		background: $greybrown;
+		display: block;
+		margin:30px 0;
+	}
+	p {
+		line-height: 28px;
+	}
+}
+
+
+
+.contact_info_right {
+	width:63%;
+	float:right;
+	padding:0 50px 0 60px;
+	.location_wrapper {
+		background:#fff;
+		width:100%;
+		padding:54px 65px 85px;
+		span.contact_location_title {
+			color:$red;
+			font-family: $trirongregular;
+			font-size:36px;
+			letter-spacing: 1px;
+			display: block;
+		}
+		a.internal_address {
+			color:$lightblack;
+			font-family: $akagilblack;
+			text-transform: uppercase;
+			line-height: 20px;
+			display: block;
+			margin-top:20px;
+			letter-spacing: 3.2px;
+		}
+		a.internal_get_directions {
+			background: $greybrown;
+			color:#fff;
+			text-transform: uppercase;
+			display: inline-block;
+			font-family: $akagilblack;
+			font-size:14px;
+			margin-top:32px;
+			padding:4px 26px;
+			letter-spacing: 5.5px;
+			transition: all .2s ease-in-out;
+			&:hover {
+				background: $lightblack;
+				color:$greybrown;
+			}
+		}
+	}
+}
+
+
+.map {
+	margin-top:55px;
+	iframe {
+		width:100%;
+		height:295px;
+	}
+}
+
+
+
+@media screen and (max-width: 1820px) {
+	
+	svg#contact_gold_line {
+		margin-left:0px;
+	}
+	
+	
+} /* Media Query */
