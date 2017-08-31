@@ -6,7 +6,7 @@ svg#caseresults_gold_line {
 	stroke-width:2px;
 	width:95px;
 	height: 20px;
-	margin-left:-70px;
+	margin-left:-65px;
 	.red_line_intro_path {
 		
 	}
@@ -29,7 +29,7 @@ svg#caseresults_gold_line {
 }
 
 
-.single_case {
+.internal_single_case {
 	background: #fff;
 	margin-bottom: 45px;
 	padding:45px 40px 33px;
@@ -93,22 +93,245 @@ body.page-template-page-caseresults {
 }
 
 
+@media screen and (max-width: 1805px) {
+	
+	
+	
+body.page-template-page-caseresults {
+	.internal_content {
+		padding-right:0px;
+	}
+	.sidebar_wrapper {
+		
+	}
+}
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (max-width: 1780px) {
 	
 	
 	
-	body.page-template-page-caseresults {
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1465px) {
+	
+	
+.case_col {
+	width:100%;
+	&:first-of-type {
+		float:none;
+	}
+	&:last-of-type {
+		float:none;
+	}
+}
+
+	
+		
+body.page-template-page-caseresults {
 	.internal_content {
-		width:calc(100% - 525px);
+		padding-right:0px;
+		width:calc(100% - 515px);
+	}
+	.sidebar_wrapper {
+		width:515px;
+	}
+}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1165px) {
+	
+	
+
+
+
+body.page-template-page-caseresults {
+	.internal_content {
+		width:100%;
 		padding-right:0px;
 		
 	}
 	.sidebar_wrapper {
-		 
+		 width: 100%;
+		 padding-left:0;
+		 float:none;
+		 margin-top:60px;
+	}
+}
+
+
+
+
+
+
+.internal_case_results_wrapper {
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
 	}
 }
 	
+.case_col {
+	width:47.5%;
+	&:first-of-type {
+		float:left;
+	}
+	&:last-of-type {
+		float:right;
+	}
+}
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 930px) {
+	
+	
+	
+	.internal_single_case {
+		
+		span.case_amount {
+			font-size:41px;
+		}
+		a.case_read_more {
+			
+		}
+	}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 900px) {
+	
+	
+	
+	
+	.internal_single_case {
+		margin-bottom:38px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 862px) {
+	
+	
+	
+	.internal_single_case {
+		
+		span.case_amount {
+			font-size:37px;
+		}
+		a.case_read_more {
+			
+		}
+	}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 760px) {
+	
+	
+	
+	
+body.page-template-page-caseresults {
+	.internal_content {
+		
+		
+	}
+	.sidebar_wrapper {
+		 margin-top: 86px;
+	}
+}
+
+	
+	
+	
+	
+	
+svg#caseresults_gold_line {
+	margin-left:0px;
+}
+	
+.case_col {
+	width:100%;
+	&:first-of-type {
+		float:none;
+	}
+	&:last-of-type {
+		float:none;
+	}
+}
+
+
+.internal_single_case {
+	margin-bottom:30px;
+	span.case_amount {
+		font-size:37px;
+	}
+	a.case_read_more {
+		margin-top:20px;
+	}
+	
+}
+
+
+
+
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 537px) {
+	
+	
+body.page-template-page-caseresults {
+	.internal_content {
+		
+		
+	}
+	.sidebar_wrapper {
+		 margin-top: 60px;
+	}
+}
+
 	
 	
 } /* Media Query */

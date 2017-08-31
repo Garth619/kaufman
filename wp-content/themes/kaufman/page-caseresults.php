@@ -23,7 +23,7 @@
 				
 				<div class="case_col">
 					
-					<div class="single_case">
+					<div class="internal_single_case">
 						
 						<span class="case_amount">$25,000,000</span>
 						
@@ -42,7 +42,7 @@
 						
 					</div><!-- single_case -->
 					
-					<div class="single_case">
+					<div class="internal_single_case">
 						
 						<span class="case_amount">$25,000,000</span>
 						
@@ -61,7 +61,7 @@
 						
 					</div><!-- single_case -->
 					
-					<div class="single_case">
+					<div class="internal_single_case">
 						
 						<span class="case_amount">$25,000,000</span>
 						
@@ -84,7 +84,7 @@
 				
 				<div class="case_col">
 					
-					<div class="single_case">
+					<div class="internal_single_case">
 						
 						<span class="case_amount">$25,000,000</span>
 						
@@ -103,7 +103,7 @@
 						
 					</div><!-- single_case -->
 					
-					<div class="single_case">
+					<div class="internal_single_case">
 						
 						<span class="case_amount">$25,000,000</span>
 						
@@ -122,7 +122,7 @@
 						
 					</div><!-- single_case -->
 					
-					<div class="single_case">
+					<div class="internal_single_case">
 						
 						<span class="case_amount">$25,000,000</span>
 						
