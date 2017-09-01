@@ -39,7 +39,7 @@ if($next_post) {
 
 		<div class="default_header_wrapper">
 			
-				<h1 class="intro">$25,000,000</h1>
+				<h1 class="intro"><?php the_field( 'single_result_amount' ); ?></h1>
 				
 				<svg id="default_page_gold_twolines" viewBox="0 0 158.39 21.46">
 					
@@ -59,30 +59,30 @@ if($next_post) {
 				</div><!-- default_header_wrapper -->
 			
 			
-				<h2>Failure To Timely Diagnose And Treat A Stroke</h2>
+				<h2><?php the_field( 'single_result_title' ); ?></h2>
+
+				
 
 
-				<p>R. J. was a supervisor at Lockheed Martin, where he managed a large crew of people who respected him immensely.</p>
 
-				<p>One Friday, he wasn't feeling well and was having a little bit of trouble swallowing. He went to the nurse at Lockheed Martin, who examined him and instructed him to go to the emergency room. On the way to the hospital, Mr. J stopped for a burger. As much as he chewed his food, he could not swallow at all.</p>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-				<p>When Mr. J arrived at the emergency department at the hospital, he was admitted, assigned a doctor, and was ordered to have several tests administered. Of all the tests performed on Mr. J, he was not given an MRI because on that particular day, the MRI department inside the hospital was closed due to a holiday weekend. Knowing that he needed an MRI done to confirm a final diagnosis, his medical team transferred him to the neurological floor of the hospital to be monitored until the MRI department reopened.</p>
-
-				<p>The next day, after staying with him in the hospital and in communication with hospital staff, Mr. J’s wife realized that he needed an MRI as soon as possible. She checked him out of the hospital he was in and took him to a different hospital for an MRI to be performed. The first hospital, however, called the second hospital to demand that Mr. J be returned to them as their patient. The second hospital, after having performed an MRI on Mr. J, put him and his wife in an ambulance, with MRI films placed on top of Mr. J’s chest-unread-and sent them back to the original hospital.</p>
-
-				<p>Mr. J laid in a hospital bed at the first hospital for two additional days before the staff read the MRI films. Once the films were read, the hospital immediately realized that he was having a stroke. They sent him down to their MRI department to be re-examined, and to start administering life-saving heparin. Ten minutes before Mr. J was taken down to the MRI department, however, he went into a pontine stroke.</p>
-
-				<p>The stroke left Mr. J paralyzed from his head to his feet, which he suffers from to this day. His condition is called “locked-in syndrome”. He is aware of what is happening around him, but he cannot move or verbally communicate due to complete paralysis of almost all voluntary muscles in his body, apart from his eyes. He can move his eyes up and down.</p>
-
-				<p>Mr. J’s case was taken to trial, where a jury justly awarded him $25 million.</p>
-
-				<p>Following this series of events, Mr. J was able to learn to communicate through a computer that can tell whether he looks up or down with his eyes. Based on his eye movements, the computer can answer questions on behalf of Mr. J. It also allows him, through a system of symbols, to communicate, similar to the way in which famous physicist and cosmologist, Stephen Hawking, communicates through a related device.</p>
-
-				<p>Today, Mr. J is well taken care of by his wife, who loves him immeasurably. She takes care of him every day, and uses every bit of the money that Kaufman Law helped win for them to improve Mr. J’s quality of life. One of the more significant purchases they made using the money awarded to them at trial was a special bed. During the day, the bed separates so that Mr. J lies in a hospital-like bed, and Mrs. J has her own half of a “normal” bed. At night, the two beds unite, forming a heart-shape.</p>
-
-
+		
+		<?php the_content();?>
 			
+		<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
 			
+		
+<?php endwhile; // end of loop ?> 
+
+
+<?php endif; ?>
+
+				
+				
+			
+
+
 		</div><!-- internal_content -->
 		
 		
