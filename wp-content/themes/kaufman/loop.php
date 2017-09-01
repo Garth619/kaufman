@@ -18,11 +18,28 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 
-		<?php the_title();?>
+		
+		<div class="single_blog_post">
+		
+		<h2><?php the_title();?></h2>
+		
+		<div class="entry_info">
+		
+			<span class="my_date"><?php $pfx_date = get_the_date('m.d.y'); ?><?php echo $pfx_date; ?></span><!-- my_date -->
+		
+			<span class="spacer">|</span>
+		
+			<span class="">Posted By Kaufman Law, P.C.</span>
+		
+		</div><!-- entry_info -->
+		
 		<?php the_content();?>
-			
+		
 		<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
-			
+		
+		</div><!-- single_blog_post -->
+		
+
 		
 <?php endwhile; // end of loop ?> 
 
