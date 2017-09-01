@@ -170,7 +170,5 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 
 	add_action('init', 'case_results');
-	
-	
 
 

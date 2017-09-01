@@ -45,9 +45,14 @@
 												<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
 					
 											</svg><!-- red_line_intro -->
-						
-											<span class="case_description"><?php the_content();?></span><!-- case_description -->
-						
+											
+											
+											
+					
+											<span class="case_description"><?php echo wp_trim_words( get_the_content(), 35, '...' );?></span><!-- case_description -->
+											
+											
+											
 											<a class="case_read_more" href="<?php the_permalink();?>">Read More</a><!-- case_read_more -->
 						
 									</div><!-- internal_single_case -->
@@ -86,8 +91,9 @@
 					
 											</svg><!-- red_line_intro -->
 						
-											<span class="case_description"><?php the_content();?></span><!-- case_description -->
+											<span class="case_description"><?php echo wp_trim_words( get_the_content(), 35, '...' );?></span><!-- case_description -->
 						
+																					
 											<a class="case_read_more" href="<?php the_permalink();?>">Read More</a><!-- case_read_more -->
 						
 									</div><!-- internal_single_case -->
