@@ -11980,6 +11980,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/kaufman\/css\/scss\/_page-blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_page-blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/wp-content\/themes\/kaufman\/css\/scss\/_page-caseresults.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_page-caseresults.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/kaufman\/css\/scss\/_page-contact-info.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -12067,6 +12093,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/wp-content\/themes\/kaufman\/css\/scss\/_single-case-results.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/kaufman\/css\/scss\/_single-case-results.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -14518,10 +14557,10 @@
 		"oAP": "\/wp-content\/themes\/kaufman\/page-bio.php.og",
 		"oF": 0
 		},
-	"\/wp-content\/themes\/kaufman\/page-caseresults.php": {
+	"\/wp-content\/themes\/kaufman\/page-case_results.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/wp-content\/themes\/kaufman\/page-caseresults.php",
+		"oAP": "\/wp-content\/themes\/kaufman\/page-case_results.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/kaufman\/page-contact.php": {
@@ -14593,6 +14632,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/kaufman\/sidebar.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/kaufman\/single-case_results.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/single-case_results.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/kaufman\/single.php": {

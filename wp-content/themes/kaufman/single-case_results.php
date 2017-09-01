@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 
+
 <section class="start_here_track"> <!-- finishes in footer template -->
 
 <?php get_template_part('starthere','button');?>
@@ -17,9 +18,28 @@
 		
 		<div class="internal_content content">
 			
-			<div class="default_header_wrapper">
+		<div class="results_buttons">
+
+<?php
+$prev_post = get_previous_post();
+if($prev_post) {
+   $prev_title = strip_tags(str_replace('"', '', $prev_post->post_title));
+   echo "\t" . '<a href="' . get_permalink($prev_post->ID) . '" class="results_back results_button"><svg id="results_back_arrow" viewBox="0 0 7.6 40.7"><line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/><polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/></svg><!-- start_arrow --><span>Back</span></a>' . "\n";
+}
+
+$next_post = get_next_post();
+if($next_post) {
+   $next_title = strip_tags(str_replace('"', '', $next_post->post_title));
+   echo "\t" . '<a href="' . get_permalink($next_post->ID) . '" class="results_next results_button"><span>Next<svg id="results_next_arrow" viewBox="0 0 7.6 40.7"><line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/><polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/></svg><!-- start_arrow --></span></a>' . "\n";
+}
+?>
+
+</div><!-- results_buttons-->	
+
+
+		<div class="default_header_wrapper">
 			
-				<h1 class="intro">Our Blog</h1>
+				<h1 class="intro"><?php the_field( 'single_result_amount' ); ?></h1>
 				
 				<svg id="default_page_gold_twolines" viewBox="0 0 158.39 21.46">
 					
@@ -39,15 +59,30 @@
 				</div><!-- default_header_wrapper -->
 			
 			
-				<div class="blog_wrapper">
-					
-						<?php get_template_part( 'loop', 'index' );?>
-					
-				</div><!-- blog_wrapper -->
+				<h2><?php the_field( 'single_result_title' ); ?></h2>
+
+				
+
+
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+		
+		<?php the_content();?>
+			
+		<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
+			
+		
+<?php endwhile; // end of loop ?> 
+
+
+<?php endif; ?>
+
+				
 				
 			
-			
-			
+
+
 		</div><!-- internal_content -->
 		
 		
@@ -61,12 +96,6 @@
 
 
 </div><!-- edgeless_layout -->
-
-
-
-
-
-
 
 
 

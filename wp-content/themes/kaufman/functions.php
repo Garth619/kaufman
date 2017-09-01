@@ -21,7 +21,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 4, 'all' ); 
+     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 8, 'all' ); 
 
      // Load my javascripts
      
@@ -142,4 +142,33 @@ function cc_mime_types($mimes)
 }
 
 add_filter('upload_mimes', 'cc_mime_types');
+
+
+
+
+/* Case Results CPT 
+ ----------------------------------------------------------- */
+ 
+ 
+
+   	 
+  function case_results() {    
+    	$args = array(    
+        	'label' => __('Case Results'),    
+        	'singular_label' => __('Case Result'),    
+        	'public' => true,    
+        	'show_ui' => true,
+        	'has_archive' => false,	 
+        	'capability_type' => 'post',
+        	'hierarchical' => false,    
+        	'rewrite' => array('with_front' => false,'slug' => 'results'),    
+        	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
+       	);    
+   	 
+    	register_post_type( 'case_results' , $args );    
+	}    
+
+
+	add_action('init', 'case_results');
+
 
