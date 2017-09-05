@@ -13,15 +13,24 @@
 				
 	</svg><!-- intro_red_twolines -->
 	
-	<h2>Passionately Achieving<br/> Justice for the Injured Since&nbsp;1977</h2>
+	<h2 class="block">Passionately Achieving<br/> Justice for the Injured Since&nbsp;1977</h2>
 	
 	<div class="section_three_container">
 		
 		<div class="section_three_content content">
 
-			<p><span class="first_letter"><span>L</span></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p><span class="first_letter"><span>A</span></span>t Kaufman Law, P.C., our team of Atlanta personal injury lawyers is devoted to protecting the rights of injured victims and their families. Over the past 40 years, we have had the opportunity to assist accident victims throughout nearly the entire state of Georgia in almost every type of personal injury case. It is through this extensive experience that we have the ability to provide the superior service our clients need and deserve. Regardless of the size of a case or what the potential outcome may be, we approach each situation with the same drive and provide every client with compassionate support.</p>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo rspiciatis.</p>
+<p>Trusted among clients and respected by our peers, we have recovered millions of dollars in verdicts and settlements for victims of unexpected, preventable accidents. We take pride in helping people get the money they need to cover accident-related expenses, such as medical bills and lost wages, and ensure that they and their families will be taken care of in the future. If you’ve been injured, do not hesitate to contact us today to request a free consultation. We would be happy to review your case, help you understand your options, and discuss what types of compensation you may be eligible for.</p>
+
+<h2>available 24/7 to meet your needs</h2>
+<p>Because we understand that the need for reliable legal counsel could arise at any moment, our firm is available around-the-clock to meet the needs of our clients. Our Atlanta personal injury attorneys are even willing to drive to our clients if they are unable to meet with us in our office. Our hands-on and personalized approach to personal injury law has translated into multi-million-dollar results obtained both inside and outside of court.</p>
+				
+				
+				
+				
+				
+		
 
 			
 		</div><!-- section_three_content -->
