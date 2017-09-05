@@ -167,6 +167,7 @@ svg#default_red_lines_sidebar {
 				color:$lightblack;
 			}
 			svg#sidebar_start_arrow {
+				
 				line.arrow_line {
 					stroke:$lightblack;
 				}
@@ -198,6 +199,7 @@ svg#sidebar_start_arrow {
 	position: relative;
 	top:0px;
 	right:18px;
+	height: 44px;
 // 	margin-left:15px;
 	line.arrow_line {
 		fill:none;
@@ -347,6 +349,7 @@ svg#pa_redline {
 
 svg#pa_request_redline {
 	width:53px;
+	height: 9px;
 	float:left;
 	margin-top:25px;
 	polyline {

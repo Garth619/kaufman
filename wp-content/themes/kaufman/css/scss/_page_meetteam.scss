@@ -102,9 +102,11 @@
 svg#single_attr_arrow {
 		width:8px;
 		position: absolute;
-		top:10px;
-		right:40px;
+		top:0px;
+		right:0px;
 		transform: rotate(-90deg);
+		height: 45px;
+		transform-origin: -8px 43px 0;
 		line.arrow_line {
 			fill:none;
 			stroke:#fff;

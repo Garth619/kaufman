@@ -55,7 +55,25 @@
 				</span>
 -->
 				
-				<?php get_template_part( 'loop', 'index' );?>			
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>	
+
+					
+					<?php $thecontent = get_the_content();
+						
+						if(empty($thecontent)):?>
+						
+						<p>Please Add Content</p>
+					
+					<?php else: ?>
+					
+						<?php the_content();?>
+					
+						<?php endif;?>
+					
+					
+					<?php endwhile; // end of loop ?> 
+				
+				<?php endif; ?>		
 				
 				</div><!-- internal_bio_content -->
 				

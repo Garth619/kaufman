@@ -30,6 +30,7 @@ header {
 	padding-left:30px;
 	margin-top: 35px;
 	padding-right:3%;
+	height: 104px;
 	img {
 		max-width:100%;
 		height:auto;
@@ -367,6 +368,8 @@ body:not(.page-template-page-home) {
 	header {
  		height:110px;
  		display: block;
+ 		position: relative;
+ 		z-index:300;
 	}
 	
 	
@@ -663,6 +666,7 @@ body.page-template-page-home {
 		stroke-miterlimit:10;
 		stroke-width:2px;
 		width:127px;
+		height: 11px;
 		.red_line_intro_path {
 		
 		}
@@ -775,6 +779,7 @@ body.page-template-page-home {
 		width:8px;
 		display: inline-block;
 		margin-top:24px;
+		height:41px;
 		line.arrow_line {
 			fill:none;
 			stroke:#fff;

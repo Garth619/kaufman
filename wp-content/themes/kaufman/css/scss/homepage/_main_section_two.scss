@@ -22,6 +22,7 @@ svg#red_line_form {
 	width:53px;
 	margin:12px auto 0;
 	display: block;
+	height:15px;
 	polyline {
 		fill:none;
 		stroke:$red;
@@ -256,9 +257,10 @@ svg#back_arrow {
 		float:left;
 		transform: rotate(90deg);
 		position: relative;
-		top:-7px;
+		top:-9px;
 		margin-right:28px;
 		margin-left:20px;
+		height: 43px;
 		line.arrow_line {
 			fill:none;
 			stroke:$greybrown;

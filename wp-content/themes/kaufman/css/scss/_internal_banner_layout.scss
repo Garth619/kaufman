@@ -267,7 +267,7 @@ svg#red_line_sidebar {
 	width:56px;
 	margin:27px 8px 0 -28px;
 	float:left;
-	
+	height: 13px;
 	polyline {
 		fill:none;
 		stroke:$red;
@@ -460,6 +460,7 @@ svg#red_line_sidebar {
 	
 	svg#internal_red_twolines {
 		width:113px;
+		height: 19px;
 		margin:0;
 		display: block;
 		transform: rotate(90deg);
