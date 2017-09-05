@@ -79,8 +79,31 @@ register_nav_menus(array(
 if (function_exists('register_sidebars')) {
 
     register_sidebar(array(
-        'name' => 'Sidebar',
-        'id' => 'sidebar',
+        'name' => 'Recent Posts Sidebar',
+        'id' => 'recentpostssidebar',
+        'description' => '',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>'
+    ));
+    
+    
+    register_sidebar(array(
+        'name' => 'Categories Sidebar',
+        'id' => 'categoriessidebar',
+        'description' => '',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>'
+    ));
+    
+    
+    
+    register_sidebar(array(
+        'name' => 'Archives Sidebar',
+        'id' => 'archivessidebar',
         'description' => '',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget' => '</div>',
@@ -170,5 +193,17 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 
 	add_action('init', 'case_results');
+	
+
+/* Category count span tags */ 
+	
+	
+add_filter('wp_list_categories', 'cat_count_span');
+
+function cat_count_span($links) {
+  $links = str_replace('</a> (', '</a> <span class="my_cat_count">(', $links);
+  $links = str_replace(')', ')</span>', $links);
+  return $links;
+}
 
 

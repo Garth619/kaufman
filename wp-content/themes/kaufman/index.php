@@ -51,7 +51,7 @@
 		</div><!-- internal_content -->
 		
 		
-		<?php get_template_part('sidebar','practiceareas'); ?>
+		<?php get_template_part('sidebar','blog'); ?>
 		
 		
 	</div><!-- inner_container -->
