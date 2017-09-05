@@ -37,15 +37,26 @@
 				</svg><!-- internal_red_twolines -->
 				
 				</div><!-- default_header_wrapper -->
-			
-			
-				<?php while ( have_posts() ) : the_post(); ?>
+							
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>	
 
-		
-					<?php the_content();?>
+					
+					<?php $thecontent = get_the_content();
+						
+						if(empty($thecontent)):?>
+						
+						<p>Please Add Content</p>
+					
+					<?php else: ?>
+					
+						<?php the_content();?>
+					
+						<?php endif;?>
+					
+					
+					<?php endwhile; // end of loop ?> 
 				
-		
-				<?php endwhile; // end of loop ?> 
+				<?php endif; ?>
 
 			
 			

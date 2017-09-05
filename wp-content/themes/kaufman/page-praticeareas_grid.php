@@ -43,47 +43,8 @@
 				
 				<div class="pa_grid">
 					
-				
-				<ul>
 					
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Auto Accidents</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					<li><a href="">Workers' Compensation</a></li>
-					
-				</ul>
-					
+					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>	
 					
 					
 				</div><!-- pa_grid -->
