@@ -39,6 +39,9 @@
 
 
 <?php wp_head(); ?>
+
+<?php the_field( 'header_scripts','option' ); ?>
+
 </head>
 
 <body <?php body_class(); ?>>

@@ -273,12 +273,24 @@ svg#single_attr_arrow {
 		
 		.team_group {
 			text-align: center;
+			 margin-bottom: 30px;
+			span.team_group_title {
+				margin-bottom:15px;
+				font-size: 16px;
+				letter-spacing: 3.5px;
+			}
+		}
+		
+		
+		.team_wrapper {
+			margin-top:0;
 		}
 				
 .single_profile {
 	width:100%;
 	max-width:500px;
 	padding-right:0;
+	margin-bottom:20px;
 	&:hover {
 		.img_wrapper {
 			.img_overlay	{

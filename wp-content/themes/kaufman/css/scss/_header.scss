@@ -508,6 +508,7 @@ nav {
 		}
 		 li.menu-item-has-children.current-menu-ancestor {
 			> a {
+				background: transparent;
 				
 				&:after {
 					
@@ -569,7 +570,7 @@ nav {
 		transition: all .4s ease-in-out;
 		li.current-menu-item {
 			a {
-				
+				color:$lightblack;
 			}
 		}
 		li {
