@@ -33,6 +33,18 @@
 		"oAP": "\/kaufman-migrate-20170905044831.sql.gz",
 		"oF": 0
 		},
+	"\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/license.txt",
+		"oF": 0
+		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
+		"oF": 0
+		},
 	"\/wp-activate.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -10076,7 +10088,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/active0.png": {
 		"ft": 32768,
-		"iS": 15347,
+		"iS": 666,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/active0.png",
 		"oF": 0,
@@ -10087,7 +10099,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/active1.png": {
 		"ft": 32768,
-		"iS": 15369,
+		"iS": 727,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/active1.png",
 		"oF": 0,
@@ -10098,7 +10110,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/add.png": {
 		"ft": 32768,
-		"iS": 271,
+		"iS": 3448,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/add.png",
 		"oF": 0,
@@ -10163,7 +10175,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/captcha_large.png": {
 		"ft": 32768,
-		"iS": 1440,
+		"iS": 3100,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/captcha_large.png",
 		"oF": 0,
@@ -10184,7 +10196,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/captcha_medium.png": {
 		"ft": 32768,
-		"iS": 1026,
+		"iS": 2181,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/captcha_medium.png",
 		"oF": 0,
@@ -10195,7 +10207,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/captcha_small.png": {
 		"ft": 32768,
-		"iS": 791,
+		"iS": 1698,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/captcha_small.png",
 		"oF": 0,
@@ -10217,7 +10229,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/chosen-sprite.png": {
 		"ft": 32768,
-		"iS": 646,
+		"iS": 742,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/chosen-sprite.png",
 		"oF": 0,
@@ -10250,7 +10262,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/datepicker\/arrow.png": {
 		"ft": 32768,
-		"iS": 316,
+		"iS": 451,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/datepicker\/arrow.png",
 		"oF": 0,
@@ -10267,7 +10279,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/datepicker\/ui-icons_222222_256x240.png": {
 		"ft": 32768,
-		"iS": 4196,
+		"iS": 4369,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/datepicker\/ui-icons_222222_256x240.png",
 		"oF": 0,
@@ -10278,7 +10290,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/datepicker\/ui-icons_454545_256x240.png": {
 		"ft": 32768,
-		"iS": 4196,
+		"iS": 4369,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/datepicker\/ui-icons_454545_256x240.png",
 		"oF": 0,
@@ -10289,7 +10301,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/datepicker\/ui-icons_888888_256x240.png": {
 		"ft": 32768,
-		"iS": 4196,
+		"iS": 4369,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/datepicker\/ui-icons_888888_256x240.png",
 		"oF": 0,
@@ -10300,7 +10312,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/datepicker\/ui-icons_cd0a0a_256x240.png": {
 		"ft": 32768,
-		"iS": 4196,
+		"iS": 4369,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/datepicker\/ui-icons_cd0a0a_256x240.png",
 		"oF": 0,
@@ -10311,7 +10323,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/delete.png": {
 		"ft": 32768,
-		"iS": 261,
+		"iS": 764,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/delete.png",
 		"oF": 0,
@@ -10496,7 +10508,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/download.png": {
 		"ft": 32768,
-		"iS": 1239,
+		"iS": 523,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/download.png",
 		"oF": 0,
@@ -10507,7 +10519,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/exclamation.png": {
 		"ft": 32768,
-		"iS": 1216,
+		"iS": 701,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/exclamation.png",
 		"oF": 0,
@@ -10518,7 +10530,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gf-creditcard-icons.png": {
 		"ft": 32768,
-		"iS": 75752,
+		"iS": 76461,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gf-creditcard-icons.png",
 		"oF": 0,
@@ -10529,7 +10541,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gf-expand-title-bg-rtl.png": {
 		"ft": 32768,
-		"iS": 1453,
+		"iS": 1680,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gf-expand-title-bg-rtl.png",
 		"oF": 0,
@@ -10540,7 +10552,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gf-fieldsettings-header.jpg": {
 		"ft": 16384,
-		"iS": 6420,
+		"iS": 559,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gf-fieldsettings-header.jpg",
 		"oF": 0,
@@ -10571,7 +10583,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gf-nofields-steps.png": {
 		"ft": 32768,
-		"iS": 387974,
+		"iS": 335028,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gf-nofields-steps.png",
 		"oF": 0,
@@ -10582,7 +10594,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gf-pagebreak-end.png": {
 		"ft": 32768,
-		"iS": 2027,
+		"iS": 6531,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gf-pagebreak-end.png",
 		"oF": 0,
@@ -10593,7 +10605,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gf-pagebreak-first.png": {
 		"ft": 32768,
-		"iS": 1900,
+		"iS": 6718,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gf-pagebreak-first.png",
 		"oF": 0,
@@ -10604,7 +10616,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gf-pagebreak-inline.png": {
 		"ft": 32768,
-		"iS": 2331,
+		"iS": 7406,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gf-pagebreak-inline.png",
 		"oF": 0,
@@ -10615,7 +10627,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gravityforms-business-upgrade.png": {
 		"ft": 32768,
-		"iS": 10549,
+		"iS": 15018,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gravityforms-business-upgrade.png",
 		"oF": 0,
@@ -10626,7 +10638,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/gravityforms-developer-upgrade.png": {
 		"ft": 32768,
-		"iS": 10787,
+		"iS": 16650,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/gravityforms-developer-upgrade.png",
 		"oF": 0,
@@ -10637,7 +10649,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/icon-drop-list.png": {
 		"ft": 32768,
-		"iS": 1079,
+		"iS": 1106,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/icon-drop-list.png",
 		"oF": 0,
@@ -10648,7 +10660,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/icon-submenu-down.png": {
 		"ft": 32768,
-		"iS": 1093,
+		"iS": 1110,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/icon-submenu-down.png",
 		"oF": 0,
@@ -10693,7 +10705,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/prodlist-last.png": {
 		"ft": 32768,
-		"iS": 143,
+		"iS": 144,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/prodlist-last.png",
 		"oF": 0,
@@ -10704,7 +10716,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/prodlist.png": {
 		"ft": 32768,
-		"iS": 156,
+		"iS": 253,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/prodlist.png",
 		"oF": 0,
@@ -10715,7 +10727,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/prodlist_last.png": {
 		"ft": 32768,
-		"iS": 143,
+		"iS": 144,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/prodlist_last.png",
 		"oF": 0,
@@ -10726,7 +10738,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/remove.png": {
 		"ft": 32768,
-		"iS": 271,
+		"iS": 3401,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/remove.png",
 		"oF": 0,
@@ -10748,7 +10760,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/spinner.gif": {
 		"ft": 4194304,
-		"iS": 1849,
+		"iS": 2193,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/spinner.gif",
 		"oF": 0,
@@ -10756,7 +10768,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/star0.png": {
 		"ft": 32768,
-		"iS": 318,
+		"iS": 640,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/star0.png",
 		"oF": 0,
@@ -10767,7 +10779,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/star1.png": {
 		"ft": 32768,
-		"iS": 318,
+		"iS": 707,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/star1.png",
 		"oF": 0,
@@ -10778,7 +10790,7 @@
 		},
 	"\/wp-content\/plugins\/gravityforms\/images\/webkit-enhanced-select.png": {
 		"ft": 32768,
-		"iS": 2885,
+		"iS": 282,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/images\/webkit-enhanced-select.png",
 		"oF": 0,

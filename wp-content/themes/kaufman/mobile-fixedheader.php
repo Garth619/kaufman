@@ -10,15 +10,25 @@
 	
 	<div class="mobile_fixed_start_here">
 		
-		<span>Start Here</span>
+		<div class="start_content">
+			
+			<span>Start Here</span>
 		
-		<svg id="mobile_fixed_start_now" viewBox="0 0 7.6 40.7">
+			<svg id="mobile_fixed_start_now" viewBox="0 0 7.6 40.7">
 						
 				<line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/>
 					
 				<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
 				
 			</svg><!-- start_arrow -->
+			
+		</div><!-- start_content -->
+		
+		<div class="close_content">
+			
+			<span>Close</span>
+			
+		</div><!-- close_content -->
 		
 	</div><!-- mobile_fixed_start_here -->
 	

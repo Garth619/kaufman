@@ -187,13 +187,19 @@ jQuery('.mobile_fixed_start_here').click(function(){
 	
 	$('.section_two, .internal_banner_wrapper, .non_banner_layout .internal_container').toggleClass('open');
 	
-	$('.mobile_fixed_menu_wrapper').toggleClass('open');
+	$('.mobile_fixed_menu_wrapper, .close_content').toggleClass('open');
 	
-	$('.logo_wrapper, .mobile_header_right').toggleClass('hide');
+	$('.logo_wrapper, .mobile_header_right, .start_content').toggleClass('hide');
 	
 	
-
 });
+
+
+
+
+
+
+
 
 // Smooth Scroll for Consultation Scroll
 
