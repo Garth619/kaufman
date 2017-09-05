@@ -39,7 +39,14 @@
 				</div><!-- default_header_wrapper -->
 			
 			
-				<?php get_template_part( 'loop', 'index' );?>
+				<?php while ( have_posts() ) : the_post(); ?>
+
+		
+					<?php the_content();?>
+				
+		
+				<?php endwhile; // end of loop ?> 
+
 			
 			
 		</div><!-- internal_content -->
