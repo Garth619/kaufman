@@ -594,6 +594,15 @@ a.att_single_slide_link {
 	} 
 	
 
+
+.att_single_slide {
+	.att_image_wrapper {
+		.att_overlay {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+}  
 	
 	
 	

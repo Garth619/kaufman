@@ -80,14 +80,16 @@ svg#red_line_form {
 		border-bottom-right-radius: 5px;
 		pointer-events: none;
 	}
+/*
 	select:-moz-focusring {
 		color: transparent;
 		text-shadow: 0 0 0 #fff;
 	}
+*/
 	select#stepone {
-		-webkit-appearance: none;
+// 		-webkit-appearance: none;
 		appearance: none;
-		-moz-appearance: none;
+// 		-moz-appearance: none;
 		border:none;
 		background: transparent;
 		font-family: $akagilight;
@@ -102,7 +104,8 @@ svg#red_line_form {
 			outline: none;
 		}
 		option {
-						
+			color:#000;
+			background: #fff;
 		}
 	}
 }
@@ -483,7 +486,6 @@ svg#back_arrow {
 	
 	
 	.section_two {
-		
 		padding-left:0;
 	}
 	
@@ -691,6 +693,10 @@ svg#back_arrow {
 	
 	.buttons {
     bottom: -37px;
+    padding: 17px 30px;
+    .single_button {
+	    
+    }
 }
 
 }	

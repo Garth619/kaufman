@@ -107,7 +107,6 @@ Edits to SCSS Partials are in:
 		margin-top:10px;
 		width: 730px;
 		position: relative;
-		
 	}
 	
 	
@@ -671,7 +670,7 @@ svg#pa_request_redline {
 	  .sidebar_wrapper {
 		  width: 100%;
 		  padding-left:0;
-		  margin-top: 153px;
+		  margin-top: 115px;
 	  }
 	  
 	  
@@ -718,8 +717,8 @@ svg#pa_request_redline {
 			}
 		}
 		span.pa_required {
-			font-size: 16px;
-			letter-spacing: 2.3px;
+			font-size: 14px;
+			letter-spacing: 3.5px;
 			padding-top: 27px;
 			margin-left:106px;
 		}
@@ -803,6 +802,32 @@ svg#pa_request_redline {
 } /* Media Query */
 
 
+@media screen and (max-width: 830px) {
+	
+	
+	
+	
+		svg#pa_request_redline {
+			margin-left:-32px;
+		}
+		
+		
+		.sidebar_form_overlay {
+			 span.pa_required {
+			 	padding-left:0;
+			 	margin-left:42px;
+			}
+		}
+		
+		
+	
+	
+	
+	
+} /* Media Query */
+
+
+
 
 @media screen and (max-width: 760px) {
 	
@@ -829,7 +854,7 @@ svg#pa_request_redline {
 
 
 .sidebar_wrapper {
-	margin-top: 65px;
+	margin-top: 84px;
 }
 	
 	
@@ -933,6 +958,15 @@ svg#pa_request_redline {
 
 
 @media screen and (max-width: 537px) {
+	
+	
+	
+	
+	.sidebar_wrapper {
+    margin-top: 64px;
+}
+	
+	
 	
 	.sidebar_inner_overlay {
 		&:before {

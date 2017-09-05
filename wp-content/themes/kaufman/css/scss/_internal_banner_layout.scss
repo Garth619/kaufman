@@ -505,7 +505,7 @@ svg#red_line_sidebar {
 	.sidebar_wrapper {
 		width:100%;
 		float:none;
-		margin-top:150px;
+		margin-top:115px;
 		padding-left:0;
 		position: relative;
 		z-index: 20;
@@ -533,6 +533,8 @@ svg#red_line_sidebar {
 		}
 		span.internal_required {
 			padding-left:60px;
+			font-size:14px;
+			letter-spacing: 3px;
 		}
 	}
 	
@@ -620,6 +622,24 @@ svg#red_line_sidebar {
 } /* Media Query */
 
 
+@media screen and (max-width: 830px) {
+	
+	
+	
+	.sidebar_form_wrapper {
+		svg#red_line_sidebar {
+			margin-left:-32px;
+		}
+		span.internal_required {
+			padding-left:0;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (max-width: 760px) {
 	
@@ -666,9 +686,27 @@ svg#red_line_sidebar {
 
 
 
+
+.sidebar_form_wrapper {
+		svg#red_line_sidebar {
+			 margin-left: -10px;
+    width:46px;
+		}
+		span.internal_required {
+			padding-left:0;
+		}
+	}
+
+
+
+
+
+
+
 .sidebar_form_wrapper {
 	span.internal_required {
-		margin-left: -13px;
+		margin-left: 45px;
+		font-size:14px;
 	}
 }
 
@@ -682,8 +720,7 @@ span.sidebar_large_header {
 
 
 svg#red_line_sidebar {
-    margin-left: -10px;
-    width:46px;
+   
 }
 
 
@@ -801,6 +838,7 @@ svg#red_line_sidebar {
 			letter-spacing: 4px;
 			margin-top:13px;
 			margin-bottom:44px;
+			margin-left: 0px;
 		}
 	}
 	
