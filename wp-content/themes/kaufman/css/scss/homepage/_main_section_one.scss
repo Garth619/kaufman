@@ -40,13 +40,13 @@
 
 
 span.top_line, span.middle_line, span.bottom_line {
-	opacity: 0;
+// 	opacity: 0;
 	animation-name: text_line_fade, text_line_move;
 	animation-duration: 700ms, 1300ms;
   animation-fill-mode: both;
   animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);;
 	position: relative;
-	top:-55px;
+// 	top:-55px;
 
 }
 
@@ -135,8 +135,10 @@ span.bottom_line {
 
 .play_wrapper {
 	.play_button {
+/*
 		opacity: 0;
 		transform: translateX(-86px) translateY(-62px);
+*/
 		animation-name: play_button_fade, play_button_move;
 		animation-duration: 900ms, 1500ms;
 		animation-fill-mode: both;
@@ -173,8 +175,10 @@ span.bottom_line {
 
 .play_wrapper {
 	span.learn {
+/*
 		opacity: 0;
 		transform: translateX(86px);
+*/
 		animation-name: learn_fade, learn_move;
 		animation-duration: 900ms, 1500ms;
 		animation-fill-mode: both;
@@ -220,10 +224,39 @@ svg#red_line_intro {
 	top:50px;
 	right:-5px;
 	height: 20px;
+	
+	
+	stroke-dasharray: 256;
+    stroke-dashoffset: 256;
+  
+	animation-name: red_line_intro;
+	animation-duration:2700ms;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+	animation-delay: 2000ms;
 	.red_line_intro_path {
 		
 	}
 }
+
+
+
+
+
+
+
+@keyframes red_line_intro {
+  
+  from {
+       stroke-dashoffset: 256;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
 
 
 
@@ -281,11 +314,14 @@ svg#play_button_svg {
 
 .lower_intro_wrapper {
 	width:100%;
-	overflow: hidden;
+	// overflow: hidden;
 	max-width: 1550px;
 	margin:0px;
 	margin:16px auto 0;
 }
+
+
+
 
 
 
@@ -320,6 +356,18 @@ svg#play_button_svg {
 	width:330px;
 	height:100px;
 	overflow: hidden;
+	
+	
+/*
+	transform: translateX(-50px) translateY(0px);
+	opacity: 0;
+*/
+	animation-name: intro_button_fade, intro_button_move;
+  animation-duration: 800ms, 1500ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 2200ms;
+	
 	span {
 		float:left;
 		margin-left: 29px;
@@ -330,6 +378,38 @@ svg#play_button_svg {
 		background:$greybrown;
 	}
 }
+
+
+
+@keyframes intro_button_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+
+@keyframes intro_button_move {
+  from {
+    transform: translateX(-70px) translateY(0px);
+ 		
+ 		
+  }
+
+  to {
+   transform: translateX(0px) translateY(0px);
+    
+    
+  }
+}
+
+
 
 
 
@@ -368,14 +448,79 @@ svg#intro_red_twolines {
 		stroke-miterlimit:10;
 		stroke-width:2px;
 		
+		
+		animation-duration: 600ms, 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 2200ms;
+		
 	}
 	polyline.red_line_one {
+		animation-name: intro_red_twoline_fade, intro_red_twoline_move;
 		
 	}
 	polyline.red_line_two {
-		
+		animation-name: intro_red_twoline_fade, intro_red_twoline_movetwo;
 	}
 }
+
+
+
+
+
+@keyframes intro_red_twoline_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+
+
+@keyframes intro_red_twoline_move {
+  from {
+  	transform: translateX(-60px) translateY(10px);
+ 		
+ 		
+  }
+
+  to {
+   transform: translateX(0px);
+    
+    
+  }
+}
+
+
+@keyframes intro_red_twoline_movetwo {
+  from {
+  	transform: translateX(60px) translateY(-10px);
+ 		
+ 		
+  }
+
+  to {
+   transform: translateX(0px);
+    
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 .lower_intro_right {
 	width:60.5%;
@@ -388,8 +533,58 @@ svg#intro_red_twolines {
 		display: block;
 		font-family: $trirongmedium;
 		line-height: 40px;
+		
+		
+		
+		
+// 		transform: translateX(50px) translateY(0px);
+		animation-name: intro_content_fade, intro_content_move;
+		animation-duration: 800ms, 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 2200ms;
+
+		
 	}
 }
+
+
+
+
+
+
+@keyframes intro_content_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+   
+    
+  }
+}
+
+
+
+@keyframes intro_content_move {
+  from {
+    transform: translateX(70px) translateY(0px);
+ 		
+ 		
+  }
+
+  to {
+    transform: translateX(0px) translateY(0px);
+   
+    
+  }
+}
+
+
+
 
 
 @media screen and (max-width: 1635px) {
