@@ -69,7 +69,16 @@
 			</div><!-- play_wrapper -->
 		
 		
-		<span class="intro_title">Representing<br/> the Injured for more than <strong>40</strong>&nbsp;Years</span><!-- intro_title -->
+		<span class="intro_title">
+		
+			<span class="top_line">Representing<br/></span><!-- top_line -->
+		
+			<span class="middle_line">the Injured for more</span><!-- middle_line --> 
+		
+			<span class="bottom_line">than <strong>40</strong>&nbsp;Years</span><!-- bottom_line -->
+		
+		
+		</span><!-- intro_title -->
 		
 		</span><!-- intro_header -->
 		

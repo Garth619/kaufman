@@ -38,10 +38,65 @@
 }
 
 
+
+span.top_line, span.middle_line, span.bottom_line {
+	opacity: 0;
+	animation-name: text_line_fade, text_line_move;
+	animation-duration: 700ms, 1300ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);;
+	position: relative;
+	top:-55px;
+
+}
+
+
+span.top_line {
+	animation-delay:700ms;
+ }
+
+span.middle_line {
+	animation-delay:1050ms;
+}
+
+
+span.bottom_line {
+	animation-delay:1400ms;
+}
+
+
+
+@keyframes text_line_fade {
+  from {
+    opacity: 0;
+ 	}
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes text_line_move {
+  from {
+    top:-55px
+ 	}
+
+  to {
+   top:0;
+  }
+}
+
+
+
+
 .my_wistia_container {
 	position: absolute;
 	top:0;
 	left:0;
+	z-index: 500;
+	height: 210px;
+	width: 210px;
 	a {
 		display: block;
 		
@@ -76,6 +131,85 @@
 	}
 }
 
+
+
+.play_wrapper {
+	.play_button {
+		opacity: 0;
+		transform: translateX(-86px) translateY(-62px);
+		animation-name: play_button_fade, play_button_move;
+		animation-duration: 900ms, 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);;
+		animation-delay: 1570ms;
+	}
+}
+
+
+@keyframes play_button_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+      opacity: 1; 
+  }
+}
+
+
+@keyframes play_button_move {
+  from {
+   transform: translateX(-29px) translateY(-29px);
+ 		
+  }
+
+  to {
+     transform: translateX(0px) translateY(0px);
+  }
+}
+
+
+
+.play_wrapper {
+	span.learn {
+		opacity: 0;
+		transform: translateX(86px);
+		animation-name: learn_fade, learn_move;
+		animation-duration: 900ms, 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);;
+		animation-delay: 1570ms;
+
+	}
+}
+
+
+@keyframes learn_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+      opacity: 1; 
+  }
+}
+
+
+@keyframes learn_move {
+  from {
+    transform: translateX(86px);
+ 		
+  }
+
+  to {
+     transform: translateX(0px);
+  }
+}
+
+
+
 svg#red_line_intro {
 	fill:none;
 	stroke:$redsvg;
@@ -92,6 +226,19 @@ svg#red_line_intro {
 }
 
 
+
+
+	.play_button.hover {
+		svg#play_button_svg {
+			rect.black_bg {
+				fill:$lightbrown;
+				opacity:1;
+			}
+		}
+	}
+
+
+
 svg#play_button_svg {
 	width:205px;
 	height:205px;
@@ -105,13 +252,12 @@ svg#play_button_svg {
 	rect.black_bg {
 		fill:#101215;
 		opacity:0.6;
-/*
 		transition: all .2s ease-in-out;
 		&:hover {
 			fill:$lightbrown;
 			opacity:1;
 		}
-*/
+
 
 	}
 	polygon.play_svg {
@@ -350,9 +496,9 @@ svg#intro_red_twolines {
 	
 	
 .my_wistia_container {
-	position: absolute;
-	top:0;
-	left:0px;
+	 left: 184px;
+	 height: 199px;
+	 width: 180px;
 	a {
 		
 	}
@@ -474,6 +620,12 @@ svg#intro_red_twolines {
 
 @media screen and (max-width: 760px) {
 	
+.my_wistia_container {
+	 left: 3px;
+	a {
+		
+	}
+}
 	
 	
 	

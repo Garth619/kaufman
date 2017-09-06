@@ -197,10 +197,6 @@ jQuery('.mobile_fixed_start_here').click(function(){
 
 
 
-
-
-
-
 // Smooth Scroll for Consultation Scroll
 
 // Consultation Scroll 
@@ -220,6 +216,23 @@ jQuery(function() {
       }
     }
   });
+});
+
+
+// Play Button Hover
+
+
+
+jQuery('.my_wistia_container').mouseenter(function(){
+	
+	$('.play_button').addClass('hover');
+	
+});
+
+jQuery('.my_wistia_container').mouseleave(function(){
+	
+	$('.play_button').removeClass('hover');
+	
 });
 
 
