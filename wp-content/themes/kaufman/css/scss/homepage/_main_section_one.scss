@@ -591,6 +591,30 @@ svg#intro_red_twolines {
 	
 	
 	
+	span.top_line, span.middle_line, span.bottom_line {
+		animation-name: none;
+	}
+	
+	
+	.play_wrapper {
+		.play_button {
+			animation-name: none;
+		}
+		span.learn {
+			animation-name: none;
+		}
+	}
+	
+	
+	
+	svg#red_line_intro {
+		stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    animation-name: none;
+   }
+	
+	
+	
 	.play_wrapper {
 		display: block;
 		margin: 0 auto;
