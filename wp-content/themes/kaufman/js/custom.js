@@ -106,6 +106,12 @@ jQuery(document).ready(function(){
     var fixedmobleheader = $('.section_three_sidebar')
 
     waypoint(fixedmobleheader, '340px')
+    
+    
+    var fixedmobleheader = $('.section_four')
+
+    waypoint(fixedmobleheader, '340px')
+    
 
     var internalmobileheader = $('.internal_banner_wrapper')
 

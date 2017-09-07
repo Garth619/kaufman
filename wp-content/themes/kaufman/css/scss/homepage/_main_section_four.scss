@@ -102,6 +102,7 @@ svg#why_choose_gold_twolines {
 	top:0;
 	left:0;
 	
+	opacity: 0;
 	img {
 		float:right;
 		max-width: 100%;
@@ -109,6 +110,56 @@ svg#why_choose_gold_twolines {
 		
 	}
 }
+
+
+.section_four.visible {
+	.why_choose_bg_wrapper {
+		animation-name: why_choose_img_fade, why_choose_img_move;
+		animation-duration: 600ms, 1900ms;
+		animation-fill-mode: both;
+		animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 300ms;
+	}	
+}
+	
+
+
+@keyframes why_choose_img_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+
+
+
+@keyframes why_choose_img_move {
+  from {
+   transform: translateX(100px) translateY(-100px);
+ 		
+ 		
+  }
+
+  to {
+     transform: translateX(0px) translateY(0px);
+    
+    
+  }
+}
+
+
+
+
+
+
+
 
 .why_choose_buttons {
 	text-align: center;
@@ -130,6 +181,7 @@ svg#why_choose_gold_twolines {
 		}
 		img {
 			width:15px;
+			
 		}
 	}
 	.why_choose_back {
@@ -139,6 +191,125 @@ svg#why_choose_gold_twolines {
 		
 	}
 }
+
+
+
+
+.section_four.visible {
+	.why_choose_buttons {
+		.single_button {
+			
+		}
+		.why_choose_back {
+			animation-name: why_choose_button_fade, why_choose_button_back_move;
+			animation-duration: 500ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
+			animation-delay: 300ms;
+			img {
+				animation-name: why_choose_button_back_img;
+				animation-duration: 2300ms;
+				animation-fill-mode: both;
+				animation-timing-function:cubic-bezier(.17,.66,.34,.98);;
+				animation-delay: 300ms;
+			}
+		}
+		.why_choose_next {
+			animation-name: why_choose_button_fade, why_choose_button_next_move;
+			animation-duration: 500ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
+			animation-delay: 300ms;
+			img {
+				animation-name: why_choose_button_next_img;
+				animation-duration: 2300ms;
+				animation-fill-mode: both;
+				animation-timing-function:cubic-bezier(.17,.66,.34,.98);;
+				animation-delay: 300ms;
+			}
+		}
+	}
+}  
+
+
+
+
+@keyframes why_choose_button_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+    
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes why_choose_button_back_move {
+  from {
+    transform: translateX(-130px);
+ 		
+  }
+
+  to {
+    
+     transform: translateX(0px);
+  }
+}
+
+
+@keyframes why_choose_button_next_move {
+  from {
+    transform: translateX(130px);
+ 		
+  }
+
+  to {
+    
+     transform: translateX(0px);
+  }
+}
+
+
+@keyframes why_choose_button_back_img {
+  from {
+    transform: translateX(-50px);
+ 		
+  }
+
+  to {
+    
+     transform: translateX(0px);
+  }
+}
+
+
+
+@keyframes why_choose_button_next_img {
+  from {
+    transform: translateX(50px);
+ 		
+  }
+
+  to {
+    
+     transform: translateX(0px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -330,6 +501,93 @@ svg.testi_red_line {
 	
 	
 } /* Media Query */
+
+
+
+
+@media screen and (max-width: 1565px) {
+	
+	
+	
+	
+	
+.why_choose_bg_wrapper {
+	
+	
+	opacity: 1;
+	img {
+	
+		
+	}
+}
+
+
+.section_four.visible {
+	.why_choose_bg_wrapper {
+		animation-name: none;
+	}	
+}
+	
+
+
+
+
+
+
+
+
+
+
+.why_choose_buttons {
+	
+	.single_button {
+		
+		&:hover {
+			
+		}
+		img {
+			
+			
+		}
+	}
+	.why_choose_back {
+		
+	}
+	.why_choose_next {
+		
+	}
+}
+
+
+
+
+.section_four.visible {
+	.why_choose_buttons {
+		.single_button {
+			
+		}
+		.why_choose_back {
+			animation-name: none;
+			img {
+				animation-name: none;
+			}
+		}
+		.why_choose_next {
+			animation-name: none;
+			img {
+				animation-name: none;
+			}
+		}
+	}
+}  
+
+	
+	
+	
+	
+} /* Media Query */
+
+
 
 
 @media screen and (max-width: 1455px) {
