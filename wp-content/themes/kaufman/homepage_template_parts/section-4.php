@@ -120,11 +120,11 @@
 			
 			<span class="large_header">Helping Clients Become Whole Again</span><!-- large_header -->
 			
-			<svg id="section_four_gold_threelines" data-name="section three gold twolines" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.06 86"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
+			<svg id="section_four_gold_threelines" overflow="visible" data-name="section three gold twolines" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.06 86"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
 			
-			<polyline points="145.2 9 133 0 121.9 8.2 110.8 0 99.7 8.2 88.7 0 77.6 8.2 66.5 0 55.4 8.2 44.3 0 33.3 8.2 22.2 0 10 9"/>
-			<polyline points="190.06 18.9 177.86 9.9 166.76 18.1 155.66 9.9 144.56 18.1 133.56 9.9 122.46 18.1 111.36 9.9 100.26 18.1 89.16 9.9 78.16 18.1 67.06 9.9 54.86 18.9"/>
-			<polyline points="168.2 29 156 20 144.9 28.2 133.8 20 122.7 28.2 111.7 20 100.6 28.2 89.5 20 78.4 28.2 67.3 20 56.3 28.2 45.2 20 33 29"/>
+			<polyline id="line_one" points="145.2 9 133 0 121.9 8.2 110.8 0 99.7 8.2 88.7 0 77.6 8.2 66.5 0 55.4 8.2 44.3 0 33.3 8.2 22.2 0 10 9"/>
+			<polyline id="line_two" points="190.06 18.9 177.86 9.9 166.76 18.1 155.66 9.9 144.56 18.1 133.56 9.9 122.46 18.1 111.36 9.9 100.26 18.1 89.16 9.9 78.16 18.1 67.06 9.9 54.86 18.9"/>
+			<polyline id="line_three" points="168.2 29 156 20 144.9 28.2 133.8 20 122.7 28.2 111.7 20 100.6 28.2 89.5 20 78.4 28.2 67.3 20 56.3 28.2 45.2 20 33 29"/>
 		
 			</svg>
 			

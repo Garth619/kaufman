@@ -122,10 +122,14 @@ jQuery(document).ready(function(){
 
     waypoint(fixedmobleheader, '130px')
     
+    var fixedmobleheader = $('.section_four_lower')
+
+    waypoint(fixedmobleheader, '130px')
     
-    
-    
-    
+    var fixedmobleheader = $('.testi_col')
+
+    waypoint(fixedmobleheader, '260px')
+
 
     var internalmobileheader = $('.internal_banner_wrapper')
 
