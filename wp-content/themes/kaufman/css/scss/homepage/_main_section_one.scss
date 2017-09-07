@@ -682,6 +682,34 @@ svg#intro_red_twolines {
 }
 
 
+.intro_button {
+		animation-name: none;
+	}
+	
+	
+	.lower_intro_right {
+		span {
+			animation-name:none;
+		}
+	}
+	
+	
+	
+svg#intro_red_twolines {
+	
+	polyline {
+		
+		
+	}
+	polyline.red_line_one {
+		animation-name: none;
+		
+	}
+	polyline.red_line_two {
+		animation-name: none;
+	}
+}
+
 	 
 	
 	
@@ -690,6 +718,9 @@ svg#intro_red_twolines {
 
 
 @media screen and (max-width: 1565px) {
+	
+	
+	
 	
 	
 	
