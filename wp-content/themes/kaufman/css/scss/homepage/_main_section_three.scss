@@ -184,6 +184,9 @@ svg#section_three_gold_twolines {
 	margin-left:-103px;
 	margin-bottom:27px;
 	height:29px;
+	
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
 	polyline {
 		fill:none;
 		stroke:$greybrown;
@@ -193,6 +196,54 @@ svg#section_three_gold_twolines {
 }
 
 
+.section_three_sidebar.visible {
+	svg#section_three_gold_twolines {
+		animation-name: section_three_sidebar_move, section_three_sidebar_draw;
+		animation-duration: 2500ms, 2300ms;
+		animation-fill-mode: both;
+		animation-timing-function:cubic-bezier(.17,.66,.34,.98), linear;
+		animation-delay: 200ms;
+		polyline {
+			
+		}
+	}	
+}
+
+
+
+
+@keyframes section_three_sidebar_move {
+  from {
+    transform: translateX(-80px);
+ 		
+  }
+
+  to {
+   transform: translateX(0px);
+    
+  }
+}
+
+
+@keyframes section_three_sidebar_draw {
+  from {
+   stroke-dashoffset: 300;
+ 		
+  }
+
+  to {
+   stroke-dashoffset: 0;
+    
+  }
+}
+
+
+
+
+
+
+
+
 .diamond {
 	width:275px;
 	position: relative;
@@ -200,11 +251,58 @@ svg#section_three_gold_twolines {
 	margin:-90px -70px 0 0;
 	img {
 		position: absolute;
-		top: 45px;
+		top: 53px;
 		left: 89px;
 		z-index:1;
+		
+		// opacity: 0
 	}
 }
+
+
+
+.section_three_sidebar.visible {
+	.diamond {
+		img {
+			animation-name: logo_fade, logo_move;
+			animation-duration: 500ms, 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 2400ms;
+		}
+	}
+}
+
+
+@keyframes logo_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+  }
+}
+
+
+@keyframes logo_move {
+  from {
+   transform: translateY(-40px);
+ 		
+  }
+
+  to {
+    transform: translateY(0px);
+    
+  }
+}
+
+
+
+
+
 
 
 svg#black_square {
@@ -212,51 +310,64 @@ svg#black_square {
 	width:203px;
 	
 	rect {
-		
-		stroke-dasharray: 1000;
-		stroke-dashoffset: 1000;
+		stroke-dasharray: 700;
+		stroke-dashoffset: 700;
+	
 		stroke:$lightblack;
 		stroke-width:1px;
-/*
-		animation-name: stroke_draw, fill_in;
-		animation-duration: 4500ms, 2000ms;
-		animation-fill-mode: both;
-		animation-timing-function:ease;
-		animation-delay: 0, 5000ms;
-*/
+		
+		fill:transparent;
+
+	}
+}
+
+
+.section_three_sidebar.visible {
+	svg#black_square {
+		
+		rect {
+			
+			
+			
+			animation-name: diamond_stroke, diamond_fill;
+			animation-duration: 1600ms, 700ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 900ms,2200ms;
+			
+			
+		
+		}
 	}
 }
 
 
 
-
-/*
-@keyframes stroke_draw {
+@keyframes diamond_stroke {
   from {
-    stroke-dasharray: 1000;
-		stroke-dashoffset: 1000;
+    stroke-dashoffset: 700;
  		
   }
 
   to {
-    stroke-dashoffset: 0;
     
+    stroke-dashoffset: 0;
   }
 }
 
 
-@keyframes fill_in {
+@keyframes diamond_fill {
   from {
-    fill:none;
- 		opacity: 0;
+    
+ 	
   }
 
   to {
+    
     fill:$lightblack;
-		opacity: 1;
   }
 }
-*/
+
 
 
 
@@ -294,14 +405,89 @@ svg#section_three_red_twolines {
 	
 	
 	
+svg#section_three_gold_twolines {
+	stroke-dasharray: 0;
+	stroke-dashoffset: 0;
+	polyline {
 	
+	}
+}
+
+
+.section_three_sidebar.visible {
+	svg#section_three_gold_twolines {
+		animation-name: none;
 	
+		polyline {
+			
+		}
+	}	
+}
+
+
+
+
+
+
+
+svg#section_three_gold_twolines {
+
 	
+	stroke-dasharray: 0;
+	stroke-dashoffset: 0;
+	polyline {
+		fill:none;
+		stroke:$greybrown;
+		stroke-miterlimit:10;
+		stroke-width:2px;
+	}
+}
+
+
+.section_three_sidebar.visible {
+	svg#section_three_gold_twolines {
+		animation-name: none;
+		polyline {
+			
+		}
+	}	
+}
+
+
+
+
+.section_three_sidebar.visible {
+	.diamond {
+		img {
+			animation-name: none;
+		}
+	}
+}
+
+
+
+
+
+svg#black_square {
+	rect {
+		stroke-dasharray: 0;
+		stroke-dashoffset: 0;
+		fill:$lightblack;
+	}
+}
+
+
+.section_three_sidebar.visible {
+	svg#black_square {
+		rect {
+			animation-name: none;
+		}
+	}
+}
+
+
 	
-	
-	
-	
-	
+
 	
 } /* Media Query */
 

@@ -99,7 +99,14 @@ jQuery(document).ready(function(){
 
     waypoint(fixedmobleheader, '-60px')
     
+    var fixedmobleheader = $('.section_three_content')
+
+    waypoint(fixedmobleheader, '300px')
     
+    var fixedmobleheader = $('.section_three_sidebar')
+
+    waypoint(fixedmobleheader, '340px')
+
     var internalmobileheader = $('.internal_banner_wrapper')
 
     waypoint(internalmobileheader, '-100px')

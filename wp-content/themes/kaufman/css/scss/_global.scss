@@ -434,6 +434,7 @@ body {
 	background-size: 77px 155px;
 	margin:-57px 13px 0 0;
 	text-align: center;
+	opacity: 0;
 	span {
 		font-family: $trirongmedium;
 		font-size:125px;
@@ -442,6 +443,86 @@ body {
 		margin: 63px auto 0px;
 	}
 }
+
+
+
+.section_three_content.visible {
+	.first_letter {
+	
+		
+		animation-name: letter_bg_fade, letter_bg_move;
+		animation-duration: 900ms, 1900ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
+		animation-delay: 200ms;
+		span {
+			animation-name: letter_text_move;
+			animation-duration: 1900ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 0ms;
+		}
+		
+		
+	}
+}
+
+
+
+
+
+@keyframes letter_bg_fade {
+  from {
+   
+ 		opacity: 0;
+ 		
+  }
+
+  to {
+  
+   	opacity: 1;
+    
+  }
+}
+
+
+
+
+@keyframes letter_bg_move {
+  from {
+   
+ 		background-position: 0 40px;
+ 		
+  }
+
+  to {
+  
+   	background-position: 0 0;
+    
+  }
+}
+
+
+
+
+
+
+@keyframes letter_text_move {
+  from {
+   
+ 		transform: translateY(-20px);
+ 		
+  }
+
+  to {
+  
+   	transform: translateY(0px);
+    
+  }
+}
+
+
+
 
 
 .alignleft,
@@ -511,6 +592,40 @@ img.aligncenter {
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 1565px) {
+	
+	
+	
+	
+.first_letter {
+	
+	opacity: 1;
+	span {
+		
+	}
+}
+
+
+
+.section_three_content.visible {
+	.first_letter {
+		animation-name: none;
+		span {
+			animation-name: none;
+		}
+	}
+}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
 
 
 @media screen and (max-width: 1455px) {

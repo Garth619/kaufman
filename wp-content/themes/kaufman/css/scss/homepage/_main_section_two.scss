@@ -743,21 +743,35 @@ svg#back_arrow {
 
 
 
+@media screen and (max-width: 1565px) {
+	
+	
+	
+	
+	svg#red_line_form {
+	
+	polyline {
+		stroke-dasharray: 0;
+		stroke-dashoffset: 0;
+		opacity: 1;
+	}
+}
 
-@media screen and (max-width: 1365px) {
+
+
+
+.intro_form_wrapper.visible {
+	svg#red_line_form {
 	
-	.section_two {
-		display: block;
+		polyline {
+			animation-name: none;
+			opacity: 1;
+			stroke-dasharray: 0;
+			stroke-dashoffset: 0;
+			
+		}
 	}
-	
-	.intro_form_wrapper {
-		display: none;
-	}
-	
-	.case_results_wrapper {
-		width:100%;
-	}
-	
+}
 
 
 .case_results_wrapper {
@@ -834,6 +848,34 @@ svg#back_arrow {
 }  
 
 	
+
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1365px) {
+	
+	.section_two {
+		display: block;
+	}
+	
+	.intro_form_wrapper {
+		display: none;
+	}
+	
+	.case_results_wrapper {
+		width:100%;
+	}
+	
+
+
+
 	
 	
 	
@@ -924,31 +966,6 @@ svg#back_arrow {
 	text-align: center;
 }
 
-
-svg#red_line_form {
-	
-	polyline {
-		stroke-dasharray: 0;
-		stroke-dashoffset: 0;
-		opacity: 1;
-	}
-}
-
-
-
-
-.intro_form_wrapper.visible {
-	svg#red_line_form {
-	
-		polyline {
-			animation-name: none;
-			opacity: 1;
-			stroke-dasharray: 0;
-			stroke-dashoffset: 0;
-			
-		}
-	}
-}
 
 
 
