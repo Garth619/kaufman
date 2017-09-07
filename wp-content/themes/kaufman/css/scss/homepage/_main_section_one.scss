@@ -42,7 +42,7 @@
 span.top_line, span.middle_line, span.bottom_line {
 // 	opacity: 0;
 	animation-name: text_line_fade, text_line_move;
-	animation-duration: 700ms, 1300ms;
+	animation-duration: 900ms, 1300ms;
   animation-fill-mode: both;
   animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);;
 	position: relative;
@@ -56,12 +56,12 @@ span.top_line {
  }
 
 span.middle_line {
-	animation-delay:1050ms;
+	animation-delay:1350ms;
 }
 
 
 span.bottom_line {
-	animation-delay:1400ms;
+	animation-delay:1800ms;
 }
 
 
@@ -230,7 +230,7 @@ svg#red_line_intro {
     stroke-dashoffset: 256;
   
 	animation-name: red_line_intro;
-	animation-duration:2700ms;
+	animation-duration:2300ms;
 	animation-fill-mode: both;
 	animation-timing-function: linear;
 	animation-delay: 2000ms;

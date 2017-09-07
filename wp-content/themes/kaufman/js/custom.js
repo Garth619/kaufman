@@ -30,7 +30,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 
  var createWaypoint = function(selector, offsetVal, customFunc, reverse) {
-    reverse = typeof reverse !== 'undefined' ? reverse: true
+    reverse = typeof reverse !== 'undefined' ? reverse: false
     offsetVal = typeof offsetVal !== 'undefined' ? offsetVal: "50%"
     selector.waypoint({
         handler: function(direction) {
@@ -93,6 +93,14 @@ jQuery(document).ready(function(){
     var internalmobileheader = $('.non_banner_layout .internal_container')
 
     waypoint(internalmobileheader, '-130px')
+    
+    
+    var internalmobileheader = $('.case_results_wrapper')
+
+    waypoint(internalmobileheader, '230px')
+    
+    
+   
     
     
     

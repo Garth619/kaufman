@@ -308,6 +308,83 @@ svg#back_arrow {
 }
 
 
+.case_results_wrapper.visible {
+.single_case.slick-current {
+	.case_icon {
+		svg {
+			path {
+				// fill:#f2f2f2;
+				
+				stroke-width:1px;
+				stroke:#f2f2f2;
+				
+				
+				
+				animation-name: case_results_svg_fade, case_results_svg_fill, case_results_svg_move;
+				animation-duration: 500ms, 900ms, 1900ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear,linear,cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 0ms, 1000ms, 0ms;
+				
+			}
+		}
+	}
+}
+}
+
+
+
+
+@keyframes case_results_svg_fade {
+  from {
+    
+				opacity: 0;
+				
+ 		
+  }
+
+  to {
+    
+			opacity: 1;
+			
+    
+  }
+}
+
+
+
+@keyframes case_results_svg_fill {
+  from {
+  
+ 		fill:#fff;
+ 		
+  }
+
+  to {
+  
+		fill:#f2f2f2;
+    
+  }
+}
+
+
+@keyframes case_results_svg_move {
+  from {
+  
+ 		transform: translateY(130px);	
+ 		
+  }
+
+  to {
+  
+		transform: translateY(0px);	
+    
+  }
+}
+
+
+
+
 .single_case {
 	position: relative;
 	.case_icon {
@@ -321,6 +398,7 @@ svg#back_arrow {
 			margin:-120px auto 0;
 			path {
 				fill:#f2f2f2;
+				 
 			}
 			
 		}
@@ -472,6 +550,18 @@ svg#back_arrow {
 	.case_results_wrapper {
 		width:100%;
 	}
+	
+.case_results_wrapper.visible {
+	.single_case.slick-current {
+		.case_icon {
+			svg {
+				path {
+					animation-name:none;
+				}
+			}
+		}
+	}
+}
 	
 	
 	
