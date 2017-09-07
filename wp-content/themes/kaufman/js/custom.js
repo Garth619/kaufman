@@ -110,7 +110,21 @@ jQuery(document).ready(function(){
     
     var fixedmobleheader = $('.section_four')
 
-    waypoint(fixedmobleheader, '340px')
+    waypoint(fixedmobleheader, '500px')
+    
+    
+    var fixedmobleheader = $('.why_choose_content_wrapper')
+
+    waypoint(fixedmobleheader, '-60px')
+    
+    
+    var fixedmobleheader = $('.why_choose_bg_wrapper')
+
+    waypoint(fixedmobleheader, '130px')
+    
+    
+    
+    
     
 
     var internalmobileheader = $('.internal_banner_wrapper')
