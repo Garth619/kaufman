@@ -44,8 +44,89 @@ svg#section_three_red_twolines {
 		stroke:$greybrown;
 		stroke-miterlimit:10;
 		stroke-width:2px;
+		opacity: 0;
 	}
 }
+
+
+.section_three.visible {
+
+	svg#section_three_red_twolines {
+	
+		polyline {
+		
+		}
+		polyline.red_line_one {
+			animation-name: section_three_two_lines_fade, section_three_polyline_one_move;
+			animation-duration: 500ms, 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98); 
+			animation-delay: 500ms;
+		}
+		polyline.red_line_two {
+			animation-name: section_three_two_lines_fade, section_three_polyline_two_move;
+			animation-duration: 500ms, 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98); 
+			animation-delay: 500ms;
+			
+			
+		}
+	}
+
+}
+
+
+
+
+@keyframes section_three_two_lines_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+  
+    
+  }
+}
+
+
+@keyframes section_three_polyline_one_move {
+  from {
+    transform: translateX(-70px) translateY(15px);
+ 		
+ 		
+  }
+
+  to {
+   transform: translateX(0px) translateY(0px);
+  
+   }
+}
+
+
+@keyframes section_three_polyline_two_move {
+  from {
+    transform: translateX(70px) translateY(-15px);
+ 		
+ 		
+  }
+
+  to {
+   transform: translateX(0px) translateY(0px);
+  
+   }
+}
+
+
+
+
+
+
+
 
 .section_three_container {
 	max-width: 1650px;
@@ -176,6 +257,53 @@ svg#black_square {
   }
 }
 */
+
+
+
+@media screen and (max-width: 1565px) {
+	
+	
+	
+	
+svg#section_three_red_twolines {
+	polyline {
+		opacity: 1;
+	}
+}
+
+
+.section_three.visible {
+
+	svg#section_three_red_twolines {
+	
+		polyline {
+		
+		}
+		polyline.red_line_one {
+			animation-name: none;
+		}
+		polyline.red_line_two {
+			animation-name: none;
+			
+			
+		}
+	}
+
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
 
 
 
