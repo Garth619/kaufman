@@ -722,7 +722,7 @@ svg.testi_red_line {
 
 
 
-.testi_col.visible {
+.testi_wrapper.visible {
 
 
 		svg.testi_red_line {
@@ -819,6 +819,21 @@ svg.testi_red_line {
 	}
 }
 
+/* start here */
+
+.testi_wrapper.visible {
+
+	.testi_buttons {
+		.single_button {
+			span {
+			
+			}
+		}
+	}
+
+}  
+
+
 
 
 @media screen and (max-width: 1870px) {
@@ -873,7 +888,7 @@ svg.testi_red_line {
 
 
 
-.testi_col.visible {
+.testi_wrapper.visible {
 
 
 		svg.testi_red_line {

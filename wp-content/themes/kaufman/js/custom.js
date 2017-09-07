@@ -126,7 +126,7 @@ jQuery(document).ready(function(){
 
     waypoint(fixedmobleheader, '130px')
     
-    var fixedmobleheader = $('.testi_col')
+    var fixedmobleheader = $('.testi_wrapper ')
 
     waypoint(fixedmobleheader, '260px')
 
