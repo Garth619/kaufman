@@ -84,6 +84,17 @@ jQuery(document).ready(function(){
 
     waypoint(fixedmobleheader, '0px')
     
+    
+    var fixedmobleheader = $('.intro_form_wrapper')
+
+    waypoint(fixedmobleheader, '240px')
+    
+    
+    var internalmobileheader = $('.case_results_wrapper')
+
+    waypoint(internalmobileheader, '230px')
+    
+    
     var fixedmobleheader = $('.section_three')
 
     waypoint(fixedmobleheader, '-60px')
@@ -99,9 +110,7 @@ jQuery(document).ready(function(){
     waypoint(internalmobileheader, '-130px')
     
     
-    var internalmobileheader = $('.case_results_wrapper')
-
-    waypoint(internalmobileheader, '230px')
+    
     
     
    

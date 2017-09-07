@@ -371,7 +371,7 @@ svg#play_button_svg {
 	span {
 		float:left;
 		margin-left: 29px;
-    margin-top: 15px;
+    margin-top: 17px;
 		
 	}
 	&:hover {
@@ -422,6 +422,16 @@ svg#play_button_svg {
 		top:8px;
 		margin-left:15px;
 		
+		
+		
+		animation-name: intro_start_arrow;
+	  animation-duration: 2200ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: linear;
+	  animation-delay: 2300ms;
+		animation-iteration-count: infinite;
+		
+		
 		line.arrow_line {
 			fill:none;
 			stroke:#fff;
@@ -431,6 +441,31 @@ svg#play_button_svg {
 			fill:#fff;
 		}
 	}
+	
+	
+	
+	
+	@keyframes intro_start_arrow {
+	  0% {
+	   
+	 		transform: translateY(-7px);
+	 		
+	 		
+	  }
+	  
+	  50% {
+		  transform: translateY(7px);
+	  }
+	
+	  100% {
+	    
+	    transform: translateY(-7px);
+	    
+	  }
+	}
+	
+	
+
 
 
 
@@ -732,6 +767,12 @@ svg#intro_red_twolines {
 	
 	.intro_banner_content {
 		padding: 69px 35px;
+	}
+	
+	
+	
+	svg#start_arrow {
+		animation-name: none;
 	}
 	
 	
