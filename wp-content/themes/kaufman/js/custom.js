@@ -150,6 +150,11 @@ jQuery(document).ready(function(){
 
     waypoint(sectionsix, '250px')
     
+    
+    var sectionseven = $('.section_seven')
+
+    waypoint(sectionseven, '400px')
+    
 
 		var internalmobileheader = $('.internal_banner_wrapper')
 

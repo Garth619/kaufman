@@ -11,7 +11,13 @@
 				
 			</svg><!-- news_header_wrapper -->
 		
-		<span class="large_header">Stay Informed On<span class="lower_header"> Injury News</span></span><!-- large_header -->
+		<span class="large_header">
+		
+			<span class="letter_ani">Stay Informed On</span><!-- letter_ani -->
+			
+			<span class="lower_header"> Injury News</span>
+			
+			</span><!-- large_header -->
 		
 		</div><!-- inner_news -->
 		
