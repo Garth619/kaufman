@@ -235,10 +235,12 @@ svg#footer_gold_twolines {
 		.white_diamond_wrapper {
 			.white_diamond {
 				animation-name: white_diamond_border_fade, white_diamond_background_fade, white_diamond_move;
-				animation-duration: 1500ms, 1500ms;
+				animation-duration: 1500ms, 600ms, 1300ms;
 				animation-fill-mode: both;
-				animation-timing-function: linear, linear;
-				animation-delay:0, 15000ms;
+				animation-timing-function: linear, linear, cubic-bezier(.17,.66,.34,.98) ;
+				
+				animation-delay: 0ms, 1400ms, 0ms;
+				
 			}
 		}
 	}
@@ -261,12 +263,12 @@ svg#footer_gold_twolines {
 
 @keyframes white_diamond_background_fade {
   from {
-   
+   background: $lightblack;
  		
   }
 
   to {
-   
+   background: #fff;
     
   }
 }
@@ -602,6 +604,38 @@ svg#footer_threelines {
 
 
 @media screen and (max-width: 1565px) {
+	
+	
+	
+	
+	.footer_phone_wrapper {
+		.white_diamond_wrapper {
+			.white_diamond {
+				border:none;
+				background: #fff;
+				opacity: 1;
+			}
+		}
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	.inner_footer.visible {
+	.footer_phone_wrapper {
+		.white_diamond_wrapper {
+			.white_diamond {
+				animation-name: none;
+			}
+		}
+	}
+}
+	
+	
 	
 	
 	.footer_phone_wrapper {

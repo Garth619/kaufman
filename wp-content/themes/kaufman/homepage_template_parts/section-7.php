@@ -28,6 +28,10 @@
 		<div class="news_slidehow">
 			
 			
+			
+			
+					
+			
 			<div class="news_buttons">
 				
 				
@@ -51,7 +55,15 @@
 			</div><!-- news_buttons -->
 			
 			
-			<a class="news_single_link" href="">
+		
+				<?php $mymain_query = new WP_Query( array( 'post_type' => array ('post' ),'posts_per_page' => '8', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
+                	
+                	
+                	
+                	
+                	
+                	
+      <a class="news_single_link" href="<?php the_permalink();?>">
 				
 				
 				<div class="single_slide_wrapper">
@@ -65,11 +77,14 @@
 			
 					</svg><!-- news_header_wrapper -->
 					
-					<span class="news_date">April 17, 2017</span><!-- news_date -->
+					<span class="news_date"><?php $pfx_date = get_the_date(); ?><?php echo $pfx_date; ?></span><!-- news_date -->
 					
-					<span class="post_title">Tips for Preventing Motorcycle Accidents</span><!-- post_title -->
+					<span class="post_title"><?php the_title();?></span><!-- post_title -->
 					
-					<span class="excerpt">Motorcycles are inherently less safe than cars, lacking many of the safety features that help minimize the vulnerability of drivers and passengers during an accident. While they may be dangerous, the ...</span><!-- excerpt -->
+					<span class="excerpt"><?php echo wp_trim_words( get_the_content(), 40, '...' );?></span><!-- excerpt -->
+					
+					
+					
 					
 					</div><!-- inner_slide_content -->
 					
@@ -84,185 +99,17 @@
 				</div><!-- single_slide_wrapper -->
 				
 			</a><!-- news_single_link -->
-			
-			
-			
-			<a class="news_single_link" href="">
+
+                	
+				<?php endwhile; ?>
+      <?php wp_reset_postdata(); // reset the query ?>
+
+
 				
-				
-				<div class="single_slide_wrapper">
-					
-					<div class="inner_slide_content">
-					
-					<svg id="news_post_twolines" viewBox="0 0 51.9 10.39"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
-			
-						<polyline transform="translate(0,3)" class="cls-1" points="0 10.39 8.7 4 17.3 10.39 26 4 34.7 10.39 43.3 4 51.9 10.39"/>
-						<polyline class="cls-1" points="0 6.39 8.7 0 17.3 6.39 26 0 34.7 6.39 43.3 0 51.9 6.39"/>
-			
-					</svg><!-- news_header_wrapper -->
-					
-					<span class="news_date">April 17, 2017</span><!-- news_date -->
-					
-					<span class="post_title">Tips for Preventing Motorcycle Accidents</span><!-- post_title -->
-					
-					<span class="excerpt">Motorcycles are inherently less safe than cars, lacking many of the safety features that help minimize the vulnerability of drivers and passengers during an accident. While they may be dangerous, the ...</span><!-- excerpt -->
-					
-					</div><!-- inner_slide_content -->
-					
-					<div class="read_more_wrapper"> 
-						
-						<span class="read_more">Read More</span>
-						
-						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
-						
-					</div><!-- read_more -->
-					
-				</div><!-- single_slide_wrapper -->
-				
-			</a><!-- news_single_link -->
+
 			
 			
 			
-			<a class="news_single_link" href="">
-				
-				
-				<div class="single_slide_wrapper">
-					
-					<div class="inner_slide_content">
-					
-					<svg id="news_post_twolines" viewBox="0 0 51.9 10.39"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
-			
-						<polyline transform="translate(0,3)" class="cls-1" points="0 10.39 8.7 4 17.3 10.39 26 4 34.7 10.39 43.3 4 51.9 10.39"/>
-						<polyline class="cls-1" points="0 6.39 8.7 0 17.3 6.39 26 0 34.7 6.39 43.3 0 51.9 6.39"/>
-			
-					</svg><!-- news_header_wrapper -->
-					
-					<span class="news_date">April 17, 2017</span><!-- news_date -->
-					
-					<span class="post_title">Tips for Preventing Motorcycle Accidents</span><!-- post_title -->
-					
-					<span class="excerpt">Motorcycles are inherently less safe than cars, lacking many of the safety features that help minimize the vulnerability of drivers and passengers during an accident. While they may be dangerous, the ...</span><!-- excerpt -->
-					
-					</div><!-- inner_slide_content -->
-					
-					<div class="read_more_wrapper"> 
-						
-						<span class="read_more">Read More</span>
-						
-						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
-						
-					</div><!-- read_more -->
-					
-				</div><!-- single_slide_wrapper -->
-				
-			</a><!-- news_single_link -->
-			
-			
-			
-			<a class="news_single_link" href="">
-				
-				
-				<div class="single_slide_wrapper">
-					
-					<div class="inner_slide_content">
-					
-					<svg id="news_post_twolines" viewBox="0 0 51.9 10.39"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
-			
-						<polyline transform="translate(0,3)" class="cls-1" points="0 10.39 8.7 4 17.3 10.39 26 4 34.7 10.39 43.3 4 51.9 10.39"/>
-						<polyline class="cls-1" points="0 6.39 8.7 0 17.3 6.39 26 0 34.7 6.39 43.3 0 51.9 6.39"/>
-			
-					</svg><!-- news_header_wrapper -->
-					
-					<span class="news_date">April 17, 2017</span><!-- news_date -->
-					
-					<span class="post_title">Tips for Preventing Motorcycle Accidents</span><!-- post_title -->
-					
-					<span class="excerpt">Motorcycles are inherently less safe than cars, lacking many of the safety features that help minimize the vulnerability of drivers and passengers during an accident. While they may be dangerous, the ...</span><!-- excerpt -->
-					
-					</div><!-- inner_slide_content -->
-					
-					<div class="read_more_wrapper"> 
-						
-						<span class="read_more">Read More</span>
-						
-						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
-						
-					</div><!-- read_more -->
-					
-				</div><!-- single_slide_wrapper -->
-				
-			</a><!-- news_single_link -->
-			
-			
-			
-			<a class="news_single_link" href="">
-				
-				
-				<div class="single_slide_wrapper">
-					
-					<div class="inner_slide_content">
-					
-					<svg id="news_post_twolines" viewBox="0 0 51.9 10.39"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
-			
-						<polyline transform="translate(0,3)" class="cls-1" points="0 10.39 8.7 4 17.3 10.39 26 4 34.7 10.39 43.3 4 51.9 10.39"/>
-						<polyline class="cls-1" points="0 6.39 8.7 0 17.3 6.39 26 0 34.7 6.39 43.3 0 51.9 6.39"/>
-			
-					</svg><!-- news_header_wrapper -->
-					
-					<span class="news_date">April 17, 2017</span><!-- news_date -->
-					
-					<span class="post_title">Tips for Preventing Motorcycle Accidents</span><!-- post_title -->
-					
-					<span class="excerpt">Motorcycles are inherently less safe than cars, lacking many of the safety features that help minimize the vulnerability of drivers and passengers during an accident. While they may be dangerous, the ...</span><!-- excerpt -->
-					
-					</div><!-- inner_slide_content -->
-					
-					<div class="read_more_wrapper"> 
-						
-						<span class="read_more">Read More</span>
-						
-						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
-						
-					</div><!-- read_more -->
-					
-				</div><!-- single_slide_wrapper -->
-				
-			</a><!-- news_single_link -->
-			
-			
-			<a class="news_single_link" href="">
-				
-				
-				<div class="single_slide_wrapper">
-					
-					<div class="inner_slide_content">
-					
-					<svg id="news_post_twolines" viewBox="0 0 51.9 10.39"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
-			
-						<polyline transform="translate(0,3)" class="cls-1" points="0 10.39 8.7 4 17.3 10.39 26 4 34.7 10.39 43.3 4 51.9 10.39"/>
-						<polyline class="cls-1" points="0 6.39 8.7 0 17.3 6.39 26 0 34.7 6.39 43.3 0 51.9 6.39"/>
-			
-					</svg><!-- news_header_wrapper -->
-					
-					<span class="news_date">April 17, 2017</span><!-- news_date -->
-					
-					<span class="post_title">Tips for Preventing Motorcycle Accidents</span><!-- post_title -->
-					
-					<span class="excerpt">Motorcycles are inherently less safe than cars, lacking many of the safety features that help minimize the vulnerability of drivers and passengers during an accident. While they may be dangerous, the ...</span><!-- excerpt -->
-					
-					</div><!-- inner_slide_content -->
-					
-					<div class="read_more_wrapper"> 
-						
-						<span class="read_more">Read More</span>
-						
-						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
-						
-					</div><!-- read_more -->
-					
-				</div><!-- single_slide_wrapper -->
-				
-			</a><!-- news_single_link -->
 			
 
 		</div><!-- news_slidehow -->
