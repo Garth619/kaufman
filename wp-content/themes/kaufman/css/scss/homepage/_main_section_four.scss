@@ -560,6 +560,7 @@ svg#section_four_gold_threelines {
 		fill:none;
 		stroke:$lightbrown;
 		stroke-width:2px;
+		opacity: 0;
 	}
 }
 
@@ -768,6 +769,7 @@ svg.testi_red_line {
 	bottom:-0px;
 	text-align: center;
 	overflow: hidden;
+	opacity: 0;
 	.single_button {
 		cursor: pointer;
 		width:50%;
@@ -819,19 +821,139 @@ svg.testi_red_line {
 	}
 }
 
-/* start here */
+
 
 .testi_wrapper.visible {
 
 	.testi_buttons {
+		animation-name: test_buttons_fade;
+		animation-duration: 800ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 1000ms;
 		.single_button {
 			span {
-			
+				animation-duration: 800ms, 1000ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 1000ms;
+			}
+			img {
+				animation-duration: 800ms, 1000ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98) ;
+				animation-delay: 1000ms;
+			}
+		}
+		.testi_back {
+			span {
+				animation-name: test_buttons_fade, test_buttons_back_verbiage_move;
+				
+			}
+			img {
+				animation-name: test_buttons_fade, test_buttons_back_image_move;
+				
+			}
+		}
+		.testi_next {
+			span {
+				animation-name: test_buttons_fade, test_buttons_next_verbiage_move;
+				
+			}
+			img {
+				animation-name: test_buttons_fade, test_buttons_next_image_move;
+				
 			}
 		}
 	}
 
 }  
+
+
+
+
+@keyframes test_buttons_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+
+
+
+@keyframes test_buttons_back_verbiage_move {
+  from {
+    transform: translateX(-40px);
+ 		letter-spacing: 10px;
+ 		
+  }
+
+  to {
+     transform: translateX(0px);
+    letter-spacing: 5px;
+    
+  }
+}
+
+
+@keyframes test_buttons_back_image_move {
+  from {
+    transform: translateX(-30px);
+ 		
+ 		
+  }
+
+  to {
+   transform: translateX(0px);
+    
+    
+  }
+}
+
+
+
+@keyframes test_buttons_next_verbiage_move {
+  from {
+    transform: translateX(40px);
+ 		letter-spacing: 10px;
+ 		
+  }
+
+  to {
+     transform: translateX(0px);
+    letter-spacing: 5px;
+    
+  }
+}
+
+
+
+
+
+
+@keyframes test_buttons_next_image_move {
+  from {
+    transform: translateX(30px);
+ 		
+ 		
+  }
+
+  to {
+   transform: translateX(0px);
+    
+    
+  }
+}
+
+
+
 
 
 
@@ -868,7 +990,86 @@ svg.testi_red_line {
 @media screen and (max-width: 1565px) {
 	
 	
+.testi_buttons {
+	
+	opacity: 1;
+	.single_button {
+		
+		&:first-of-type {
+			
+		}
+		&:last-of-type {
+			
+		}
+		&:hover {
+			
+		}
+		img {
+			
+			
+		}
+		span {
+			
+		}
+	}
+	.testi_back {
+		
+		img {
+			
+		}
+		span {
+			
+		}
+	}
+	.testi_next {
+		
+		img {
+			
+		}
+		span {
+			
+		}
+	}
+}
 
+
+
+.testi_wrapper.visible {
+
+	.testi_buttons {
+		animation-name: none;
+		
+		.single_button {
+			span {
+				
+			}
+			img {
+				
+			}
+		}
+		.testi_back {
+			span {
+				animation-name: none;
+				
+			}
+			img {
+				animation-name: none;
+				
+			}
+		}
+		.testi_next {
+			span {
+				animation-name: none;
+				
+			}
+			img {
+				animation-name:none;
+				
+			}
+		}
+	}
+
+}  
 
 
 
@@ -911,7 +1112,7 @@ svg.testi_red_line {
 svg#section_four_gold_threelines {
 	
 	polyline {
-		
+		opacity: 1;
 	}
 }
 
