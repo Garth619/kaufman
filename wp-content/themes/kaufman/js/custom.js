@@ -141,6 +141,11 @@ jQuery(document).ready(function(){
     waypoint(sectionfiveinnerwrapper, '360px')
     
     
+    var attslideshow = $('.att_slideshow')
+
+    waypoint(attslideshow, '150px')
+    
+    
     
     
 
@@ -491,6 +496,7 @@ $('.att_slideshow').slick({
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
+        
        }
     },
     {

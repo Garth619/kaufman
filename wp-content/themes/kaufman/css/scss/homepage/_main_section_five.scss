@@ -626,6 +626,9 @@ a.att_single_slide_link {
 			top:-5px;
 			height:12px;
 			margin-right:8px;
+			
+			stroke-dasharray: 90;
+			stroke-dashoffset: 90;
 			polyline {
 				fill:none;
 				stroke:$red;
@@ -635,6 +638,36 @@ a.att_single_slide_link {
 		}
 	}
 }
+
+
+	.att_slideshow.visible {
+		.att_single_slide {
+			.att_title_wrapper {
+				svg {
+					animation-name: att_slide_draw;
+					animation-duration: 3000ms;
+					animation-fill-mode: both;
+					animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+					animation-delay: 300ms;
+				}
+			}
+		} 
+	}
+
+
+
+@keyframes att_slide_draw {
+  from {
+    stroke-dashoffset: 90;
+ 	}
+
+  to {
+    stroke-dashoffset: 0;
+   }
+}
+
+
+
 
 
 .att_buttons {
@@ -655,6 +688,7 @@ a.att_single_slide_link {
 	.att_single_button {
 		cursor: pointer;
 	}
+	
 	.att_next {
 		background:$greybrown;
 		height:calc(100% - 47px);
@@ -716,6 +750,29 @@ a.att_single_slide_link {
 @media screen and (max-width: 1565px) {
 	
 	
+	
+	
+		.att_single_slide {
+			.att_title_wrapper {
+				svg {
+					stroke-dasharray:0;
+					stroke-dashoffset:0;
+				}
+			}
+		} 
+	
+	
+	
+	
+	.att_slideshow.visible {
+		.att_single_slide {
+			.att_title_wrapper {
+				svg {
+					animation-name:none;
+				}
+			}
+		} 
+	}
 	
 	
 
@@ -1187,9 +1244,23 @@ a.att_single_slide_link {
 			}
 			svg {
 				top: -3px;
+				
+				
 			}
 		}
 	} 
+	
+	
+	.att_slideshow.visible {
+		.att_single_slide {
+			.att_title_wrapper {
+				
+				svg {
+					
+				}
+			}
+		} 
+	}
 	
 	
 	.att_buttons_mobile_wrapper {
