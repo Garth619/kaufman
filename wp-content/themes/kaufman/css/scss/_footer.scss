@@ -708,7 +708,46 @@ svg#footer_threelines {
 		stroke:$lightblack;
 		stroke-width:2px;
 	}
+	
 }
+
+
+
+/*
+.inner_footer.visible {
+	svg#footer_threelines {
+		polyline.black_line_one {
+			animation-name: black_line_fade;
+			animation-duration: 500ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		}
+		polyline.black_line_two {
+		
+		}
+		polyline.black_line_three {
+		
+		}
+	}
+}
+*/
+
+
+
+@keyframes black_line_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+    
+  }
+}
+
 
 
 @media screen and (max-width: 1800px) {

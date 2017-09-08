@@ -169,7 +169,10 @@ jQuery(document).ready(function(){
 
     waypoint(innerfooter, '400px')
     
+    var innercopyright = $('.inner_copyright')
 
+    waypoint(innercopyright, '400px')
+		
 		var internalmobileheader = $('.internal_banner_wrapper')
 
     waypoint(internalmobileheader, '-100px')
