@@ -37,6 +37,7 @@ footer {
 	background:$lightblack;
 	padding:500px 70px 100px;
 	position: relative;
+	overflow: hidden;
 }
 
 
@@ -194,10 +195,14 @@ svg#footer_gold_twolines {
 		width: 162px;
 		float:right;
 		margin:-40px -48px 0 0;
-		span.available {
-			color:$lightblack;
+		.diamond_content_wrapper {
 			position: relative;
 			z-index:5;
+			opacity: 0;
+		}
+		span.available {
+			color:$lightblack;
+			
 			display: block;
 			font-family: $akagilbold;
 			text-transform: uppercase;
@@ -206,8 +211,7 @@ svg#footer_gold_twolines {
 			letter-spacing: 5.7px;
 		}
 		span.large_header {
-			position: relative;
-			z-index:5;
+			
 			color:$red;
 			display: block;
 			font-family: $trirongsemibold;
@@ -235,12 +239,17 @@ svg#footer_gold_twolines {
 		.white_diamond_wrapper {
 			.white_diamond {
 				animation-name: white_diamond_border_fade, white_diamond_background_fade, white_diamond_move;
-				animation-duration: 1500ms, 600ms, 1300ms;
+				animation-duration: 1300ms, 600ms, 1300ms;
 				animation-fill-mode: both;
 				animation-timing-function: linear, linear, cubic-bezier(.17,.66,.34,.98) ;
-				
-				animation-delay: 0ms, 1400ms, 0ms;
-				
+				animation-delay: 0ms, 1200ms, 0ms;
+			}
+			.diamond_content_wrapper {
+				animation-name: diamond_content_fade, diamond_content_move;
+				animation-duration: 800ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 1900ms;
 			}
 		}
 	}
@@ -286,6 +295,32 @@ svg#footer_gold_twolines {
   }
 }
 
+
+
+@keyframes diamond_content_fade {
+  from {
+   opacity: 0;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+  }
+}
+
+
+@keyframes diamond_content_move {
+  from {
+   transform: translateY(-20px);
+ 		
+  }
+
+  to {
+    transform: translateY(0px);
+    
+  }
+}
 
 
 
@@ -373,6 +408,7 @@ svg#social_media_line {
 	right:0px;
 	width:10.5%;
 	height:20px;
+	opacity: 0;
 	.footer_square {
 		width:10px;
 		height:10px;
@@ -389,6 +425,78 @@ svg#social_media_line {
 		
 	}
 }
+
+
+
+
+
+footer.visible {
+	.footer_red_line_wrapper {
+			animation-name: footer_line_fade, footer_line_move;
+			animation-duration: 300ms, 2300ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 1300ms;
+		.footer_square {
+			animation-name: footer_line_fade;
+			animation-duration: 900ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 2400ms;
+		}
+		.footer_line {
+			
+		}
+	}
+ }
+
+
+
+@keyframes footer_line_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+    opacity: 1
+    
+  }
+}
+
+
+@keyframes footer_line_move {
+  from {
+    transform: translateX(500px);
+ 		
+  }
+
+  to {
+    transform: translateX(0px);
+    
+  }
+}
+
+
+@keyframes footer_line_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+    opacity: 1
+    
+  }
+}
+
+
+
+
+
+
+
+
 
 .vertical_selling_points {
 	bottom: 610px;
@@ -615,9 +723,40 @@ svg#footer_threelines {
 				background: #fff;
 				opacity: 1;
 			}
+			.diamond_content_wrapper {
+				opacity: 1;
+			}
 		}
 	}
 
+
+
+
+	.footer_red_line_wrapper {
+			opacity: 1;
+		.footer_square {
+			
+		}
+		.footer_line {
+			opacity: 1;
+		}
+	}
+
+
+
+
+
+footer.visible {
+	.footer_red_line_wrapper {
+			animation-name: none;
+		.footer_square {
+			animation-name: none;
+		}
+		.footer_line {
+			
+		}
+	}
+ }
 	
 	
 	
@@ -630,6 +769,9 @@ svg#footer_threelines {
 		.white_diamond_wrapper {
 			.white_diamond {
 				animation-name: none;
+			}
+			.diamond_content_wrapper {
+				animation-name:none;
 			}
 		}
 	}

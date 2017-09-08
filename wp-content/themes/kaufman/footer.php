@@ -41,9 +41,13 @@
 				
 				<div class="white_diamond_wrapper">
 					
-					<span class="available">Available</span><!-- small_header -->
+					<div class="diamond_content_wrapper">
 					
-					<span class="large_header">24/7</span><!-- large_header -->
+						<span class="available">Available</span><!-- small_header -->
+					
+						<span class="large_header">24/7</span><!-- large_header -->
+					
+					</div><!-- diamond_content_wrapper -->
 					
 					<div class="white_diamond"></div><!-- white_diamond -->
 					
