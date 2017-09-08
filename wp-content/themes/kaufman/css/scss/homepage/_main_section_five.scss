@@ -426,10 +426,11 @@ a.view_button {
 		text-align: right;
 		display: block;
 		letter-spacing: 6.6px;
+		opacity: 0;
 	}
 	span.our_att_line {
 		display: block;
-		width:96%;
+		width:0%;
 		height:1px;
 		background: $lightblack;
 		margin-top:45px;
@@ -440,6 +441,7 @@ a.view_button {
 			background:$lightblack;
 			float:right;
 			margin-top:-4px;
+			opacity: 0;
 		}
 	}
 }
@@ -456,7 +458,17 @@ a.view_button {
 			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 		}
 		span.our_att_line {
-			
+			animation-name: our_att_line_move;
+			animation-duration: 2000ms;
+			animation-fill-mode: both;
+			animation-timing-function:cubic-bezier(.17,.66,.34,.98);
+			&:after {
+				animation-name: our_att_square_fade;
+				animation-duration: 500ms;
+				animation-fill-mode: both;
+				animation-timing-function:linear;
+				animation-delay: 1900ms;
+			}
 		}
 	}
 }
@@ -482,6 +494,30 @@ a.view_button {
 
   to {
    transform: translateX(0px);
+    
+  }
+}
+
+
+@keyframes our_att_line_move {
+  from {
+    width:0;
+ }
+
+  to {
+   width:96%;
+    
+  }
+}
+
+
+@keyframes our_att_square_fade {
+  from {
+    opacity: 0;
+ }
+
+  to {
+   opacity: 1;
     
   }
 }
@@ -678,6 +714,43 @@ a.att_single_slide_link {
 
 
 @media screen and (max-width: 1565px) {
+	
+	
+	
+	
+
+	.our_attorneys_wrapper {
+		span.our_att_title {
+			opacity: 1;
+		}
+		span.our_att_line {
+			width:96%;
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+
+
+
+	
+	
+	
+.section_five_inner_wrapper.visible {
+	.our_attorneys_wrapper {
+		span.our_att_title {
+			animation-name: none;
+		}
+		span.our_att_line {
+			animation-name: none;
+			&:after {
+				animation-name: none;
+			}
+		}
+	}
+}
+
+	
 	
 	
 	
