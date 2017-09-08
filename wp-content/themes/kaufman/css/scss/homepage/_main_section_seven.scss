@@ -309,11 +309,41 @@ svg#news_post_twolines {
 	width:50px;
 	height: 25px;
 	float:left;
+	
+	stroke-dasharray:100;
+	stroke-dashoffset:100;
 	polyline {
 		fill:none;
 		stroke:$red;
 		stroke-width:1.75px;
 	}
+}
+
+
+.section_seven.visible {
+	svg#news_post_twolines {
+		animation-name: inthenews_svg_draw;
+		animation-duration: 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		polyline {
+		
+		}
+	}
+}
+
+
+
+@keyframes inthenews_svg_draw {
+  from {
+    
+ 		stroke-dashoffset:100;
+  }
+
+  to {
+    
+    stroke-dashoffset:0;
+  }
 }
 
 
@@ -393,6 +423,25 @@ svg#news_post_twolines {
 }
 
 
+
+svg#news_post_twolines {
+		stroke-dasharray:0;
+		stroke-dashoffset:0;
+		polyline {
+		
+		}
+	}
+
+
+
+.section_seven.visible {
+	svg#news_post_twolines {
+		animation-name: none;
+		polyline {
+		
+		}
+	}
+}
 
 
 
