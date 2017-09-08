@@ -59,11 +59,32 @@
 					<select name='step_one' id='stepone' tabindex='12'>
 			
 						<option value='selectaninjury' >Select an injury</option>
-						<option value='pa1' >PA 1</option>
-						<option value='pa2' >PA 2</option>
-						<option value='pa3' >PA 3</option>
-						<option value='pa4' >PA 4</option>
-			
+						
+						
+						<?php if(get_field('smart_form_drop_down_options','option')): ?>
+						 
+							<?php while(has_sub_field('smart_form_drop_down_options','option')): ?>
+						 
+								<?php $post_object = get_sub_field( 'new_option' ); ?>
+								
+									<?php if ( $post_object ): ?>
+										
+										<?php $post = $post_object; ?>
+										
+										<?php setup_postdata( $post ); ?> 
+									
+											
+											<option value='<?php the_title(); ?>'><?php the_title(); ?></option>
+								
+								
+										<?php wp_reset_postdata(); ?>
+										
+									<?php endif; ?>
+						    
+							<?php endwhile; ?>
+						 
+						<?php endif; ?>
+
 					</select>
 				
 				</div><!-- select_wrapper -->

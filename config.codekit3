@@ -24125,12 +24125,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/wp-content\/uploads\/ithemes-security\/backups\/backup-kaufman-law-p-c-20170908-145709-pIi2zztb7Q9rSqaG4Q8o7wXtcbXFzx.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/uploads\/ithemes-security\/backups\/backup-kaufman-law-p-c-20170908-145709-pIi2zztb7Q9rSqaG4Q8o7wXtcbXFzx.zip",
-		"oF": 0
-		},
 	"\/wp-content\/uploads\/ithemes-security\/backups\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -24153,6 +24147,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170907152749-aqjah.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170907152749-aqjah.sql",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170908151837-y6uy1.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170908151837-y6uy1.sql",
 		"oF": 0
 		},
 	"\/wp-cron.php": {

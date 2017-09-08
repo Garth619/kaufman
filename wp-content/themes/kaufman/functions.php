@@ -168,6 +168,13 @@ if (function_exists('acf_add_options_page')) {
         'capability' => 'edit_posts',
         'redirect' => false
     ));
+    acf_add_options_page(array(
+        'page_title' => 'Smart Form',
+        'menu_title' => 'Smart Form',
+        'menu_slug' => 'theme-smartform-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
     
 }
 

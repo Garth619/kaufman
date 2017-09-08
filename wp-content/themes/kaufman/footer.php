@@ -139,8 +139,8 @@
 			<ul>
 				
 				<li>&copy; <?php echo date("Y"); ?> All Rights<br class="mobile" /> Reserved Kaufman Law, P.C.</li>
-				<li><a href="">Disclaimer</a></li>
-				<li><a href="">Blog</a></li>
+				<li><a href="<?php bloginfo('url');?>/privacy-policy">Privacy Policy</a></li>
+				<li><a href="<?php bloginfo('url');?>/blog">Blog</a></li>
 				
 			</ul>
 			
