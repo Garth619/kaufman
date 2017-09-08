@@ -138,7 +138,7 @@ jQuery(document).ready(function(){
     
     var sectionfiveinnerwrapper = $('.section_five_inner_wrapper')
 
-    waypoint(sectionfiveinnerwrapper, '360px')
+    waypoint(sectionfiveinnerwrapper, '460px')
     
     
     var attslideshow = $('.att_slideshow')
@@ -146,11 +146,12 @@ jQuery(document).ready(function(){
     waypoint(attslideshow, '150px')
     
     
-    
+    var sectionsix = $('.section_six')
+
+    waypoint(sectionsix, '250px')
     
 
-
-    var internalmobileheader = $('.internal_banner_wrapper')
+		var internalmobileheader = $('.internal_banner_wrapper')
 
     waypoint(internalmobileheader, '-100px')
     

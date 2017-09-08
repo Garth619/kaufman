@@ -67,23 +67,32 @@
 						 
 								<?php $post_object = get_sub_field( 'new_option' ); ?>
 								
-									<?php if ( $post_object ): ?>
+									
+									<?php if(get_sub_field('new_option_text')):?>
+									
+									
+										<option value='<?php the_sub_field( 'new_option_text' ); ?>'><?php the_sub_field( 'new_option_text' ); ?></option>
+									
+										<?php else: ?>
 										
-										<?php $post = $post_object; ?>
+											
+											<?php $post = $post_object; ?>
 										
-										<?php setup_postdata( $post ); ?> 
+											<?php setup_postdata( $post ); ?> 
 									
 											
-											<option value='<?php the_title(); ?>'><?php the_title(); ?></option>
+												<option value='<?php the_title(); ?>'><?php the_title(); ?></option>
 								
 								
-										<?php wp_reset_postdata(); ?>
+											<?php wp_reset_postdata(); ?>
 										
-									<?php endif; ?>
-						    
-							<?php endwhile; ?>
+									
+											<?php endif;?>
+									
+
+										<?php endwhile; ?>
 						 
-						<?php endif; ?>
+									<?php endif; ?>
 
 					</select>
 				

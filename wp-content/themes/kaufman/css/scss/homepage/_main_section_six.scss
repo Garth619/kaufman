@@ -89,6 +89,10 @@ svg#red_lines_pa{
 	margin-right:36px;
 	position: relative;
 	top:27px;
+	
+	stroke-dasharray: 100;
+	stroke-dashoffset:100;
+	
 	polyline {
 		fill:none;
 		stroke:$red;
@@ -96,6 +100,45 @@ svg#red_lines_pa{
 		stroke-width:1.5px;
 	}
 }
+
+
+
+
+.section_six.visible {
+
+	svg#red_lines_pa{
+		animation-name: section_six_svg_draw;
+		animation-duration: 2000ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 0ms;
+		polyline {
+		
+		}
+	}
+
+}
+
+
+
+@keyframes section_six_svg_draw {
+  from {
+   stroke-dashoffset:100;
+ 		
+  }
+
+  to {
+    stroke-dashoffset:0;
+    
+  }
+}
+
+
+
+
+
+
+
 
 svg#list_item_white_line {
 	width:53px;
@@ -129,6 +172,41 @@ svg#list_item_white_line {
 	.pa_sidebar {
 		width:545px;
 	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1565px) {
+	
+	
+	
+
+
+	svg#red_lines_pa{
+		stroke-dasharray:0;
+		stroke-dasharray:0;
+		polyline {
+		
+		}
+	}
+
+	
+	
+	
+	
+.section_six.visible {
+
+	svg#red_lines_pa{
+		animation-name: none;
+		polyline {
+		
+		}
+	}
+}
+
+	
 	
 	
 	
