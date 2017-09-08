@@ -155,6 +155,20 @@ jQuery(document).ready(function(){
 
     waypoint(sectionseven, '400px')
     
+    
+    var sectionseven = $('.section_seven')
+
+    waypoint(sectionseven, '400px')
+    
+    var footer = $('footer')
+
+    waypoint(footer, '50px')
+    
+    
+    var innerfooter = $('.inner_footer')
+
+    waypoint(innerfooter, '400px')
+    
 
 		var internalmobileheader = $('.internal_banner_wrapper')
 

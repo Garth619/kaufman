@@ -13,7 +13,13 @@ body:not(.page-template-page-home) {
 		.vertical_selling_points {
 			transform: none;
 			top:-58px;
-			right:-72px;
+			right: 40px;
+			transform: rotate(-90deg);
+			
+			ul {
+				transform: none;
+				right:0;
+			}
 		}
 		
 		.footer_red_line_wrapper {
@@ -161,7 +167,7 @@ svg#footer_gold_twolines {
 
 
 .footer_phone_wrapper {
-	border:1px solid #f0d494;
+	border:1px solid transparent;
 	padding:65px 0 85px 6.5%;
 	width:100%;
 	max-width:865px;
@@ -211,14 +217,105 @@ svg#footer_gold_twolines {
 		.white_diamond {
 			width:159px;
 			height:159px;
-			background: #fff;
+			background: $lightblack;
 			transform: rotate(-45deg);
 			position: absolute;
 			top:0;
 			left:0;
+			border:1px solid transparent;
 		}
 	}
 }
+
+
+
+
+.inner_footer.visible {
+	.footer_phone_wrapper {
+		.white_diamond_wrapper {
+			.white_diamond {
+				animation-name: white_diamond_border_fade, white_diamond_background_fade, white_diamond_move;
+				animation-duration: 1500ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, linear;
+				animation-delay:0, 15000ms;
+			}
+		}
+	}
+}
+
+
+
+@keyframes white_diamond_border_fade {
+  from {
+   border:1px solid transparent;
+ 		
+  }
+
+  to {
+    border:1px solid #fff;
+    
+  }
+}
+
+
+@keyframes white_diamond_background_fade {
+  from {
+   
+ 		
+  }
+
+  to {
+   
+    
+  }
+}
+
+
+@keyframes white_diamond_move {
+  from {
+   transform: rotate(-45deg) translateX(30px) translateY(-30px);
+ 		
+  }
+
+  to {
+  transform: rotate(-45deg) translateX(0px) translateY(0px);
+    
+  }
+}
+
+
+
+
+
+
+
+.inner_footer.visible {
+	.footer_phone_wrapper {
+		animation-name: border_fade;
+		animation-duration: 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+	}
+}
+
+
+
+@keyframes border_fade {
+  from {
+    
+    border:1px solid transparent;
+ 		
+  }
+
+  to {
+   
+    border: 1px solid $lightbrown;
+  }
+}
+
+
+
 
 
 ul.social_media_links {
@@ -294,10 +391,14 @@ svg#social_media_line {
 .vertical_selling_points {
 	bottom: 610px;
   position: absolute;
-  right: -302px;
-	transform: rotate(90deg);
+  right: 0px;
+// 	transform: rotate(90deg);
+	opacity: 0;
 	ul {
 		list-style: none;
+		transform: rotate(90deg);
+		position: relative;
+		right: -302px;
 		li {
 			color:#fff;
 			text-transform: uppercase;
@@ -318,6 +419,50 @@ svg#social_media_line {
 		}
 	}
 }
+
+
+
+
+footer.visible {
+	.vertical_selling_points {
+		animation-name: footer_selling_points, footer_selling_points_move;
+		animation-duration: 500ms, 2000ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+	}
+}
+
+
+
+@keyframes footer_selling_points {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+   
+    
+  }
+}
+
+
+@keyframes footer_selling_points_move {
+  from {
+    
+ 		transform: translateY(-150px);
+ 		
+  }
+
+  to {
+    transform: translateY(0px);
+   
+    
+  }
+}
+
 
 
 .copyright {
@@ -453,6 +598,43 @@ svg#footer_threelines {
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 1565px) {
+	
+	
+	.footer_phone_wrapper {
+		border:1px solid $lightbrown;
+	}
+	
+.inner_footer.visible {
+	.footer_phone_wrapper {
+		animation-name:none;
+	}
+}
+	
+	
+
+
+.vertical_selling_points {
+		opacity: 1;
+	}
+
+	
+	
+footer.visible {
+.vertical_selling_points {
+			animation-name:none;
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+
+
 
 
 @media screen and (max-width: 1520px) {

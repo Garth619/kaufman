@@ -12,6 +12,9 @@
 svg#section_eight_red_line_form{
 	width:53px;
 	height:9px;
+	
+	stroke-dasharray:80;
+	stroke-dashoffset:80;
 	polyline {
 		fill:none;
 		stroke:$red;
@@ -19,6 +22,48 @@ svg#section_eight_red_line_form{
 		stroke-width:1.5px;
 	}
 }
+
+
+
+.section_eight.visible {
+	svg#section_eight_red_line_form {
+		animation-name: section_eight_svg_draw, section_eight_svg_move;
+		animation-duration: 2500ms, 1700ms;
+		animation-fill-mode: both;
+		animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		polyline {
+		
+		}
+	}
+}
+
+
+@keyframes section_eight_svg_draw {
+  from {
+    stroke-dashoffset:80;
+ 		
+  }
+
+  to {
+   stroke-dashoffset:0;
+    
+  }
+}
+
+
+@keyframes section_eight_svg_move {
+  from {
+    transform: translateX(-40px);
+ 		
+  }
+
+  to {
+   transform: translateX(0px);
+    
+  }
+}
+
+
 
 
 .section_eight_form_wrapper {
@@ -41,6 +86,7 @@ svg#section_eight_red_line_form{
 		letter-spacing: 6.75px;
 		float:left;
 		margin-left:12px;
+		opacity: 0;
 		br {
 			display: none;
 		}
@@ -169,6 +215,121 @@ svg#section_eight_red_line_form{
 .validation_error {
 	display: none;
 }
+
+
+
+
+.section_eight.visible {
+	.section_eight_form_wrapper {
+		 span.small_header {
+			 animation-name: section_eight_title_fade, section_eight_title_move, section_eight_letter_spacing;
+			 animation-duration: 500ms, 1500ms, 1700ms;
+			 animation-fill-mode: both;
+			 animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98), cubic-bezier(.17,.66,.34,.98) ;
+		 }
+	}
+}
+
+
+
+
+
+@keyframes section_eight_title_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+  }
+}
+
+
+
+@keyframes section_eight_title_move {
+  from {
+    transform: translateX(60px);
+ 		
+  }
+
+  to {
+    transform: translateX(0px);
+    
+  }
+}
+
+
+@keyframes section_eight_letter_spacing {
+  from {
+		letter-spacing: 9.75px;		
+  }
+
+  to {
+    letter-spacing: 6.75px;	
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1565px) {
+	
+
+
+
+.section_eight_form_wrapper {
+		 span.small_header {
+			 opacity: 1;
+		 }
+	}
+
+
+
+.section_eight.visible {
+	.section_eight_form_wrapper {
+		 span.small_header {
+			 animation-name: none;
+		 }
+	}
+}
+
+	
+	
+	
+	
+	
+	svg#section_eight_red_line_form {
+		stroke-dasharray:0;
+		stroke-offset:0;
+		polyline {
+		
+		}
+	}
+
+
+
+	
+.section_eight.visible {
+	svg#section_eight_red_line_form {
+		animation-name: none;
+		polyline {
+		
+		}
+	}
+}
+	
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 1300px) {
