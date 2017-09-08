@@ -20,6 +20,81 @@
 }
 
 
+.section_five.visible {
+
+	.featured_attorney {
+
+		.featured_att_image {
+			overflow: hidden;
+			
+			animation-name: featured_att_image_move;
+			animation-duration: 2000ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+		
+			img {
+				
+				
+				animation-name: featured_att_image_scale, featured_att_image_fade;
+				animation-duration: 2000ms, 500ms;
+				animation-fill-mode: both;
+				animation-timing-function: cubic-bezier(.17,.66,.34,.98), linear;
+				animation-delay: 500ms;
+			}
+		}
+	}
+}
+
+
+@keyframes featured_att_image_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+  }
+}
+
+
+
+
+
+
+@keyframes featured_att_image_scale {
+  from {
+    transform: scale(1.5);
+ 		
+  }
+
+  to {
+    transform: scale(1);
+    
+  }
+}
+
+
+
+@keyframes featured_att_image_move {
+  from {
+    transform: translateX(-90px) translateY(-90px);
+ 		
+  }
+
+  to {
+    transform: translateX(0px) translateY(0px);
+    
+  }
+}
+
+
+
+
+
+
 .featured_attorney {
 	max-width:1170px;
 	width:100%;
@@ -30,8 +105,9 @@
 		float:left;
 		position: relative;
 		z-index: 1;
+		
 		img {
-			
+			opacity: 0;
 		}
 	}
 	.featured_attorney_content {
@@ -54,6 +130,7 @@
 				letter-spacing: 5px;
 				display: inline-block;
 				margin-right:10px;
+				opacity: 0;
 			}
 			svg#founding_red_line {
 				width:50px;
@@ -61,6 +138,10 @@
 				display: inline-block;
 				position: relative;
 				top:4px;
+				
+				
+				stroke-dasharray: 100;
+				stroke-dashoffset: -100;
 				polyline {
 					fill:none;
 					stroke:$red;
@@ -92,6 +173,126 @@
 
 
 
+
+.section_five.visible {
+
+.featured_attorney {
+	.featured_attorney_content {
+		.founding_wrapper {
+			span.founding_attorney {
+				animation-name: found_att_fade, found_att_letter_spacing, found_att_letter_move;
+				animation-duration: 500ms, 1900ms, 1900ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98), cubic-bezier(.17,.66,.34,.98) ;
+				animation-delay: 300ms;
+				
+  
+			}
+			svg#founding_red_line {
+				animation-name: found_att_svg_draw, found_att_svg_move;
+				animation-duration: 1700ms, 1900ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 0ms;
+			}
+		}
+	}
+}  
+
+
+ } 
+
+
+
+
+@keyframes found_att_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+   
+    
+  }
+}
+
+
+@keyframes found_att_letter_spacing {
+  from {
+    letter-spacing: 12px;
+ 		
+ 		
+  }
+
+  to {
+    letter-spacing: 5px;
+   
+    
+  }
+}
+
+
+@keyframes found_att_letter_move {
+  from {
+    transform: translateX(-90px);
+ 		
+ 		
+  }
+
+  to {
+     transform: translateX(0px);
+   
+    
+  }
+}
+
+
+
+@keyframes found_att_svg_draw {
+  from {
+    stroke-dashoffset: -100;
+ 		
+ 		
+  }
+
+  to {
+     stroke-dashoffset: 0;
+   
+    
+  }
+}
+
+
+@keyframes found_att_svg_move {
+  from {
+    transform: translateX(60px);
+ 		
+ 		
+  }
+
+  to {
+    transform: translateX(0px);
+   
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a.view_button {
 	text-decoration: none;
 	margin-top:51px;
@@ -99,6 +300,7 @@ a.view_button {
 	position: relative;
 	right:-122px;
 	overflow: hidden;
+	opacity: 0;
 	&:hover {
 		span.view_text {
 			background: $lightblack;
@@ -127,10 +329,85 @@ a.view_button {
 		img {
 			width:13px;
 			
+			animation-name: view_arrow_move;
+			animation-duration: 2500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 0ms;
+			animation-iteration-count: infinite;
+			
 		}
 	}
 	
 }
+
+
+
+@keyframes view_arrow_move {
+  0% {
+   transform: translateX(-7px);
+ 	
+ 		
+  }
+
+  50% {
+    
+   transform: translateX(7px);
+    
+  }
+  
+  100% {
+    transform: translateX(-7px);
+   
+    
+  }
+}
+
+
+
+
+.section_five.visible {
+	a.view_button {
+		animation-name: view_att_fade, view_att_move;
+		animation-duration: 500ms, 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98) ;
+		animation-delay: 1000ms;
+	}
+}
+
+
+
+
+@keyframes view_att_fade {
+  from {
+    opacity: 0;
+ 	
+ 		
+  }
+
+  to {
+    opacity: 1;
+   
+    
+  }
+}
+
+
+@keyframes view_att_move {
+  from {
+    transform: translateY(-40px);
+ 	
+ 		
+  }
+
+  to {
+     transform: translateY(0px);
+   
+    
+  }
+}
+
 
 
 
@@ -149,10 +426,11 @@ a.view_button {
 		text-align: right;
 		display: block;
 		letter-spacing: 6.6px;
+		opacity: 0;
 	}
 	span.our_att_line {
 		display: block;
-		width:96%;
+		width:0%;
 		height:1px;
 		background: $lightblack;
 		margin-top:45px;
@@ -163,9 +441,90 @@ a.view_button {
 			background:$lightblack;
 			float:right;
 			margin-top:-4px;
+			opacity: 0;
 		}
 	}
 }
+
+
+
+
+.section_five_inner_wrapper.visible {
+	.our_attorneys_wrapper {
+		span.our_att_title {
+			animation-name: our_att_title_fade, our_att_title_move;
+			animation-duration: 800ms, 2000ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		}
+		span.our_att_line {
+			animation-name: our_att_line_move;
+			animation-duration: 2000ms;
+			animation-fill-mode: both;
+			animation-timing-function:cubic-bezier(.17,.66,.34,.98);
+			&:after {
+				animation-name: our_att_square_fade;
+				animation-duration: 500ms;
+				animation-fill-mode: both;
+				animation-timing-function:linear;
+				animation-delay: 1900ms;
+			}
+		}
+	}
+}
+
+
+
+@keyframes our_att_title_fade {
+  from {
+    opacity: 0;
+ }
+
+  to {
+    opacity: 1;
+    
+  }
+}
+
+
+@keyframes our_att_title_move {
+  from {
+    transform: translateX(175px);
+ }
+
+  to {
+   transform: translateX(0px);
+    
+  }
+}
+
+
+@keyframes our_att_line_move {
+  from {
+    width:0;
+ }
+
+  to {
+   width:96%;
+    
+  }
+}
+
+
+@keyframes our_att_square_fade {
+  from {
+    opacity: 0;
+ }
+
+  to {
+   opacity: 1;
+    
+  }
+}
+
+
+
+
 
 
 .att_slideshow_wrapper {
@@ -267,6 +626,9 @@ a.att_single_slide_link {
 			top:-5px;
 			height:12px;
 			margin-right:8px;
+			
+			stroke-dasharray: 90;
+			stroke-dashoffset: 90;
 			polyline {
 				fill:none;
 				stroke:$red;
@@ -276,6 +638,36 @@ a.att_single_slide_link {
 		}
 	}
 }
+
+
+	.att_slideshow.visible {
+		.att_single_slide {
+			.att_title_wrapper {
+				svg {
+					animation-name: att_slide_draw;
+					animation-duration: 3000ms;
+					animation-fill-mode: both;
+					animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+					animation-delay: 300ms;
+				}
+			}
+		} 
+	}
+
+
+
+@keyframes att_slide_draw {
+  from {
+    stroke-dashoffset: 90;
+ 	}
+
+  to {
+    stroke-dashoffset: 0;
+   }
+}
+
+
+
 
 
 .att_buttons {
@@ -296,6 +688,7 @@ a.att_single_slide_link {
 	.att_single_button {
 		cursor: pointer;
 	}
+	
 	.att_next {
 		background:$greybrown;
 		height:calc(100% - 47px);
@@ -349,6 +742,159 @@ a.att_single_slide_link {
 		right:-5%;
 		padding-right:2px;
 	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1565px) {
+	
+	
+	
+	
+		.att_single_slide {
+			.att_title_wrapper {
+				svg {
+					stroke-dasharray:0;
+					stroke-dashoffset:0;
+				}
+			}
+		} 
+	
+	
+	
+	
+	.att_slideshow.visible {
+		.att_single_slide {
+			.att_title_wrapper {
+				svg {
+					animation-name:none;
+				}
+			}
+		} 
+	}
+	
+	
+
+	.our_attorneys_wrapper {
+		span.our_att_title {
+			opacity: 1;
+		}
+		span.our_att_line {
+			width:96%;
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+
+
+
+	
+	
+	
+.section_five_inner_wrapper.visible {
+	.our_attorneys_wrapper {
+		span.our_att_title {
+			animation-name: none;
+		}
+		span.our_att_line {
+			animation-name: none;
+			&:after {
+				animation-name: none;
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	.section_five.visible {
+
+	.featured_attorney {
+
+		.featured_att_image {
+			
+			
+			animation-name: none;
+		
+			img {
+				
+				
+				animation-name: none;
+			}
+		}
+	}
+}
+
+
+
+
+
+.featured_attorney {
+	.featured_attorney_content {
+		.founding_wrapper {
+			span.founding_attorney {
+				opacity: 1;
+				
+				
+  
+			}
+			svg#founding_red_line {
+				stroke-dasharray: 0;
+				stroke-dashoffset: 0;
+			}
+		}
+	}
+}  
+
+
+
+
+
+.section_five.visible {
+
+.featured_attorney {
+	.featured_attorney_content {
+		.founding_wrapper {
+			span.founding_attorney {
+				animation-name: none;
+				
+				
+  
+			}
+			svg#founding_red_line {
+				animation-name:none;
+			}
+		}
+	}
+}  
+
+
+ } 
+
+
+
+
+
+
+
+
+.featured_attorney {
+	.featured_att_image {
+		img {
+			opacity: 1;
+		}
+	}
+}
+
+	
+	
+	
+	
+	
 	
 	
 } /* Media Query */
@@ -698,9 +1244,23 @@ a.att_single_slide_link {
 			}
 			svg {
 				top: -3px;
+				
+				
 			}
 		}
 	} 
+	
+	
+	.att_slideshow.visible {
+		.att_single_slide {
+			.att_title_wrapper {
+				
+				svg {
+					
+				}
+			}
+		} 
+	}
 	
 	
 	.att_buttons_mobile_wrapper {

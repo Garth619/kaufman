@@ -80,55 +80,74 @@ jQuery(document).ready(function(){
 
     waypoint(startbutton, '0%')
     
-    var fixedmobleheader = $('.section_two')
+    var sectiontwo = $('.section_two')
 
-    waypoint(fixedmobleheader, '0px')
+    waypoint(sectiontwo, '0px')
     
     
-    var fixedmobleheader = $('.intro_form_wrapper')
+    var introformwrapper = $('.intro_form_wrapper')
 
-    waypoint(fixedmobleheader, '240px')
+    waypoint(introformwrapper, '240px')
     
     
-    var internalmobileheader = $('.case_results_wrapper')
+    var caseresultswrapper = $('.case_results_wrapper')
 
-    waypoint(internalmobileheader, '230px')
+    waypoint(caseresultswrapper, '230px')
     
     
-    var fixedmobleheader = $('.section_three')
+    var sectionthree = $('.section_three')
 
-    waypoint(fixedmobleheader, '-60px')
+    waypoint(sectionthree, '-60px')
     
-    var fixedmobleheader = $('.section_three_content')
+    var sectionthreecontent = $('.section_three_content')
 
-    waypoint(fixedmobleheader, '300px')
+    waypoint(sectionthreecontent, '300px')
     
-    var fixedmobleheader = $('.section_three_sidebar')
+    var sectionthreesidebar = $('.section_three_sidebar')
 
-    waypoint(fixedmobleheader, '340px')
+    waypoint(sectionthreesidebar, '340px')
     
     
-    var fixedmobleheader = $('.section_four')
+    var sectionfour = $('.section_four')
 
-    waypoint(fixedmobleheader, '500px')
+    waypoint(sectionfour, '500px')
     
     
-    var fixedmobleheader = $('.why_choose_content_wrapper')
+    var whychoosecontentwrapper = $('.why_choose_content_wrapper')
 
-    waypoint(fixedmobleheader, '-60px')
+    waypoint(whychoosecontentwrapper, '-60px')
     
     
-    var fixedmobleheader = $('.why_choose_bg_wrapper')
+    var whychoosebgwrapper = $('.why_choose_bg_wrapper')
 
-    waypoint(fixedmobleheader, '130px')
+    waypoint(whychoosebgwrapper, '130px')
     
-    var fixedmobleheader = $('.section_four_lower')
+    var sectionfourlower = $('.section_four_lower')
 
-    waypoint(fixedmobleheader, '130px')
+    waypoint(sectionfourlower, '130px')
     
-    var fixedmobleheader = $('.testi_wrapper ')
+    var testiwrapper = $('.testi_wrapper ')
 
-    waypoint(fixedmobleheader, '260px')
+    waypoint(testiwrapper, '260px')
+    
+    
+    var sectionfive = $('.section_five')
+
+    waypoint(sectionfive, '350px')
+    
+    
+    var sectionfiveinnerwrapper = $('.section_five_inner_wrapper')
+
+    waypoint(sectionfiveinnerwrapper, '360px')
+    
+    
+    var attslideshow = $('.att_slideshow')
+
+    waypoint(attslideshow, '150px')
+    
+    
+    
+    
 
 
     var internalmobileheader = $('.internal_banner_wrapper')
@@ -477,6 +496,7 @@ $('.att_slideshow').slick({
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
+        
        }
     },
     {
