@@ -131,9 +131,18 @@ jQuery(document).ready(function(){
     waypoint(testiwrapper, '260px')
     
     
-     var sectionfive = $('.section_five')
+    var sectionfive = $('.section_five')
 
-    waypoint(sectionfive, '300px')
+    waypoint(sectionfive, '350px')
+    
+    
+    var sectionfiveinnerwrapper = $('.section_five_inner_wrapper')
+
+    waypoint(sectionfiveinnerwrapper, '360px')
+    
+    
+    
+    
 
 
     var internalmobileheader = $('.internal_banner_wrapper')
