@@ -165,10 +165,18 @@ jQuery(document).ready(function(){
 
     waypoint(footer, '50px')
     
+    var innerfooter = $('body:not(.page-template-page-home) footer')
+
+    waypoint(innerfooter, '800px')
     
-    var innerfooter = $('.inner_footer')
+    
+    var innerfooter = $('body.page-template-page-home .inner_footer')
 
     waypoint(innerfooter, '575px')
+    
+    var innerfooter = $('body:not(.page-template-page-home) .inner_footer')
+
+    waypoint(innerfooter, '800px')
     
     var innercopyright = $('.inner_copyright')
 
