@@ -115,12 +115,12 @@ jQuery(document).ready(function(){
     
     var whychoosecontentwrapper = $('.why_choose_content_wrapper')
 
-    waypoint(whychoosecontentwrapper, '-60px')
+    waypoint(whychoosecontentwrapper, '100px')
     
     
     var whychoosebgwrapper = $('.why_choose_bg_wrapper')
 
-    waypoint(whychoosebgwrapper, '130px')
+    waypoint(whychoosebgwrapper, '330px')
     
     var sectionfourlower = $('.section_four_lower')
 
@@ -138,7 +138,7 @@ jQuery(document).ready(function(){
     
     var sectionfiveinnerwrapper = $('.section_five_inner_wrapper')
 
-    waypoint(sectionfiveinnerwrapper, '460px')
+    waypoint(sectionfiveinnerwrapper, '350px')
     
     
     var attslideshow = $('.att_slideshow')
@@ -167,7 +167,7 @@ jQuery(document).ready(function(){
     
     var innerfooter = $('.inner_footer')
 
-    waypoint(innerfooter, '400px')
+    waypoint(innerfooter, '575px')
     
     var innercopyright = $('.inner_copyright')
 
@@ -381,9 +381,15 @@ $(function() {
 	         
 	     } else {
 	        
-     
-			 		$('.my_gf_step_one').addClass('my_gf_hide');
-					$('.my_gf_step_two').removeClass('my_gf_hide');
+			 		
+			 		
+			 		$('.my_gf_step_one').fadeOut();
+			 		
+			 		$('.my_gf_step_two').delay(800).fadeIn();
+			 		
+			 		
+			 		// $('.my_gf_step_one').addClass('my_gf_hide');
+					//$('.my_gf_step_two').removeClass('my_gf_hide');
 
   
         }
@@ -399,8 +405,16 @@ $(function() {
 
 $('.step_one_back_wrapper').click(function(){
 	
-	$('.my_gf_step_one').removeClass('my_gf_hide');
-	$('.my_gf_step_two').addClass('my_gf_hide');
+	
+	
+	$('.my_gf_step_one').delay(800).fadeIn();
+	
+	$('.my_gf_step_two').fadeOut();
+	
+	
+	
+	// $('.my_gf_step_one').removeClass('my_gf_hide');
+	// $('.my_gf_step_two').addClass('my_gf_hide');
 	
 });
 
@@ -413,12 +427,16 @@ $('.start_here_button').click(function(){
 	
 	$('.start_here_track.visible .start_here_form_wrapper, .start_here_track.visible .start_here_bg').addClass('open');
 	
+	$(this).addClass('active');
+	
 });
 
 
 $('.start_here_bg, .start_here_close_form').click(function(){
 	
 	$('.start_here_form_wrapper, .start_here_bg').removeClass('open');
+	
+	$('.start_here_button').removeClass('active');
 	
 });
 

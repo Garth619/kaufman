@@ -42,9 +42,9 @@
 span.top_line, span.middle_line, span.bottom_line {
 // 	opacity: 0;
 	animation-name: text_line_fade, text_line_move;
-	animation-duration: 900ms, 1300ms;
+	animation-duration: 1200ms, 2200ms;
   animation-fill-mode: both;
-  animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);;
+  animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);
 	position: relative;
 // 	top:-55px;
 
@@ -52,16 +52,16 @@ span.top_line, span.middle_line, span.bottom_line {
 
 
 span.top_line {
-	animation-delay:700ms;
+	animation-delay:700ms, 0ms;
  }
 
 span.middle_line {
-	animation-delay:1350ms;
+	animation-delay:1200ms, 150ms;
 }
 
 
 span.bottom_line {
-	animation-delay:1800ms;
+	animation-delay:1700ms, 200ms;
 }
 
 
@@ -79,7 +79,7 @@ span.bottom_line {
 
 @keyframes text_line_move {
   from {
-    top:-55px
+    top:-250px
  	}
 
   to {
@@ -143,7 +143,7 @@ span.bottom_line {
 		animation-duration: 900ms, 1500ms;
 		animation-fill-mode: both;
 		animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);;
-		animation-delay: 1570ms;
+		animation-delay: 2200ms;
 	}
 }
 
@@ -183,7 +183,7 @@ span.bottom_line {
 		animation-duration: 900ms, 1500ms;
 		animation-fill-mode: both;
 		animation-timing-function: ease, cubic-bezier(.17,.66,.34,.98);;
-		animation-delay: 1570ms;
+		animation-delay: 2200ms;
 
 	}
 }
@@ -230,10 +230,10 @@ svg#red_line_intro {
     stroke-dashoffset: 256;
   
 	animation-name: red_line_intro;
-	animation-duration:2300ms;
+	animation-duration:2500ms;
 	animation-fill-mode: both;
 	animation-timing-function: linear;
-	animation-delay: 2000ms;
+	animation-delay: 2425ms;
 	.red_line_intro_path {
 		
 	}

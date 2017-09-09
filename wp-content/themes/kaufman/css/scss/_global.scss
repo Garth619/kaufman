@@ -120,6 +120,14 @@ body {
 		height:48px;
 		display: inline-block;
 		margin-top:24px;
+		
+		
+		animation-name: start_track_arrow;
+		animation-duration: 2200ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: linear;
+	  animation-iteration-count: infinite;
+		
 		line.arrow_line {
 			fill:none;
 			stroke:#fff;
@@ -130,6 +138,28 @@ body {
 		}
 	}
 }
+
+.start_here_button.active {
+	//background:$greybrown;
+	background:$red;
+	cursor: default;
+}
+
+
+@keyframes start_track_arrow {
+	  0% {
+	  	transform: translateY(-7px);
+	 	}
+	  
+	  50% {
+		  transform: translateY(7px);
+	  }
+	
+	  100% {
+	   transform: translateY(-7px);
+	   }
+	}
+
 
 
 .start_here_form_wrapper {

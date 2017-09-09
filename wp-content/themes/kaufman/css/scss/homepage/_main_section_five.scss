@@ -114,7 +114,7 @@
 		max-width: 667px;
 		width:100%;
 		height:300px;
-		border:1px solid $greybrown;
+		border:1px solid transparent;
 		float:right;
 		margin-top:-507px;
 		min-height: 737px;
@@ -178,6 +178,11 @@
 
 .featured_attorney {
 	.featured_attorney_content {
+			animation-name: feat_att_border_fade;
+			animation-duration: 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 1300ms;
 		.founding_wrapper {
 			span.founding_attorney {
 				animation-name: found_att_fade, found_att_letter_spacing, found_att_letter_move;
@@ -203,7 +208,19 @@
  } 
 
 
+@keyframes feat_att_border_fade {
+  from {
+    border:1px solid transparent;
+ 		
+ 		
+  }
 
+  to {
+    border:1px solid $greybrown;
+   
+    
+  }
+}
 
 @keyframes found_att_fade {
   from {
@@ -449,7 +466,7 @@ a.view_button {
 
 
 
-.section_five_inner_wrapper.visible {
+.section_five.visible {
 	.our_attorneys_wrapper {
 		span.our_att_title {
 			animation-name: our_att_title_fade, our_att_title_move;
@@ -793,7 +810,7 @@ a.att_single_slide_link {
 	
 	
 	
-.section_five_inner_wrapper.visible {
+.section_five.visible {
 	.our_attorneys_wrapper {
 		span.our_att_title {
 			animation-name: none;
@@ -835,6 +852,7 @@ a.att_single_slide_link {
 
 .featured_attorney {
 	.featured_attorney_content {
+		border:1px solid $greybrown;
 		.founding_wrapper {
 			span.founding_attorney {
 				opacity: 1;
@@ -858,6 +876,7 @@ a.att_single_slide_link {
 
 .featured_attorney {
 	.featured_attorney_content {
+		animation-name:none;
 		.founding_wrapper {
 			span.founding_attorney {
 				animation-name: none;

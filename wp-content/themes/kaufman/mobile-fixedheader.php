@@ -26,7 +26,7 @@
 		
 		<div class="close_content">
 			
-			<span>Close</span>
+			<span>Close&nbsp;X</span>
 			
 		</div><!-- close_content -->
 		
