@@ -33,6 +33,16 @@
 			margin-top:35px;
 			float:left;
 			margin-left:0;
+			
+			stroke-dasharray:250;
+			stroke-dashoffset:250;
+			
+			
+			animation-name: meet_att_svg_draw;
+			animation-duration: 2400ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 350ms;
 		}
 		span.bio_title {
 			color:$red;
@@ -48,6 +58,20 @@
 	
 	
 	
+	@keyframes meet_att_svg_draw {
+	  from {
+	    stroke-dashoffset:250;
+	 		
+	  }
+	
+	  to {
+	    stroke-dashoffset:500;
+	    
+	  }
+	}
+	
+	
+
 	
 	
 	.internal_bio_content {
@@ -137,6 +161,23 @@
 
 	
 
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 1565px) {
+	
+	
+	.attorney_bio_header {
+		svg#default_page_gold_twolines {
+			stroke-dasharray:0;
+			stroke-dashoffset:0;
+			animation-name: none;
+		}
+	}
+	
+	
+	
 	
 	
 } /* Media Query */

@@ -30,14 +30,15 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 
  var createWaypoint = function(selector, offsetVal, customFunc, reverse) {
-    reverse = typeof reverse !== 'undefined' ? reverse: true
+    reverse = typeof reverse !== 'undefined' ? reverse: false
     offsetVal = typeof offsetVal !== 'undefined' ? offsetVal: "50%"
     selector.waypoint({
         handler: function(direction) {
             if (reverse === true) {
 
                 if ( direction === 'down' ) {
-                    selector.addClass('visible')
+                    selector.addClass('visible fade')
+                    
                     if(typeof customFunc === 'function' && customFunc) {
                         customFunc.call(this);
                     }
@@ -176,6 +177,14 @@ jQuery(document).ready(function(){
 		var internalmobileheader = $('.internal_banner_wrapper')
 
     waypoint(internalmobileheader, '-100px')
+    
+    var internalmobileheader = $('.awards_sidebar')
+
+    waypoint(internalmobileheader, '300px')
+    
+    
+    
+    
     
     
     var internalmobileheader = $('.non_banner_layout .internal_container')

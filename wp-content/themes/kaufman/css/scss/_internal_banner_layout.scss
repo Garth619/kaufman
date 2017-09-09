@@ -64,8 +64,41 @@ svg#inetrnal_gold_twolines {
 		stroke:$greybrown;
 		stroke-miterlimit:10;
 		stroke-width:2px;
+		
+		
+		
+		stroke-dasharray:200;
+		stroke-dashoffset:200;
+		
+		animation-name: header_svg_draw;
+		animation-duration: 2000ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 750ms;
 	}
 }
+
+
+
+
+
+@keyframes header_svg_draw {
+  from {
+    stroke-dashoffset:200;
+ 		
+ 		
+  }
+
+  to {
+    
+    stroke-dashoffset:400;
+  }
+}
+
+
+
+
+
 
 svg#internal_red_twolines {
 	display: none;
@@ -124,6 +157,13 @@ svg#internal_red_twolines {
 	padding-top:35px;
 	margin-bottom:38px;
 }
+
+
+
+
+
+
+
 
 
 .sidebar_form_wrapper {
@@ -244,6 +284,61 @@ svg#internal_red_twolines {
 
 
 
+.sidebar_form_wrapper {
+	&:before {
+		animation-name: sidebar_bg_fade, sidebar_bg_move;
+		animation-duration: 500ms, 1800ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 750ms;
+	}
+}
+
+
+
+
+@keyframes sidebar_bg_fade {
+  from {
+    opacity: 0;
+ 		
+  }
+
+  to {
+    opacity: 1;
+    
+  }
+}
+
+
+
+@keyframes sidebar_bg_move {
+  from {
+    transform: translate(0px,-70px);
+ 		
+  }
+
+  to {
+    transform: translate(0px,0px);
+    
+  }
+}
+
+
+
+.video_fade {
+	position: relative;
+	animation-name: video_fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 1s;
+  
+  // have the delay be the class being after load in jquery
+
+ }
+
+
+
 span.sidebar_large_header {
 	font-family: $trirongregular;
 	font-size:63px;
@@ -273,7 +368,52 @@ svg#red_line_sidebar {
 		stroke:$red;
 		stroke-miterlimit:10;
 		stroke-width:2px;
+		
+		
+		stroke-dasharray:85;
+		stroke-dashoffset:85;
+		
+		animation-name: sidebar_svg_draw;
+		animation-duration: 2500ms;
+		animation-fill-mode: both;
+		animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 750ms;
 	}
+}
+
+
+
+
+@keyframes sidebar_svg_draw {
+  from {
+    stroke-dashoffset:85;
+ 		
+  }
+
+  to {
+    stroke-dashoffset:0;
+    
+  }
+}
+
+
+.awards_sidebar {
+	
+
+
+
+
+
+}
+
+
+.awards_sidebar.visible {
+	
+
+
+
+
+
 }
 
 
@@ -325,6 +465,36 @@ svg#red_line_sidebar {
 
 
 @media screen and (max-width: 1565px) {
+	
+	
+.sidebar_form_wrapper {
+	&:before {
+		animation-name: none;
+	
+	}
+}
+
+	
+	
+	
+	
+	svg#red_line_sidebar {
+		polyline {
+			stroke-dasharray:0;
+			stroke-dashoffset:0;
+			animation-name: none;
+		}
+	}
+	
+	svg#inetrnal_gold_twolines {
+	
+		polyline {
+			stroke-dasharray:0;
+			stroke-dashoffset:0;
+			animation-name: none;
+		}
+	}
+	
 	
 	
 	

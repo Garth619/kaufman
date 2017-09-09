@@ -121,8 +121,39 @@ svg#default_page_gold_twolines {
 		stroke:$greybrown;
 		stroke-miterlimit:10;
 		stroke-width:2px;
+		stroke-dasharray:200;
+		stroke-dashoffset:200;
+		animation-name: non_banner_header_svg_draw;
+		animation-duration: 2000ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 750ms;
 	}
 }
+
+
+
+
+
+@keyframes non_banner_header_svg_draw {
+  from {
+    stroke-dashoffset:200;
+ 		
+ 		
+  }
+
+  to {
+    
+    stroke-dashoffset:400;
+  }
+}
+
+
+
+
+
+
+
 	
 	.sidebar {
 		 max-width: 566px;
@@ -145,8 +176,51 @@ svg#default_red_lines_sidebar {
 		stroke:$red;
 		stroke-miterlimit:10;
 		stroke-width:1.5px;
+		
+		
+		stroke-dasharray:200;
+		stroke-dashoffset:200;
+		
+		animation-name: edgless_sidebar_svg_draw;
+		animation-duration: 2700ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 750ms;
 	}
 }
+
+
+
+@keyframes edgless_sidebar_svg_draw {
+  from {
+   stroke-dashoffset:200;
+ 		
+  }
+
+  to {
+    stroke-dashoffset:0;
+    
+  }
+}
+
+
+
+.video_fade {
+	position: relative;
+	animation-name: video_fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 1s;
+  
+  // have the delay be the class being after load in jquery
+
+ }
+
+
+
+
+
 	
 	
 	.default_form_button {
@@ -199,7 +273,12 @@ svg#sidebar_start_arrow {
 	top:0px;
 	right:18px;
 	height: 44px;
-// 	margin-left:15px;
+	
+	animation-name: sidebar_start_arrow;
+	animation-duration: 2200ms;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 	line.arrow_line {
 		fill:none;
 		stroke:#fff;
@@ -209,6 +288,27 @@ svg#sidebar_start_arrow {
 		fill:#fff;
 	}
 }
+
+
+@keyframes sidebar_start_arrow {
+	  0% {
+	   
+	 		transform: translateY(-7px);
+	 		
+	 		
+	  }
+	  
+	  50% {
+		  transform: translateY(7px);
+	  }
+	
+	  100% {
+	    
+	    transform: translateY(-7px);
+	    
+	  }
+	}
+	
 
 
 span.sidebar_large_header {
@@ -315,6 +415,7 @@ svg#pa_redline {
 		position: absolute;
 		top:-75px;
 		right:-45px;
+		opacity: 0;
 	}
 	&:after {
 		content:"";
@@ -345,6 +446,46 @@ svg#pa_redline {
 	}
 }
 
+.sidebar_form_overlay.open {
+	.sidebar_inner_overlay {
+		&:before {
+			animation-name: sidebar_open_bg_fade, sidebar_open_bg_move;
+			animation-duration: 500ms, 1300ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 300ms;
+		}
+	}
+}
+
+
+
+
+@keyframes sidebar_open_bg_fade {
+  from {
+    opacity: 0;
+ 	}
+
+  to {
+    opacity: 1;
+   }
+}
+
+
+
+@keyframes sidebar_open_bg_move {
+  from {
+    transform: translateY(-40px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+
 
 svg#pa_request_redline {
 	width:53px;
@@ -356,9 +497,40 @@ svg#pa_request_redline {
 		stroke:$red;
 		stroke-miterlimit:10;
 		stroke-width:1.5px;
+		
+		stroke-dasharray:100;
+		stroke-dashoffset:100;
 	}
 }
 
+
+
+.sidebar_form_overlay.open {
+	svg#pa_request_redline {
+		
+		polyline {
+			animation-name: sidebar_open_svg_draw;
+			animation-duration: 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 300ms;
+		}
+	}
+}
+
+
+
+@keyframes sidebar_open_svg_draw {
+  from {
+    stroke-dashoffset:100;
+ 		
+  }
+
+  to {
+    stroke-dashoffset:0;
+    
+  }
+}
 
 
 
@@ -540,7 +712,67 @@ svg#pa_request_redline {
 	letter-spacing: 2px;
 }
 
+@media screen and (max-width: 1565px) {
+	
+	
+	
+.sidebar_inner_overlay {
+		&:before {
+			opacity: 1;
+		}
+	}	
+	
+	
+	
+	
+.sidebar_form_overlay.open {
+	.sidebar_inner_overlay {
+		&:before {
+			animation-name:none;
+		}
+	}
+}
 
+
+	
+	
+	
+	
+	svg#default_red_lines_sidebar {
+	
+		polyline {
+			stroke-dasharray:0;
+			stroke-dashoffset:0;
+			animation-name: none;
+	}
+}
+
+
+
+svg#pa_request_redline {
+		
+		polyline {
+			stroke-dasharray:0;
+			stroke-dashoffset:0;
+			
+		}
+	}
+
+
+
+.sidebar_form_overlay.open {
+	svg#pa_request_redline {
+		
+		polyline {
+			animation-name: none;
+			
+		}
+	}
+}
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 1370px) {
