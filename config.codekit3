@@ -24149,24 +24149,6 @@
 		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/index.php",
 		"oF": 0
 		},
-	"\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170907152749-aqjah.sql": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170907152749-aqjah.sql",
-		"oF": 0
-		},
-	"\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170908151837-y6uy1.sql": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170908151837-y6uy1.sql",
-		"oF": 0
-		},
-	"\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170908204017-qrwms.sql": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/kaufman-backup-20170908204017-qrwms.sql",
-		"oF": 0
-		},
 	"\/wp-cron.php": {
 		"ft": 8192,
 		"oA": 2,

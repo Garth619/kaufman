@@ -151,10 +151,11 @@ svg#section_three_red_twolines {
 	padding-left:130px;
 	
 	.section_three_innersidebar {
-		background: #fff;
+		background: transparent;
 		width:100%;
 		float:right;
 		padding:55px 100px 131px 60px;
+		
 		span.section_three_sidebar_content {
 			display: block;
 			clear:both;
@@ -175,6 +176,34 @@ svg#section_three_red_twolines {
 		}
 	}
 }
+
+
+.section_three_sidebar.visible {
+	.section_three_innersidebar {
+		animation-name: sidebar_bg_fade;
+		animation-duration: 1500ms;
+		animation-fill-mode:both;
+		animation-timing-function: linear;
+	}
+}
+
+
+
+@keyframes sidebar_bg_fade {
+  from {
+    background: transparent;
+ 		
+ 		
+  }
+
+  to {
+    background: #fff;
+    
+  }
+}
+
+
+
 
 
 
@@ -373,7 +402,22 @@ svg#black_square {
 
 @media screen and (max-width: 1565px) {
 	
+
+
+.section_three_sidebar {
+	.section_three_innersidebar {
+		background: #fff;
+	}
+}
+
+
 	
+	
+.section_three_sidebar.visible {
+	.section_three_innersidebar {
+		animation-name: none;
+	}
+}
 	
 	
 svg#section_three_red_twolines {
