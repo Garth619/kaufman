@@ -234,6 +234,16 @@ svg#default_red_lines_sidebar {
 		left:125px;
 		cursor: pointer;
 		transition: all .2s ease-in-out;
+		
+		
+		
+		animation-name: default_form_button_fade, default_form_button_move;
+	  animation-duration: 500ms, 1500ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+	  animation-delay: 750ms;
+		
+		
 		&:hover {
 			background: $greybrown;
 			span {
@@ -264,6 +274,49 @@ svg#default_red_lines_sidebar {
 			display: inline-block;
 		}
 	}
+	
+	
+	
+	
+	
+	@keyframes default_form_button_fade {
+	  from {
+	    opacity: 0;
+	 		
+	 		
+	  }
+	
+	  to {
+	    opacity: 1;
+	 
+	    
+	  }
+	}
+	
+	
+	
+	@keyframes default_form_button_move {
+	  from {
+	    transform: translate(0px, -50px);
+	 		
+	 		
+	  }
+	
+	  to {
+	    transform: translate(0px, 0);
+	 
+	    
+	  }
+	}
+	
+	
+	
+	
+	
+
+	
+
+	
 
 
 svg#sidebar_start_arrow {
@@ -713,6 +766,12 @@ svg#pa_request_redline {
 }
 
 @media screen and (max-width: 1565px) {
+	
+	
+	
+	.default_form_button {
+		animation-name:none;
+	}
 	
 	
 	
