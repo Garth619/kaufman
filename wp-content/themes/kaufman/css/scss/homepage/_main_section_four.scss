@@ -318,7 +318,7 @@ svg#why_choose_gold_twolines {
 
 
 	.why_choose_bg_wrapper.visible {
-		animation-name: why_choose_img_fade;
+		animation-name: why_choose_img_fade, why_choose_img_move;
 		animation-duration: 600ms, 1900ms;
 		animation-fill-mode: both;
 		animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
@@ -346,7 +346,7 @@ svg#why_choose_gold_twolines {
 
 @keyframes why_choose_img_move {
   from {
-   transform: translateX(100px) translateY(-100px);
+   transform: translateX(0px) translateY(-100px);
  		
  		
   }

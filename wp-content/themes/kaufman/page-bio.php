@@ -22,15 +22,19 @@
 					
 				<div class="attorney_bio_header_wrapper">
 					
-					<?php $profile_image = get_field( 'profile_image' ); ?>
+					<div class="att_image_wrapper">
 					
-					<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
+						<?php $profile_image = get_field( 'profile_image' ); ?>
+					
+						<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
+					
+					</div><!-- att_image_wrapper -->
 					
 					<div class="attorney_bio_header">
 						
 						<h1 class="att_name"><?php the_field( 'first_name_title' ); ?> <span class="second_line"><?php the_field( 'last_name_title' ); ?></span></h1><!-- att_name -->
 						
-						<svg id="default_page_gold_twolines" viewBox="0 0 158.39 21.46">
+						<svg id="default_page_gold_twolines_bio" viewBox="0 0 158.39 21.46">
 						
 						<polyline transform="translate(24 0)" class="red_line_one" points="135.79 20.66 123.59 11.66 112.49 19.86 101.39 11.66 90.29 19.86 79.29 11.66 68.19 19.86 57.09 11.66 45.99 19.86 34.89 11.66 23.89 19.86 12.79 11.66 0.59 20.66"/>
 						

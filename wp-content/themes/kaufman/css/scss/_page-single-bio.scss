@@ -1,13 +1,91 @@
 .attorney_bio_header_wrapper {
-	overflow: hidden;
+	// overflow: hidden;
 	margin-top:15px;
-	img {
-		//max-width:335px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	
+	.att_image_wrapper {
+		
+		overflow: hidden;
 		width:335px;
-		height:auto;
 		float:left;
+		
+		animation-name: att_img_move;
+		animation-duration: 1800ms;
+		animation-fill-mode: both;
+		animation-timing-function:cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 750ms;
+	}
+	
+	img {
+		max-width:100%;
+		
+		height:auto;
+		
+		
+		animation-name: att_img_fade, att_img_scale;
+		animation-duration: 500ms, 1800ms;
+		animation-fill-mode: both;
+		animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 750ms;
 	}
 }
+
+
+
+
+@keyframes att_img_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+   
+    
+  }
+}
+
+
+
+@keyframes att_img_move {
+  from {
+    transform: translate(-40px, -40px);
+ 		
+ 		
+  }
+
+  to {
+    transform: translate(0px, 0px);
+   
+    
+  }
+}
+
+
+
+
+@keyframes att_img_scale {
+  from {
+    transform: scale(1.3);
+ 		
+ 		
+  }
+
+  to {
+    transform: scale(1);
+   
+    
+  }
+}
+
+
+
 
 
 .attorney_bio_header {
@@ -29,11 +107,18 @@
 				margin-left: 17%;
 			}
 		}
-		svg#default_page_gold_twolines {
+		svg#default_page_gold_twolines_bio {
 			margin-top:35px;
 			float:left;
 			margin-left:0;
-			
+			width:179px;
+			height:40px;
+			margin-bottom:42px;
+	
+			fill:none;
+			stroke:$greybrown;
+			stroke-miterlimit:10;
+			stroke-width:2px;
 			stroke-dasharray:250;
 			stroke-dashoffset:250;
 			
@@ -43,6 +128,7 @@
 			animation-fill-mode: both;
 			animation-timing-function: linear;
 			animation-delay: 350ms;
+
 		}
 		span.bio_title {
 			color:$red;
@@ -55,6 +141,8 @@
 			margin-left:15px;
 		}
 	}
+	
+
 	
 	
 	
@@ -98,9 +186,11 @@
 			
 			
 .attorney_bio_header_wrapper {
-	 
+	 	.att_image_wrapper {
+		 	width:250px;
+	 	}
 	img {
-		width:250px;
+	
 	}
 }
 			
@@ -133,14 +223,21 @@
 .attorney_bio_header_wrapper {
 	 display: flex;
 	 flex-direction: column-reverse;
+	 .att_image_wrapper {
+		 max-width:500px;
+		 float:none;
+		 width:100%;
+		 display: block;
+		 	margin-left:auto;
+		margin-right:auto;
+	 }
 	img {
-		max-width:500px;
+		
 		width:100%;
 		height:auto;
-		float:none;
-		display: block;
-		margin-left:auto;
-		margin-right:auto;
+		
+		
+	
 	}
 }
 			
@@ -154,7 +251,7 @@
 				margin-left: 10%;
 			}
 		}
-		svg#default_page_gold_twolines {
+		svg#default_page_gold_twolines_bio {
 			width:140px;
 		}
 	}
@@ -168,15 +265,37 @@
 @media screen and (max-width: 1565px) {
 	
 	
-	.attorney_bio_header {
-		svg#default_page_gold_twolines {
-			stroke-dasharray:0;
-			stroke-dashoffset:0;
+	
+	
+.attorney_bio_header {
+	svg#default_page_gold_twolines_bio {
+		stroke-dasharray:0;
+		stroke-dashoffset:0;
+		animation-name:none;
+				
+	}
+}
+
+
+
+	
+.attorney_bio_header_wrapper {
+		
+	.att_image_wrapper {
+		
 			animation-name: none;
-		}
+		
 	}
 	
+	img {
+				
+		animation-name: none;
+		
+	}
+}
 	
+	
+
 	
 	
 	
@@ -193,7 +312,7 @@
 	}
 	
 	.attorney_bio_header {
-		svg#default_page_gold_twolines {
+		svg#default_page_gold_twolines_bio {
 			margin-left:-30px;
 		}
 	} 
@@ -240,7 +359,7 @@
 				margin-left: 0%;
 			}
 		}
-		svg#default_page_gold_twolines {
+		svg#default_page_gold_twolines_bio {
 // 			margin-left:-50px;
 		}
 	}
@@ -266,7 +385,7 @@
 	
 /*
 	.attorney_bio_header {
-		svg#default_page_gold_twolines {
+		svg#default_page_gold_twolines_bio {
 			width:100px
 		}
 	}
@@ -292,6 +411,9 @@
 	
 	
 	
+
+	
+	
 	.attorney_bio_header {
 		padding-top:170px;
 		h1.att_name {
@@ -301,10 +423,26 @@
 				margin-left: 10%;
 			}
 		}
-		svg#default_page_gold_twolines {
+		svg#default_page_gold_twolines_bio {
 			margin-left:-50px;
 			display: block;
 		}
+		
+	}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	.internal_bio_content {
+		margin-top: 111px;
 	}
 	
 	
@@ -342,11 +480,16 @@
 			font-size: 15px;
 			letter-spacing: 3px;
 		}
-		svg#default_page_gold_twolines {
+		svg#default_page_gold_twolines_bio {
 			margin-left:0;
 			margin-top: 11px;
 			width:120px;
 		}
+	}
+	
+	
+	.internal_bio_content {
+		margin-top: 90px;
 	}
 	
 
@@ -375,7 +518,7 @@
 			margin:5px 0 35px;
 			letter-spacing: 3.15px;
 		}
-		svg#default_page_gold_twolines {
+		svg#default_page_gold_twolines_bio {
 			float:none;
 			display: block;
 			margin-bottom:0;
