@@ -74,7 +74,7 @@
 		
 	</div><!-- sidebar -->
 	
-	<div class="sidebar category_sidebar">
+	<div class="sidebar lower_sidebar">
 		
 		<div class="sidebar_pa_wrapper">
 			
@@ -98,7 +98,7 @@
 		
 	</div><!-- sidebar -->
 	
-	<div class="sidebar archive_sidebar">
+	<div class="sidebar lower_sidebar">
 		
 		<div class="sidebar_pa_wrapper">
 			

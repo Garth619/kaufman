@@ -124,7 +124,7 @@ span.sidebar_blog_large_header {
 }
 
 
-.sidebar.category_sidebar, .sidebar.archive_sidebar {
+ .sidebar.lower_sidebar {
 	padding-top:32px;
 	margin-top:5px;
 	.recent_posts_feed {
@@ -141,7 +141,7 @@ span.sidebar_blog_large_header {
 
 
 
-.sidebar.archive_sidebar {
+.sidebar.lower_sidebar:last-of-type {
 	margin-bottom: 0;
 }
 

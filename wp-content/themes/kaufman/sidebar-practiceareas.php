@@ -68,7 +68,15 @@
 				
 				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
 			
-<!--
+
+				
+				
+				
+				
+				
+				
+				
+				
 				<ul>
 					
 					<li>
@@ -85,7 +93,17 @@
 
 					
 				</ul>
--->
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			</div><!-- pa_list -->
 			
@@ -96,8 +114,146 @@
 	</div><!-- sidebar -->
 	
 	
+	
+	
+<?php $classes = get_body_class();?>
+
+<?php if (in_array('page-child',$classes)) :?>
+
+	<div class="sidebar lower_sidebar">
+		
+		<div class="sidebar_pa_wrapper">
+			
+			<svg id="default_red_lines_sidebar" class="blog_svg"  viewBox="0 0 52.79 8.27">
+				
+				<polyline transform="translate(0, 0)" class="red_line_three" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				<polyline transform="translate(0, 6)" class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				<polyline transform="translate(0, 12)" class="red_line_one" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+			</svg><!-- red_line_form -->
+			
+			<span class="sidebar_blog_large_header">related</span><!-- sidebar_large_header -->
+			
+			<div class="recent_posts_feed sidebar_feed">
+
+			<?php 
+  
+				$args = array(
+					'child_of' => $post->post_parent,
+					'post_type' => 'page',
+					'post_status' => 'publish',
+					'exclude' =>  $post->ID
+				); 
+  
+  
+				$pages = get_pages($args);  ?>
+  
+				<ul> 
+					
+					<?php $myparent_title = get_the_title($post->post_parent); ?>
+					
+					<?php $myparent_link = get_the_permalink($post->post_parent); ?>
+					
+					<li>
+						
+						<a href="<?php echo $myparent_link;?>"><?php echo $myparent_title;?></a>
+						
+						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
+			
+							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+						</svg>
+					
+					</li>
+  
+					<?php foreach( $pages as $page ) { ?>
+   
+						<li>
+							
+							<a href="<?php echo  get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></a>
+							
+							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
+			
+							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+						</svg>
+						
+						</li>
+  
+					<?php } ?>
+
+				</ul>
+
+
+			</div><!-- recent_posts_feed -->
+			
+		</div><!-- sidebar_pa_wrapper -->
+		
+	</div><!-- sidebar -->
+
+
+<?php endif;?>
+
+<?php if (in_array('page-parent',$classes)) :?>
+
+
+<div class="sidebar lower_sidebar">
+		
+		<div class="sidebar_pa_wrapper">
+			
+			<svg id="default_red_lines_sidebar" class="blog_svg"  viewBox="0 0 52.79 8.27">
+				
+				<polyline transform="translate(0, 0)" class="red_line_three" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				<polyline transform="translate(0, 6)" class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				<polyline transform="translate(0, 12)" class="red_line_one" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+			</svg><!-- red_line_form -->
+			
+			<span class="sidebar_blog_large_header">related</span><!-- sidebar_large_header -->
+			
+			<div class="recent_posts_feed sidebar_feed">
+
+			<?php 
+					$args = array(
+						'parent' => $post->ID,
+						'post_type' => 'page',
+						'post_status' => 'publish'
+     
+					); 
+  
+  
+					$pages = get_pages($args);  ?>
+  
+					<ul> 
+					
+						<?php foreach( $pages as $page ) { ?>
+   
+						<li>
+							
+							<a href="<?php echo  get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></a>
+						
+							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
+			
+								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+							</svg>
+						
+						</li>
+  
+					<?php } ?>
+  
+				</ul>
+
+			</div><!-- recent_posts_feed -->
+			
+		</div><!-- sidebar_pa_wrapper -->
+		
+	</div><!-- sidebar -->
+
+<?php endif;?>
+	
+
 </div><!-- sidebar_wrapper -->
 
 
-	<?php // dynamic_sidebar( 'sidebar' ); ?>
 			
