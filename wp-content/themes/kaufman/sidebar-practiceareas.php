@@ -77,6 +77,7 @@
 				
 				
 				
+<!--
 				<ul>
 					
 					<li>
@@ -93,6 +94,7 @@
 
 					
 				</ul>
+-->
 
 			
 			
@@ -154,31 +156,78 @@
 					
 					<?php $myparent_link = get_the_permalink($post->post_parent); ?>
 					
-					<li>
 						
-						<a href="<?php echo $myparent_link;?>"><?php echo $myparent_title;?></a>
 						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg>
+						<?php if(get_field( 'practice_areas_override_title', $post->post_parent)) :?>
+						
+						
+						<li>	
 					
-					</li>
-  
+							<a href="<?php echo $myparent_link;?>"><?php the_field( 'practice_areas_override_title', $post->post_parent);?></a>
+						
+							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
+			
+								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+								</svg>
+					
+						</li>
+						
+						
+						<?php else:?>
+						
+						
+						<li>	
+					
+							<a href="<?php echo $myparent_link;?>"><?php echo $myparent_title;?></a>
+						
+							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
+			
+								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+								</svg>
+					
+						</li>
+						
+						
+						<?php endif;?>
+						
+						
 					<?php foreach( $pages as $page ) { ?>
+					
    
+						<?php if(get_field( 'practice_areas_override_title', $page->ID)) :?>
+						
+						
 						<li>
 							
-							<a href="<?php echo  get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></a>
+							<a href="<?php echo  get_permalink($page->ID); ?>"><?php the_field( 'practice_areas_override_title', $page->ID ); ?></a>
 							
 							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
 			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
 				
-						</svg>
+							</svg>
 						
 						</li>
+						
+						<?php else:?>
+						
+						<li>
+							
+							<a href="<?php echo  get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></a>
+						
+							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
+			
+								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+							</svg>
+						
+						</li>
+						
+						
+						
+						<?php endif;?>
   
 					<?php } ?>
 
@@ -228,6 +277,25 @@
 					
 						<?php foreach( $pages as $page ) { ?>
    
+						
+						
+						<?php if(get_field( 'practice_areas_override_title', $page->ID)) :?>
+						
+						
+						<li>
+							
+							<a href="<?php echo  get_permalink($page->ID); ?>"><?php the_field( 'practice_areas_override_title', $page->ID ); ?></a>
+							
+							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
+			
+								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+				
+							</svg>
+						
+						</li>
+						
+						<?php else:?>
+						
 						<li>
 							
 							<a href="<?php echo  get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></a>
@@ -239,6 +307,14 @@
 							</svg>
 						
 						</li>
+						
+						
+						
+						<?php endif;?>
+						
+						
+						
+						
   
 					<?php } ?>
   
