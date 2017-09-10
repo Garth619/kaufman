@@ -648,16 +648,19 @@ $(function() {
 
 $('.default_form_button').click(function(){
 	
-	$('.sidebar_form_overlay').addClass('open');
+	$('.sidebar_form_overlay, .sidebar_overlay').addClass('open');
 	
 });
 
 
-$('.sidebar_close').click(function(){
+$('.sidebar_close, .sidebar_overlay').click(function(){
 	
-	$('.sidebar_form_overlay').removeClass('open');
+	$('.sidebar_form_overlay, .sidebar_overlay').removeClass('open');
 	
 });
+
+
+
 
 
 // First Letter

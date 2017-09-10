@@ -204,23 +204,6 @@ svg#default_red_lines_sidebar {
 }
 
 
-
-.video_fade {
-	position: relative;
-	animation-name: video_fade;
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 1s;
-  
-  // have the delay be the class being after load in jquery
-
- }
-
-
-
-
-
 	
 	
 	.default_form_button {
@@ -436,15 +419,15 @@ svg#pa_redline {
 
 .sidebar_form_overlay {
 	width:100%;
-	height:100%;
+	
 	position: absolute;
 	top:0;
 	left:0;
 	background: #fff;
-	padding-left:120px;
-	padding-right:140px;
-	padding-top:190px;
-	z-index:1;
+	
+	
+	padding:190px 140px 190px 120px;
+	z-index:210;
 	opacity: 0;
 	visibility: hidden;
 	transition: all .3s ease-in-out;
@@ -454,6 +437,33 @@ svg#pa_redline {
 	opacity: 1;
 	visibility: visible;
 }
+
+
+
+.sidebar_overlay {
+	position: fixed;
+	z-index:200;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.6);
+	opacity: 0;
+	visibility: hidden;
+	transition: all .2s ease-in-out;
+}
+
+
+.sidebar_overlay.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+
+
+
 
 
 .sidebar_inner_overlay {
@@ -510,6 +520,9 @@ svg#pa_redline {
 		}
 	}
 }
+
+
+
 
 
 
@@ -765,6 +778,11 @@ svg#pa_request_redline {
 	letter-spacing: 2px;
 }
 
+
+
+
+
+
 @media screen and (max-width: 1565px) {
 	
 	
@@ -828,6 +846,11 @@ svg#pa_request_redline {
 		}
 	}
 }
+
+
+
+
+
 	
 	
 	
