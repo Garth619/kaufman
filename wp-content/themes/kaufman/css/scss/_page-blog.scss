@@ -158,6 +158,153 @@ span.sidebar_blog_large_header {
 
 
 
+#nav_below {
+	a {
+		background:#fff;
+		font-family: $akagilblack;
+		text-transform: uppercase;
+		color:$lightblack;
+		font-size: 14px;
+		padding-top: 14px;
+		padding-bottom: 12px;
+		display:block;
+		letter-spacing: 4px;
+		line-height:1;
+		margin-bottom:42px;
+		position: relative;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:$red;
+		}
+	}
+	.nav_previous {
+		display: inline-block;
+		a {
+			text-align: right;
+			margin-right:-5px;
+			border-right:1px solid $greybrown;
+			padding-left:80px;
+			padding-right:23px;
+		}
+	}
+	.nav_next {
+			display: inline-block;
+		a {
+			text-align: left;
+			border-left:2px solid $greybrown;
+			padding-left:23px;
+			padding-right:80px
+		}
+	}
+}
+
+
+svg#blog_back_arrow {
+	position: absolute;
+	top:0;
+	left:0px;
+	transform: rotate(90deg);
+	transform-origin: 22px 39px 0;
+}
+
+
+svg#blog_next_arrow {
+	position: absolute;
+	top:0;
+	right:0px;
+	transform: rotate(-90deg);
+	transform-origin: -16px 40px 0;
+}
+
+
+svg#blog_back_arrow, svg#blog_next_arrow {
+		width:8px;
+		line.arrow_line {
+			fill:none;
+			stroke:$red;
+			stroke-miterlimit:10;
+			stroke-width:2px;
+		}
+		polygon.arrow_tri {
+			fill:$red;
+		}
+	}
+
+
+
+/*
+.results_buttons {
+	display: block;
+	margin-top:-30px;
+}
+
+
+a.results_button {
+	background:#fff;
+	font-family: $akagilblack;
+	text-transform: uppercase;
+	color:$lightblack;
+	font-size: 14px;
+	padding-top: 14px;
+	padding-bottom: 12px;
+	display: inline-block;
+	letter-spacing: 4px;
+	line-height:1;
+	margin-bottom:42px;
+	position: relative;
+}
+
+a.results_back {
+	text-align: right;
+	margin-right:-5px;
+	border-right:1px solid $greybrown;
+	padding-left:80px;
+	padding-right:23px;
+}
+
+
+a.results_next {
+	text-align: left;
+	border-left:2px solid $greybrown;
+	padding-left:23px;
+	padding-right:80px;
+}
+
+
+svg#results_back_arrow {
+	position: absolute;
+	top:0;
+	left:0px;
+	transform: rotate(90deg);
+	transform-origin: 22px 39px 0;
+}
+
+
+svg#results_next_arrow {
+	position: absolute;
+	top:0;
+	right:0px;
+	transform: rotate(-90deg);
+	transform-origin: -16px 40px 0;
+}
+
+
+svg#results_back_arrow, svg#results_next_arrow {
+		width:8px;
+		line.arrow_line {
+			fill:none;
+			stroke:$red;
+			stroke-miterlimit:10;
+			stroke-width:2px;
+		}
+		polygon.arrow_tri {
+			fill:$red;
+		}
+	}
+*/
+
+
+
 @media screen and (max-width: 1440px) {
 	
 	

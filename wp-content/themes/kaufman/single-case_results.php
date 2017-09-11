@@ -24,13 +24,13 @@
 $prev_post = get_previous_post();
 if($prev_post) {
    $prev_title = strip_tags(str_replace('"', '', $prev_post->post_title));
-   echo "\t" . '<a href="' . get_permalink($prev_post->ID) . '" class="results_back results_button"><svg id="results_back_arrow" viewBox="0 0 7.6 40.7"><line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/><polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/></svg><!-- start_arrow --><span>Back</span></a>' . "\n";
+   echo "\t" . '<a href="' . get_permalink($prev_post->ID) . '" class="results_back results_button"><svg id="results_back_arrow" viewBox="0 0 7.6 40.7"><line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/><polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/></svg><span>Back</span></a>' . "\n";
 }
 
 $next_post = get_next_post();
 if($next_post) {
    $next_title = strip_tags(str_replace('"', '', $next_post->post_title));
-   echo "\t" . '<a href="' . get_permalink($next_post->ID) . '" class="results_next results_button"><span>Next<svg id="results_next_arrow" viewBox="0 0 7.6 40.7"><line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/><polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/></svg><!-- start_arrow --></span></a>' . "\n";
+   echo "\t" . '<a href="' . get_permalink($next_post->ID) . '" class="results_next results_button"><span>Next<svg id="results_next_arrow" viewBox="0 0 7.6 40.7"><line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/><polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/></svg></span></a>' . "\n";
 }
 ?>
 

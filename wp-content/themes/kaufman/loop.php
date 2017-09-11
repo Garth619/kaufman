@@ -50,11 +50,11 @@
 
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
 	
-	<div id="nav-below" class="navigation">
+	<div id="nav_below" class="navigation">
 		
-		<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></div>
+		<div class="nav_previous"><?php next_posts_link( __( '<svg id="blog_back_arrow" viewBox="0 0 7.6 40.7"><line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/><polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/></svg>Older Posts') ); ?></div>
 			
-		<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></div>
+		<div class="nav_next"><?php previous_posts_link( __( '<svg id="blog_next_arrow" viewBox="0 0 7.6 40.7"><line class="arrow_line" x1="3.8" x2="3.8" y2="36.9"/><polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/></svg>Newer Posts' ) ); ?></div>
 	
 	</div><!-- #nav-below -->
 
