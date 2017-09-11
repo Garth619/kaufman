@@ -661,14 +661,20 @@ $('.sidebar_close, .sidebar_overlay').click(function(){
 
 
 
-
-
 // First Letter
 
 $('body.page-template-page-bio .internal_bio_content p:first-of-type').html(function (i, html)
 {
     return html.replace(/^[^a-zA-Z]*([a-zA-Z])/g, '<span class="first_letter"><span>$1</span></span>');
 });
+
+
+// Add SVGs to the Sidebars
+
+
+$(".pa_list ul li, .recent_posts_list li, .recent_posts_feed li").append('<svg xmlns="http://www.w3.org/2000/svg" id="pa_redline" viewBox="0 0 52.79 8.27"><polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/></svg>');
+
+
 
 
 }); // Document Ready

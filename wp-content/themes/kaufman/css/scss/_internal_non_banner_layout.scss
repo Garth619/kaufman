@@ -99,6 +99,7 @@ Edits to SCSS Partials are in:
 		font-weight:300;
 		font-style: normal;
 		font-family: $trirongregular;
+		max-width:870px;
 	}
 	
 	
@@ -390,7 +391,7 @@ span.sidebar_large_header {
 				font-family: $akagilbold;
 				font-size:17px;
 				display: block;
-				padding:20px;
+				padding: 20px 65px 20px 20px;
 				transition: all .2s ease-in-out;
 								
 			}
@@ -666,7 +667,7 @@ svg#pa_request_redline {
 		.gform_footer {
 			padding-left:70px;
 		}
-		input#gform_submit_button_5 {
+		input#gform_submit_button_5, input#gform_submit_button_6 {
 			width:100%;
 			border:none;
 			background:$greybrown;
@@ -1090,7 +1091,7 @@ svg#pa_request_redline {
 		.gform_footer {
 			 padding-left:0px;
 		}
-		input#gform_submit_button_5 {
+		input#gform_submit_button_5, input#gform_submit_button_6, input#gform_submit_button_6 {
 			margin-top:90px;
 			&:hover {
 				background:$greybrown;
@@ -1242,7 +1243,7 @@ svg#pa_request_redline {
 		.gform_footer {
 			
 		}
-		input#gform_submit_button_5 {
+		input#gform_submit_button_5, input#gform_submit_button_6 {
 			margin-top: 32px;
 			font-size: 23px;
 			padding: 15px;
@@ -1363,7 +1364,7 @@ svg#pa_request_redline {
 		.gform_footer {
 			
 		}
-		input#gform_submit_button_5 {
+		input#gform_submit_button_5, input#gform_submit_button_6 {
 			
 			&:hover {
 				

@@ -22984,6 +22984,12 @@
 		"oAP": "\/wp-content\/themes\/kaufman\/page-contact.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/kaufman\/page-espanol.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/page-espanol.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/kaufman\/page-home.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -23041,6 +23047,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/kaufman\/sidebar-blog.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/kaufman\/sidebar-espanol.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/kaufman\/sidebar-espanol.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/kaufman\/sidebar-practiceareas.php": {

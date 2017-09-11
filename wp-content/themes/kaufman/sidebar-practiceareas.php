@@ -68,36 +68,6 @@
 				
 				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
 				
-				
-<!--
-				<ul>
-					
-					<li>
-					
-						<a href="">Auto Accidents</a>
-						
-						<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-						</svg>
-						
-					</li>
-
-					
-				</ul>
--->
-
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			
 			</div><!-- pa_list -->
 			
@@ -142,7 +112,7 @@
   
 				$pages = get_pages($args);  ?>
   
-				<ul> 
+				<ul class="recent_posts_list"> 
 					
 					<?php $myparent_title = get_the_title($post->post_parent); ?>
 					
@@ -157,12 +127,7 @@
 					
 							<a href="<?php echo $myparent_link;?>"><?php the_field( 'practice_areas_override_title', $post->post_parent);?></a>
 						
-							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-								</svg>
-					
+												
 						</li>
 						
 						
@@ -172,12 +137,6 @@
 						<li>	
 					
 							<a href="<?php echo $myparent_link;?>"><?php echo $myparent_title;?></a>
-						
-							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-								</svg>
 					
 						</li>
 						
@@ -195,12 +154,6 @@
 							
 							<a href="<?php echo  get_permalink($page->ID); ?>"><?php the_field( 'practice_areas_override_title', $page->ID ); ?></a>
 							
-							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-							</svg>
-						
 						</li>
 						
 						<?php else:?>
@@ -208,12 +161,6 @@
 						<li>
 							
 							<a href="<?php echo  get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></a>
-						
-							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-							</svg>
 						
 						</li>
 						
@@ -265,7 +212,7 @@
   
 					$pages = get_pages($args);  ?>
   
-					<ul> 
+					<ul class="recent_posts_list"> 
 					
 						<?php foreach( $pages as $page ) { ?>
    
@@ -277,12 +224,6 @@
 						<li>
 							
 							<a href="<?php echo  get_permalink($page->ID); ?>"><?php the_field( 'practice_areas_override_title', $page->ID ); ?></a>
-							
-							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-							</svg>
 						
 						</li>
 						
@@ -291,12 +232,6 @@
 						<li>
 							
 							<a href="<?php echo  get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></a>
-						
-							<svg id="pa_redline" viewBox="0 0 52.79 8.27">
-			
-								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-				
-							</svg>
 						
 						</li>
 						
