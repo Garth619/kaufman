@@ -43,17 +43,17 @@
 									<a href="<?php the_permalink();?>">
 					
 										
-										<?php if(get_sub_field('practice_area_override')):?>
+										<?php if(get_field('practice_areas_override_title')):?>
 										
-											<span><?php the_sub_field( 'practice_area_override' ); ?></span>
-											
-											<?php else:?>
-											
-											<span><?php the_title(); ?></span>
-											
+										<span><?php the_field( 'practice_areas_override_title' ); ?></span>
+										
+										<?php else:?>
+										
+										<span><?php the_title(); ?></span>
 										
 										<?php endif;?>
-					
+										
+										
 										<svg id="list_item_white_line" viewBox="0 0 52.79 8.27">
 		
 											<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>

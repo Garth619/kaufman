@@ -58,7 +58,7 @@
 				
 					<select name='step_one' id='stepone' tabindex='12'>
 			
-						<option value='selectaninjury' >Select an injury</option>
+						<option value='selectaninjury'>Select an injury</option>
 						
 						
 						<?php if(get_field('smart_form_drop_down_options','option')): ?>
@@ -67,32 +67,37 @@
 						 
 								<?php $post_object = get_sub_field( 'new_option' ); ?>
 								
-									
-									<?php if(get_sub_field('new_option_text')):?>
-									
-									
-										<option value='<?php the_sub_field( 'new_option_text' ); ?>'><?php the_sub_field( 'new_option_text' ); ?></option>
-									
-										<?php else: ?>
-										
-											
-											<?php $post = $post_object; ?>
+								
+										<?php $post = $post_object; ?>
 										
 											<?php setup_postdata( $post ); ?> 
 									
 											
+											
+												<?php if(get_field( 'practice_areas_override_title')):?>
+												
+												<option value='<?php the_field( 'practice_areas_override_title');?>'><?php the_field( 'practice_areas_override_title');?></option>
+
+												
+												<?php else:?>
+												
 												<option value='<?php the_title(); ?>'><?php the_title(); ?></option>
+												
+												
+												<?php endif;?>
+											
+												
 								
 								
 											<?php wp_reset_postdata(); ?>
 										
 									
-											<?php endif;?>
-									
 
 										<?php endwhile; ?>
 						 
 									<?php endif; ?>
+									
+									<option value='Other Personal Injury'>Other Personal Injury</option>
 
 					</select>
 				

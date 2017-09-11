@@ -73,6 +73,10 @@ register_nav_menus(array(
     
 ));
 
+
+
+
+
 /* Widgets
 -------------------------------------------------------------- */
 
@@ -227,6 +231,9 @@ function cat_count_span($links) {
   $links = str_replace(')', ')</span>', $links);
   return $links;
 }
+
+
+
 
 
 
