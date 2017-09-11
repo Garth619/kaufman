@@ -73,13 +73,13 @@ jQuery(document).ready(function(){
 
 	  var waypoint = window.createWaypoint
 
-    var startbutton = $('.start_here_track')
+     // var startbutton = $('.start_here_track')
 
-    waypoint(startbutton, '5%')
+     // waypoint(startbutton, '5%')
     
-    var startbutton = $('.section_eight')
+    var sectioneight = $('.section_eight')
 
-    waypoint(startbutton, '0%')
+    waypoint(sectioneight, '0%')
     
     var sectiontwo = $('.section_two')
 
@@ -203,10 +203,73 @@ jQuery(document).ready(function(){
     
     
     
+   // New Start Button Track 
    
+   
+   
+  if ($("body").hasClass("page-template-page-home")) {
+      
+      $(function() {
+				var newstarttrack = $('.start_here_track');
+    
+				var hieghtThreshold = $(".section_three").offset().top;
+    
+    
+				var hieghtThreshold_end  = $(".section_seven").offset().top +$(".section_seven").height() ;
     
     
     
+				$(window).scroll(function() {
+       	 var scroll = $(window).scrollTop();
+
+			 	 if (scroll >= hieghtThreshold && scroll <=  hieghtThreshold_end ) {
+            	newstarttrack.addClass('visible');
+            
+        	} else {
+            newstarttrack.removeClass('visible');
+            
+        	}
+    	});
+
+
+		})
+	} else {
+		
+		
+		
+
+   $(function() {
+    var newstarttrack = $('.start_here_track');
+    
+    var hieghtThreshold = $(".start_here_track").offset().top;
+    
+    
+    var hieghtThreshold_end  = $(".start_here_track").offset().top +$(".start_here_track").height() ;
+    
+    
+    
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= hieghtThreshold && scroll <=  hieghtThreshold_end ) {
+            newstarttrack.addClass('visible');
+            
+        } else {
+            newstarttrack.removeClass('visible');
+            
+        }
+    });
+
+
+})
+
+		
+		
+		
+		
+	}
+
+
 
 
 
