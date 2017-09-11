@@ -369,6 +369,10 @@ body:not(.page-template-page-home) {
  		
 	}
 	
+	header.hide {
+		z-index:1;
+	}
+	
 	
 	.logo_wrapper {
 		margin-top: 24px;

@@ -3,6 +3,13 @@
 	margin-top:0px;
 }
 
+body.single-post .single_blog_post {
+	border:none;
+	margin-bottom: 0px;
+	padding-bottom:0px;
+}
+
+
 
 .single_blog_post {
 	padding-bottom:55px;
@@ -16,12 +23,7 @@ body.blog .single_blog_post {
 	}
 }
 
-1
-body.single .single_blog_post {
-	border:none;
-	margin-bottom: 0px;
-	padding-bottom:0px;
-}
+
 
 
 .entry_info {
@@ -165,7 +167,7 @@ span.sidebar_blog_large_header {
 		text-transform: uppercase;
 		color:$lightblack;
 		font-size: 14px;
-		padding-top: 14px;
+		padding-top: 15px;
 		padding-bottom: 12px;
 		display:block;
 		letter-spacing: 4px;
@@ -232,76 +234,6 @@ svg#blog_back_arrow, svg#blog_next_arrow {
 
 
 
-/*
-.results_buttons {
-	display: block;
-	margin-top:-30px;
-}
-
-
-a.results_button {
-	background:#fff;
-	font-family: $akagilblack;
-	text-transform: uppercase;
-	color:$lightblack;
-	font-size: 14px;
-	padding-top: 14px;
-	padding-bottom: 12px;
-	display: inline-block;
-	letter-spacing: 4px;
-	line-height:1;
-	margin-bottom:42px;
-	position: relative;
-}
-
-a.results_back {
-	text-align: right;
-	margin-right:-5px;
-	border-right:1px solid $greybrown;
-	padding-left:80px;
-	padding-right:23px;
-}
-
-
-a.results_next {
-	text-align: left;
-	border-left:2px solid $greybrown;
-	padding-left:23px;
-	padding-right:80px;
-}
-
-
-svg#results_back_arrow {
-	position: absolute;
-	top:0;
-	left:0px;
-	transform: rotate(90deg);
-	transform-origin: 22px 39px 0;
-}
-
-
-svg#results_next_arrow {
-	position: absolute;
-	top:0;
-	right:0px;
-	transform: rotate(-90deg);
-	transform-origin: -16px 40px 0;
-}
-
-
-svg#results_back_arrow, svg#results_next_arrow {
-		width:8px;
-		line.arrow_line {
-			fill:none;
-			stroke:$red;
-			stroke-miterlimit:10;
-			stroke-width:2px;
-		}
-		polygon.arrow_tri {
-			fill:$red;
-		}
-	}
-*/
 
 
 
@@ -313,6 +245,23 @@ svg#results_back_arrow, svg#results_next_arrow {
 		max-width: 358px;
 	}
 	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1165px) {
+	
+	
+	
+	#nav_below {
+		text-align: center;
+		a {
+			
+		}
+	}
 	
 	
 	
@@ -338,6 +287,45 @@ svg#results_back_arrow, svg#results_next_arrow {
 	a.blog_readmore {
 		margin-top: 26px;
 	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 630px) {
+	
+	
+	
+	#nav_below {
+		text-align: center;
+		a {
+			
+		}
+		.nav_previous, .nav_next {
+			width:245px;
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+			a {
+				border:none;
+				
+			}
+		}
+		.nav_previous {
+			a {
+				margin-bottom:20px;
+				margin-top:10px;
+			}
+		}
+		
+		
+		}
+	
+	
+	
+	
 	
 	
 	

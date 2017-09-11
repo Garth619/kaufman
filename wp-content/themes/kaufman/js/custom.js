@@ -192,7 +192,7 @@ jQuery(document).ready(function(){
 		
 		var internalmobileheader = $('.internal_banner_wrapper')
 
-    waypoint(internalmobileheader, '-100px')
+    waypoint(internalmobileheader, '-100px', null, true)
     
     var internalmobileheader = $('.awards_sidebar')
 
@@ -200,7 +200,7 @@ jQuery(document).ready(function(){
     
     var internalmobileheader = $('.non_banner_layout .internal_container')
 
-    waypoint(internalmobileheader, '-130px')
+    waypoint(internalmobileheader, '-130px', null, true)
     
     
     
@@ -335,6 +335,9 @@ jQuery('.mobile_fixed_start_here').click(function(){
 	$('.mobile_fixed_menu_wrapper, .close_content').toggleClass('open');
 	
 	$('.logo_wrapper, .mobile_header_right, .start_content').toggleClass('hide');
+	
+	
+	$('header').toggleClass('hide');
 	
 	
 });
