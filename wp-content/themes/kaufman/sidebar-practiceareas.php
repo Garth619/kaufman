@@ -258,5 +258,5 @@
 
 </div><!-- sidebar_wrapper -->
 
-
+<div class="sidebar_overlay"></div><!-- sidebar_overlay -->
 			

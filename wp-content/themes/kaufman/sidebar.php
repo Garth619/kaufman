@@ -118,7 +118,4 @@
 	
 	
 </div><!-- sidebar_wrapper -->
-
-
-	<?php // dynamic_sidebar( 'sidebar' ); ?>
 			
