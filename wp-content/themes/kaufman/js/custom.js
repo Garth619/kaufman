@@ -37,7 +37,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
             if (reverse === true) {
 
                 if ( direction === 'down' ) {
-                    selector.addClass('visible fade')
+                    selector.addClass('visible')
                     
                     if(typeof customFunc === 'function' && customFunc) {
                         customFunc.call(this);
@@ -73,17 +73,15 @@ jQuery(document).ready(function(){
 
 	  var waypoint = window.createWaypoint
 
-     // var startbutton = $('.start_here_track')
+    // var startbutton = $('.start_here_track')
 
-     // waypoint(startbutton, '5%')
+    // waypoint(startbutton, '5%')
     
-    var sectioneight = $('.section_eight')
-
-    waypoint(sectioneight, '0%')
+    
     
     var sectiontwo = $('.section_two')
 
-    waypoint(sectiontwo, '0px')
+    waypoint(sectiontwo, '0px', null, true)
     
     
     var introformwrapper = $('.intro_form_wrapper')
@@ -161,6 +159,16 @@ jQuery(document).ready(function(){
 
     waypoint(sectionseven, '400px')
     
+
+    
+    
+    
+    var sectioneight = $('.section_eight')
+
+    waypoint(sectioneight, '0%');
+    
+
+    
     var footer = $('footer')
 
     waypoint(footer, '50px')
@@ -190,11 +198,6 @@ jQuery(document).ready(function(){
 
     waypoint(internalmobileheader, '300px')
     
-    
-    
-    
-    
-    
     var internalmobileheader = $('.non_banner_layout .internal_container')
 
     waypoint(internalmobileheader, '-130px')
@@ -207,6 +210,7 @@ jQuery(document).ready(function(){
    
    
    
+
   if ($("body").hasClass("page-template-page-home")) {
       
       $(function() {
@@ -273,39 +277,6 @@ jQuery(document).ready(function(){
 
 
 
-/*
-function scroll(el, offset, func1, func2){
-   $(el).waypoint({
-    handler: function(direction) {
-        direction == 'down' ? func1() : func2();
-    },
-    offset: offset
-  });
-};
-
-
-
-
-
-new scroll('#one', '50%', function1, function2);
-
-
-
-var myFuncCalls = 0;
-
-function function1(){
-    myFuncCalls++;
-    if(myFuncCalls > 3){
-        ....
-    }
-}
-
-function function2(){
-    .....
-}	
-*/
-	
-	
 
 
 
