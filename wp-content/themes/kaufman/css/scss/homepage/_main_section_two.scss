@@ -82,7 +82,7 @@ svg#red_line_form {
 		font-family: $oswald;
 		 font-family: $oswaldmedium;
 		font-size:17px;
-		letter-spacing: 1px;
+		letter-spacing: 0.5px;
 		display: block;
 	}
 	span.injury_title {
@@ -95,6 +95,7 @@ svg#red_line_form {
 		margin-left:auto;
 		margin-right:auto;
 		line-height: 59px;
+		letter-spacing: 1px;
 	}
 	
 	
@@ -391,7 +392,7 @@ svg#back_arrow {
 		text-transform: uppercase;
 		border-left:1px solid #000;
 		border-right:1px solid #000;
-		padding:5px 49px;
+		padding:5px 45px;
 		display: inline-block;
 		margin-bottom:27px;
 		position: relative;

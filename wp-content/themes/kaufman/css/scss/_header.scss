@@ -92,7 +92,7 @@ nav {
 			font-size: 13px;
 			font-family:$akagilbold;
 			text-transform: uppercase;
-			letter-spacing: 2.75px;
+			letter-spacing: 3px;
 			flex-grow: 1;
 			flex-shrink: 1;
 			flex-basis: auto;
@@ -841,6 +841,7 @@ body.page-template-page-home {
 			}
 			span.mobile_cta {
 				color:$lightblack;
+				
 				strong {
 					color:$red;
 				}
@@ -893,7 +894,9 @@ body.page-template-page-home {
 			left:0;
 		}
 		span.mobile_cta {
-			
+			font-size:15px;
+				line-height: 20px;
+				letter-spacing: 2.5px;
 			br {
 				
 			}
