@@ -817,22 +817,23 @@ img.aligncenter {
 		}
 		blockquote {
 			margin: 0 0 23px;
-			padding: 18px 46px;
+			padding: 18px 20px;
 			font-size:20px;
 			line-height: 23px;
 			letter-spacing: 3px;
 		}
+		span.first_letter {
+			margin: -57px 4px 0 0px;
+			span {
+				line-height: 112px;
+				position: relative;
+				top:10px;
+			}
+		
+		}
 	}
 	
-	.first_letter {
-		margin: -57px 4px 0 0;
-		span {
-			line-height: 112px;
-			position: relative;
-			top:10px;
-		}
-		
-	}
+	
 	
 	
 	

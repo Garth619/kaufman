@@ -33,7 +33,7 @@
 		text-transform: uppercase;
 		font-family: $akagilblack;
 		font-size:16px;
-		letter-spacing: 3.5px;
+		letter-spacing: 3px;
 		float:left;
 		margin:9px 0 0 18px;
 		
@@ -201,7 +201,7 @@
 		font-family: $trironglight;
 		color:$red;
 		font-size:48px;
-		letter-spacing: 0.5px;
+		letter-spacing: 0px;
 		line-height: 48px;
 		padding-left:20px;
 		display: block;
@@ -217,7 +217,7 @@
 		padding-left:28px;
 		display: block;
 		margin-top:40px;
-		letter-spacing: 1.9px;
+		letter-spacing: 1.7px;
 	}
 }
 
@@ -673,7 +673,7 @@ svg#section_four_gold_threelines {
 			display: block;
 			text-align: left;
 			line-height: 30px;
-			letter-spacing: 0.5px;
+			letter-spacing: 0px;
 			padding-left:23px;
 		}
 		.testi_content {
@@ -1560,6 +1560,20 @@ svg#why_choose_gold_twolines {
 	
 	.section_four {
 		
+	}
+	
+	
+	.testi_wrapper {
+		margin-bottom:199px;
+	}
+	
+	
+	.testi_buttons {
+    bottom: -199px;
+   }
+	
+	svg.testi_red_line {
+		margin-bottom:11px;
 	}
 	
 	.why_choose_wrapper {
