@@ -43,11 +43,11 @@
 					
 				</div><!-- founding_wrapper -->
 				
-				<span class="name">Jeffery Kaufman</span><!-- name -->
+				<span class="name">Jeffrey Kaufman</span><!-- name -->
 				
 				<span class="att_content">Practicing injury law since 1977, Jeffrey has recovered millions of dollars for clients. He has secured one of the largest verdicts in Georgia’s history— a $25 million dollar verdict for a medical malpractice case.</span><!-- att_content -->
 				
-				<a class="view_button" href="<?php bloginfo('url');?>/jefferey-kaufman/">
+				<a class="view_button" href="<?php bloginfo('url');?>/jeffrey-kaufman/">
 					
 					<span class="view_text">View Attorney Profile</span> 
 					
