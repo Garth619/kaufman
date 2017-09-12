@@ -174,6 +174,7 @@ svg#contact_gold_line {
 		padding: 19px 0 0;
 		.location_wrapper {
 			padding: 41px 35px 32px;
+			margin-bottom:65px;
 		}
 	}
 	
@@ -219,6 +220,23 @@ body.page-template-page-contact {
 	
 	
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 537px) {
+	
+	
+	.contact_info_right {
+	
+		.location_wrapper {
+			
+			margin-bottom:5px;
+		}
+	}
+
 	
 	
 	

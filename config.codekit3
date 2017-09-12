@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "A90765A1-645D-495F-A095-F4CD7DFC6C09"
+		"uuidString": "2975F792-F1E9-4CFF-90D5-51C4C30A10E0"
 		}
 	],
 "creatorBuild": "25900",
@@ -30544,14 +30544,14 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 526921488,
+	"creationDate": 526943090,
 	"displayValue": "kaufman",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ive"
+	"iconImageName": "meme-ceiling"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -31937,7 +31937,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/kaufman-demo.com",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

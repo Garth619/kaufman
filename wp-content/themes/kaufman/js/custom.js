@@ -100,7 +100,7 @@ jQuery(document).ready(function(){
     
     var sectionthreecontent = $('.section_three_content')
 
-    waypoint(sectionthreecontent, '300px')
+    waypoint(sectionthreecontent, '600px')
     
     var sectionthreesidebar = $('.section_three_sidebar')
 
@@ -147,7 +147,7 @@ jQuery(document).ready(function(){
     
     var sectionsix = $('.section_six')
 
-    waypoint(sectionsix, '250px')
+    waypoint(sectionsix, '600px')
     
     
     var sectionseven = $('.section_seven')
@@ -158,6 +158,13 @@ jQuery(document).ready(function(){
     var sectionseven = $('.section_seven')
 
     waypoint(sectionseven, '400px')
+    
+    
+    var attorneybioheaderwrapper = $('.internal_bio_content')
+
+    waypoint(attorneybioheaderwrapper, '700px')
+    
+    
     
 
     

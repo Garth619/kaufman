@@ -1582,7 +1582,7 @@ svg#why_choose_gold_twolines {
 	
 	.why_choose_content_wrapper {
 		padding-top: 22px;
-		padding-bottom: 91px;
+		padding-bottom: 30px;
 		height:auto;
 		span.why_choose_header {
 			width: 165px;
@@ -1602,7 +1602,14 @@ svg#why_choose_gold_twolines {
 	}
 	
 	
-	
+	.why_choose_buttons {
+		position: relative;
+		right:0;
+		width:250px;
+		bottom: -76px;
+		margin-left:auto;
+		margin-right:auto;
+	}
 	
 	
 	.why_choose_bg_wrapper {

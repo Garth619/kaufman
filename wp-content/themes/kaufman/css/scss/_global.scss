@@ -391,6 +391,11 @@ body.fixed {
 	line-height: 33px;
 	font-family: $trironglight;
 	color:$lightblack;
+	strong {
+		
+		
+		
+	}
 	span.first_letter {
 		margin-left:-25px
 	}
@@ -425,11 +430,20 @@ body.fixed {
 		line-height: 21px;
 		font-weight: 300;
 		font-style: normal;
-		letter-spacing: 0.5px;
+		letter-spacing: 0.9px;
 		margin-bottom: 5px;
 	}
 	p {
 		margin-bottom:35px;
+	}
+	ol {
+		
+		margin-bottom:35px;
+		margin-left: 25px;
+// 		margin-left: 6px;
+		li {
+			margin-bottom: 10px;
+		}
 	}
 	ul {
 		list-style: none;
@@ -441,6 +455,7 @@ body.fixed {
 			padding: 0 0 0 19px;
 			margin-bottom: 10px;
 		}
+		
 	}
 	a {
 		text-decoration: none;
@@ -490,7 +505,7 @@ body.fixed {
 
 
 
-.section_three_content.visible, .section_six.visible, body.page-template-page-bio {
+.section_three_content.visible, .section_six.visible, .internal_bio_content.visible {
 	.first_letter {
 	
 		
