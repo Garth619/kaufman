@@ -41,7 +41,7 @@ svg#caseresults_gold_line {
 		color:$red;
 		font-size:48px;
 		margin-bottom: 15px;
-		letter-spacing: 1.8px;
+		letter-spacing: 1px;
 		
 	}
 	span.case_header {
@@ -49,7 +49,7 @@ svg#caseresults_gold_line {
 		font-family:$akagilblack;
 		font-size:17px;
 		line-height: 18px;
-		letter-spacing: 3.6px;
+		letter-spacing: 3px;
 		margin-bottom:8px;
 	}
 	span.case_description {
@@ -66,8 +66,8 @@ svg#caseresults_gold_line {
 		text-decoration: none;
 		font-family:$akagilblack;
 		font-size:14px;
-		padding:13px 15px;
-		letter-spacing: 4px;
+		padding:14px 15px 12px;
+		letter-spacing: 3px;
 		margin-top:33px;
 		transition: all .2s ease-in-out;
 		&:hover {

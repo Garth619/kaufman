@@ -252,7 +252,7 @@ svg#default_red_lines_sidebar {
 			font-size:20px;
 			padding:25px 30px;
 			text-align: left;
-			letter-spacing: 3px;
+			letter-spacing: 2.5px;
 		}
 		svg {
 			display: inline-block;
@@ -352,7 +352,7 @@ span.sidebar_large_header {
 	text-transform: lowercase;
 	font-size:70px;
 	line-height: 65px;
-	letter-spacing: 2.7px;
+	letter-spacing: 2px;
 	max-width: 458px;
 	width:100%;
 	strong {
@@ -371,7 +371,7 @@ span.sidebar_large_header {
 		
 		li {
 			text-transform: uppercase;
-			letter-spacing: 4px;
+			letter-spacing: 3.5px;
 			border-bottom:1px solid #e6e6e6;
 			position: relative;
 			&:last-of-type {
@@ -505,7 +505,7 @@ svg#pa_redline {
 		font-family: $akagilblack;
 		margin-left: 74px;
 		padding-top:32px;
-		letter-spacing: 4px;
+		letter-spacing: 3.5px;
 		font-size:14px;
 	}
 }
@@ -632,7 +632,7 @@ svg#pa_request_redline {
 					text-transform: uppercase;
 					font-size:14px;
 					color:$brown;
-					letter-spacing: 3.5px;
+					letter-spacing: 3px;
 					background:#f9f9f9;
 					transition: background-color .2s ease-in-out;
 					&:hover, &:focus {
@@ -688,7 +688,7 @@ svg#pa_request_redline {
 			text-transform: uppercase;
 			font-family: $akagilblack;
 			font-size:13px;
-			letter-spacing: 3px;
+			letter-spacing: 2.5px;
 			position: relative;
 			left:20px;
 			margin-top:10px;
@@ -1041,7 +1041,7 @@ svg#pa_request_redline {
 		}
 		span.pa_required {
 			font-size: 14px;
-			letter-spacing: 3.5px;
+			letter-spacing: 3px;
 			padding-top: 27px;
 			margin-left:106px;
 		}
@@ -1218,7 +1218,7 @@ svg#pa_request_redline {
 				input,textarea {
 					font-size:13px;
 					padding: 23px 35px 23px 11px;
-					letter-spacing: 2.5px;
+					letter-spacing: 2px;
 					&:hover, &:focus {
 						
 					}
@@ -1262,7 +1262,7 @@ svg#pa_request_redline {
 		.gfield_description,.validation_message {
 			font-size:12px;
 			left:11px;
-			letter-spacing: 2.5px;
+			letter-spacing: 2px;
 			margin-top: 6px;
 		}
 	}
@@ -1301,7 +1301,7 @@ svg#pa_request_redline {
 	.sidebar_form_overlay {
 		span.pa_request_title {
 			font-size: 14px;
-			letter-spacing: 5px;
+			letter-spacing: 4.5px;
 			line-height: 16px;
 			text-transform: uppercase;
 			width: 224px;
@@ -1310,7 +1310,7 @@ svg#pa_request_redline {
 		span.pa_required {
 			display: block;
 			font-size: 11.56px;
-			letter-spacing: 4px;
+			letter-spacing: 3.5px;
 			margin-bottom: 40px;
 			margin-top: 13px;
 			padding-left: 0;

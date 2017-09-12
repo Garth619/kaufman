@@ -19,7 +19,7 @@ body.page-template-page-contact {
 	display: block;
 	margin-bottom: 50px;
 	padding-top:33px;
-	letter-spacing: 0.6px;
+	letter-spacing: 0px;
 }
 
 
@@ -57,7 +57,7 @@ svg#contact_gold_line {
 	a {
 		font-family: $akagilblack;
 		color:$lightblack;
-		letter-spacing: 2px;
+		letter-spacing: 1.5px;
 		margin-top:15px;
 		display:block;
 	}
@@ -87,7 +87,7 @@ svg#contact_gold_line {
 			color:$red;
 			font-family: $trirongregular;
 			font-size:36px;
-			letter-spacing: 1px;
+			letter-spacing: 0.5px;
 			display: block;
 		}
 		a.internal_address {
@@ -97,7 +97,7 @@ svg#contact_gold_line {
 			line-height: 20px;
 			display: block;
 			margin-top:20px;
-			letter-spacing: 3.2px;
+			letter-spacing: 3px;
 		}
 		a.internal_get_directions {
 			background: $greybrown;
@@ -108,7 +108,7 @@ svg#contact_gold_line {
 			font-size:14px;
 			margin-top:32px;
 			padding:4px 26px;
-			letter-spacing: 5.5px;
+			letter-spacing: 5px;
 			transition: all .2s ease-in-out;
 			&:hover {
 				background: $lightblack;
@@ -212,7 +212,7 @@ body.page-template-page-contact {
 		
 		.location_wrapper {
 			a.internal_get_directions {
-				letter-spacing: 3.5px;
+				letter-spacing: 3px;
 			}
 		}
 	}
