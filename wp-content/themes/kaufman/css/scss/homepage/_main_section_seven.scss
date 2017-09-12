@@ -20,7 +20,7 @@
 		font-family: $akagilblack;
 		font-size:20px;
 		color:$greybrown;
-		letter-spacing: 6.5px;
+		letter-spacing: 5px;
 		margin-top:13px;
 		span.letter_ani {
 			opacity: 0;
@@ -96,7 +96,7 @@
 		  }
 		
 		  to {
-		    letter-spacing: 6.5px;
+		    letter-spacing: 5px;
 		    
 		    
 		  }
@@ -164,7 +164,7 @@ a.news_single_link {
 			font-family: $akagilblack;
 			text-transform: uppercase;
 			margin-left:12px;
-			letter-spacing: 5px;
+			letter-spacing: 4px;
 			margin-top:7px;
 		}
 		span.post_title {
@@ -604,7 +604,7 @@ svg#news_post_twolines {
 		
 		.news_header_wrapper {
 			span.large_header {
-				letter-spacing: 4.5px;
+				letter-spacing: 4px;
 				span.lower_header {
 					font-size: 65px;
 					 margin-top: 18px;
