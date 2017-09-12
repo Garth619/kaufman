@@ -506,9 +506,11 @@ svg#black_square {
 		span.section_three_sidebar_content {
 			strong {
 				animation-name: none;
+				color:$greybrown;
 			}
 			i {
 				animation-name: none;
+				color:$red;
 			}
 		}
 	}
@@ -710,7 +712,7 @@ svg#black_square {
 	
 	.section_three_container {
 		margin: 18px auto 0;
-		padding:60px 39px 40px;
+		padding:60px 63px 40px;
 	}
 	
 	
