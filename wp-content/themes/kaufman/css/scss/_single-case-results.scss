@@ -66,3 +66,51 @@ svg#results_back_arrow, svg#results_next_arrow {
 			fill:$red;
 		}
 	}
+	
+	
+	
+	@media screen and (max-width: 1165px) {
+		
+		
+		
+		.results_buttons {
+			padding-top:175px;
+		}
+		
+		
+		body.single-case_results {
+			.non_banner_layout {
+				.default_header_wrapper {
+					padding-top:0px;
+					min-height: 193px;
+				}
+				svg#default_red_twolines {
+					top:60px;
+				}
+			} 
+		}
+		
+		
+		
+		
+		
+		
+	} /* Media Query */
+	
+	
+	
+	@media screen and (max-width: 760px) {
+		
+		
+		
+		.results_buttons {
+			padding-top:175px;
+			margin-left:auto;
+			margin-right:auto;
+			width:313px;
+		}
+		
+		
+		
+		
+	} /* Media Query */

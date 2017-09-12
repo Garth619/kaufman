@@ -123,6 +123,7 @@ svg#internal_red_twolines {
 	margin-right:auto;
 	padding-left:45px;
 	padding-right:45px;
+	position: relative;
 	&:after {
 		content:"";
 		clear:both;
