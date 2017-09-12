@@ -37,7 +37,7 @@
 			
 			<div class="footer_phone_wrapper">
 				
-				<a class="phone" href="tel:(678) 726-1425">(678) 726-1425</a><!-- phone -->
+				<a class="phone" href="tel:(404) 355-4000">(404) 355-4000</a><!-- phone -->
 				
 				<span class="small_header">Get Your Free Case Evaluation Today</span><!-- small_header -->
 				

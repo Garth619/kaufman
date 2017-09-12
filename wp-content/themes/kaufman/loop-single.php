@@ -21,7 +21,7 @@
 		
 	<div class="single_blog_post">
 		
-		<h2><?php the_title();?></h2>
+<!-- 		<h2><?php the_title();?></h2> -->
 		
 		<div class="entry_info">
 		

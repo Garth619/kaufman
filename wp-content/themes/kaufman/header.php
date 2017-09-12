@@ -64,7 +64,7 @@
 		<div class="call_wrapper">
 			
 			<span class="call">Call For a <strong>Free</strong> Consultation</span>
-			<a href="tel:(678) 726-1425">(678) 726-1425</a>
+			<a href="tel:(404) 355-4000">(404) 355-4000</a>
 			
 		</div><!-- call_wrapper -->
 		
@@ -98,7 +98,7 @@
 		
 		<div class="mobile_request_wrapper">
 			
-			<a class="mobile_phone" href="tel:(678) 726-1425">(678) 726-1425</a>
+			<a class="mobile_phone" href="tel:(404) 355-4000">(404) 355-4000</a>
 			
 			
 			<div class="phone_wrapper">

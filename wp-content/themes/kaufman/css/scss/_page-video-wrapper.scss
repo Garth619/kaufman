@@ -18,6 +18,27 @@
 }
 
 
+
+.inner_video_wrapper {
+	&:hover {
+		.internal_play_overlay {
+			svg#play_button_svg {
+			
+			
+			
+			rect.black_bg {
+				fill:#f0d494;
+				opacity:1;
+			}
+			polygon.play_svg {
+				fill:$lightblack;
+			}
+		}
+		}
+	}
+}
+
+
 .inner_video_wrapper {
 	position: relative;
 	.internal_play_overlay {

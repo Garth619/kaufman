@@ -177,7 +177,7 @@ svg#red_line_form {
 	}
 */
 	select#stepone {
-// 		-webkit-appearance: none;
+ 		-webkit-appearance: none;
 		appearance: none;
 // 		-moz-appearance: none;
 		border:none;
@@ -197,6 +197,7 @@ svg#red_line_form {
 			color:#000;
 			background: #fff;
 				font-size: 19px !important;
+				-webkit-appearance: none;
 		}
 	}
 }
@@ -1136,6 +1137,7 @@ svg#back_arrow {
 	opacity: 0;
 	visibility: hidden;
 	transition: all .3s ease-in-out;
+	
 }
 
 
@@ -1151,6 +1153,11 @@ svg#back_arrow {
 		opacity: 1;
 		visibility: visible;
 	}
+}
+
+
+.mobile_fixed_menu_wrapper.hide_mobile_fixed_menu_wrapper {
+	display: none;
 }
 
 

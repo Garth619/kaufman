@@ -5,6 +5,10 @@ body {
 	color: $lightblack;
 }
 
+body.fixed {
+	overflow: hidden;
+}
+
 .fade {
 	transition: all 3s ease;
 }

@@ -2,7 +2,7 @@
 	
 	<div class="fixed_request">
 		
-		<a class="large_header" href="tel:(678) 712-1115">(678) 712-1115</a><!-- large_header -->
+		<a class="large_header" href="tel:(678) 712-1115">(404) 355-4000</a><!-- large_header -->
 		
 		<span class="small_header">Call For a <strong>Free</strong> Consultation</span><!-- small_header -->
 		

@@ -1,4 +1,5 @@
 
+/*
 body:not(.page-template-page-home) {
 	header {
 		height:130px;
@@ -12,6 +13,7 @@ body:not(.page-template-page-home) {
 		margin-top: 25px;
 	}
 }
+*/
 
 
 
@@ -23,7 +25,7 @@ header {
 	position:relative;
 	// position: fixed;
 	z-index:150;
-// 	background:#fff;
+background:#fff;
 }
 
 .logo_wrapper {
@@ -266,6 +268,7 @@ nav {
 }
 
 
+/*
 body:not(.page-template-page-home) {
 	
 	nav {
@@ -273,6 +276,7 @@ body:not(.page-template-page-home) {
 	}
 }
 	
+*/
 	
 	
 	
@@ -345,12 +349,13 @@ body:not(.page-template-page-home) {
 	
 	
 	
+/*
 body:not(.page-template-page-home) {
 	header {
 		height:108px;
 	}
 	.logo_wrapper {
-		 margin-top: 25px;
+		 margin-top:0;
 		 max-width: 459px;
 	}
 	nav {
@@ -361,12 +366,13 @@ body:not(.page-template-page-home) {
 		top: 16px;
 	}
 }
+*/
 	
 	header {
- 		height:110px;
+ 		height:129px;
  		display: block;
  		position: relative;
- 		
+//  		padding-top: 25px;
 	}
 	
 	header.hide {
@@ -375,7 +381,8 @@ body:not(.page-template-page-home) {
 	
 	
 	.logo_wrapper {
-		margin-top: 24px;
+		margin-top:0px;
+		padding-top:23px;
 		max-width: 469px;
 		padding-left: 27px;
 		position: relative;
@@ -592,7 +599,9 @@ nav {
 }
 
 
-
+nav.open {
+	z-index:500;
+}
 	
 	
 	
@@ -626,7 +635,7 @@ body.page-template-page-home {
 	.mobile_header_right {
 		display: block;
 		position: absolute;
-		top: 12px;
+		top: 37px;
 		right:0;
 		width:470px;
 	}
@@ -803,9 +812,11 @@ body.page-template-page-home {
 	
 	
 	
+
 	body:not(.page-template-page-home) {
 		
 		
+/*
 		.logo_wrapper {
 			width:100%;
 			max-width: 100%;
@@ -822,6 +833,7 @@ body.page-template-page-home {
 		}
 		 
 		
+*/
 		
 		.mobile_request_wrapper {
 			.phone_wrapper {
@@ -837,18 +849,19 @@ body.page-template-page-home {
 		
 	}
 
+
 	
 	
 	
 	
 	header {
-   height: 91px;
+   height: 120px;
 	 }
 	
 	.logo_wrapper {
 		width:100%;
 		max-width:100%;
-		padding:4px 7px;
+		padding: 25px 7px 0;
 		img {
 			max-width: 344px;
 			margin-left:auto;
@@ -859,12 +872,12 @@ body.page-template-page-home {
 	
 	
 	.mobile_header_right {
-		top: 70px;
+		top: 91px;
 		width:100%;
 	}
 	
 	.mobile_request_wrapper {
-		top: -88px;
+		top: -85px;
 		padding-left:12px;
 		position: relative;
 		height:68px;
