@@ -57,7 +57,7 @@
 				
 				
 				
-				<div class="select_wrapper_update">
+				<div id="my_select" class="select_wrapper_update">
 					
 					<div class="select_parent">
 						
@@ -69,16 +69,55 @@
 				<ul class="select_option_list">
 					
 					<li class="select_option">Select an Injury</li><!-- select_option -->		
-					<li class="select_option">Car Accidents</li><!-- select_option -->
-					<li class="select_option">Bicycle Accidents</li><!-- select_option -->
-					<li class="select_option">Test 1</li><!-- select_option -->
-					<li class="select_option">Test 2</li><!-- select_option -->
-					<li class="select_option">Test 3</li><!-- select_option -->
-							
-				</ul>
+					
+										
+					
+					<?php if(get_field('smart_form_drop_down_options','option')): ?>
+						 
+							<?php while(has_sub_field('smart_form_drop_down_options','option')): ?>
+						 
+								<?php $post_object = get_sub_field( 'new_option' ); ?>
+								
+								
+										<?php $post = $post_object; ?>
+										
+											<?php setup_postdata( $post ); ?> 
+									
+											
+											
+												<?php if(get_field( 'practice_areas_override_title')):?>
+												
+												
+												
+												<li class="select_option"><?php the_field( 'practice_areas_override_title');?></li><!-- select_option -->
+												
+												<?php else:?>
+												
+												<li class="select_option"><?php the_title();?></li><!-- select_option -->
+												
+												
+												<?php endif;?>
+											
+												
+								
+								
+											<?php wp_reset_postdata(); ?>
+										
+									
+
+										<?php endwhile; ?>
+						 
+									<?php endif; ?>
+									
+								<li class="select_option">Other Personal Injury</li><!-- select_option -->
+
+					
+					</ul>
 					
 				</div><!-- select_wrapper_two -->
 				
+				
+			
 				
 				</div><!-- first_step_wrapper -->
 				

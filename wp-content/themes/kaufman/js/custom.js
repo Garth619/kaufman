@@ -449,7 +449,7 @@ $('.select_option_list').delegate('.select_option', 'click', function() {
 
 
 
-jQuery('.select_option').click(function(){
+$('.select_option').click(function(){
 	
 	$('.select_option_list').removeClass('open');
 	
@@ -458,15 +458,23 @@ jQuery('.select_option').click(function(){
 
 
 
-/*
-var el = document.getElementById("my_select_text") 
-if (el.innerHTML.indexOf("Select an Injury") !== -1) {
-    
-    
-    $('body').addClass('garrrett');
-    
-}
-*/
+$('#my_select').mouseout(function() {
+	
+	
+	
+$(document).click(function(e) {
+
+    // check that your clicked
+    // element has no id=info
+    // and is not child of info
+    if (e.target.id != 'my_select' && !$('#my_select').find(e.target).length) {
+        $(".select_option_list").removeClass('open');
+    }
+});
+
+
+});
+
 
 
 
