@@ -412,12 +412,71 @@ jQuery('.my_wistia_container').mouseleave(function(){
 
 
 
+
+
+// Updated Select
+
+
+$('.select_parent').click(function(){
+	
+	$('.select_option_list').toggleClass('open');
+	
+});
+
+	
+
+$('.select_option_list').delegate('.select_option', 'click', function() {
+    var text = $(this).text();
+    
+    
+    $('.select_parent span').text(text);
+    
+    if ($('.select_parent span').text() === "Select an Injury") {
+	        
+	  } else {
+	        
+			 		
+			$('.my_gf_step_one').fadeOut();
+			 		
+			$('.my_gf_step_two').delay(800).fadeIn();
+			
+			$('#input_2_8').val(text);
+			
+	}
+   
+
+});
+
+
+
+jQuery('.select_option').click(function(){
+	
+	$('.select_option_list').removeClass('open');
+	
+	
+});
+
+
+
+/*
+var el = document.getElementById("my_select_text") 
+if (el.innerHTML.indexOf("Select an Injury") !== -1) {
+    
+    
+    $('body').addClass('garrrett');
+    
+}
+*/
+
+
+
 // Gravity Form Intro
 
 
 
 
 
+/*
 $(function() {
     $('select#stepone').change(function() {
         // if changed to, for example, the last option, then
@@ -429,9 +488,7 @@ $(function() {
         $('#input_2_8').val(x);
     });
 });
-
-
-
+*/
 
 
 
@@ -448,6 +505,7 @@ $('.intro_form').addClass('my_gf_step_two my_gf_hide');
 // Toggles Between the two form steps when the dropdown is selected
 
 
+/*
 $(function() {
     $('select#stepone').change(function() {
         
@@ -467,13 +525,13 @@ $(function() {
 			 		$('.my_gf_step_two').delay(800).fadeIn();
 			 		
 			 		
-			 		// $('.my_gf_step_one').addClass('my_gf_hide');
-					//$('.my_gf_step_two').removeClass('my_gf_hide');
+			 		
 
   
         }
     });
 });
+*/
 
 
 // Goes back to step one when the back button is clicked

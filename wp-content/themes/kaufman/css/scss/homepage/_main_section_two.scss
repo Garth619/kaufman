@@ -212,6 +212,101 @@ svg#red_line_form {
 
 
 
+.select_wrapper_update {
+	position: relative;
+	max-width:510px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: $akagilight;
+}
+
+.select_parent {
+	margin:50px auto;
+	cursor: pointer;
+	max-width: 512px;
+	cursor: pointer;
+	z-index:5;
+	border:$greybrown 1px solid;
+	border-radius: 8px;
+	display:block;
+	position: relative;
+	
+	text-align: left;
+	background: $lightblack;
+	&:after {
+		content:"";
+		width:70px;
+		height:100%;
+		background: url(#{$themepath}images/form-arrow.png) $greybrown center center no-repeat;
+		background-size: 20px 14px;
+		position: absolute;
+		top:0;
+		right:0;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		pointer-events: none;
+	}
+	span {
+		
+		font-size: 28px;
+		letter-spacing: 1px;
+		padding: 16px 130px 16px 20px;
+		display: block;
+		
+	}
+	
+}
+
+
+
+
+
+
+ul.select_option_list {
+	list-style: none;
+	opacity: 0;
+	visibility: hidden;
+	max-height: 0;
+	position: absolute;
+	z-index:1;
+	padding:8px 10px;
+	width:98%;
+	left:1%;
+	text-align: left;
+	top:61px;
+	background:#fff;
+	border-left:$greybrown 1px solid;
+	border-right:$greybrown 1px solid;
+	border-bottom:$greybrown 1px solid;
+	border-radius: 0 0 8px 8px;
+	font-size:22px;
+	transform: translateY(-30px);
+	transition: all .4s ease;
+	li.select_option {
+		transition: all .2s ease-in-out;
+		padding:8px;
+		color:$lightblack;
+		display: block;
+		cursor: pointer;
+		&:hover {
+			color:$red;
+		}
+	}
+}
+
+
+ul.select_option_list.open {
+	opacity: 1;
+	visibility: visible;
+	max-height: 3000px;
+	transform: translateY(0px);
+}
+
+
+
+
+
+
 
 
 .intro_form {

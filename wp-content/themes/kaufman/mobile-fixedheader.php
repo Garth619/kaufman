@@ -54,55 +54,31 @@
 			
 				<span class="injury_title">What type of injury have you suffered?</span><!-- injury_title -->
 				
-				<div class="select_wrapper">
 				
-					<select name='step_one' id='stepone' tabindex='12'>
-			
-						<option value='selectaninjury'>Select an injury</option>
-						
-						
-						<?php if(get_field('smart_form_drop_down_options','option')): ?>
-						 
-							<?php while(has_sub_field('smart_form_drop_down_options','option')): ?>
-						 
-								<?php $post_object = get_sub_field( 'new_option' ); ?>
-								
-								
-										<?php $post = $post_object; ?>
-										
-											<?php setup_postdata( $post ); ?> 
-									
-											
-											
-												<?php if(get_field( 'practice_areas_override_title')):?>
-												
-												<option value='<?php the_field( 'practice_areas_override_title');?>'><?php the_field( 'practice_areas_override_title');?></option>
-
-												
-												<?php else:?>
-												
-												<option value='<?php the_title(); ?>'><?php the_title(); ?></option>
-												
-												
-												<?php endif;?>
-											
-												
-								
-								
-											<?php wp_reset_postdata(); ?>
-										
-									
-
-										<?php endwhile; ?>
-						 
-									<?php endif; ?>
-									
-									<option value='Other Personal Injury'>Other Personal Injury</option>
-
-					</select>
 				
-				</div><!-- select_wrapper -->
-			
+				
+				<div class="select_wrapper_update">
+					
+					<div class="select_parent">
+						
+						<span id="my_select_text">Select an Injury</span>
+						
+				</div><!-- select_parent -->
+					
+					
+				<ul class="select_option_list">
+					
+					<li class="select_option">Select an Injury</li><!-- select_option -->		
+					<li class="select_option">Car Accidents</li><!-- select_option -->
+					<li class="select_option">Bicycle Accidents</li><!-- select_option -->
+					<li class="select_option">Test 1</li><!-- select_option -->
+					<li class="select_option">Test 2</li><!-- select_option -->
+					<li class="select_option">Test 3</li><!-- select_option -->
+							
+				</ul>
+					
+				</div><!-- select_wrapper_two -->
+				
 				
 				</div><!-- first_step_wrapper -->
 				
