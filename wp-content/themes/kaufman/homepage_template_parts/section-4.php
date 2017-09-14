@@ -13,52 +13,36 @@
 			
 			</svg>
 			
-			<span class="why_choose_header">Why Choose Kaufman Law?</span><!-- why_choose_header -->
+			<span class="why_choose_header"><?php the_field( 'why_choose_title' ); ?></span><!-- why_choose_header -->
 
 			
 			<div class="why_choose_slideshow">
 				
-				<div class="single_slide">
 				
-					<div class="slide_count_wrapper">
+				
+				<?php if(get_field('why_choose_slider')): ?>
+				 
+					<?php while(has_sub_field('why_choose_slider')): ?>
+				 
+						
+						
+						<div class="single_slide">
+				
+							<div class="slide_count_wrapper">
 					
-						<span>#1</span>
+								<span>#<?php the_sub_field( 'number' ); ?></span>
 					
-					</div><!-- slide_count_wrapper -->
+							</div><!-- slide_count_wrapper -->
 				
-					<span class="slide_title">Millions of Dollars Recovered</span><!-- slide_title -->
+							<span class="slide_title"><?php the_sub_field( 'why_chose_title' ); ?></span><!-- slide_title -->
 				
-					<span class="slide_content">for over 40 years, Our determined team has collected millions of dollars in settlements, arbitration awards and jury verdicts for our clients.</span>
+							<span class="slide_content"><?php the_sub_field( 'why_chose_content' ); ?></span>
 				
-				</div><!-- single_slide -->
-				
-				<div class="single_slide">
-				
-					<div class="slide_count_wrapper">
-					
-						<span>#2</span>
-					
-					</div><!-- slide_count_wrapper -->
-				
-					<span class="slide_title">Speak directly to our attorneys</span><!-- slide_title -->
-				
-					<span class="slide_content">Our attorneys speak with our clients and do not hide behind staff memebers. We return calls, emails, and texts in a timely fashion. We are also availble around the clock to our clients.</span>
-				
-				</div><!-- single_slide -->
-				
-				<div class="single_slide">
-				
-					<div class="slide_count_wrapper">
-					
-						<span>#3</span>
-					
-					</div><!-- slide_count_wrapper -->
-				
-					<span class="slide_title">Thousands of Clients Helped</span><!-- slide_title -->
-				
-					<span class="slide_content">Over the past 40 years, we have had the opportunity to assist accident victims throughout nearly the entire state of Georgia in almost every type of personal injury case.</span>
-				
-				</div><!-- single_slide -->
+						</div><!-- single_slide -->
+						
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
 				
 			</div><!-- why_choose_slideshow -->
 			
@@ -84,24 +68,24 @@
 			
 			
 			<div class="why_choose_bg_slideshow">
-			
-				<div class="bg_slide bg_slide_one">
 				
-					<img src="<?php bloginfo('template_directory');?>/images/sp-image-1.jpg"/>
 				
-				</div><!-- bg_slide -->
+				<?php if(get_field('why_choose_slider')): ?>
+			 
+					<?php while(has_sub_field('why_choose_slider')): ?>
+			 
+					
+						<div class="bg_slide <?php the_sub_field( 'why_choose_class' ); ?>">
 				
-				<div class="bg_slide bg_slide_two">
+							<img src="<?php the_sub_field( 'desktop_image' ); ?>" />
 				
-					<img src="<?php bloginfo('template_directory');?>/images/sp-image-2.jpg"/>
-				
-				</div><!-- bg_slide -->
-				
-				<div class="bg_slide bg_slide_three">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/sp-image-3.jpg"/>
-				
-				</div><!-- bg_slide -->
+						</div><!-- bg_slide -->
+					
+					
+			    <?php endwhile; ?>
+			 
+				<?php endif; ?>
+
 			
 			
 			</div><!-- why_choose_bg_slideshow -->
@@ -118,9 +102,9 @@
 		
 		<div class="section_four_lower_wrapper">
 			
-			<span class="large_header">Helping Clients Become Whole Again</span><!-- large_header -->
+			<span class="large_header"><?php the_field( 'testimonial_titles' ); ?></span><!-- large_header -->
 			
-			<svg id="section_four_gold_threelines" overflow="visible" data-name="section three gold twolines" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.06 86"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
+			<svg id="section_four_gold_threelines" overflow="visible" data-name="section three gold twolines" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.06 86"><defs><style>.cls-1{fill:none;}</style></defs>
 			
 			<polyline id="line_one" points="145.2 9 133 0 121.9 8.2 110.8 0 99.7 8.2 88.7 0 77.6 8.2 66.5 0 55.4 8.2 44.3 0 33.3 8.2 22.2 0 10 9"/>
 			<polyline id="line_two" points="190.06 18.9 177.86 9.9 166.76 18.1 155.66 9.9 144.56 18.1 133.56 9.9 122.46 18.1 111.36 9.9 100.26 18.1 89.16 9.9 78.16 18.1 67.06 9.9 54.86 18.9"/>
@@ -128,7 +112,7 @@
 		
 			</svg>
 			
-			<span class="sub_header">read our most recent<br /> client testimonials</span><!-- sub_header -->
+			<span class="sub_header"><?php the_field( 'testimonials_sub_titles' ); ?></span><!-- sub_header -->
 			
 			<div class="testi_wrapper">
 				

@@ -35,6 +35,11 @@
 	background: rgba(0, 0, 0, 0) url(<?php the_field( 'internal_banners' ); ?>) no-repeat scroll center top / cover ;
 }
 
+
+
+
+
+
 </style>
 
 
@@ -64,8 +69,8 @@
 		
 		<div class="call_wrapper">
 			
-			<span class="call">Call For a <strong>Free</strong> Consultation</span>
-			<a href="tel:(404) 355-4000">(404) 355-4000</a>
+			<span class="call"><?php the_field( 'call_verbiage','option' ); ?></span>
+			<a href="tel:<?php the_field( 'phone_number','option' ); ?>"><?php the_field( 'phone_number','option' ); ?></a>
 			
 		</div><!-- call_wrapper -->
 		

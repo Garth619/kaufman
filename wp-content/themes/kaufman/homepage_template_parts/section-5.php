@@ -3,7 +3,7 @@
 	
 	<div class="mobile_header_wrapper">
 			
-		<span class="mobile_header">Our Attorneys</span><!-- mobile_header -->
+		<span class="mobile_header"><?php the_field( 'our_attorneys_title' ); ?></span><!-- mobile_header -->
 			
 		<div class="mobile_line_wrapper">
 			
@@ -22,10 +22,11 @@
 			
 			<div class="featured_att_image">
 				
-				<img class="" src="<?php bloginfo('template_directory');?>/images/attorneys/kaufman.jpg"/><!-- featured_att_image -->
+				<?php $feat_att_img = get_field( 'profile_image', 49); ?>
+				
+				<img src="<?php echo $feat_att_img['url']; ?>" alt="<?php echo $feat_att_img['alt']; ?>" /><!-- featured_att_image -->
 				
 			</div><!-- featured_att_image-->
-			
 			
 			
 			<div class="featured_attorney_content">
@@ -33,7 +34,7 @@
 				
 				<div class="founding_wrapper">
 				
-					<span class="founding_attorney">Founding Attorney</span><!-- founding_attorney -->
+					<span class="founding_attorney"><?php the_field( 'founding_attorney_title' ); ?></span><!-- founding_attorney -->
 					
 					<svg id="founding_red_line" viewBox="0 0 52.79 8.27">
 		
@@ -43,13 +44,19 @@
 					
 				</div><!-- founding_wrapper -->
 				
-				<span class="name">Jeffrey Kaufman</span><!-- name -->
 				
-				<span class="att_content">Practicing injury law since 1977, Jeffrey has recovered millions of dollars for clients. He has secured one of the largest verdicts in Georgia’s history— a $25 million dollar verdict for a medical malpractice case.</span><!-- att_content -->
+				<?php $feat_att_title = get_the_title(49);?>
+											
+				<span class="name"><?php echo $feat_att_title ;?></span><!-- name -->
+				    
+											
+				<span class="att_content"><?php the_field( 'featured_att_description' ); ?></span><!-- att_content -->
 				
-				<a class="view_button" href="<?php bloginfo('url');?>/jeffrey-kaufman/">
+				<?php $feat_att_link = get_the_permalink(49);?>
+				
+				<a class="view_button" href="<?php echo $feat_att_link ;?>">
 					
-					<span class="view_text">View Attorney Profile</span> 
+					<span class="view_text"><?php the_field( 'view_attorney_button_verbiage' ); ?></span> 
 					
 					<span class="view_arrow">
 					

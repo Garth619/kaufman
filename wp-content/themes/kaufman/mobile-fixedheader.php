@@ -2,9 +2,9 @@
 	
 	<div class="fixed_request">
 		
-		<a class="large_header" href="tel:(678) 712-1115">(404) 355-4000</a><!-- large_header -->
+		<a class="large_header" href="tel:<?php the_field( 'phone_number','option' ); ?>"><?php the_field( 'phone_number','option' ); ?></a><!-- large_header -->
 		
-		<span class="small_header">Call For a <strong>Free</strong> Consultation</span><!-- small_header -->
+		<span class="small_header"><?php the_field( 'call_verbiage','option'); ?></span><!-- small_header -->
 		
 	</div><!-- fixed_request -->
 	
@@ -52,7 +52,7 @@
 				
 				</svg><!-- red_line_form -->
 			
-				<span class="injury_title">What type of injury have you suffered?</span><!-- injury_title -->
+				<span class="injury_title"><?php the_field( 'smart_form_verbiage','option'); ?></span><!-- injury_title -->
 				
 				
 				
@@ -123,7 +123,7 @@
 				
 				<div class="intro_form">
 					
-					<span class="intro_request">Request your free consultation</span><!-- intro_request -->
+					<span class="intro_request"><?php the_field( 'smart_form_request_verbiage','option'); ?></span><!-- intro_request -->
 			
 					<span class="required_intro">*All Fields Required</span><!-- required_intro -->
 					

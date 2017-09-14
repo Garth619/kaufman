@@ -90,10 +90,7 @@
 		
 		<div class="pa_content content">
 			
-		<p>
-				
-				
-				<span class="first_letter"><span>A</span></span>t Kaufman Law, P.C., we understand that our clients are not always able to come to our office after 				they have been the victim of a serious injury. If you are in this predicament, we are willing to come 				see you in the hospital or at your home in order to get a jumpstart on your case. When we work with you, our Atlanta catastrophic injury attorneys will utilize our experience, resources, and passion for justice to help you secure the most favorable outcome possible. We will not hesitate to go to battle for you in the courtroom, and we will ensure your rights are protected against any insurance company, business or corporation. Rest-assured that in working with our firm, we will ensure your legal rights are protected so you can focus on moving forward.</p>
+		<p>At Kaufman Law, P.C., we understand that our clients are not always able to come to our office after 				they have been the victim of a serious injury. If you are in this predicament, we are willing to come 				see you in the hospital or at your home in order to get a jumpstart on your case. When we work with you, our Atlanta catastrophic injury attorneys will utilize our experience, resources, and passion for justice to help you secure the most favorable outcome possible. We will not hesitate to go to battle for you in the courtroom, and we will ensure your rights are protected against any insurance company, business or corporation. Rest-assured that in working with our firm, we will ensure your legal rights are protected so you can focus on moving forward.</p>
 
 			<blockquote>MAKING A DIFFERENCE IN EVERY CLIENT'S&nbsp;LIFE</blockquote>
 

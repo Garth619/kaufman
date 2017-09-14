@@ -42,7 +42,7 @@
 					
 						<span class="call_title"><?php the_field( 'call_title' ); ?></span><!-- call_title -->
 					
-						<a href="tel:<?php the_field( 'phone_number' ); ?>"><?php the_field( 'phone_number' ); ?></a>
+						<a href="tel:<?php the_field( 'phone_number','option' ); ?>"><?php the_field( 'phone_number','option' ); ?></a>
 					
 						<span class="gold_line"></span><!-- gold_line -->
 					

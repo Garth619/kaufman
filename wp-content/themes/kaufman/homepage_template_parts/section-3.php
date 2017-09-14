@@ -5,7 +5,7 @@
 <section class="section_three">
 	
 	
-	<h1>Atlanta Personal Injury Attorneys</h1>
+	<h1><?php the_field( 'section_3_title' ); ?></h1>
 	
 	<svg id="section_three_red_twolines" viewBox="0 0 158.39 21.46" overflow="visible">
 				
@@ -14,13 +14,13 @@
 				
 	</svg><!-- intro_red_twolines -->
 	
-	<h2 class="block">Passionately Achieving<br/> Justice for the Injured Since&nbsp;1977</h2>
+	<h2 class="block"><?php the_field( 'section_3_sub_header' ); ?></h2>
 	
 	<div class="section_three_container">
 		
 		<div class="section_three_content content">
 
-			<p><span class="first_letter"><span>A</span></span>t Kaufman Law, P.C., our team of Atlanta personal injury lawyers is devoted to protecting the rights of injured victims and their families. Over the past 40 years, we have had the opportunity to assist accident victims throughout nearly the entire state of Georgia in almost every type of personal injury case. It is through this extensive experience that we have the ability to provide the superior service our clients need and deserve. Regardless of the size of a case or what the potential outcome may be, we approach each situation with the same drive and provide every client with compassionate support.</p>
+			<p>At Kaufman Law, P.C., our team of Atlanta personal injury lawyers is devoted to protecting the rights of injured victims and their families. Over the past 40 years, we have had the opportunity to assist accident victims throughout nearly the entire state of Georgia in almost every type of personal injury case. It is through this extensive experience that we have the ability to provide the superior service our clients need and deserve. Regardless of the size of a case or what the potential outcome may be, we approach each situation with the same drive and provide every client with compassionate support.</p>
 
 <p>Trusted among clients and respected by our peers, we have recovered millions of dollars in verdicts and settlements for victims of unexpected, preventable accidents. We take pride in helping people get the money they need to cover accident-related expenses, such as medical bills and lost wages, and ensure that they and their families will be taken care of in the future. If you’ve been injured, do not hesitate to contact us today to request a free consultation. We would be happy to review your case, help you understand your options, and discuss what types of compensation you may be eligible for.</p>
 
@@ -50,7 +50,7 @@
 				
 								
 				
-				<span class="section_three_sidebar_content">It is through this extensive experience that we have the ability to provide the <strong>superior service our clients need and deserve.</strong> Regardless of the size of a case or what the potential outcome may be, <i>we approach each situation with the same drive</i> and provide every client with compassionate support.</span>
+				<span class="section_three_sidebar_content"><?php the_field( 'section_3_sidebar' ); ?></span>
 				
 				
 				

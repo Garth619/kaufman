@@ -12,12 +12,12 @@
 				<div class="my_wistia_container">
 							
 							
-							<script src="https://fast.wistia.com/embed/medias/b8myswfi3j.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_b8myswfi3j popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline"><a href="#"></a></span></div></div>
+							<script src="https://fast.wistia.com/embed/medias/<?php the_field( 'wistia_video_intro' ); ?>.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_<?php the_field( 'wistia_video_intro' ); ?> popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline"><a href="#"></a></span></div></div>
 							
 							
 				</div><!-- my_wistia_container -->
 				
-				<span class="learn">Learn about our law<br/> firm in 90 seconds</span><!-- learn -->
+				<span class="learn"><?php the_field( 'video_verbiage' ); ?></span><!-- learn -->
 				
 				<svg id="red_line_intro" viewBox="0 0 136.39 11.05">
 				
@@ -71,11 +71,16 @@
 		
 		<span class="intro_title">
 		
-			<span class="top_line">Representing<br/></span><!-- top_line -->
+<!-- for reference in case it breaks
+	
+			<span class="top_line">Representing<br/></span>
 		
-			<span class="middle_line">the Injured for more</span><!-- middle_line --> 
+			<span class="middle_line">the Injured for more</span>
 		
-			<span class="bottom_line">than <strong>40</strong>&nbsp;Years</span><!-- bottom_line -->
+			<span class="bottom_line">than <strong>40</strong>&nbsp;Years</span>
+-->
+
+		<?php the_field( 'intro_banner_verbiage' ); ?>
 		
 		
 		</span><!-- intro_title -->
@@ -91,7 +96,7 @@
 				<a class="intro_button" href="#request">
 					
 					
-					<span>Start Here</span>
+					<span><?php the_field( 'start_here_verbiage' ); ?></span>
 				
 				
 				
@@ -120,7 +125,7 @@
 				
 				</svg><!-- intro_red_twolines -->
 				
-				<span>Our genuine commitment to help every client move forward has yielded favorable outcomes for countless individuals and families over the years.</span>
+				<span><?php the_field( 'intro_paragraph' ); ?></span>
 				
 			</div><!-- lower_intro_right -->
 			
