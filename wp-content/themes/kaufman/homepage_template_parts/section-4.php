@@ -132,106 +132,42 @@
 			
 			<div class="testi_wrapper">
 				
-				<div class="testi_col">
+				
+				
+				<?php if(get_field('testimonials', 21)): ?>
+				 
+					<?php while(has_sub_field('testimonials', 21)): ?>
+				 
+						<div class="testi_col">
 					
-					<span class="testi_excerpt">"I don't know what I would had done without your help."</span><!-- testi_excerpt -->
+							<span class="testi_excerpt"><?php the_sub_field( 'testimonial_header' ); ?></span><!-- testi_excerpt -->
 					
-					<svg id="testi_red_line_one" class="testi_red_line" viewBox="0 0 52.79 8.27">
+							<svg id="testi_red_line_one" class="testi_red_line" viewBox="0 0 52.79 8.27">
 		
-						<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
+								<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
 			
-					</svg><!-- red_line_form -->
+							</svg><!-- red_line_form -->
 					
 					<div class="testi_content">
 						
-						<p>I have never been in this kind of situation. I had no idea what was I entering. Kaufman Law Firm made sure I understood what and explained to me an my family every step of the way. Not one moment did I feel unprotected. I knew Kaufman Law had my back. I don't know what I would had done without your help. My family and I are thankful and highly appreciate all the work you have done for me. Once more. Thank you very much to you and the rest of the team.</p>
+						
+						<?php $acf_testi_content = get_sub_field( 'testimonial_content' ); ?>
+						<?php echo wp_trim_words( $acf_testi_content, 50, '<a class="testi_read_more" href="'. get_permalink( 21 ) . '">...</a>' );?>
+						
 						
 					</div><!-- testi_content -->
 					
-					<span class="name">Jose C.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
+					<span class="name"><?php the_sub_field( 'name' ); ?>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<?php the_sub_field( 'monthyear' ); ?></span>
 					
 				</div><!-- test_col -->
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
 				
-				<div class="testi_col">
-					
-					<span class="testi_excerpt">"This is a very professional practice and everyone there is caring and willing to help you in anyway they can."</span><!-- testi_excerpt -->
-					
-					<svg id="testi_red_line_two" class="testi_red_line" viewBox="0 0 52.79 8.27">
-		
-						<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-			
-					</svg><!-- red_line_form -->
-					
-					<div class="testi_content">
-						
-						<p>After calling several law firms and even hiring one, I still dint feel comfortable until I made the call to Kaufman Law. I fired the attorney I was working with and hired Mr. Marvin and his wonderful assistant Amy. Thank you both so much. This is a very professional practice and everyone there is caring and willing to help you in anyway they can.</p>
-						
-					</div><!-- testi_content -->
-					
-					<span class="name">M.D.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
-					
-				</div><!-- test_col -->
 				
-				<div class="testi_col">
-					
-					<span class="testi_excerpt">"They took care of every little thing and dealt with it really positively."</span><!-- testi_excerpt -->
-					
-					<svg id="testi_red_line_three" class="testi_red_line" viewBox="0 0 52.79 8.27">
-		
-						<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-			
-					</svg><!-- red_line_form -->
-					
-					<div class="testi_content">
-						
-						<p>Kaufman Law is a law firm which you would want to be representing you and handling your case. It was a pleasure working with both Amy Hurst and Kenneth P. Raley. They made sure I was aware of everything that was happening with the case and very humble people. They took care of every little thing and dealt with it really positively. I was stressed free knowing that my case was in the best hands possible.</p>
-						
-					</div><!-- testi_content -->
-					
-					<span class="name">S.T.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
-					
-				</div><!-- test_col -->
 				
-				<div class="testi_col">
-					
-					<span class="testi_excerpt">"They took care of every little thing and dealt with it really positively."</span><!-- testi_excerpt -->
-					
-					<svg id="testi_red_line_three" class="testi_red_line" viewBox="0 0 52.79 8.27">
-		
-						<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-			
-					</svg><!-- red_line_form -->
-					
-					<div class="testi_content">
-						
-						<p>Kaufman Law is a law firm which you would want to be representing you and handling your case. It was a pleasure working with both Amy Hurst and Kenneth P. Raley. They made sure I was aware of everything that was happening with the case and very humble people. They took care of every little thing and dealt with it really positively. I was stressed free knowing that my case was in the best hands possible.</p>
-						
-					</div><!-- testi_content -->
-					
-					<span class="name">S.T.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
-					
-				</div><!-- test_col -->
-				
-				<div class="testi_col">
-					
-					<span class="testi_excerpt">"They took care of every little thing and dealt with it really positively."</span><!-- testi_excerpt -->
-					
-					<svg id="testi_red_line_three" class="testi_red_line" viewBox="0 0 52.79 8.27">
-		
-						<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
-			
-					</svg><!-- red_line_form -->
-					
-					<div class="testi_content">
-						
-						<p>Kaufman Law is a law firm which you would want to be representing you and handling your case. It was a pleasure working with both Amy Hurst and Kenneth P. Raley. They made sure I was aware of everything that was happening with the case and very humble people. They took care of every little thing and dealt with it really positively. I was stressed free knowing that my case was in the best hands possible.</p>
-						
-					</div><!-- testi_content -->
-					
-					<span class="name">S.T.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;May 2017</span>
-					
-				</div><!-- test_col -->
-				
+								
 				<div class="testi_buttons">
 					
 					<div class="testi_back single_button">

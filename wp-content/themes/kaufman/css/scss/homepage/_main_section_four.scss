@@ -665,7 +665,7 @@ svg#section_four_gold_threelines {
 	position: relative;
 	padding-bottom: 193px;
 	.testi_col {
-		margin:0 0.7%;
+		padding:0 32px;
 		span.testi_excerpt {
 			font-size:26px;
 			font-family: $trirongregular;
@@ -697,6 +697,14 @@ svg#section_four_gold_threelines {
 			font-size:15px;
 			letter-spacing: 4px;
 			margin-top:41px;
+		}
+		a.testi_read_more {
+			color:$red;
+			text-decoration: none;
+			transition: all .2s ease-in-out;
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 }

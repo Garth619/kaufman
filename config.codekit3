@@ -21858,6 +21858,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/themes\/kaufman\/images\/bodytext-icon.png": {
+		"ft": 32768,
+		"iS": 6621,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/bodytext-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/wp-content\/themes\/kaufman\/images\/dot.png": {
 		"ft": 32768,
 		"iS": 1021,
@@ -21878,6 +21889,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/kaufman\/images\/form-image-desktop.jpg": {
+		"ft": 16384,
+		"iS": 241975,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/form-image-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/themes\/kaufman\/images\/hero-image-desktop.jpg": {
@@ -22076,6 +22097,77 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/kaufman\/images\/sp-icon.png": {
+		"ft": 32768,
+		"iS": 6159,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/sp-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/kaufman\/images\/sp-image-1-m.jpg": {
+		"ft": 16384,
+		"iS": 83874,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/sp-image-1-m.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/kaufman\/images\/sp-image-1.jpg": {
+		"ft": 16384,
+		"iS": 200197,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/sp-image-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/kaufman\/images\/sp-image-2-m.jpg": {
+		"ft": 16384,
+		"iS": 49223,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/sp-image-2-m.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/kaufman\/images\/sp-image-2.jpg": {
+		"ft": 16384,
+		"iS": 121014,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/sp-image-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/kaufman\/images\/sp-image-3-m.jpg": {
+		"ft": 16384,
+		"iS": 72867,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/sp-image-3-m.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/kaufman\/images\/sp-image-3.jpg": {
+		"ft": 16384,
+		"iS": 194834,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/kaufman\/images\/sp-image-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/themes\/kaufman\/images\/starthere-arrow.svg": {
