@@ -792,7 +792,7 @@ $('.sidebar_close, .sidebar_overlay').click(function(){
 
 // First Letter
 
-$('body.page-template-page-bio .internal_bio_content p:first-of-type, .section_three_content p:first-of-type, .pa_content p:first-of-type').html(function (i, html)
+$('body.page-template-page-bio .internal_bio_content p:first-of-type, .section_three_content p:first-of-type, .pa_content > p:first-of-type').html(function (i, html)
 {
     return html.replace(/^[^a-zA-Z]*([a-zA-Z])/g, '<span class="first_letter"><span>$1</span></span>');
 });

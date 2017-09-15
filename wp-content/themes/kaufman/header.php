@@ -37,6 +37,12 @@
 
 
 
+.section_eight {
+	background: url(<?php the_field( 'section_8_image' ); ?>) no-repeat  top left / cover;
+}
+
+
+<?php the_field( 'review_page_styles','option'); ?>
 
 
 
@@ -104,7 +110,7 @@
 		
 		<div class="mobile_request_wrapper">
 			
-			<a class="mobile_phone" href="tel:(404) 355-4000">(404) 355-4000</a>
+			<a class="mobile_phone" href="tel:<?php the_field( 'phone_number','option' ); ?>"><?php the_field( 'phone_number','option' ); ?></a>
 			
 			
 			<div class="phone_wrapper">

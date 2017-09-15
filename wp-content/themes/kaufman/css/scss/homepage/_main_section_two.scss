@@ -337,7 +337,9 @@ ul.select_option_list.open {
 	}
 	ul {
 		list-style: none;
-		
+		li#field_2_10, li#field_2_11, li#field_2_12, li#field_2_13, li#field_2_14 {
+			display: none;
+		}
 		li#field_2_1, li#field_2_3, li#field_2_4 {
 			// float:left;
 		}
@@ -1400,7 +1402,7 @@ svg#back_arrow {
 }
 
 .section_two .buttons {
-	bottom: 5px;
+	bottom: 22px;
 }
 
 

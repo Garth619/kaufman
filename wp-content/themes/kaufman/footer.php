@@ -20,15 +20,17 @@
 				
 			</svg><!-- intro_red_twolines -->
 			
-			<span class="firm_title"><strong>Kaufman Law, P.C.</strong><br/> Atlanta Personal Injury Attorney</span><!-- firm_title -->
+			<span class="firm_title"><?php the_field( 'form_title','option' ); ?></span><!-- firm_title -->
 			
-			<a class="address" href="https://www.google.com/maps?q=100+Galleria+Pkwy+SE,+Suite+1100,+Atlanta,+GA+30339&oe=utf-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjRtqWWo_3VAhUmjlQKHV6IDmkQ_AUICigB" target="_blank">100 Galleria Pkwy SE, Suite 1100,<br/> Atlanta, GA 30339</a>
+			<a class="address" href="<?php the_field( 'address_link_global','option'); ?>" target="_blank"><?php the_field( 'address_global','option'); ?></a>
 			
-			<a class="get_directions" href="https://www.google.com/maps?q=100+Galleria+Pkwy+SE,+Suite+1100,+Atlanta,+GA+30339&oe=utf-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjRtqWWo_3VAhUmjlQKHV6IDmkQ_AUICigB" target="_blank">Get Directions</a>
+			<a class="get_directions" href="<?php the_field( 'address_link_global','option'); ?>" target="_blank"><?php the_field( 'get_directions_verbiage_footer','option'); ?></a>
 			
-			<span class="office_hours_title">Office Hours</span><!-- office_hours_title -->
+			<span class="office_hours_title"><?php the_field( 'hours','option'); ?></span><!-- office_hours_title -->
 			
-			<span class="hours">Mon&nbsp;-&nbsp;Fri&nbsp;<span class="dot">&middot;</span>&nbsp;8am&nbsp;-&nbsp;5pm</span><!-- hours -->
+<!-- 			<span class="hours">Mon&nbsp;-&nbsp;Fri&nbsp;<span class="dot">&middot;</span>&nbsp;8am&nbsp;-&nbsp;5pm</span> -->
+
+				<?php the_field( 'hours_footer','option'); ?>
 			
 			
 		</div><!-- footer_left -->
@@ -39,15 +41,15 @@
 				
 				<a class="phone" href="tel:<?php the_field( 'phone_number','option' ); ?>"><?php the_field( 'phone_number','option' ); ?></a><!-- phone -->
 				
-				<span class="small_header">Get Your Free Case Evaluation Today</span><!-- small_header -->
+				<span class="small_header"><?php the_field( 'footer_cta','option'); ?></span><!-- small_header -->
 				
 				<div class="white_diamond_wrapper">
 					
 					<div class="diamond_content_wrapper">
 					
-						<span class="available">Available</span><!-- small_header -->
+						<span class="available"><?php the_field( 'available','option'); ?></span><!-- small_header -->
 					
-						<span class="large_header">24/7</span><!-- large_header -->
+						<span class="large_header"><?php the_field( 'twenty_four_seven','option'); ?></span><!-- large_header -->
 					
 					</div><!-- diamond_content_wrapper -->
 					
@@ -61,7 +63,7 @@
 				
 				<li>
 					
-					<a href="https://www.facebook.com/kaufmanlaw" target="_blank">Facebook</a>
+					<a href="<?php the_field( 'facebook_link','option'); ?>" target="_blank"><?php the_field( 'facebook','option'); ?></a>
 					
 					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
 				
@@ -72,31 +74,7 @@
 				</li>
 				<li>
 				
-					<a href="https://twitter.com/kaufmanlaw" target="_blank">Twitter</a>
-					
-					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
-				
-						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
-					
-					</svg><!-- red_line_intro -->
-				
-				</li>
-				
-				<li>
-					
-					<a href="https://www.linkedin.com/company-beta/9285527/" target="_blank">LinkedIn</a>
-					
-					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
-				
-						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
-					
-					</svg><!-- red_line_intro -->
-				
-				</li>
-				
-				<li>
-				
-					<a href="https://www.youtube.com/channel/UCdagZOq3BverJ47twkIc6Iw" target="_blank">Youtube</a>
+					<a href="<?php the_field( 'twitter_link','option'); ?>" target="_blank"><?php the_field( 'twitter','option'); ?></a>
 					
 					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
 				
@@ -108,7 +86,31 @@
 				
 				<li>
 					
-					<a href="https://plus.google.com/+KaufmanLawAtlanta/posts" target="_blank">Google+</a>
+					<a href="<?php the_field( 'linkedin_link','option'); ?>" target="_blank"><?php the_field( 'linkedin','option'); ?></a>
+					
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				
+				<li>
+				
+					<a href="<?php the_field( 'youtube_link','option'); ?>" target="_blank"><?php the_field( 'youtube','option'); ?></a>
+					
+					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
+				
+						<polyline class="red_line_intro_path" points="135.79 10.24 123.59 1.25 112.49 9.45 101.39 1.25 90.29 9.45 79.29 1.25 68.19 9.45 57.09 1.25 45.99 9.45 34.89 1.25 23.89 9.45 12.79 1.25 0.59 10.24"/>
+					
+					</svg><!-- red_line_intro -->
+				
+				</li>
+				
+				<li>
+					
+					<a href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank"><?php the_field( 'google_plus','option'); ?></a>
 				
 					<svg id="social_media_line" viewBox="0 0 136.39 11.05">
 				
@@ -124,13 +126,7 @@
 		
 		<div class="vertical_selling_points">
 			
-			<ul>
-				
-				<li>Experience</li>
-				<li>Communication</li>
-				<li>Results</li>
-				
-			</ul>
+			<?php the_field( 'footer_tagline','option'); ?>
 			
 		</div><!-- vertical_selling_points -->
 		
@@ -144,15 +140,15 @@
 			
 			<ul>
 				
-				<li>&copy; <?php echo date("Y"); ?> All Rights Reserved.<br class="mobile" />  Kaufman Law, P.C.</li>
-				<li><a href="<?php bloginfo('url');?>/privacy-policy">Privacy Policy</a></li>
-				<li><a href="<?php bloginfo('url');?>/blog">Blog</a></li>
+				<li>&copy; <?php echo date("Y"); ?> <?php the_field( 'all_rights_reserved','option'); ?></li>
+				<li><a href="<?php the_field( 'private_policy_link','option'); ?>"><?php the_field( 'private_policy','options'); ?></a></li>
+				<li><a href="<?php the_field( 'blog_link','option'); ?>"><?php the_field( 'blog','option'); ?></a></li>
 				
 			</ul>
 			
 			
 			
-			<svg id="footer_threelines" data-name="section three gold twolines" overflow="visible" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.06 86"><defs><style>.cls-1{fill:none;}</style></defs><title>new</title>
+			<svg id="footer_threelines" data-name="section three gold twolines" overflow="visible" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.06 86"><defs><style>.cls-1{fill:none;}</style></defs>
 			
 				<polyline id="black_line_one" points="145.2 9 133 0 121.9 8.2 110.8 0 99.7 8.2 88.7 0 77.6 8.2 66.5 0 55.4 8.2 44.3 0 33.3 8.2 22.2 0 10 9"/>
 				<polyline id="black_line_two" points="190.06 18.9 177.86 9.9 166.76 18.1 155.66 9.9 144.56 18.1 133.56 9.9 122.46 18.1 111.36 9.9 100.26 18.1 89.16 9.9 78.16 18.1 67.06 9.9 54.86 18.9"/>

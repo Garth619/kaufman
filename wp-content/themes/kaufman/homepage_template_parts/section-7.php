@@ -13,9 +13,9 @@
 		
 		<span class="large_header">
 		
-			<span class="letter_ani">Stay Informed On</span><!-- letter_ani -->
+			<span class="letter_ani"><?php the_field( 'blog_sub_header' ); ?></span><!-- letter_ani -->
 			
-			<span class="lower_header"> Injury News</span>
+			<span class="lower_header"> <?php the_field( 'blog_large_header' ); ?></span>
 			
 			</span><!-- large_header -->
 		

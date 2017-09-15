@@ -179,6 +179,13 @@ if (function_exists('acf_add_options_page')) {
         'capability' => 'edit_posts',
         'redirect' => false
     ));
+    acf_add_options_page(array(
+        'page_title' => 'Review Page Styles',
+        'menu_title' => 'Review Page Styles',
+        'menu_slug' => 'theme-reviewpage-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
     
 }
 

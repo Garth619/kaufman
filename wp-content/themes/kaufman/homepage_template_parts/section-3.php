@@ -20,20 +20,8 @@
 		
 		<div class="section_three_content content">
 
-			<p>At Kaufman Law, P.C., our team of Atlanta personal injury lawyers is devoted to protecting the rights of injured victims and their families. Over the past 40 years, we have had the opportunity to assist accident victims throughout nearly the entire state of Georgia in almost every type of personal injury case. It is through this extensive experience that we have the ability to provide the superior service our clients need and deserve. Regardless of the size of a case or what the potential outcome may be, we approach each situation with the same drive and provide every client with compassionate support.</p>
-
-<p>Trusted among clients and respected by our peers, we have recovered millions of dollars in verdicts and settlements for victims of unexpected, preventable accidents. We take pride in helping people get the money they need to cover accident-related expenses, such as medical bills and lost wages, and ensure that they and their families will be taken care of in the future. If you’ve been injured, do not hesitate to contact us today to request a free consultation. We would be happy to review your case, help you understand your options, and discuss what types of compensation you may be eligible for.</p>
-
-<h2>available 24/7 to meet your needs</h2>
-<p>Because we understand that the need for reliable legal counsel could arise at any moment, our firm is available around-the-clock to meet the needs of our clients. Our Atlanta personal injury attorneys are even willing to drive to our clients if they are unable to meet with us in our office. Our hands-on and personalized approach to personal injury law has translated into multi-million-dollar results obtained both inside and outside of court.</p>
+			<?php the_field( 'section_3_content' ); ?>
 				
-				
-				
-				
-				
-		
-
-			
 		</div><!-- section_three_content -->
 		
 		<div class="section_three_sidebar">

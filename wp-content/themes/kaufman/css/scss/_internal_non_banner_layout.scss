@@ -608,6 +608,9 @@ svg#pa_request_redline {
 			list-style: none;
 			padding:0 0px 0 70px;
 			margin:56px 0 0 0;
+			li#field_5_6, li#field_5_7, li#field_5_8, li#field_5_9, li#field_5_10, li#field_5_11, li#field_6_6 {
+				display: none;
+			}
 			li {
 				position: relative;
 				margin-bottom: 16px;

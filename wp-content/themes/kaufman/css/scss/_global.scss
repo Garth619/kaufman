@@ -283,7 +283,9 @@ body.fixed {
 		list-style: none;
 		overflow: hidden;
 		width:100%;
-		
+		li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_9, li#field_3_10, li#field_3_11 {
+			display: none;
+		}
 		
 		li {
 			width:33.333333%;
@@ -433,7 +435,7 @@ body.fixed {
 		letter-spacing: 0.9px;
 		margin-bottom: 5px;
 	}
-	p {
+	> p {
 		margin-bottom:35px;
 	}
 	ol {

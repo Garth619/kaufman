@@ -200,6 +200,9 @@ svg#internal_red_twolines {
 			list-style: none;
 			padding:0 35px;
 			margin:52px 0 0 0;
+			li#field_1_6, li#field_1_10, li#field_1_7, li#field_1_9, li#field_1_11, li#field_1_12 {
+				display:none;
+			}
 			li {
 				position: relative;
 				margin-bottom: 16px;

@@ -20,11 +20,11 @@
 		
 			</svg><!-- red_line_form -->
 			
-			<span class="pa_request_title">Request your<br/> free consultation</span><!-- pa_request_title -->
+			<span class="pa_request_title">Solicite su<br/> consulta gratuita</span><!-- pa_request_title -->
 			
-			<span class="mobile_form_title">Ready<br> to get in touch?</span><!-- mobile_form_title -->
+			<span class="mobile_form_title">¿Listo<br> para contactarnos?</span><!-- mobile_form_title -->
 			
-			<span class="pa_required">* All Field Required</span><!-- pa_required -->
+			<span class="pa_required">* Todo requerido</span><!-- pa_required -->
 			
 			<span class="pa_form_wrapper">
 			
@@ -40,7 +40,7 @@
 		
 <!-- 		<span>Click Here To Request<br/> Your Free Consultation</span> -->
 
-		<span>Spanish Call<br/> to Action Here</span>
+		<span>Haga clic aquí<br> para comenzar</span>
 		
 		<svg id="sidebar_start_arrow" viewBox="0 0 7.6 40.7">
 						
