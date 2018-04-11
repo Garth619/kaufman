@@ -168,7 +168,29 @@
 
 <?php wp_footer();?>
 
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery(".wpcr3_item_name").remove();
+
+        jQuery('.wpcr3_review_author:contains("on")').each(function(){
+            jQuery(this).html(jQuery(this).html().split("on").join(""));
+        });
+
+    });
+</script>
+
 <?php the_field( 'footer_scripts','option' ); ?>
+<script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    // _pa.orderId = "retargeting"; // OPTIONAL: attach unique conversion identifier to conversions
+    // _pa.revenue = "1.00"; // OPTIONAL: attach dynamic purchase values to conversions
+    // _pa.productId = "myProductId"; // OPTIONAL: Include product ID for use with dynamic ads
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.marinsm.com/serve/5abe9c673722bf4b5b00000e.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
 
 </body>
 </html>
