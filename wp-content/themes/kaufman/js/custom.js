@@ -805,6 +805,63 @@ $(".pa_list ul li, .recent_posts_list li, .recent_posts_feed li").append('<svg x
 
 
 
+$('.review-items-wpr').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+    responsive: [
+    {
+      breakpoint: 760,
+      settings: {
+  	    infinite: true,
+  	    dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+       }
+    }
+   ]
+
+});
+
+$('.landing-case-results-cards-wpr').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+  	    infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        centerMode: true,
+        prevArrow:'.back',
+        nextArrow:'.next'
+       }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+  	    infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        centerMode: false,
+        prevArrow:'.back',
+        nextArrow:'.next'
+       }
+    }
+   ]
+
+});
+
+
+
+
+
+
 
 }); // Document Ready
 
