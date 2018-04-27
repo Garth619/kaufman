@@ -3,6 +3,10 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<?php if( 'landing' === get_post_type() ) { ?>
+   <meta name="robots" content="noindex, nofollow">
+<?php } ?>
+	
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -39,6 +43,12 @@
 
 .section_eight {
 	background: url(<?php the_field( 'section_8_image' ); ?>) no-repeat  top left / cover;
+}
+
+@media screen and (max-width: 1165px) {
+	.single-landing .internal_banner_wrapper {
+	    background: rgba(0, 0, 0, 0) url(<?php the_field( 'internal_banners' ); ?>) no-repeat scroll center top / cover ;
+	}
 }
 
 
@@ -96,17 +106,30 @@
 	</div><!-- header_right -->
 	
 	<div class="mobile_header_right">
-		
-		
-		<div class="menu_bars_wrapper">
+
+		<?php if( is_singular( $post_types = 'landing' ) ): ?>
+
+			<div class="menu_bars_wrapper menu_bars_wrapper-alt">
+
+				<a href="#int-form">		
+					<img src="<?php bloginfo('template_directory');?>/images/mail-icon-01.svg"/>
+				</a>
+
+			</div><!-- menu_bars_wrapper -->	
 			
-			<div class="menu_bars"></div><!-- menu_bars -->
-			<div class="menu_bars"></div><!-- menu_bars -->
-			<div class="menu_bars"></div><!-- menu_bars -->
+		<?php else: ?>
+
+			<div class="menu_bars_wrapper">
 			
-			<span class="menu">Menu</span><!-- menu -->
+				<div class="menu_bars"></div><!-- menu_bars -->
+				<div class="menu_bars"></div><!-- menu_bars -->
+				<div class="menu_bars"></div><!-- menu_bars -->
+				
+				<span class="menu">Menu</span><!-- menu -->
+
+			</div><!-- menu_bars_wrapper -->
 			
-		</div><!-- menu_bars_wrapper -->
+		<?php endif; ?>
 		
 		<div class="mobile_request_wrapper">
 			

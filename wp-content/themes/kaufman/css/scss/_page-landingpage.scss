@@ -1,0 +1,367 @@
+/* Landing Page Styles */
+.single-landing .menu_bars_wrapper-alt {
+    padding: 0;
+    line-height: 109px;
+    padding-right: 4px;
+}
+
+.single-landing .inner_banner_wrapper h1 {
+    font-family: "Akagi Pro W00 Bold";
+    text-transform: uppercase;
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.single-landing .inner_banner_wrapper h1 span {
+    color: #f0d494;
+}
+
+.single-landing .review-items-wpr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:  justify;
+        -ms-flex-pack:  justify;
+            justify-content:  space-between;
+    padding-left: 65px;
+    margin-top: 40px;
+}
+
+.single-landing .review-item {
+    display: block;
+    margin-right: 50px;
+    width: 200px;
+}
+
+.single-landing .review-item:last-of-type {
+	margin-right: 0;
+}
+
+.single-landing .review-item p:before {
+    content: '';
+    width: 137px;
+    height: 24px;
+    background: url(/wp-content/themes/kaufman/images/review-stars-1.png) center center no-repeat;
+    display: block;
+    margin: 0 0 20px;
+}
+
+.single-landing .review-item:last-of-type p:before {
+    background: url(/wp-content/themes/kaufman/images/review-stars-2.png) center center no-repeat;
+}
+
+.single-landing .review-item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Akagi Pro W00 Black";
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.single-landing .call_wrapper {
+    margin-top: 50px;
+}
+
+.single-landing nav {
+	display: none!important;
+}
+
+.single-landing .case_results_wrapper {
+	width: initial;
+	height: initial;
+	margin-top: initial;
+	background: initial;
+}
+
+.single-landing #landing-case-results {
+    background: #f5f5f5;
+    padding-top: 140px;
+    padding-bottom: 180px;
+}
+
+.single-landing .landing-case-results-title {
+    display: block;
+    font-family: "Trirong-Regular";
+    font-size: 115px;
+    color: #1b1e23;
+    letter-spacing: 0;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.single-landing .landing-case-results-cards-container {
+	margin: 0 auto;
+    max-width: 1675px;
+    position: relative;
+}
+
+.single-landing #landing-case-results .buttons {
+    width: 100%;
+    text-align: center!important;
+    max-width: 250px;
+    margin: 0 auto;
+    bottom: initial;
+    right: initial;
+    position: initial;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.single-landing .landing-case-results-card {
+    background: #fff;
+    margin-right: 15px;
+    padding: 40px;
+    position: relative;
+    margin-left: 40px;
+    min-height: 395px;
+}
+
+.single-landing .landing-case-results-card:last-of-type {
+	margin-right: 0;
+}
+
+.single-landing .landing-case-results-amount {
+    color: #ff3600;
+    font-size: 48px;
+    font-family: "Trirong-Bold";
+    text-decoration: none;
+}
+
+.single-landing .landing-case-results-subtitle {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Akagi Pro W00 Black";
+    display: block;
+    letter-spacing: 1.7px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.single-landing .landing-case-results-card svg#inetrnal_gold_twolines,
+.single-landing .landing-case-results-card svg {
+    width: 179px;
+    height: 40px;
+    position: relative;
+    left: -106px;
+}
+
+.single-landing .landing-case-results-card svg polyline {
+	fill: none;
+    stroke: #dcbf93;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    -webkit-animation-name: header_svg_draw;
+    animation-name: header_svg_draw;
+    -webkit-animation-duration: 2000ms;
+    animation-duration: 2000ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 750ms;
+    animation-delay: 750ms;
+}
+
+.single-landing .landing-case-results-text {
+    font-size: 17px;
+    line-height: 33px;
+    font-family: "Trirong-Light";
+    color: #1b1e23;
+}
+
+.single-landing .landing-sidebar-alt {
+    display: none;
+}
+
+.single-landing .section_two {
+	display: none;
+}
+
+@media screen and (max-width: 1565px) {
+	.single-landing #landing-case-results .buttons .single_button {
+	    opacity: 0!important;
+	}
+}
+
+@media screen and (min-width: 1456px) {
+	.single-landing .internal_content {
+		padding-bottom: 160px;
+	}
+}
+
+@media (max-width: 1399px) {
+	.single-landing .internal_banner_wrapper {
+    	margin-top: 0;
+	}
+
+	.single-landing .inner_banner_wrapper h1 {
+		font-size: 4rem; 
+	}
+	.single-landing .review-items-wpr {
+    	width: calc(100% - 540px);
+	}
+
+	.single-landing .landing-case-results-amount {
+	    font-size: 36px;
+	}
+}
+
+@media screen and (max-width: 1165px) {
+	.single-landing .landing-case-results-card svg#inetrnal_gold_twolines,
+	.single-landing .landing-case-results-card svg {
+    	display: block;
+	}
+
+	.single-landing .landing-case-results-card svg polyline {
+		stroke-dasharray: 0;
+		stroke-dashoffset: 0;
+		-webkit-animation-name: none;
+		animation-name: none;
+	}
+
+	.single-landing .internal_header h1 {
+		color: #fff;
+	    margin-top: 0;
+	    padding-top: 0;
+	}
+
+	.single-landing .review-items-wpr {
+    	width: calc(100% - 100px);
+	}
+
+	.single-landing .internal_content {
+		padding-top: 80px;
+	}
+
+	.single-landing .landing-sidebar-alt {
+	    display: block;
+        margin-top: -150px;
+	}
+
+	.single-landing .landing-sidebar-main {
+	    display: none;
+	}
+
+	.single-landing .start_here_track {
+	    background-color: #f5f5f5;
+	}
+}
+
+@media (max-width: 1024px) {
+	.single-landing #landing-case-results .buttons .single_button {
+	    opacity: 1!important;
+	}
+
+	.single-landing .landing-case-results-card {
+		max-width: 515px;
+	}
+
+	.single-landing .section_two {
+		display: block;
+	}
+}
+
+ @media screen and (max-width: 760px) {
+	.single-landing .mobile_request_wrapper span.mobile_cta {
+	    color: #fff!important;
+	}
+
+	.single-landing .mobile_request_wrapper span.mobile_cta strong {
+    	color: #dcbf93!important;
+	}
+
+	.single-landing .internal_header h1 {
+		text-align: center;
+		font-size: 43px;
+		padding-left: 0;
+		margin-top: 50px;
+	}
+
+	.single-landing .review-items-wpr {
+    	width: 100%;
+	    padding-left: 0;
+	}
+
+	.single-landing .slick-dots {
+		bottom: -45px;
+	}
+
+	.single-landing .review-items-wpr .slick-prev,
+	.single-landing .review-items-wpr .slick-next {
+		display: none!important;
+	}
+
+	.single-landing .review-items-wpr .slick-dots li button:before {
+	    font-size: 23px!important;	  
+	    content: '─'!important;
+	    color: #dcbf93!important;
+	    opacity: 1!important;
+	}
+
+	.single-landing .review-items-wpr .slick-dots li.slick-active button:before {
+		color: #fff!important;
+		opacity: 1!important;
+	}
+
+	.single-landing .review-item {
+	    margin-right: 0;
+	}
+
+	.single-landing .review-item p:before {
+	    margin: 0 auto 20px;
+	}
+
+	.single-landing .review-item p {
+		text-align: center;
+	}
+
+	.single-landing .internal_header #internal_red_twolines {
+		display: none;
+	}
+
+	.single-landing .case_results_wrapper {
+	    height: initial;
+	    background: initial;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.single-landing .internal_content.content {
+	    padding-bottom: 100px;
+	}
+
+	.single-landing .section_four_lower {
+	    padding: 83px 0 40px;
+	}
+
+	.single-landing .landing-case-results-card svg#inetrnal_gold_twolines,
+	.single-landing .landing-case-results-card svg {
+	    left: -25px;
+	    margin: 0 auto;
+	}
+
+	.single-landing .landing-case-results-amount,
+	.single-landing .landing-case-results-subtitle {
+		text-align: center;
+		display: block;
+	}
+
+	.single-landing #landing-case-results {
+	    padding-top: 60px;
+	}
+
+	.single-landing .landing-case-results-title {
+	    font-size: 55px;
+	    padding-bottom: 45px;
+	}
+
+	.single-landing .landing-case-results-card {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}

@@ -239,4 +239,21 @@ function cat_count_span($links) {
   return $links;
 }
 
+/* Landing Page Custom Post Types
+ --------------------------------------------------------------------------------------- */
 
+// Create custom post type
+function create_post_type() {
+  register_post_type( 'landing',
+        array(
+            'labels' => array(
+                'name' => __( 'Landing Page' ),
+                'singular_name' => __( 'Landing Page' )
+            ),
+            'public' => true,
+            'has_archive' => false,
+            'rewrite' => array('slug' => 'lp')
+        )
+    );
+}
+add_action( 'init', 'create_post_type' );
