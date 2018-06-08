@@ -191,6 +191,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
   })();
 </script>
-
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-lazyload-any/src/jquery.lazyload-any.js"></script>
 </body>
 </html>

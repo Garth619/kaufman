@@ -142,16 +142,6 @@
     
 }
 
-/* Icons */
-@font-face
-{
-    font-family: 'slick';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('#{$themepath}js/slick/slick/fonts/slick.eot');
-    src: url('#{$themepath}js/slick/slick/fonts/slick.eot?#iefix') format('embedded-opentype'), url('#{$themepath}js/slick/slick/fonts/slick.woff') format('woff'), url('#{$themepath}js/slick/slick/fonts/slick.ttf') format('truetype'), url('#{$themepath}js/slick/slick/fonts/slick.svg#slick') format('svg');
-}
 /* Arrows */
 .slick-prev,
 .slick-next
@@ -203,7 +193,7 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
+    font-family: 'arial';
     font-size: 20px;
     line-height: 1;
 
@@ -314,7 +304,7 @@
 }
 .slick-dots li button:before
 {
-    font-family: 'slick';
+    font-family: 'arial';
     font-size: 6px;
     line-height: 20px;
 

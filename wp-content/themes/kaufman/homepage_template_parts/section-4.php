@@ -67,6 +67,9 @@
 		<div class="why_choose_bg_wrapper">
 			
 			
+			<div class="section_four_lazy">
+			
+<!--
 			<div class="why_choose_bg_slideshow">
 				
 				
@@ -79,16 +82,20 @@
 				
 							<img src="<?php the_sub_field( 'desktop_image' ); ?>" />
 				
-						</div><!-- bg_slide -->
+						</div>
 					
 					
 			    <?php endwhile; ?>
 			 
 				<?php endif; ?>
+				
 
+		
 			
+			</div>
+-->
 			
-			</div><!-- why_choose_bg_slideshow -->
+				</div><!-- section_four_lazy -->
 			
 		</div><!-- why_choose_bg_wrapper -->
 		

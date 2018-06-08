@@ -136,6 +136,6 @@
 		
 	</div><!-- intro_banner_content -->
 	
-	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video>
+<!-- 	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay muted></video> -->
 	
 </section><!-- intro_banner -->

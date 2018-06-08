@@ -1,4 +1,4 @@
-<section id="request" class="section_eight">
+<section id="request" class="section_eight lazy" data-src="<?php the_field( 'section_8_image' ); ?>">
 	
 	
 	<div class="section_eight_form_wrapper">

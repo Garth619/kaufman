@@ -24,7 +24,7 @@
 				
 				<?php $feat_att_img = get_field( 'profile_image', 49); ?>
 				
-				<img src="<?php echo $feat_att_img['url']; ?>" alt="<?php echo $feat_att_img['alt']; ?>" /><!-- featured_att_image -->
+				<img class="lazy" data-src="<?php echo $feat_att_img['url']; ?>" alt="<?php echo $feat_att_img['alt']; ?>" /><!-- featured_att_image -->
 				
 			</div><!-- featured_att_image-->
 			
@@ -82,9 +82,15 @@
 		
 		</div><!-- our_attorneys_title -->
 		
+		
+		
+		
 		<div class="att_slideshow_wrapper">
 			
+			<div class="section_five_lazy">
 			
+			
+<!--
 			<div class="att_slideshow">
 				
 				<div class="att_buttons">
@@ -101,9 +107,9 @@
 					
 						<img src="<?php bloginfo('template_directory');?>/images/white-arrow-r.png"/>
 					
-					</div><!-- att_single_button -->
+					</div>
 				
-				</div><!-- att_buttons -->
+				</div>
 				
 				
 				
@@ -126,13 +132,13 @@
 						
 							<?php $profile_image = get_field( 'profile_image' ); ?>
 														
-							<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
+							<img src="<?php echo $profile_image['url']; ?>" data-lazy="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
 						
 							<div class="att_overlay">
 							
 								<div class="view_att_wrapper">
 							
-									<span class="view_att_link">View Attorney Profile</span><!-- view_att_link -->
+									<span class="view_att_link">View Attorney Profile</span>
 							
 									<svg id="att_arrow" viewBox="0 0 7.6 40.7">
 						
@@ -140,13 +146,13 @@
 					
 										<polygon class="arrow_tri" points="3.8 36 7.6 36 5.7 38.4 3.8 40.7 1.9 38.4 0 36 3.8 36"/>
 				
-									</svg><!-- start_arrow -->
+									</svg>
 						
-								</div><!-- view_att_wrapper -->
+								</div>
 							
-						</div><!-- att_overlay -->
+						</div>
 						
-					</div><!-- att_image_wrapper -->
+					</div>
 					
 					<div class="att_title_wrapper">
 						
@@ -154,16 +160,16 @@
 		
 							<polyline class="red_line_two" points="0.44 7.33 9.14 0.94 17.74 7.33 26.44 0.94 35.14 7.33 43.74 0.94 52.34 7.33"/>
 			
-						</svg><!-- red_line_form -->
+						</svg>
 						
 						<span><?php the_title();?></span>
 					
-					</div><!-- att_title_wrapper -->
+					</div>
 					
 					
-				</div><!-- att_single_slide -->
+				</div>
 				
-				</a><!-- att_single_slide_link -->
+				</a>
 					
 					
 					
@@ -178,10 +184,17 @@
 				
 			
 				
-			</div><!-- att_slideshow -->
+			</div>
+-->
+			
+			</div><!-- section_five_lazy -->
 
 			
-		</div><!-- att_slideshow_wrapper -->
+		</div>
+		
+		
+		
+	
 		
 		
 		<div class="att_buttons_mobile_wrapper">

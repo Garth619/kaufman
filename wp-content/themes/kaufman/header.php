@@ -32,8 +32,13 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700,800|Trirong:400,500,700" rel="stylesheet">
+
 
 <style type="text/css">
+	
+
+@import "<?php echo get_template_directory_uri(); ?>/style.css";
 
 .internal_banner_wrapper {
 	background: rgba(0, 0, 0, 0) url(<?php the_field( 'internal_banners' ); ?>) no-repeat scroll center top / cover ;
@@ -41,9 +46,6 @@
 
 
 
-.section_eight {
-	background: url(<?php the_field( 'section_8_image' ); ?>) no-repeat  top left / cover;
-}
 
 @media screen and (max-width: 1165px) {
 	.single-landing .internal_banner_wrapper {
@@ -56,9 +58,9 @@
 
 
 
+
+
 </style>
-
-
 
 <?php wp_head(); ?>
 

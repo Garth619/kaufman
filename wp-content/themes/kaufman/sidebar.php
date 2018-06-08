@@ -1,4 +1,3 @@
-
 <div class="sidebar_wrapper">
 	
 	<div class="sidebar">
@@ -11,13 +10,17 @@
 					
 			</svg><!-- red_line_form -->
 			
-			<span class="sidebar_large_header">Request your<br class="mobile" /> free consultation</span><!-- sidebar_large_header -->
-			
-			<span class="mobile_form_title">Ready<br> to get in touch?</span><!-- mobile_form_title -->
-			
-			<span class="internal_required">* All Fields Required</span><!-- internal_required -->
-			
-			<?php gravity_form(1, false, false, false, '', true, 12); ?>
+			<?php if ( is_page('contactenos') ) { ?>
+ 				<span class="sidebar_large_header">Solicite su<br class="mobile" /> consulta gratuita</span><!-- sidebar_large_header -->
+				<span class="mobile_form_title">¿Listo<br> para contactarnos?</span><!-- mobile_form_title -->
+				<span class="internal_required">* Todo requerido</span><!-- internal_required -->	
+				<?php gravity_form(6, false, false, false, '', true, 456); ?>			
+			<?php } else { ?>
+				<span class="sidebar_large_header">Request your<br class="mobile" /> free consultation</span><!-- sidebar_large_header -->			
+				<span class="mobile_form_title">Ready<br> to get in touch?</span><!-- mobile_form_title -->			
+				<span class="internal_required">* All Fields Required</span><!-- internal_required -->		
+				<?php gravity_form(1, false, false, false, '', true, 12); ?>
+			<?php } ?>
 		
 		</div><!-- sidebar_form_wrapper -->
 		

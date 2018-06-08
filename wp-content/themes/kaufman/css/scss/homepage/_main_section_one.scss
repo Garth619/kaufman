@@ -4,6 +4,8 @@
 	height:1185px;
 	overflow: hidden;
 	z-index:0;
+	background: url(#{$themepath}images/hero-image-desktop.jpg) top left no-repeat;
+	background-size:cover;
 	&:after {
 		content:"";
 		background:rgba(0, 0, 0, 0.2);
@@ -799,8 +801,10 @@ svg#intro_red_twolines {
 	
 	
 	.intro_banner {
+/*
 		background: url(#{$themepath}images/hero-image-tablet.jpg) top center no-repeat;
 		background-size: cover;
+*/
 		height: auto;
 		margin-top:0;
 		video {

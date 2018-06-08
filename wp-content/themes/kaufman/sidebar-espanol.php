@@ -1,4 +1,3 @@
-
 <div class="sidebar_wrapper">
 	
 	<div class="sidebar_form_overlay">
@@ -64,11 +63,11 @@
 				
 			</svg><!-- red_line_form -->
 			
-			<span class="sidebar_large_header"><strong>Areas</strong><br/> of Practice</span><!-- sidebar_large_header -->
+			<span class="sidebar_large_header"><strong>Áreas</strong><br/> de Práctica</span><!-- sidebar_large_header -->
 			
 			<div class="pa_list">
 				
-				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
+				<?php wp_nav_menu( array('menu' => 'Spanish Sidebar' )); ?>
 
 			
 			</div><!-- pa_list -->

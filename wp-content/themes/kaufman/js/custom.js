@@ -282,7 +282,12 @@ jQuery(document).ready(function(){
 
 
 
+// lazy load
 
+
+$(function() {
+   $('.lazy').Lazy();
+ });
 
 
 
@@ -625,6 +630,7 @@ $('.why_choose_slideshow').slick({
 });
 
 
+function secfourLazy() {
 
 $('.why_choose_bg_slideshow').slick({
   infinite: true,
@@ -634,6 +640,17 @@ $('.why_choose_bg_slideshow').slick({
   fade: true,
   asNavFor: '.why_choose_slideshow'
 });
+
+}
+
+
+
+
+$('.section_four_lazy').lazyload({
+    load: secfourLazy,
+  });
+
+
 
 
 
@@ -667,7 +684,11 @@ $('.testi_wrapper').slick({
   ]
  });
  
- 
+
+
+
+function secfiveLazy() {
+
  
 $('.att_slideshow').slick({
   infinite: true,
@@ -705,8 +726,12 @@ $('.att_slideshow').slick({
     }
   ]
  });
+ 
+}
 
-
+$('.section_five_lazy').lazyload({
+    load: secfiveLazy,
+  });
 
 
 $('.news_slidehow').slick({
