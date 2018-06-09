@@ -85,7 +85,8 @@ svg#section_eight_red_line_form{
 	span.small_header {
 		font-size: 16px;
 		text-transform: uppercase;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		letter-spacing: 5.75px;
 		float:left;
 		margin-left:12px;
@@ -100,7 +101,8 @@ svg#section_eight_red_line_form{
 		clear:both;
 		font-size: 115px;
 		line-height: 100px;
-		font-family: $trirongregular;
+		font-family: $trirongtwo;
+		font-weight: 400;
 		margin-top:105px;
 		padding-bottom:30px;
 		br.mobile {
@@ -113,7 +115,8 @@ svg#section_eight_red_line_form{
 		color:$red;
 		text-transform: uppercase;
 		font-size: 14px;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		letter-spacing: 3.5px;
 		margin-top:13px;
 		margin-bottom:51px;
@@ -145,7 +148,8 @@ svg#section_eight_red_line_form{
 				top:33px;
 				right:12px;
 				color:$brown;
-				font-family: $akagilblack;
+				font-family: $opensans;
+				font-weight: 800;
 			}
 			label {
 				display: none;
@@ -165,7 +169,8 @@ svg#section_eight_red_line_form{
 				border-radius: 3px;
 				box-shadow: inset 0px 1px 3px 0px rgba(223, 223, 223, 0.75);
 				width:100%;
-				font-family: $akagilblack;
+				font-family: $opensans;
+				font-weight: 800;
 				text-transform: uppercase;
 				font-size:14px;
 				color:$brown;
@@ -192,7 +197,8 @@ svg#section_eight_red_line_form{
 		width:100%;
 		border:none;
 		background:$greybrown;
-		font-family: $trirongsemibold;
+		font-family: $trirongtwo;
+		font-weight: 700;
 		text-transform: uppercase;
 		font-size:28px;
 		padding:17px;
@@ -206,7 +212,8 @@ svg#section_eight_red_line_form{
 	.gfield_description,.validation_message {
 		color:red;
 		text-transform: uppercase;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		font-size:13px;
 		letter-spacing: 3px;
 		position: relative;

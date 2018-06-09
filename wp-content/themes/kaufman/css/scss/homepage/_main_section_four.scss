@@ -31,7 +31,8 @@
 	padding-top:60px;
 	span.why_choose_header {
 		text-transform: uppercase;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		font-size:16px;
 		letter-spacing: 3px;
 		float:left;
@@ -190,7 +191,8 @@
 		text-align: center;
 		opacity: 0;
 		span {
-			font-family: $trironbold;
+			font-family: $trirongtwo;
+			font-weight: 700;
 			font-size: 30px;
 			display: block;
 			margin-top:30px;
@@ -198,7 +200,8 @@
 		}
 	}
 	span.slide_title {
-		font-family: $trironglight;
+		font-family: $trirongtwo;
+		font-weight: 400;
 		color:$red;
 		font-size:48px;
 		letter-spacing: 0px;
@@ -213,7 +216,8 @@
 		text-transform: uppercase;
 		font-size:18px;
 		line-height: 38px;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		padding-left:28px;
 		display: block;
 		margin-top:40px;
@@ -526,7 +530,8 @@ svg#why_choose_gold_twolines {
 	text-align: center;
 	overflow: hidden;
 	span.large_header {
-		font-family: $trironglight;
+		font-family: $trirongtwo;
+		font-weight: 400;
 		color:#fff;
 		font-size:115px;
 		text-transform: lowercase;
@@ -538,7 +543,8 @@ svg#why_choose_gold_twolines {
 		color:$red;
 		font-size:24px;
 		text-transform: uppercase;
-		font-family:$akagilbold;
+		font-family: $opensans;
+		font-weight: 800;
 		display: inline-block;
 		border-left:2px solid $red;
 		border-right:2px solid $red;
@@ -668,7 +674,8 @@ svg#section_four_gold_threelines {
 		padding:0 32px;
 		span.testi_excerpt {
 			font-size:26px;
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			color:$lightbrown;
 			display: block;
 			text-align: left;
@@ -679,7 +686,8 @@ svg#section_four_gold_threelines {
 		.testi_content {
 			display: block;
 			color:#fff;
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			clear:both;
 			font-size:18px;
 			line-height: 30px;
@@ -691,7 +699,8 @@ svg#section_four_gold_threelines {
 			text-align: left;
 			display: block;
 			padding-left:23px;
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 800;
 			color:#5a6372;
 			text-transform: uppercase;
 			font-size:15px;
@@ -799,7 +808,8 @@ svg.testi_red_line {
 			
 		}
 		span {
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 700;
 			color:#fff;
 			text-transform: uppercase;
 			font-size: 13px;

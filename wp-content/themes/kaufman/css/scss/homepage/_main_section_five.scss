@@ -125,7 +125,8 @@
 			margin:28px -55px 0 0;
 			span.founding_attorney {
 				text-transform: uppercase;
-				font-family: $akagilblack;
+				font-family: $opensans;
+				font-weight: 800;
 				font-size:14px;
 				letter-spacing: 4px;
 				display: inline-block;
@@ -150,7 +151,8 @@
 			}
 		}
 		span.name {
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			font-size: 70px;
 			color:$red;
 			line-height: 65px;
@@ -161,7 +163,8 @@
 		span.att_content {
 			font-size: 18px;
 			text-transform: uppercase;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 			line-height: 36px;
 			display: block;
 			margin-top:30px;
@@ -329,7 +332,8 @@ a.view_button {
 		color:$lightblack;
 		text-transform: uppercase;
 		text-decoration: none;
-		font-family: $akagilbold;
+		font-family: $opensans;
+		font-weight: 700;
 		letter-spacing: 5px;
 		padding:25px 41px 0px;
 		float:left;
@@ -439,7 +443,8 @@ a.view_button {
 		color:$red;
 		font-size:35px;
 		text-transform: uppercase;
-		font-family: $trironbold;
+		font-family: $trirongtwo;
+		font-weight: 700;
 		text-align: right;
 		display: block;
 		letter-spacing: 6.6px;
@@ -602,7 +607,8 @@ a.att_single_slide_link {
 				span.view_att_link {
 					color:#fff;
 					max-width:102px;
-					font-family: $akagilbold;
+					font-family: $opensans;
+					font-weight: 700;
 					font-size:13px;
 					text-transform: uppercase;
 					line-height: 18px;
@@ -633,7 +639,8 @@ a.att_single_slide_link {
 			display: inline-block;
 			font-size:27px;
 			color:$lightblack;
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			letter-spacing: 0.5px;
 		}
 		svg {
@@ -1153,7 +1160,8 @@ a.att_single_slide_link {
 			width:15px;
 		}
 		span {
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 800;
 			text-transform: uppercase;
 			font-size: 13px;
 			letter-spacing: 4px;
@@ -1173,7 +1181,8 @@ a.att_single_slide_link {
 		span.mobile_header {
 			color: #ff3600;
 			display: block;
-			font-family: $trironbold;
+			font-family: $trirongtwo;
+			font-weight: 700;
 			font-size: 35px;
 			letter-spacing: 5px;
 			text-transform: uppercase;

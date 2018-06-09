@@ -17,7 +17,8 @@
 	span.large_header {
 		float:left;
 		text-transform: uppercase;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		font-size:20px;
 		color:$greybrown;
 		letter-spacing: 5px;
@@ -27,7 +28,8 @@
 		}
 		span.lower_header {
 			display: block;
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			font-size:115px;
 			text-transform: lowercase;
 			color:$lightblack;
@@ -161,7 +163,8 @@ a.news_single_link {
 		}
 		span.news_date {
 			float:left;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 			text-transform: uppercase;
 			margin-left:12px;
 			letter-spacing: 4px;
@@ -173,7 +176,8 @@ a.news_single_link {
 			font-size:30px;
 			text-decoration: none;
 			color:$brown;
-			font-family: $trirongmedium;
+			font-family: $trirongtwo;
+			font-weight: 500;
 			line-height: 30px;
 			margin-top:55px;
 			letter-spacing: 0.5px;
@@ -184,7 +188,8 @@ a.news_single_link {
 			margin-top:32px;
 			font-size:16px;
 			line-height: 30px;
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			padding-left:5%;
 		}
 	}
@@ -205,7 +210,8 @@ a.news_single_link {
 			color:#fff;
 			font-size:13px;
 			text-transform: uppercase;
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 700;
 			display: inline-block;
 			position: relative;
 			top:-1px;

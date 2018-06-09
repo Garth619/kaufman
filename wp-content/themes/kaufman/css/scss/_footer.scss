@@ -152,7 +152,8 @@ svg#footer_gold_twolines {
 	}
 	span.firm_title {
 		color:#fff;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		font-size:16px;
 		text-transform: uppercase;
 		letter-spacing: 5px;
@@ -162,7 +163,7 @@ svg#footer_gold_twolines {
 		padding-top: 80px;
 		strong {
 			color:$greybrown;
-			font-weight: 300;
+			font-weight: 800;
 			font-style:normal;
 		}
 	}
@@ -179,7 +180,8 @@ svg#footer_gold_twolines {
 		text-decoration: none;
 		display: inline-block;
 		text-transform: uppercase;
-		font-family:$akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		letter-spacing: 6px;
 		margin-top:40px;
 		position: relative;
@@ -204,7 +206,8 @@ svg#footer_gold_twolines {
 	}
 	span.office_hours_title {
 		color:$greybrown;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		font-size:16px;
 		text-transform: uppercase;
 		letter-spacing: 5px;
@@ -214,7 +217,8 @@ svg#footer_gold_twolines {
 	}
 	span.hours {
 		color:#fff;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		font-size:16px;
 		text-transform: uppercase;
 		letter-spacing: 5px;
@@ -245,7 +249,8 @@ svg#footer_gold_twolines {
 	a.phone {
 		color:$red;
 		text-decoration: none;
-		font-family: $trirongregular;
+		font-family: $trirongtwo;
+		font-weight: 400;
 		font-size:80px;
 		display: block;
 	}
@@ -253,7 +258,8 @@ svg#footer_gold_twolines {
 		display: block;
 		margin-top:30px;
 		color:#fff;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		font-size:16px;
 		text-transform: uppercase;
 		letter-spacing: 5.5px;
@@ -273,7 +279,8 @@ svg#footer_gold_twolines {
 			color:$lightblack;
 			
 			display: block;
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 800;
 			text-transform: uppercase;
 			font-size: 13px;
 			margin-top:51px;
@@ -283,7 +290,8 @@ svg#footer_gold_twolines {
 			
 			color:$red;
 			display: block;
-			font-family: $trirongsemibold;
+			font-family: $trirongtwo;
+			font-weight: 700;
 			font-size: 55px;
 			margin-top:0px;
 		}
@@ -433,10 +441,11 @@ ul.social_media_links {
 	padding-right:12%;
 	margin-left:-37px;
 	li {
-		font-family: $akagilbold;
-		letter-spacing: 3.5px;
+		font-family: $opensans;
+		font-weight: 700;
+		letter-spacing: 0.3em;
 		text-align: center;
-		width:105px;
+		width:144px;
 		
 		a {
 			color:#fff;
@@ -581,7 +590,8 @@ footer.visible {
 		li {
 			color:#fff;
 			text-transform: uppercase;
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 700;
 			font-size:15px;
 			letter-spacing: 5px;
 			display: inline-block;
@@ -723,7 +733,8 @@ footer.visible {
 				display: inline-block;
 				color:$lightblack;
 				text-transform: uppercase;
-				font-family: $akagilsemibold;
+				font-family: $opensans;
+				font-weight: 700;
 				font-size:13px;
 				letter-spacing: 2px;
 				br {

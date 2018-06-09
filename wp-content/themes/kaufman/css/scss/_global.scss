@@ -109,7 +109,8 @@ body.fixed {
 	text-decoration: none;
 	color:#fff;
 	text-transform: uppercase;
-	font-family: $oswald;
+	font-family: $opensans;
+	font-weight: 700;
 	font-size:20px;
 	letter-spacing: 5.5px;
 	height:260px;
@@ -194,7 +195,8 @@ body.fixed {
 		padding:32px 50px 32px 45px;
 		span.form_title {
 			display: inline-block;
-			font-family:$akagilbold;
+			font-family: $opensans;
+			font-weight: 700;
 			text-transform: uppercase;
 			color:$greybrown;
 			font-size:17px;
@@ -263,7 +265,8 @@ body.fixed {
 			}
 		}
 		span.close {
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 700;
 			text-transform: uppercase;
 			font-size:10px;
 			letter-spacing: 1.5px;
@@ -312,7 +315,8 @@ body.fixed {
 			input, textarea {
 				width:100%;
 				border:none;
-				font-family: $trirongmedium;
+				font-family: $trirongtwo;
+				font-weight: 500;
 				color:$lightblack;
 				font-size:15px;
 				padding:19px 35px 19px 15px;
@@ -360,7 +364,8 @@ body.fixed {
 			background:$red;
 			height:65px;
 			border-radius: 4px;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 			letter-spacing: 7px;
 			transition: all .2s ease-in-out;
 			cursor: pointer;
@@ -372,7 +377,8 @@ body.fixed {
 	.gfield_description {
 		color:$red;
 		text-transform: uppercase;
-		font-family: $akagilbold;
+		font-family: $opensans;
+		font-weight: 700;
 		position: absolute;
 		
 		font-size: 12px;
@@ -391,7 +397,8 @@ body.fixed {
 .content {
 	font-size:17px;
 	line-height: 33px;
-	font-family: $trironglight;
+	font-family: $trirongtwo;
+	font-weight: 400;
 	color:$lightblack;
 	strong {
 		
@@ -416,21 +423,21 @@ body.fixed {
 	h2 {
 		text-transform: uppercase;
 		color:$red;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		font-size:18px;
 		letter-spacing: 3.5px;
 		margin-bottom:3px;
-		font-weight: 300;
 		font-style: normal;
 		line-height: 22px;
 		margin-bottom: 5px;
 	}
 	h3 {
-		font-family: $akagilbold;
+		font-family: $opensans;
+		font-weight: 700;
 		text-transform: uppercase;
 		font-size: 17px;
 		line-height: 21px;
-		font-weight: 300;
 		font-style: normal;
 		letter-spacing: 0.9px;
 		margin-bottom: 5px;
@@ -470,7 +477,8 @@ body.fixed {
 	blockquote {
 		color:$red;
 		font-size:22px;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		line-height: 26px;
 		border-left:2px solid red;
 		border-right: 2px solid red;
@@ -497,7 +505,8 @@ body.fixed {
 	text-align: center;
 	opacity: 0;
 	span {
-		font-family: $trirongmedium;
+		font-family: $trirongtwo;
+		font-weight: 500;
 		font-size:125px;
 		line-height: 120px;
 		display: block;
