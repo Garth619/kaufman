@@ -14,7 +14,8 @@ body.page-template-page-contact {
 
 .contact_excerpt {
 	font-size:30px;
-	font-family:$trirongregular;
+	font-family: $trirongtwo;
+	font-weight: 400;
 	line-height: 40px;
 	display: block;
 	margin-bottom: 50px;
@@ -45,7 +46,8 @@ svg#contact_gold_line {
 
 
 .contact_info_left {
-	font-family: $trirongregular;
+	font-family: $trirongtwo;
+	font-weight: 400;
 	width:37%;
 	float:left;
 	margin-top:63px;
@@ -55,7 +57,8 @@ svg#contact_gold_line {
 		font-size: 36px;
 	}
 	a {
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		color:$lightblack;
 		letter-spacing: 1.5px;
 		margin-top:15px;
@@ -85,14 +88,16 @@ svg#contact_gold_line {
 		padding:54px 65px 85px;
 		span.contact_location_title {
 			color:$red;
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			font-size:36px;
 			letter-spacing: 0.5px;
 			display: block;
 		}
 		a.internal_address {
 			color:$lightblack;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 			text-transform: uppercase;
 			line-height: 20px;
 			display: block;
@@ -104,7 +109,8 @@ svg#contact_gold_line {
 			color:#fff;
 			text-transform: uppercase;
 			display: inline-block;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 			font-size:14px;
 			margin-top:32px;
 			padding:4px 26px;

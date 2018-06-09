@@ -27,7 +27,8 @@ body.blog .single_blog_post {
 
 
 .entry_info {
-	font-family: $akagilbold;
+	font-family: $opensans;
+	font-weight: 800;
 	text-transform: uppercase;
 	font-size:17px;
 	letter-spacing: 1px;
@@ -52,7 +53,8 @@ a.blog_readmore {
 	background: $lightblack;
 	color:#fff;
 	text-transform: uppercase;
-	font-family:$akagilblack;
+	font-family: $opensans;
+	font-weight: 800;
 	font-size:11px;
 	letter-spacing: 2px;
 	padding:2px 17px;
@@ -75,7 +77,8 @@ span.sidebar_blog_large_header {
   max-width: 458px;
   text-transform: lowercase;
   width: 100%;
-  font-family: $trirongregular;
+  font-family: $trirongtwo;
+	font-weight: 400;
   margin-top:25px;
   float: left;
 
@@ -98,7 +101,8 @@ span.sidebar_blog_large_header {
 		padding-bottom:20px;
 		li {
 			text-transform: uppercase;
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 800;
 			font-size:17px;
 			letter-spacing: 2px;
 			border-top:1px solid #e6e6e6;
@@ -163,7 +167,8 @@ span.sidebar_blog_large_header {
 #nav_below {
 	a {
 		background:#fff;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		text-transform: uppercase;
 		color:$lightblack;
 		font-size: 14px;

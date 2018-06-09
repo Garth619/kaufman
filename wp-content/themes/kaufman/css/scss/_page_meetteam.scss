@@ -18,7 +18,8 @@
 		display: block;
 		color:$red;
 		text-transform: uppercase;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		letter-spacing: 4px;
 		font-size: 18px;
 		margin-bottom: 35px;
@@ -77,14 +78,16 @@
 			color:#fff;
 			display: block;
 			text-transform: uppercase;
-			font-family: $akagilbold;
+			font-family: $opensans;
+			font-weight: 800;
 			font-size:17px;
 			letter-spacing: 3.2px;
 		}
 		span.profile_title {
 			color:$red;
 			display: block;
-			font-family: $trirongmediumitalic;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			font-size:14px;
 			margin-top:3px;
 			letter-spacing: 1px;

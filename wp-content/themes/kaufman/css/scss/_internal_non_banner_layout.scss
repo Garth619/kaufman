@@ -98,7 +98,8 @@ Edits to SCSS Partials are in:
 		margin-bottom:35px;
 		font-weight:300;
 		font-style: normal;
-		font-family: $trirongregular;
+		font-family: $trirongtwo;
+		font-weight: 400;
 		max-width:870px;
 	}
 	
@@ -246,13 +247,14 @@ svg#default_red_lines_sidebar {
 		span {
 			color:#fff;
 			text-transform: uppercase;
-			font-family: $oswald;
+			font-family: $opensans;
+			font-weight: 700;
 			line-height: 24px;
 			display: inline-block;
-			font-size:20px;
-			padding:25px 30px;
+			font-size:18px;
+			padding: 25px 25px;
 			text-align: left;
-			letter-spacing: 2.5px;
+			letter-spacing: 2px;
 		}
 		svg {
 			display: inline-block;
@@ -388,7 +390,8 @@ span.sidebar_large_header {
 			a {
 				text-decoration: none;
 				color:$lightblack;
-				font-family: $akagilbold;
+				font-family: $opensans;
+				font-weight: 800;
 				font-size:17px;
 				display: block;
 				padding: 20px 65px 20px 20px;
@@ -487,7 +490,8 @@ svg#pa_redline {
 		clear:both;
 	}
 	span.pa_request_title {
-		font-family: $trirongregular;
+		font-family: $trirongtwo;
+		font-weight: 400;
 		font-size:63px;
 		line-height: 60px;
 		float:left;
@@ -502,7 +506,8 @@ svg#pa_redline {
 		display: block;
 		clear:left;
 		text-transform: uppercase;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		margin-left: 74px;
 		padding-top:32px;
 		letter-spacing: 3.5px;
@@ -620,7 +625,8 @@ svg#pa_request_redline {
 					top:33px;
 					right:12px;
 					color:$brown;
-					font-family: $akagilblack;
+					font-family: $opensans;
+					font-weight: 800;
 				}
 				label {
 					display: none;
@@ -631,7 +637,8 @@ svg#pa_request_redline {
 					border-radius: 3px;
 					box-shadow: inset 0px 1px 3px 0px rgba(223, 223, 223, 0.75);
 					width:100%;
-					font-family: $akagilblack;
+					font-family: $opensans;
+					font-weight: 800;
 					text-transform: uppercase;
 					font-size:14px;
 					color:$brown;
@@ -674,7 +681,8 @@ svg#pa_request_redline {
 			width:100%;
 			border:none;
 			background:$greybrown;
-			font-family: $trirongsemibold;
+			font-family: $trirongtwo;
+			font-weight: 700;
 			text-transform: uppercase;
 			font-size:28px;
 			padding:17px;
@@ -689,7 +697,8 @@ svg#pa_request_redline {
 		.gfield_description,.validation_message {
 			color:red;
 			text-transform: uppercase;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 			font-size:13px;
 			letter-spacing: 2.5px;
 			position: relative;
@@ -773,7 +782,8 @@ svg#pa_request_redline {
 }
 
 .sidebar_close_title {
-	font-family: $akagilbold;
+	font-family: $opensans;
+	font-weight: 700;
 	font-size:11px;
 	text-transform: uppercase;
 	position: absolute;
@@ -1308,7 +1318,8 @@ svg#pa_request_redline {
 			line-height: 16px;
 			text-transform: uppercase;
 			width: 224px;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 		}
 		span.pa_required {
 			display: block;

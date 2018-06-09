@@ -93,7 +93,8 @@
 		padding-left:6.5%;
 		width:calc(100% - 335px);
 		h1.att_name {
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			line-height: 86px;
 			font-size: 85px;
 			font-weight: 300;
@@ -133,7 +134,8 @@
 		span.bio_title {
 			color:$red;
 			text-transform: uppercase;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 			font-size:18px;
 			letter-spacing: 3px;
 			margin-top:38px;
