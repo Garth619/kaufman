@@ -12,7 +12,7 @@
 				<div class="my_wistia_container">
 							
 							
-							<script src="https://fast.wistia.com/embed/medias/<?php the_field( 'wistia_video_intro' ); ?>.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_<?php the_field( 'wistia_video_intro' ); ?> popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline"><a href="#"></a></span></div></div>
+<!-- 							<script src="https://fast.wistia.com/embed/medias/<?php the_field( 'wistia_video_intro' ); ?>.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_<?php the_field( 'wistia_video_intro' ); ?> popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline"><a href="#"></a></span></div></div> -->
 							
 							
 				</div><!-- my_wistia_container -->

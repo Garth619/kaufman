@@ -52,7 +52,7 @@
 					
 					</svg>
 					
-					<img src="<?php bloginfo('template_directory');?>/images/k-icon.png"/>				
+					<img class="lazy" data-src="<?php bloginfo('template_directory');?>/images/k-icon.png"/>				
 				
 				
 				</div><!-- diamond -->

@@ -31,14 +31,13 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700,800|Trirong:400,500,700" rel="stylesheet">
+
 
 
 <style type="text/css">
 	
 
-@import "<?php echo get_template_directory_uri(); ?>/style.css";
 
 .internal_banner_wrapper {
 	background: rgba(0, 0, 0, 0) url(<?php the_field( 'internal_banners' ); ?>) no-repeat scroll center top / cover ;

@@ -79,14 +79,15 @@ svg#red_line_form {
 	position: relative;
 	span.form_parts {
 		color:#fff;
-		font-family: $oswald;
-		 font-family: $oswaldmedium;
+		font-family: $opensans;
+		font-weight: 700;
 		font-size:17px;
 		letter-spacing: 0.5px;
 		display: block;
 	}
 	span.injury_title {
-		font-family: $trironglight;
+		font-family: $trirongtwo;
+		font-weight: 400;
 		font-size:55px;
 		line-height: 59px;
 		margin-top:25px;
@@ -183,7 +184,8 @@ svg#red_line_form {
 // 		-moz-appearance: none;
 		border:none;
 		background: transparent;
-		font-family: $akagilight;
+		font-family: $opensans;
+		font-weight: 300;
 		color:#fff;
 		font-size: 28px;
 		padding:16px 130px 16px 20px;
@@ -217,7 +219,8 @@ svg#red_line_form {
 	max-width:510px;
 	margin-left:auto;
 	margin-right:auto;
-	font-family: $akagilight;
+	font-family: $opensans;
+	font-weight:300;
 }
 
 .select_parent {
@@ -304,16 +307,12 @@ ul.select_option_list.open {
 
 
 
-
-
-
-
-
 .intro_form {
 	span.intro_request {
 		display: block;
 		color:$greybrown;
-		font-family: $trironglight;
+		font-family: $trirongtwo;
+		font-weight: 400;
 		font-size:45px;
 		letter-spacing: 1.2px;
 	}
@@ -321,14 +320,16 @@ ul.select_option_list.open {
 		display: block;
 		color:$red;
 		text-transform: uppercase;
-		font-family: $akagilbold;
+		font-family: $opensans;
+		font-weight: 700;
 		font-size:17px;
 		letter-spacing: 5px;
 		margin:15px 0 35px;
 	}
 	span.step_one_back {
 		color:$greybrown;
-		font-family:$akagilbold;
+		font-family: $opensans;
+		font-weight: 800;
 		text-transform: uppercase;
 		letter-spacing: 1.5px;
 		float:left;
@@ -395,7 +396,8 @@ ul.select_option_list.open {
 				border:none;
 			}
 			input, textarea {
-				font-family: $trirongmedium;
+				font-family: $trirongtwo;
+				font-weight: 500;
 				font-size: 15px;
 				color:$lightblack;
 				padding:20px 30px 20px 20px;
@@ -419,7 +421,8 @@ ul.select_option_list.open {
 			border-radius: 4px;
 			text-transform: uppercase;
 			color:#fff;
-			font-family: $akagilblack;
+			font-family: $opensans;
+			font-weight: 800;
 			font-size: 15px;
 			letter-spacing: 6px;
 			cursor: pointer;
@@ -432,7 +435,8 @@ ul.select_option_list.open {
 	.gfield_description {
 		color:$red;
 		text-transform: uppercase;
-		font-family: $akagilbold;
+		font-family: $opensans;
+		font-weight: 700;
 		position: absolute;
 		font-size: 12px;
 		letter-spacing: 1.5px;
@@ -485,7 +489,8 @@ svg#back_arrow {
 	span.current_cases {
 		font-size:16px;
 		letter-spacing: 3.5px;
-		font-family: $akagilblack;
+		font-family: $opensans;
+		font-weight: 800;
 		text-transform: uppercase;
 		border-left:1px solid #000;
 		border-right:1px solid #000;
@@ -615,14 +620,16 @@ svg#back_arrow {
 		span.case_amount {
 			font-size:120px;
 			color:$red;
-			font-family: $trirongregular;
+			font-family: $trirongtwo;
+			font-weight: 400;
 			letter-spacing: 0px;
 			display: block;
 			margin-bottom:37px;
 		}
 		span.case_title {
 			display: block;
-			font-family: $trirongsemibold;
+			font-family: $trirongtwo;
+			font-weight: 700;
 			font-size:35px;
 			text-transform: uppercase;
 			letter-spacing: 1.5px;
@@ -632,7 +639,8 @@ svg#back_arrow {
 		span.case_results_content {
 			font-size:20px;
 			line-height: 28px;
-			font-family: $akagilight;
+			font-family: $opensans;
+			font-weight: 300;
 			max-width:500px;
 			display: block;
 			margin:0 auto;

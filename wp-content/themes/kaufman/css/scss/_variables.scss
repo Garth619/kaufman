@@ -20,21 +20,164 @@ $redsvg: #fc3702;
 // fonts
 
 
-$akagiextralight: "AkagiProW00-ExtraLight";
-$akagilight: "Akagi Pro W00 Light";
-$akagilsemibold: "Akagi Pro W00 Semi Bold";
-$akagilbold: "Akagi Pro W00 Bold";
-$akagilblack: "Akagi Pro W00 Black";
+// google fonts
 
 
-$trironglight: 'Trirong-Light';
-$trirongregular: 'Trirong-Regular';
-$trirongmedium: 'Trirong-Medium';
-$trirongmediumitalic: 'Trirong-MediumItalic';
-$trirongsemibold: 'Trirong-SemiBold';
-$trironbold: 'Trirong-Bold';
+$opensans: 'Open Sans', sans-serif;
+$trirongtwo: 'Trirong', serif;
 
 
-$oswald: 'Oswald-Regular';
-$oswaldmedium: 'Oswald-Medium';
-$oswaldsemibold: 'Oswald-SemiBold';
+
+// opensans light - 300
+// opensans bold - 700
+// opensans extra bold - 800
+
+
+// trirong regular - 400
+// trirong medium - 500
+// trirong bold - 700
+
+
+
+
+// open sans conversion
+
+
+/*
+font-family: $akagilblack;
+
+
+font-family: $opensans;
+font-weight: 800;
+
+----------
+
+
+
+font-family: $akagilbold;
+
+
+font-family: $opensans;
+font-weight: 700;
+
+----------
+
+
+
+font-family: $akagiextralight;
+
+
+font-family: $opensans;
+font-weight: 300;
+
+----------
+
+font-family: $akagilight;
+
+
+font-family: $opensans;
+font-weight: 300;
+
+----------
+
+font-family: $akagilsemibold;
+
+
+font-family: $opensans;
+font-weight: 700;
+
+----------
+
+
+// oswald conversion
+
+
+font-family: $oswald;
+
+
+font-family: $opensans;
+font-weight: 700;
+
+
+---------
+
+
+// trirong conversion
+
+
+font-family: $trironbold;
+
+
+font-family: $trirongtwo;
+font-weight: 700;
+
+----------
+
+
+font-family: $trironglight;
+
+
+font-family: $trirongtwo;
+font-weight: 400;
+
+----------
+
+
+font-family: $trirongmedium;
+
+
+font-family: $trirongtwo;
+font-weight: 500;
+
+----------
+
+
+font-family: $trirongmediumitalic;
+
+
+font-family: $trirongtwo;
+font-weight: 400;
+
+----------
+
+
+font-family: $trirongregular;
+
+
+font-family: $trirongtwo;
+font-weight: 400;
+
+----------
+
+
+font-family: $trirongsemibold;
+
+
+font-family: $trirongtwo;
+font-weight: 700;
+
+----------
+*/
+
+
+
+
+$akagiextralight: 'Open Sans', sans-serif;
+$akagilight: 'Open Sans', sans-serif;
+$akagilsemibold: 'Open Sans', sans-serif;
+$akagilbold: 'Open Sans', sans-serif;
+$akagilblack: 'Open Sans', sans-serif;
+
+
+$trironglight: 'Trirong', serif;
+$trirongregular: 'Trirong', serif;
+$trirongmedium: 'Trirong', serif;
+$trirongmediumitalic: 'Trirong', serif;
+$trirongsemibold: 'Trirong', serif;
+$trironbold: 'Trirong', serif;
+
+
+$oswald: 'Open Sans', sans-serif;
+$oswaldmedium: 'Open Sans', sans-serif;
+$oswaldsemibold: 'Open Sans', sans-serif;
+

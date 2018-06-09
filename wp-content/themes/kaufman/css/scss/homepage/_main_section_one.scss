@@ -25,14 +25,15 @@
 	padding-top: 121px;
 	.intro_header {
 		color:#fff;
-		font-family: $akagilbold;
+		font-family: $opensans;
+		font-weight:700;
 		text-transform: uppercase;
-		font-size:135px;
+		font-size:127px;
 		display: block;
 		max-width: 1550px;
 		margin:0 auto;
-		line-height: 130px;
-		letter-spacing: 5px;
+		line-height: 127px;
+		letter-spacing: 0.04em;
 		strong {
 			color:$lightbrown;
 		}
@@ -121,7 +122,8 @@ span.bottom_line {
 	span.learn {
 		font-size:16px;
 		text-transform: none;
-		font-family: $trirongmediumitalic;
+		font-family: $trirongtwo;
+		font-weight:700;
 		letter-spacing: 0;
 		float:right;
 		line-height: 20px;
@@ -344,10 +346,10 @@ svg#play_button_svg {
 	text-decoration: none;
 	text-transform: uppercase;
 	line-height: 1;
-	font-size:26px;
-	font-family: $oswald;
-	font-family: $oswaldmedium;
-	letter-spacing: 5.5px;
+	font-size:25px;
+	font-family: $opensans;
+	font-weight: 700;
+	letter-spacing: 0.25em;
 	border:6px solid #fff;
 	padding: 12px 30px 30px; 
 	display: inline-block;
@@ -422,7 +424,7 @@ svg#play_button_svg {
 		float:left;
 		position: relative;
 		top:8px;
-		margin-left:15px;
+		margin-left:10px;
 		
 		
 		
@@ -568,7 +570,8 @@ svg#intro_red_twolines {
 		font-size:30px;
 		text-align: left;
 		display: block;
-		font-family: $trirongmedium;
+		font-family: $trirongtwo;
+		font-weight:500;
 		line-height: 40px;
 		
 		

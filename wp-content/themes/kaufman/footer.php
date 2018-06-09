@@ -192,6 +192,7 @@
   })();
 </script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-lazyload-any/src/jquery.lazyload-any.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-lazyload-any/src/jquery.lazyload-any-min.js"></script>
+
 </body>
 </html>
