@@ -21,7 +21,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 36, 'all' ); 
+     // wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 36, 'all' ); 
 
      // Load my javascripts
      
@@ -275,7 +275,7 @@ add_action( 'wp_print_styles', 'my_deregister_styles', 100 );
 
 
 
-/*
+
 
 add_action( 'wp_head', 'internal_css_print' );
 function internal_css_print() {
@@ -285,7 +285,7 @@ function internal_css_print() {
   
    echo '</style>';
 }
-*/
+
 
 
 
